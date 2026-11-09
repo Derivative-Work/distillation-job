@@ -92,3 +92,9 @@ Direct edits, not suggestions, with the docs tools:
 - Placeholders `public/media/test/{crew,vault,still,van}.png` ← picks `ref_crew_v2_s41`, `ref_teller_s41`, `ref_still_s43`, `ref_van_s43` (reference sheets, so two-up framing).
 - `npx remotion render src/index.ts M2Test renders/m2/m2_look_test.mp4 --concurrency=8` (999 frames, 128 MB); review copy `ffmpeg -i … -c:v libx264 -crf 27 -preset slow -vf scale=1280:-2 -c:a aac -b:a 160k renders/m2/m2_look_test_review.mp4` (20 MB). Contact sheet checked: titles, D04 crew name cards, vault, stamp, counter with calendar pages, van with counter.
 - Batch 2: `stills.py` on the 48 batch-2 items that don't use `ref_feds` → `takes_batch2.log`; then D32, D33, D42a, D42b after the Feds pick.
+
+## 13. 2026-11-09 — Batch 2 first pass checked; four reruns
+
+- 48 items done (`takes_batch2.log`, no errors); review grids sent in groups of four.
+- Guardrail problems: D39a_l (all four fake IDs carry a realistic human face photo) and D38 (the passersby are Muppet-like characters). Also D23 (investigator in tan with human-looking hands; one printout has a seal-like emblem) and D39a_r (human hand and suit). Avoid also: D42 B–D and D44a D (realistic human faces in the crowd), D21 B (garbled sign text), D04d D and D36 D (figures in the teller cage).
+- Revised prompts (`config/stills.json` v2, notes in each item): D38 (passersby = the crew; refs + ref_crew), D39a_l (crayon cardboard ID, no photo), D39a_r (felt puppet hand), D23 (conditioned on ref_feds, blank printout). Queued after D32/D33/D42a/D42b.

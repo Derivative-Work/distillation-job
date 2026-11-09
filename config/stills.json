@@ -449,14 +449,16 @@
     1008
    ],
    "style": "scene",
-   "subject": "A faceless felt puppet in a trench coat, its face hidden in shadow, holds a blurred printout up to the camera; behind it two of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) look at each other and shrug",
+   "subject": "One of the faceless felt investigators from the reference (gray felt trench coat, gray fedora, face in total shadow, black felt hands) holds a blank out-of-focus printout up to the camera; behind it two of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) look at each other and shrug. No emblems, no seals, no readable text",
    "refs": [
-    "ref_crew"
+    "ref_crew",
+    "ref_feds"
    ],
    "batch": 2,
    "shot": "D23",
    "kind": "keyframe",
-   "note": "METADATA? in code; the printout stays blurred"
+   "note": "METADATA? in code; the printout stays blurred | v1 investigator wore tan with human-looking hands and one printout had a seal-like emblem; v2 conditioned on the picked Feds",
+   "v": 2
   },
   "D24": {
    "size": [
@@ -625,14 +627,17 @@
     1008
    ],
    "style": "scene",
-   "subject": "The small chrome probe from the reference, its status light glowing green, pushing a wooden wheelbarrow piled with bundles of printed pages toward the brass vault at noon on a sunny street, waving one arm at passing sock puppets",
+   "subject": "The small chrome probe from the reference, its glowing lights green, pushing a wooden wheelbarrow piled with bundles of printed pages toward the brass vault at noon on a sunny street, waving one arm; on the sidewalk two of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) wave back. No other characters, no people",
    "refs": [
     "ref_probe",
-    "ref_teller"
+    "ref_teller",
+    "ref_crew"
    ],
    "batch": 2,
    "shot": "D38",
-   "kind": "keyframe"
+   "kind": "keyframe",
+   "v": 2,
+   "note": "v1 passersby were Muppet-like characters (IP lookalikes); v2 makes the passersby the crew"
   },
   "D39": {
    "size": [
@@ -655,14 +660,15 @@
     1008
    ],
    "style": "scene",
-   "subject": "One of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) at a bank counter holding out an obviously fake ID card, refused by a raised brass hand",
+   "subject": "One of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) at a bank counter holding out an obviously fake ID card made of crayon-scribbled cardboard with no photo and no face on it, refused by a raised brass mechanical hand. No people, no human faces, no photographs",
    "refs": [
     "ref_crew"
    ],
    "batch": 2,
    "shot": "D39a",
    "kind": "still",
-   "note": "left half of the split screen; the ID stays blank"
+   "note": "left half of the split screen; the ID stays blank | v1 ID cards carried realistic human face photos (guardrail: no real faces); v2 a crayon cardboard card, no photo",
+   "v": 2
   },
   "D39a_r": {
    "size": [
@@ -670,12 +676,13 @@
     1008
    ],
    "style": "scene",
-   "subject": "A library circulation desk: a librarian's hand stamping a library card on top of an armful of books",
+   "subject": "A library circulation desk: a gray felt puppet hand stamping a library card on top of an armful of books. No people, no human skin",
    "refs": [],
    "batch": 2,
    "shot": "D39a",
    "kind": "still",
-   "note": "right half of the split screen"
+   "note": "right half of the split screen | v1 a human hand and suit; v2 a felt puppet hand to match the puppet world",
+   "v": 2
   },
   "D39b": {
    "size": [
