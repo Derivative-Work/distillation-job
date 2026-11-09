@@ -33,3 +33,9 @@ archive/
 docs/suno/resp_*.json
 docs/suno/page.html
 docs/planning_chat/planning_chat.html
+
+# Remotion test placeholders and the master copy (regenerable)
+public/media/test/
+public/audio/
+# Batch run logs (the production log and shots/prompts.md hold the record)
+takes_*.log

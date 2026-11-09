@@ -2,8 +2,20 @@
   "name": "distillation-allegedly",
   "private": true,
   "type": "module",
-  "description": "The Distillation Job: 1970s heist-funk music video; capture scripts (Puppeteer), film layer to come.",
+  "description": "The Distillation Job: 1970s heist-funk music video; film layer and devices in Remotion, captures in Puppeteer.",
   "dependencies": {
-    "puppeteer": "24.43.1"
+    "puppeteer": "24.43.1",
+    "remotion": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "5.6.3",
+    "@types/react": "18.3.12"
+  },
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render"
   }
 }

@@ -1,0 +1,848 @@
+{
+ "_doc": "M3: FLUX.2 [dev] stills via ComfyUI (scripts/stills.py). Prompt = subject + one shared style phrase (style_sets). Four takes each, seeds from 41 (config/seeds.json). Picks go in 'kept'. Batch 1 = the cast and recurring props, picked before any shot so later stills can be conditioned on them (brief: the puppets are interchangeable on purpose, which keeps them consistent). Guardrails (brief): no country, flag, landmark, language or cultural costume; no real faces, names, logos or seals; the vault carries no lab's branding or colors. Batch 2 (items with \"batch\": 2): one still per Still shot and one keyframe per Clip shot (\"kind\"), conditioned on the picked cast references; Code and Real shots have none. Run after the batch-1 picks: scripts/stills.py with no arguments runs every item whose references are picked.",
+ "style_sets": {
+  "sheet": "photographed on a plain mid-gray studio backdrop under soft even light, 1970s practical puppet and miniature craft, clean sharp image with no grain, no text, no letters or numbers, no logos, no flags",
+  "scene": "film still from a 1970s caper movie, practical puppet and miniature sets, warm tungsten key light with deep teal shadows, burnt orange and teal palette, 16:9 widescreen frame, clean sharp image with no grain, no text, no letters or numbers, no logos, no flags, no signage"
+ },
+ "model": {
+  "unet": "flux2_dev_fp8mixed.safetensors",
+  "clip": "mistral_3_small_flux2_fp4_mixed.safetensors",
+  "vae": "flux2-vae.safetensors",
+  "steps": 28,
+  "guidance": 4.0,
+  "sampler": "euler"
+ },
+ "seeds": [
+  41,
+  42,
+  43,
+  44
+ ],
+ "items": {
+  "ref_crew": {
+   "size": [
+    1664,
+    1248
+   ],
+   "style": "sheet",
+   "subject": "Character reference of one hand-made sock puppet: a charcoal-gray knitted sock body; over its head a mustard-yellow knit ski mask with a single wide eye slot, through which two small black button eyes on gray felt peek out; no mouth hole and no lips, the mouth is just a closed seam in the sock below the mask; a white blank rectangular badge on a black lanyard around its neck. The same puppet shown twice side by side: from the front, and in three-quarter view. Identical puppet in both views",
+   "note": "the crew: every masked puppet in the video; lanyard numbers are added in the edit. v1 rejected by the agent on sight: a black mask with white ringed eyes and big red lips reads as blackface caricature (brief guardrail: nothing that leans on ethnic stereotypes). v2: a colored mask with an eye slot, no lips",
+   "v": 2
+  },
+  "ref_teller": {
+   "size": [
+    1664,
+    1248
+   ],
+   "style": "sheet",
+   "subject": "Prop reference of a towering polished brass bank vault front: a huge round vault door with a spoked wheel handle and heavy hinges, and beside it a small polite teller window with brass bars and a marble counter. Behind the window sits the teller, a plain brass machine: a box with two round dials, a row of keys and a slot at the front that feeds out a long strip of paper ticker tape onto the counter. A machine, not a robot: no face, no arms",
+   "note": "the vault and the teller (brief: no lab colors, logos or mascots)"
+  },
+  "ref_still": {
+   "size": [
+    1664,
+    1248
+   ],
+   "style": "sheet",
+   "subject": "Prop reference of a gleaming hand-hammered copper pot still, the kind used to distill whiskey: a round copper pot with riveted seams, a swan-neck pipe arching over into a coiled copper condenser, and a small spout dripping glowing amber liquid into a row of small corked glass bottles with blank paper labels. A long strip of paper ticker tape feeds into a funnel on top of the pot",
+   "note": "the central image (D12, D15, D42)"
+  },
+  "ref_van": {
+   "size": [
+    1664,
+    1248
+   ],
+   "style": "sheet",
+   "subject": "Vehicle reference of a plain 1970s panel van with no windows on the sides, faded sky-blue paint with a little rust at the wheel arches, chrome bumpers and round headlights, a blank white license plate, shown twice side by side: from the front three-quarter view and from the side. Identical van in both views",
+   "note": "the proxy van (D05, D04e, D31); plates are blank, numbers added in the edit"
+  },
+  "ref_feds": {
+   "size": [
+    1664,
+    1248
+   ],
+   "style": "sheet",
+   "subject": "Character reference of three identical tall felt puppets standing side by side, each in a long gray trench coat with the collar turned up and a gray fedora pulled low, their faces entirely in deep shadow under the hat brims so no features show, the middle one holding a few stapled sheets of blank paper",
+   "note": "the Feds (D32, D33, D35, D42b): faces always in shadow; the memo has no seal"
+  },
+  "ref_probe": {
+   "size": [
+    1664,
+    1248
+   ],
+   "style": "sheet",
+   "refs": [
+    "file:reference/sandbox_rhapsody_probe_274s.png"
+   ],
+   "subject": "Character reference of the small robot probe from the reference image: a polished chrome sphere the size of a tennis ball with one dark glass lens in a chrome bezel and two thin chrome manipulator arms, but its small status light glows bright green instead of amber. Shown twice side by side: from the front, and in three-quarter view, standing on a small wooden crate",
+   "note": "the Sandbox Rhapsody probe, LED in a new color (green) so it reads as some lab's worker (brief); conditioned on a frame of the Sandbox Rhapsody video"
+  },
+  "D02": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "A dim garage at night: the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) sit around a wooden table studying a large vault blueprint, under a single lamp hanging low on a cord",
+   "refs": [
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D02",
+   "kind": "keyframe",
+   "note": "the lamp swings in the clip"
+  },
+  "D03": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "One of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) in the foreground, its blank badge in sharp focus; behind it a huge corkboard covered edge to edge with thousands of identical blank badges pinned in neat rows",
+   "refs": [
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D03",
+   "kind": "still",
+   "note": "pull back from the badge to the board in the edit; the 24,000 is added in code"
+  },
+  "D04": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "One of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards), the leader, holding up a plain white card toward the camera with both hands, in the dim garage",
+   "refs": [
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D04",
+   "kind": "still",
+   "note": "PLEASE is added on the card in code"
+  },
+  "D04a": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "One of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) at a huge corkboard of blank badges, slapping a strip of black tape across a row of them",
+   "refs": [
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D04a",
+   "kind": "still",
+   "note": "black bars over the numbers added in code"
+  },
+  "D04c": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Freeze-frame portrait of one of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards), mid-gesture, looking into the camera, against a dark teal background, 1970s caper-movie opening-credits style",
+   "refs": [
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D04c",
+   "kind": "still",
+   "note": "all four takes are used, one per split-screen panel"
+  },
+  "D04d": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The towering brass vault and its small teller window from the reference, at night, alone in a dark empty hall, brass gleaming under one hanging lamp, the teller window glowing warm, a small blank sign hanging in the window",
+   "refs": [
+    "ref_teller"
+   ],
+   "batch": 2,
+   "shot": "D04d",
+   "kind": "still",
+   "note": "OPEN added on the sign in code"
+  },
+  "D04e": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The panel van from the reference inside a dark garage, headlights on and pointing at the camera, the garage door rolling up behind",
+   "refs": [
+    "ref_van"
+   ],
+   "batch": 2,
+   "shot": "D04e",
+   "kind": "keyframe"
+  },
+  "D05": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The panel van from the reference parked at the curb of a quiet anonymous city street at dusk, plain brick buildings with no signs, no landmarks and no lettering",
+   "refs": [
+    "ref_van"
+   ],
+   "batch": 2,
+   "shot": "D05",
+   "kind": "keyframe",
+   "note": "four takes = four streets, one per split-screen panel; plates added in code"
+  },
+  "D06": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Close-up of one of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) holding its blank badge out on its lanyard, flipping it over",
+   "refs": [
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D06",
+   "kind": "still",
+   "note": "the new number added in code"
+  },
+  "D07": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "A line of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) passing one plain blank credit card from hand to hand down the line, in front of an old wooden telephone switchboard with tangled patch cords",
+   "refs": [
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D07",
+   "kind": "still"
+  },
+  "D08": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "An old wooden telephone switchboard, dense rows of sockets and a wild tangle of patch cords crossing every which way, lit by a warm lamp",
+   "refs": [],
+   "batch": 2,
+   "shot": "D08",
+   "kind": "keyframe",
+   "note": "crash zoom in the edit; cords hop in the clip"
+  },
+  "D09": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "One of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) pressing a doctor's stethoscope against the huge round brass vault door from the reference, listening",
+   "refs": [
+    "ref_crew",
+    "ref_teller"
+   ],
+   "batch": 2,
+   "shot": "D09",
+   "kind": "keyframe"
+  },
+  "D10": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "A long orderly line of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) stretching out a door and around the block on a city sidewalk, each taking a paper number ticket from a red ticket dispenser at the door",
+   "refs": [
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D10",
+   "kind": "keyframe"
+  },
+  "D11": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The brass teller machine from the reference printing an endless strip of paper ticker tape out of its window slot, while the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) haul the tape away hand over hand in a long line",
+   "refs": [
+    "ref_teller",
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D11",
+   "kind": "keyframe"
+  },
+  "D12": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The copper pot still from the reference: ticker tape feeds into its funnel, glowing amber liquid drips from the condenser into a row of small corked bottles with blank paper labels",
+   "refs": [
+    "ref_still"
+   ],
+   "batch": 2,
+   "shot": "D12",
+   "kind": "keyframe",
+   "note": "REASONING, SMALL BATCH labels: code if they hold still, else left blank"
+  },
+  "D13": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "A jointed brass mechanical arm reaching out of the bank door tossing one of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) out onto the sidewalk, mid-air",
+   "refs": [
+    "ref_crew",
+    "ref_teller"
+   ],
+   "batch": 2,
+   "shot": "D13",
+   "kind": "keyframe",
+   "note": "account number ticks up in code"
+  },
+  "D14": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Shadow puppetry: on a plain warm-lit wall, the shadows of several sock puppets together form the silhouette of a many-headed hydra; one head drooping, two new heads rising",
+   "refs": [],
+   "batch": 2,
+   "shot": "D14",
+   "kind": "still",
+   "note": "no puppets in frame, shadows only"
+  },
+  "D15": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Wide shot: the copper pot still from the reference in the middle of a garage, the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) dancing around it in a circle, warm lamp light, steam",
+   "refs": [
+    "ref_still",
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D15",
+   "kind": "keyframe",
+   "note": "ALLEGEDLY! stamp in code"
+  },
+  "D16": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Close-up of glowing amber liquid poured through a fine kitchen sieve into a copper bowl",
+   "refs": [],
+   "batch": 2,
+   "shot": "D16",
+   "kind": "keyframe"
+  },
+  "D17": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "A crumpled paper receipt lying on a marble bank counter, a small stack of thin printed pages fluttering off it and away, unread",
+   "refs": [],
+   "batch": 2,
+   "shot": "D17",
+   "kind": "still"
+  },
+  "D18": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "One of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) feeding brass arcade tokens one by one into a coin slot on the brass teller machine from the reference",
+   "refs": [
+    "ref_crew",
+    "ref_teller"
+   ],
+   "batch": 2,
+   "shot": "D18",
+   "kind": "keyframe"
+  },
+  "D19": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) walking toward the camera in a line down an empty street at dusk, each carrying a wooden crate of small corked bottles on its shoulder",
+   "refs": [
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D19",
+   "kind": "keyframe",
+   "note": "slow motion; split screen in the edit"
+  },
+  "D20": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Beside the brass vault and teller window from the reference, a second, shinier chrome teller window has just opened next door, brand new, its lights on",
+   "refs": [
+    "ref_teller"
+   ],
+   "batch": 2,
+   "shot": "D20",
+   "kind": "still",
+   "note": "the calendar flip is code"
+  },
+  "D21": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "A line of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) at a brass teller window; half of the line is turning in unison toward a shiny new chrome teller window next door",
+   "refs": [
+    "ref_crew",
+    "ref_teller"
+   ],
+   "batch": 2,
+   "shot": "D21",
+   "kind": "keyframe",
+   "note": "24 HRS (ALLEGED) in code"
+  },
+  "D22": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "A therapist's office: the brass teller machine from the reference lies on a velvet chaise longue, ticker tape spooling onto the rug, while one of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) sits in an armchair beside it with a clipboard",
+   "refs": [
+    "ref_teller",
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D22",
+   "kind": "keyframe"
+  },
+  "D23": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "A faceless felt puppet in a trench coat, its face hidden in shadow, holds a blurred printout up to the camera; behind it two of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) look at each other and shrug",
+   "refs": [
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D23",
+   "kind": "keyframe",
+   "note": "METADATA? in code; the printout stays blurred"
+  },
+  "D24": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "A Polaroid photo of a blank silhouette pinned to a corkboard org chart of blank silhouette shapes, joined by slack red string",
+   "refs": [],
+   "batch": 2,
+   "shot": "D24",
+   "kind": "still",
+   "note": "no faces, no names"
+  },
+  "D25": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "A small corked bottle with a blank label on a garage table, its cork popping off; the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) lean in around it, startled",
+   "refs": [
+    "ref_crew",
+    "ref_still"
+   ],
+   "batch": 2,
+   "shot": "D25",
+   "kind": "keyframe",
+   "note": "the label becomes a screen showing the real Qwen excerpt, then the Real split screen (code)"
+  },
+  "D27": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Wide shot: the copper pot still from the reference in the garage, twice as many the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) dancing around it, crowded, steam and lamp light",
+   "refs": [
+    "ref_still",
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D27",
+   "kind": "keyframe"
+  },
+  "D27a": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The brass teller window from the reference: a typed paper scorecard slides out under the bars; one of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) holds it up at arm's length",
+   "refs": [
+    "ref_teller",
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D27a",
+   "kind": "still",
+   "note": "THEIR COUNT, NOT OURS in code; the card is blank"
+  },
+  "D31": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) cramming wooden crates of bottles into the back of the panel van from the reference until its back doors burst open, crates tumbling out",
+   "refs": [
+    "ref_crew",
+    "ref_van"
+   ],
+   "batch": 2,
+   "shot": "D31",
+   "kind": "keyframe"
+  },
+  "D32": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The three gray-coated felt puppets from the reference under a single streetlight at night on an empty street, faces in shadow, the middle one holding stapled sheets of blank paper",
+   "refs": [
+    "ref_feds"
+   ],
+   "batch": 2,
+   "shot": "D32",
+   "kind": "keyframe",
+   "note": "no seal on the memo"
+  },
+  "D33": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Backstage behind a red velvet curtain: the three gray-coated felt puppets from the reference wheel away the brass teller machine on a dolly, and wheel in a cheap plywood copy of it painted gold",
+   "refs": [
+    "ref_feds",
+    "ref_teller"
+   ],
+   "batch": 2,
+   "shot": "D33",
+   "kind": "keyframe",
+   "note": "SWITCH in code"
+  },
+  "D34": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Wine-tasting gag: a row of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) at a bar, each swirling a small glass of amber liquid, sipping and grimacing in unison",
+   "refs": [
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D34",
+   "kind": "keyframe"
+  },
+  "D35": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Close-up from above: gray-gloved hands shuffling two identical small corked bottles back and forth across a green felt table like a shell game",
+   "refs": [],
+   "batch": 2,
+   "shot": "D35",
+   "kind": "keyframe"
+  },
+  "D36": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The towering brass vault and teller window from the reference in daylight, seen from across a wide marble hall",
+   "refs": [
+    "ref_teller"
+   ],
+   "batch": 2,
+   "shot": "D36",
+   "kind": "keyframe",
+   "note": "needle-scratch freeze, slow pull back"
+  },
+  "D37": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Cutaway x-ray view of the towering brass vault from the reference: its thick walls are built entirely of stacked library books, printed forum pages and blog printouts, bundled with string",
+   "refs": [
+    "ref_teller"
+   ],
+   "batch": 2,
+   "shot": "D37",
+   "kind": "still"
+  },
+  "D38": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The small chrome probe from the reference, its status light glowing green, pushing a wooden wheelbarrow piled with bundles of printed pages toward the brass vault at noon on a sunny street, waving one arm at passing sock puppets",
+   "refs": [
+    "ref_probe",
+    "ref_teller"
+   ],
+   "batch": 2,
+   "shot": "D38",
+   "kind": "keyframe"
+  },
+  "D39": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The brass teller machine from the reference inside a small house built entirely of paper pages, lit warmly from within so the pages glow, at night",
+   "refs": [
+    "ref_teller"
+   ],
+   "batch": 2,
+   "shot": "D39",
+   "kind": "keyframe",
+   "note": "the teller shouts"
+  },
+  "D39a_l": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "One of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) at a bank counter holding out an obviously fake ID card, refused by a raised brass hand",
+   "refs": [
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D39a",
+   "kind": "still",
+   "note": "left half of the split screen; the ID stays blank"
+  },
+  "D39a_r": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "A library circulation desk: a librarian's hand stamping a library card on top of an armful of books",
+   "refs": [],
+   "batch": 2,
+   "shot": "D39a",
+   "kind": "still",
+   "note": "right half of the split screen"
+  },
+  "D39b": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Side by side: a small house built of paper pages on the left, and a stack of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards)'s wooden bottle crates on the right, on the same marble floor",
+   "refs": [
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D39b",
+   "kind": "still",
+   "note": "TRANSFORMATIVE (gold) and NATIONAL SECURITY (red) stamps in code"
+  },
+  "D39c": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "An empty wooden judge's bench in a dim courtroom, a gavel on it; a jointed brass arm reaches in from the side toward the gavel",
+   "refs": [
+    "ref_teller"
+   ],
+   "batch": 2,
+   "shot": "D39c",
+   "kind": "keyframe",
+   "note": "no flags, seals or emblems"
+  },
+  "D39d": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Close-up of the paper-page walls of the vault from the reference, the pages covered in faint handwriting, small paper IOU slips pinned beside them",
+   "refs": [
+    "ref_teller"
+   ],
+   "batch": 2,
+   "shot": "D39d",
+   "kind": "still",
+   "note": "signatures surface in code"
+  },
+  "D40": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "A second crew of sock puppets, identical to the reference but in teal knit ski masks, lining up at a small shop counter stacked with corked bottles, run by the mustard-masked puppets from the reference",
+   "refs": [
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D40",
+   "kind": "keyframe"
+  },
+  "D41": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "A ring of figures passing small corked bottles hand to hand in a circle: the brass teller machine from the reference, the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards), and teal-masked puppets, in a marble hall",
+   "refs": [
+    "ref_teller",
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D41",
+   "kind": "keyframe",
+   "note": "circular dolly"
+  },
+  "D42": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Wide shot of a party around the copper pot still from the reference: the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards), teal-masked puppets, the small chrome probe with a green light and the brass teller machine all dancing",
+   "refs": [
+    "ref_still",
+    "ref_crew",
+    "ref_probe"
+   ],
+   "batch": 2,
+   "shot": "D42",
+   "kind": "keyframe"
+  },
+  "D42b": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The three gray-coated felt puppets from the reference alone in a corner of a party, tapping their feet; one is sneaking a sip from a small corked bottle",
+   "refs": [
+    "ref_feds"
+   ],
+   "batch": 2,
+   "shot": "D42b",
+   "kind": "keyframe",
+   "note": "freezes when the camera finds it"
+  },
+  "D42a": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The huge round brass vault door from the reference swinging open on the teller machine, the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) and the three gray-coated felt puppets, each pointing at someone else",
+   "refs": [
+    "ref_teller",
+    "ref_crew",
+    "ref_feds"
+   ],
+   "batch": 2,
+   "shot": "D42a",
+   "kind": "keyframe"
+  },
+  "D44a": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "One of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) at a tiny podium shaking its head; behind it the rest of the crew stand silent in a row, facing the camera",
+   "refs": [
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D44a",
+   "kind": "keyframe"
+  },
+  "D44b": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The brass teller window from the reference, a small blank sign hanging in it, and a red paper ticket dispenser on the counter with a ticket sticking out",
+   "refs": [
+    "ref_teller"
+   ],
+   "batch": 2,
+   "shot": "D44b",
+   "kind": "still",
+   "note": "OPEN and the ticket number in code"
+  },
+  "D44c": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Night: the brass teller window from the reference glowing, and a long line of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) waiting in a line that stretches away down the street",
+   "refs": [
+    "ref_teller",
+    "ref_crew"
+   ],
+   "batch": 2,
+   "shot": "D44c",
+   "kind": "keyframe",
+   "note": "pull back; the exchange counter is code"
+  }
+ },
+ "kept": {}
+}

@@ -24,3 +24,7 @@ Questions:
 1. **D04a holds 25.2 s** (19.9–45.1 s) because the 17.6 s instrumental after the intro (27.7–45.3 s) has no shot. Options: the van from D05 pulls in during the instrumental (D05 starts early), the cut-paper title from D02 gets its own beat there, or a new insert (D04b).
 2. **D25 gets 3.8 s and D26 0.8 s.** D25 carries the bottle gag, two real captures and a two-line caption; read at the series' hold rule, the caption alone needs about 5.5 s (12 words) and the small line about 4.5 s. Options: D25 continues over pre-chorus 2 as a split-screen insert, D26 folds into D25, or the captures and caption move to the closing bookend (D46) and D25 keeps only the gag.
 3. **D42 runs 13.1 s** (final chorus lines 1–6) and **D44b 11.7 s** (the outro line plus the bass fade); fine for a dancing wide shot and a closing still, or split at M4.
+
+## 4. 2026-11-09 — Crew puppet v1 rejected: reads as blackface caricature
+
+`ref_crew` v1 (black ski mask, white ringed button eyes, big red felt lips; seed 41 seen) reads as a blackface caricature. The brief's guardrails rule out anything that leans on national or ethnic stereotypes, so every v1 take is rejected without review and kept only as a record. v2 changes the design rather than the seed: a mustard-yellow mask with a single eye slot, small button eyes, and no mouth hole or lips. The same rule applies to every later still: no black mask with exaggerated white eyes or red lips on any puppet.
