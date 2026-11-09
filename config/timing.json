@@ -1,0 +1,45 @@
+{
+ "_doc": "Inputs for scripts/timing_map.py that the transcript can't give. Times on the master timeline (s).",
+ "line_window_overrides": {
+  "_why": "Intro 0: 'Alright,' is sung on its own (human, 2026-11-08) and Whisper doesn't transcribe it; window from the lead stem's level (4.4-5.0 s at -23 dBFS). Breakdown: the full pass compresses lines 2-3 into 166.2-167.3 s; windows from the focused pass (timing/focus/whisper_lead_breakdown.json, production log 2). Pre-chorus 1|0 and 2|0: Whisper hears 'Rate limit' as 'Radial energy' / 'Radling it' (no anchor); windows from those mishearings' times (76.56 s; 133.74 s) up to the next line's anchor.",
+  "Intro|0": [
+   4.2,
+   5.6
+  ],
+  "Breakdown|0": [
+   157.7,
+   163.3
+  ],
+  "Breakdown|1": [
+   163.3,
+   166.3
+  ],
+  "Breakdown|2": [
+   166.3,
+   168.5
+  ],
+  "Breakdown|3": [
+   168.5,
+   171.3
+  ],
+  "Breakdown|4": [
+   171.3,
+   174.6
+  ],
+  "Pre-chorus 1|0": [
+   76.4,
+   77.6
+  ],
+  "Pre-chorus 2|0": [
+   133.55,
+   134.4
+  ]
+ },
+ "beats": {
+  "start_bpm": 112,
+  "band_span": [
+   0.0,
+   264.8
+  ]
+ }
+}

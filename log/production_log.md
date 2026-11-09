@@ -42,3 +42,25 @@ Direct edits, not suggestions, with the docs tools:
 - Output: 264.8 s, 48 kHz stereo, peak −2.59 dBFS (take −2.84), sha256 `0b0d82c8…`. 0-sample lag against the take (cross-correlation over 60–70 s). Change −35.2 dB below the music overall, −39.4 to −32.9 dB in every 2 s window.
 - A/B for the human: `audio/check/ab_chorus1_{raw,postfilter}.wav` (76–100 s: pre-chorus 1 and chorus 1, the dense percussion and sibilance the brief names).
 - The brief's "one master with it and one without": the take needs no edit so far, so the two masters are the take and this file, until M1 says otherwise.
+
+## 6. 2026-11-08 — Brief rev 44; lyrics as sung
+
+- Brief checklist: "Short final audit pass on v1.2" → "…: held off by the human on November 8, 2026, since anything it finds can be handled in on-screen text" (direct edit). `docs/brief.md` patched to match (that line and the rev).
+- `lyrics/as_sung.txt`: v1.2 with the human's listening notes. "Alright," is its own line (Suno split it from "crew."); chorus 1 ends with "And stroll right out the door" twice; directions shortened to section notes. Sections named uniquely (Pre-chorus 1/2, Chorus 1/2) for the timing map.
+
+## 7. 2026-11-08 — M1: timing map
+
+- `timing/guide/vocals.wav`: lead + backing stems summed, mono (no edit to mirror; git-ignored).
+- `config/master.json`: candidates raw and post-filtered, timing reference = the raw take (same timing, step 5), not locked.
+- `config/timing.json`: line windows the transcript can't give: Intro 0 ("Alright," 4.2–5.6 s, from the lead stem's level), Pre-chorus 1/2 line 0 ("Rate limit?" heard as "Radial energy"/"Radling it"), Breakdown 0–4 (focused pass, step 2).
+- `NLTK_DATA=$PWD/.venv/nltk_data .venv/bin/python -I scripts/timing_map.py` (adapted from Buy It on Margin: no guide edits, no coda/silence, beats over the whole take on `2 Drums.wav`) → `timing/timing_map.json`, `timing/as_sung_{lines,words}.srt`. First run stopped on the two pre-chorus lines with no anchor; second on a stereo guide (made mono).
+- Beats: 109.96 bpm (librosa; the style prompt said 112), 480 beats 0.615–262.618 s, median 0.546 s, all intervals 0.488–0.615 s (the irregular ones only in the first 2 s and the fading outro); bar phase 3 (low-band strength 349.7 vs 222.8 next).
+- Sections: Intro 0–27.74, Verse 1 45.31–76.30, Pre-chorus 1 76.52, Chorus 1 81.54–103.42, Verse 2 106.67, Pre-chorus 2 133.55, Chorus 2 138.50–155.72, Breakdown 158.04–174.14, Bridge 175.10–192.01, Verse 3 192.06–219.22, Final chorus 219.43–236.72, Outro 239.07–264.80. 602 words; 44 with aligner score < 0.3, mostly short words and fast verse-3 lines (listed in the script output), to check in the review video.
+- Instrumental stretches with no lyric: 27.7–45.3 s (after the intro), 103.4–106.7 s, 155.7–158.0 s, 236.7–239.1 s.
+
+## 8. 2026-11-08 — M1: shot cues, shot times, review video
+
+- `config/shot_descriptions.json`: the brief's shot list (rev 44), 56 IDs D01–D47 with letter inserts, parsed from `docs/brief.md`.
+- `config/shot_cues.json`: one cue per shot from the brief's anchors (line starts, snapped to a band beat); D01 before the music, D45–D47 after it, lengths at M4. The script checks the IDs match the brief's.
+- `python3 -I scripts/shot_times.py` (adapted: pre/post shots, no cards yet) → `timing/shot_times.json`. All in order. Shots under 1.5 s: D26 (0.81 s). Gate questions in `log/decisions.md` 3.
+- `.venv/bin/python -I scripts/m1_review.py` (adapted) → `timing/check/m1_review.mp4` (960×540, 264.8 s: shot ID, type, picture and on-screen text; the lyric with the current word; bar.beat; the take plus a beat click) and `master_click.wav`. Frames at 130 s (D25) and 167 s (D29) checked.

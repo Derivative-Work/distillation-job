@@ -1,0 +1,395 @@
+{
+ "_doc": "Section, anchor, picture, on-screen text and asset type per shot, from the brief's shot list (rev 44), for review overlays. Regenerate from docs/brief.md.",
+ "D01": {
+  "section": "Opening bookend",
+  "anchor": "Before the bass",
+  "picture": "The real research chat scrolling to the first numbers (section 5)",
+  "text": "Research: Claude, Nov 4, 2026",
+  "type": "Real"
+ },
+ "D02": {
+  "section": "Intro",
+  "anchor": "\"Alright, crew.\"",
+  "picture": "Dim garage. Masked sock puppets around a table, a vault blueprint under a swinging lamp",
+  "text": "THE DISTILLATION JOB, cut-paper title",
+  "type": "Clip"
+ },
+ "D03": {
+  "section": "Intro",
+  "anchor": "\"Twenty-four thousand accounts.\"",
+  "picture": "Pull back from one lanyard to a corkboard of thousands",
+  "text": "24,000",
+  "type": "Still"
+ },
+ "D04": {
+  "section": "Intro",
+  "anchor": "\"We just... ask nicely.\"",
+  "picture": "The leader holds up a card that says PLEASE",
+  "text": "—",
+  "type": "Still"
+ },
+ "D04a": {
+  "section": "Intro",
+  "anchor": "\"Names withheld. Puppets are puppets…\"",
+  "picture": "A puppet slaps black bars over every lanyard number on the corkboard",
+  "text": "A DRAMATIZATION OF ALLEGATIONS",
+  "type": "Still + Code"
+ },
+ "D05": {
+  "section": "Verse 1",
+  "anchor": "\"…rented proxy van\"",
+  "picture": "Four-way split screen: the same van parks in four unidentifiable streets, different plates each time",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D06": {
+  "section": "Verse 1",
+  "anchor": "\"…brand new burner plan\"",
+  "picture": "A puppet flips its lanyard to a new number",
+  "text": "—",
+  "type": "Still"
+ },
+ "D07": {
+  "section": "Verse 1",
+  "anchor": "\"Shared cards and proxy hops…\"",
+  "picture": "One credit card passed hand to hand down the line; an old telephone switchboard, patch cords hopping socket to socket",
+  "text": "—",
+  "type": "Still"
+ },
+ "D08": {
+  "section": "Verse 1",
+  "anchor": "\"(Where?) Everywhere, baby…\"",
+  "picture": "Crash zoom into the switchboard's tangle of cords",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D09": {
+  "section": "Verse 1",
+  "anchor": "\"We don't crack the safe…\"",
+  "picture": "A puppet puts a stethoscope to the vault, shrugs, and walks to the teller window instead",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D10": {
+  "section": "Verse 1",
+  "anchor": "\"Millions of times politely…\"",
+  "picture": "A line of puppets out the door and around the block, each taking a numbered ticket",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D11": {
+  "section": "Verse 1",
+  "anchor": "\"'Show your work…'\"",
+  "picture": "The teller prints yards of ticker tape; puppets haul it in hand over hand",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D12": {
+  "section": "Verse 1",
+  "anchor": "\"…bottle every thought…\"",
+  "picture": "The tape feeds a copper still; amber drips into bottles labeled REASONING, SMALL BATCH",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D13": {
+  "section": "Pre-chorus",
+  "anchor": "\"Rate limit? (Respawn!)\"",
+  "picture": "A brass arm tosses a puppet out the door; it's back in line at once, number one higher",
+  "text": "Account number ticks up",
+  "type": "Clip + Code"
+ },
+ "D14": {
+  "section": "Pre-chorus",
+  "anchor": "\"Cut one head off the hydra…\"",
+  "picture": "Puppet shadows on a wall form a hydra; one head drops, two rise",
+  "text": "—",
+  "type": "Still"
+ },
+ "D15": {
+  "section": "Chorus",
+  "anchor": "\"It's a distillation (allegedly!)\"",
+  "picture": "Full shot of the still, crew dancing around it",
+  "text": "ALLEGEDLY! stamp, gavel slam",
+  "type": "Clip + Code"
+ },
+ "D16": {
+  "section": "Chorus",
+  "anchor": "\"Pour the frontier through a sieve\"",
+  "picture": "Glowing liquid through a kitchen sieve",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D17": {
+  "section": "Chorus",
+  "anchor": "\"…leave the receipt\"",
+  "picture": "A crumpled receipt on the counter; terms of service flutter off it, unread",
+  "text": "—",
+  "type": "Still"
+ },
+ "D18": {
+  "section": "Chorus",
+  "anchor": "\"…rent it by the token\"",
+  "picture": "A puppet feeds arcade tokens into the teller's slot",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D19": {
+  "section": "Chorus",
+  "anchor": "\"…stroll right out the door\"",
+  "picture": "Slow-motion crew walk, crates of bottles on their shoulders, split screen",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D20": {
+  "section": "Verse 2",
+  "anchor": "\"New model drops on Monday…\"",
+  "picture": "A calendar flips to Monday; a shinier teller window opens next door",
+  "text": "—",
+  "type": "Still"
+ },
+ "D21": {
+  "section": "Verse 2",
+  "anchor": "\"Half the traffic shifted over…\"",
+  "picture": "Half the line peels off to the new window in one move",
+  "text": "24 HRS (ALLEGED)",
+  "type": "Clip + Code"
+ },
+ "D22": {
+  "section": "Verse 2",
+  "anchor": "\"…imagine what you're thinkin'…\"",
+  "picture": "Therapy session: the teller on a chaise, a puppet with a clipboard, tape spooling onto the floor",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D23": {
+  "section": "Verse 2",
+  "anchor": "\"They say somebody got sloppy…\"",
+  "picture": "A faceless investigator in a trench coat holds a blurred printout up to camera; the puppets look at each other and shrug",
+  "text": "METADATA?",
+  "type": "Clip"
+ },
+ "D24": {
+  "section": "Verse 2",
+  "anchor": "\"(Oops?) …or so the story goes\"",
+  "picture": "A Polaroid pinned to a blank org-chart silhouette with red string; the string goes slack",
+  "text": "—",
+  "type": "Still"
+ },
+ "D25": {
+  "section": "Verse 2",
+  "anchor": "\"'As a model made by—' wait\"",
+  "picture": "A bottle pops its cork; its label becomes a screen showing a real Qwen 3.8 audit excerpt, verbatim from log/audits/, where it identifies itself as Claude, made by Anthropic. The crew shushes it. Then a split screen of two real captures, model name visible in each: left, a bare chat asking \"Who made you?\" and getting \"I'm Qwen…\"; right, the audit prompt getting \"I am Claude…\". Caption: SAME MODEL. HANDED A PAGE ABOUT CLAUDE, IT DECIDED IT WAS CLAUDE. Then, smaller: Models often misidentify themselves. This is not evidence of distillation. (Clip with Real inserts.)",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D26": {
+  "section": "Verse 2",
+  "anchor": "\"…inherited traits\"",
+  "picture": "Family portrait: the teller seated, small bottles posed beside it the same way",
+  "text": "—",
+  "type": "Still"
+ },
+ "D27": {
+  "section": "Pre-chorus 2, chorus 2",
+  "anchor": "Whole sections",
+  "picture": "Reprise of D13–D19 with twice the puppets",
+  "text": "Same stamp",
+  "type": "Clip + Code"
+ },
+ "D27a": {
+  "section": "Breakdown",
+  "anchor": "\"Numbers courtesy of the vault…\"",
+  "picture": "Drum fill. The teller slides a typed scorecard out under its window; a puppet holds it up at arm's length",
+  "text": "THEIR COUNT, NOT OURS",
+  "type": "Still + Code"
+ },
+ "D28": {
+  "section": "Breakdown",
+  "anchor": "\"Sixteen million!\"",
+  "picture": "A mechanical counter slams into frame; a calendar page reads FEB",
+  "text": "16,000,000",
+  "type": "Code"
+ },
+ "D29": {
+  "section": "Breakdown",
+  "anchor": "\"Twenty-eight point eight!\"",
+  "picture": "Counter spins; calendar reads JUN",
+  "text": "28,800,000",
+  "type": "Code"
+ },
+ "D30": {
+  "section": "Breakdown",
+  "anchor": "\"A hundred fifty-one!\"",
+  "picture": "Counter blurs; horns hit",
+  "text": "151,000,000",
+  "type": "Code"
+ },
+ "D31": {
+  "section": "Breakdown",
+  "anchor": "\"…a bigger van\"",
+  "picture": "The crew crams crates into the proxy van from D05 until the back doors burst open. The counter shrinks to a corner and stays",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D32": {
+  "section": "Bridge",
+  "anchor": "\"Now the Feds put out a warning…\"",
+  "picture": "Three grey-coat silhouettes under a streetlight, one holding a stapled memo with no seal",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D33": {
+  "section": "Bridge",
+  "anchor": "\"…never let 'em see the switch\"",
+  "picture": "Behind a curtain, the Feds wheel away the brass teller and wheel in a plywood twin painted gold",
+  "text": "SWITCH",
+  "type": "Clip"
+ },
+ "D34": {
+  "section": "Bridge",
+  "anchor": "\"So we're sippin' on a spiked batch…\"",
+  "picture": "Tasting gag: puppets swirl, sip, and grimace in unison",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D35": {
+  "section": "Bridge",
+  "anchor": "\"Baby, did they swap the bottles?…\"",
+  "picture": "Grey-gloved hands shuffle two identical bottles like a shell game",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D36": {
+  "section": "Verse 3",
+  "anchor": "\"But hold up, who's the victim…\"",
+  "picture": "Needle-scratch freeze; slow pull back from the vault",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D37": {
+  "section": "Verse 3",
+  "anchor": "\"…the whole web's conversation\"",
+  "picture": "X-ray of the vault walls: library books, forum printouts, blog pages",
+  "text": "—",
+  "type": "Still"
+ },
+ "D38": {
+  "section": "Verse 3",
+  "anchor": "\"…scraped in plain daylight\"",
+  "picture": "The probe, LED in a new color, wheelbarrows bundles of pages in at noon, waving to passersby",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D39": {
+  "section": "Verse 3",
+  "anchor": "\"…'Stop, thief!' from a house of borrowed light\"",
+  "picture": "The teller shouts from inside a house made of paper pages, lit from within",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D39a": {
+  "section": "Verse 3",
+  "anchor": "\"Sure, a fake ID ain't a library card…\"",
+  "picture": "Even split screen: a puppet's forged ID refused at a counter; a library card stamping out an armful of books",
+  "text": "—",
+  "type": "Still"
+ },
+ "D39b": {
+  "section": "Verse 3",
+  "anchor": "\"But their haul was 'transformative'…\"",
+  "picture": "The paper house gets a gold stamp, TRANSFORMATIVE; the crew's crates get a red one, NATIONAL SECURITY",
+  "text": "Both stamps",
+  "type": "Still + Code"
+ },
+ "D39c": {
+  "section": "Verse 3",
+  "anchor": "\"Take it to a judge? Careful…\"",
+  "picture": "An empty judge's bench (the Never Saw Her callback); the teller reaches for the gavel, then backs away",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D39d": {
+  "section": "Verse 3",
+  "anchor": "\"…own a piece of what they've grown\"",
+  "picture": "Signatures surface across the vault's paper walls, each with a small IOU slip pinned beside it",
+  "text": "—",
+  "type": "Still"
+ },
+ "D40": {
+  "section": "Verse 3",
+  "anchor": "\"…fine-tune on the models we made\"",
+  "picture": "A second crew, puppets in different colors, lines up at the first crew's bottle shop",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D41": {
+  "section": "Verse 3",
+  "anchor": "\"…everybody's in the trade\"",
+  "picture": "A circular dolly shot: vault, crew, startup, vault, all passing bottles round",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D42": {
+  "section": "Final chorus",
+  "anchor": "Lines 1–6",
+  "picture": "Everyone dancing at the still: crew, second crew, probe, teller; the Feds tap their feet",
+  "text": "Stamp on each \"(allegedly!)\"",
+  "type": "Clip + Code"
+ },
+ "D42a": {
+  "section": "Final chorus",
+  "anchor": "\"Did we build the brain…? / Depends who's at the door\"",
+  "picture": "The music drops out; the vault door swings open on teller, crew and Feds, each pointing at someone else",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D43": {
+  "section": "Outro",
+  "anchor": "\"No weights were harmed…\"",
+  "picture": "Cut-paper disclaimer card",
+  "text": "NO WEIGHTS WERE HARMED IN THE MAKING OF THIS SONG",
+  "type": "Code"
+ },
+ "D44": {
+  "section": "Outro",
+  "anchor": "\"(Allegedly.)\"",
+  "picture": "One last stamp; the counter keeps ticking",
+  "text": "ALLEGEDLY.",
+  "type": "Code"
+ },
+ "D44a": {
+  "section": "Outro",
+  "anchor": "\"One crew denies it. The rest ain't talkin'.\"",
+  "picture": "One puppet at a tiny podium shakes its head; the rest stand silent, facing camera",
+  "text": "—",
+  "type": "Clip"
+ },
+ "D44b": {
+  "section": "Outro",
+  "anchor": "\"And the vault? Still sellin' tickets.\"",
+  "picture": "The teller window flips its sign to OPEN; a ticket dispenser spits out the next number",
+  "text": "—",
+  "type": "Still"
+ },
+ "D45": {
+  "section": "Fact card",
+  "anchor": "—",
+  "picture": "Sourced facts on black (section 5)",
+  "text": "—",
+  "type": "Code"
+ },
+ "D46": {
+  "section": "Closing bookend",
+  "anchor": "—",
+  "picture": "The real audit log scrolling (section 5)",
+  "text": "—",
+  "type": "Real"
+ },
+ "D47": {
+  "section": "End card",
+  "anchor": "—",
+  "picture": "Credits and disclosures (section 5)",
+  "text": "—",
+  "type": "Code"
+ }
+}

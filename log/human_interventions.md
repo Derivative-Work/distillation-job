@@ -29,3 +29,11 @@ Append-only. Every human action: when, what, and why.
 - **Brief:** "You can change the brief." Edited directly by the agent (production log 4).
 - **Milestones:** "Those milestones make sense to me." (`log/decisions.md` 1.)
 - **Post-filter:** "Please run the post-filter." Run by the agent (production log 5).
+
+## 5. 2026-11-08 — Listening notes; final audit pass held off
+
+- **Intro:** "Suno split up "Alright" from "crew". I couldn't get it to make a take that both had it together and also sounded consistent for the rest of the song, so it stays."
+- **Chorus 1:** "Suno did add a second "and stroll right out the door" in chorus 1. It stays."
+- **Breakdown:** "It's "151""
+- **Final audit pass:** "Let's hold off on that final audit pass for now: I don't think anything will come up that can't be addressed by onscreen text." Brief checklist updated (rev 44).
+- **Master (raw or post-filtered):** not yet picked.

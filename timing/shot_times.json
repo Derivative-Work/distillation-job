@@ -1,0 +1,506 @@
+{
+ "generated_by": "scripts/shot_times.py",
+ "fps": 24,
+ "music_end": 264.8,
+ "master_sha256": "7fe6dc5ab9e7e38f3085d693e79be807831b8f5b32d3f925afb82ab3531a5baf",
+ "shots": {
+  "D01": {
+   "placement": "before the music",
+   "start": null,
+   "end": null,
+   "note": "before the music: the real research chat; length set at M4"
+  },
+  "D02": {
+   "start": 0.0,
+   "end": 8.406,
+   "duration": 8.406,
+   "start_frame": 0,
+   "end_frame": 202,
+   "cue": "t:0",
+   "snapped_ms": 0,
+   "note": "brief anchor 'Alright, crew.' (4.50 s); the bass starts at 0, so the garage opens with the music"
+  },
+  "D03": {
+   "start": 8.406,
+   "end": 16.057,
+   "duration": 7.651,
+   "start_frame": 202,
+   "end_frame": 385,
+   "cue": "'Twenty-four' (Intro 1.1)",
+   "snapped_ms": 121
+  },
+  "D04": {
+   "start": 16.057,
+   "end": 19.888,
+   "duration": 3.831,
+   "start_frame": 385,
+   "end_frame": 477,
+   "cue": "'We' (Intro 2.4)",
+   "snapped_ms": -70
+  },
+  "D04a": {
+   "start": 19.888,
+   "end": 45.093,
+   "duration": 25.205,
+   "start_frame": 477,
+   "end_frame": 1082,
+   "cue": "'Names' (Intro 3.0)",
+   "snapped_ms": -268
+  },
+  "D05": {
+   "start": 45.093,
+   "end": 50.016,
+   "duration": 4.923,
+   "start_frame": 1082,
+   "end_frame": 1200,
+   "cue": "'Got' (Verse 1 0.0)",
+   "snapped_ms": -215
+  },
+  "D06": {
+   "start": 50.016,
+   "end": 53.859,
+   "duration": 3.843,
+   "start_frame": 1200,
+   "end_frame": 1293,
+   "cue": "'Every' (Verse 1 1.0)",
+   "snapped_ms": 262
+  },
+  "D07": {
+   "start": 53.859,
+   "end": 57.69,
+   "duration": 3.831,
+   "start_frame": 1293,
+   "end_frame": 1385,
+   "cue": "'Shared' (Verse 1 2.0)",
+   "snapped_ms": -59
+  },
+  "D08": {
+   "start": 57.69,
+   "end": 63.158,
+   "duration": 5.468,
+   "start_frame": 1385,
+   "end_frame": 1516,
+   "cue": "'(Where?)' (Verse 1 3.0)",
+   "snapped_ms": 74
+  },
+  "D09": {
+   "start": 63.158,
+   "end": 67.013,
+   "duration": 3.855,
+   "start_frame": 1516,
+   "end_frame": 1608,
+   "cue": "'We' (Verse 1 4.0)",
+   "snapped_ms": 177
+  },
+  "D10": {
+   "start": 67.013,
+   "end": 71.401,
+   "duration": 4.388,
+   "start_frame": 1608,
+   "end_frame": 1714,
+   "cue": "'Millions' (Verse 1 5.0)",
+   "snapped_ms": -90
+  },
+  "D11": {
+   "start": 71.401,
+   "end": 74.118,
+   "duration": 2.717,
+   "start_frame": 1714,
+   "end_frame": 1779,
+   "cue": "'\"Show' (Verse 1 6.0)",
+   "snapped_ms": 105
+  },
+  "D12": {
+   "start": 74.118,
+   "end": 76.312,
+   "duration": 2.194,
+   "start_frame": 1779,
+   "end_frame": 1831,
+   "cue": "'Then' (Verse 1 7.0)",
+   "snapped_ms": -236
+  },
+  "D13": {
+   "start": 76.312,
+   "end": 78.507,
+   "duration": 2.195,
+   "start_frame": 1831,
+   "end_frame": 1884,
+   "cue": "'Rate' (Pre-chorus 1 0.0)",
+   "snapped_ms": -210
+  },
+  "D14": {
+   "start": 78.507,
+   "end": 81.804,
+   "duration": 3.297,
+   "start_frame": 1884,
+   "end_frame": 1963,
+   "cue": "'Cut' (Pre-chorus 1 2.0)",
+   "snapped_ms": 51
+  },
+  "D15": {
+   "start": 81.804,
+   "end": 83.987,
+   "duration": 2.183,
+   "start_frame": 1963,
+   "end_frame": 2016,
+   "cue": "\"It's\" (Chorus 1 0.0)",
+   "snapped_ms": 265
+  },
+  "D16": {
+   "start": 83.987,
+   "end": 85.635,
+   "duration": 1.648,
+   "start_frame": 2016,
+   "end_frame": 2055,
+   "cue": "'Pour' (Chorus 1 1.0)",
+   "snapped_ms": -111
+  },
+  "D17": {
+   "start": 85.635,
+   "end": 94.401,
+   "duration": 8.766,
+   "start_frame": 2055,
+   "end_frame": 2266,
+   "cue": "'Take' (Chorus 1 2.0)",
+   "snapped_ms": 197
+  },
+  "D18": {
+   "start": 94.401,
+   "end": 96.583,
+   "duration": 2.182,
+   "start_frame": 2266,
+   "end_frame": 2318,
+   "cue": "'Why' (Chorus 1 6.0)",
+   "snapped_ms": 58
+  },
+  "D19": {
+   "start": 96.583,
+   "end": 106.452,
+   "duration": 9.869,
+   "start_frame": 2318,
+   "end_frame": 2555,
+   "cue": "'And' (Chorus 1 7.0)",
+   "snapped_ms": 261
+  },
+  "D20": {
+   "start": 106.452,
+   "end": 110.84,
+   "duration": 4.388,
+   "start_frame": 2555,
+   "end_frame": 2660,
+   "cue": "'New' (Verse 2 0.0)",
+   "snapped_ms": -223
+  },
+  "D21": {
+   "start": 110.84,
+   "end": 115.217,
+   "duration": 4.377,
+   "start_frame": 2660,
+   "end_frame": 2765,
+   "cue": "'Half' (Verse 2 1.0)",
+   "snapped_ms": -130
+  },
+  "D22": {
+   "start": 115.217,
+   "end": 123.971,
+   "duration": 8.754,
+   "start_frame": 2765,
+   "end_frame": 2975,
+   "cue": "'Tell' (Verse 2 2.0)",
+   "snapped_ms": -95
+  },
+  "D23": {
+   "start": 123.971,
+   "end": 126.177,
+   "duration": 2.206,
+   "start_frame": 2975,
+   "end_frame": 3028,
+   "cue": "'They' (Verse 2 4.0)",
+   "snapped_ms": -119
+  },
+  "D24": {
+   "start": 126.177,
+   "end": 128.906,
+   "duration": 2.729,
+   "start_frame": 3028,
+   "end_frame": 3094,
+   "cue": "'(Oops?)' (Verse 2 5.0)",
+   "snapped_ms": -214
+  },
+  "D25": {
+   "start": 128.906,
+   "end": 132.737,
+   "duration": 3.831,
+   "start_frame": 3094,
+   "end_frame": 3186,
+   "cue": "'And' (Verse 2 6.0)",
+   "snapped_ms": -6
+  },
+  "D26": {
+   "start": 132.737,
+   "end": 133.55,
+   "duration": 0.813,
+   "start_frame": 3186,
+   "end_frame": 3205,
+   "cue": "'inherited' (Verse 2 7.7)",
+   "snapped_ms": -147,
+   "note": "on 'inherited'"
+  },
+  "D27": {
+   "start": 133.55,
+   "end": 157.919,
+   "duration": 24.369,
+   "start_frame": 3205,
+   "end_frame": 3790,
+   "cue": "section:Pre-chorus 2",
+   "snapped_ms": 0,
+   "note": "reprise of D13-D19 with twice the puppets; split into sub-shots at M4"
+  },
+  "D27a": {
+   "start": 157.919,
+   "end": 163.387,
+   "duration": 5.468,
+   "start_frame": 3790,
+   "end_frame": 3921,
+   "cue": "'Numbers' (Breakdown 0.0)",
+   "snapped_ms": -122
+  },
+  "D28": {
+   "start": 163.387,
+   "end": 166.127,
+   "duration": 2.74,
+   "start_frame": 3921,
+   "end_frame": 3987,
+   "cue": "'Sixteen' (Breakdown 1.0)",
+   "snapped_ms": -215
+  },
+  "D29": {
+   "start": 166.127,
+   "end": 168.31,
+   "duration": 2.183,
+   "start_frame": 3987,
+   "end_frame": 4039,
+   "cue": "'Twenty-eight' (Breakdown 2.0)",
+   "snapped_ms": -213
+  },
+  "D30": {
+   "start": 168.31,
+   "end": 171.595,
+   "duration": 3.285,
+   "start_frame": 4039,
+   "end_frame": 4118,
+   "cue": "'A' (Breakdown 3.0)",
+   "snapped_ms": -210
+  },
+  "D31": {
+   "start": 171.595,
+   "end": 174.869,
+   "duration": 3.274,
+   "start_frame": 4118,
+   "end_frame": 4197,
+   "cue": "'Somebody' (Breakdown 4.0)",
+   "snapped_ms": 194
+  },
+  "D32": {
+   "start": 174.869,
+   "end": 178.701,
+   "duration": 3.832,
+   "start_frame": 4197,
+   "end_frame": 4289,
+   "cue": "'Now' (Bridge 0.0)",
+   "snapped_ms": -232
+  },
+  "D33": {
+   "start": 178.701,
+   "end": 183.623,
+   "duration": 4.922,
+   "start_frame": 4289,
+   "end_frame": 4407,
+   "cue": "'Said' (Bridge 1.0)",
+   "snapped_ms": -209
+  },
+  "D34": {
+   "start": 183.623,
+   "end": 187.989,
+   "duration": 4.366,
+   "start_frame": 4407,
+   "end_frame": 4512,
+   "cue": "'So' (Bridge 2.0)",
+   "snapped_ms": 90
+  },
+  "D35": {
+   "start": 187.989,
+   "end": 191.808,
+   "duration": 3.819,
+   "start_frame": 4512,
+   "end_frame": 4603,
+   "cue": "'Baby,' (Bridge 3.0)",
+   "snapped_ms": 37
+  },
+  "D36": {
+   "start": 191.808,
+   "end": 194.56,
+   "duration": 2.752,
+   "start_frame": 4603,
+   "end_frame": 4669,
+   "cue": "'But' (Verse 3 0.0)",
+   "snapped_ms": -247
+  },
+  "D37": {
+   "start": 194.56,
+   "end": 197.288,
+   "duration": 2.728,
+   "start_frame": 4669,
+   "end_frame": 4735,
+   "cue": "'That' (Verse 3 1.0)",
+   "snapped_ms": -255
+  },
+  "D38": {
+   "start": 197.288,
+   "end": 198.925,
+   "duration": 1.637,
+   "start_frame": 4735,
+   "end_frame": 4774,
+   "cue": "'Every' (Verse 3 2.0)",
+   "snapped_ms": 252
+  },
+  "D39": {
+   "start": 198.925,
+   "end": 201.108,
+   "duration": 2.183,
+   "start_frame": 4774,
+   "end_frame": 4827,
+   "cue": "'Now' (Verse 3 3.0)",
+   "snapped_ms": -252
+  },
+  "D39a": {
+   "start": 201.108,
+   "end": 203.848,
+   "duration": 2.74,
+   "start_frame": 4827,
+   "end_frame": 4892,
+   "cue": "'Sure,' (Verse 3 4.0)",
+   "snapped_ms": -231
+  },
+  "D39b": {
+   "start": 203.848,
+   "end": 206.031,
+   "duration": 2.183,
+   "start_frame": 4892,
+   "end_frame": 4945,
+   "cue": "'But' (Verse 3 5.0)",
+   "snapped_ms": 130
+  },
+  "D39c": {
+   "start": 206.031,
+   "end": 208.225,
+   "duration": 2.194,
+   "start_frame": 4945,
+   "end_frame": 4997,
+   "cue": "'Take' (Verse 3 6.0)",
+   "snapped_ms": 12
+  },
+  "D39d": {
+   "start": 208.225,
+   "end": 210.408,
+   "duration": 2.183,
+   "start_frame": 4997,
+   "end_frame": 5050,
+   "cue": "'Then' (Verse 3 7.0)",
+   "snapped_ms": -15
+  },
+  "D40": {
+   "start": 210.408,
+   "end": 212.59,
+   "duration": 2.182,
+   "start_frame": 5050,
+   "end_frame": 5102,
+   "cue": "'And' (Verse 3 8.0)",
+   "snapped_ms": 27
+  },
+  "D41": {
+   "start": 212.59,
+   "end": 219.162,
+   "duration": 6.572,
+   "start_frame": 5102,
+   "end_frame": 5260,
+   "cue": "'So' (Verse 3 9.0)",
+   "snapped_ms": 88
+  },
+  "D42": {
+   "start": 219.162,
+   "end": 232.281,
+   "duration": 13.119,
+   "start_frame": 5260,
+   "end_frame": 5575,
+   "cue": "\"It's\" (Final chorus 0.0)",
+   "snapped_ms": -270
+  },
+  "D42a": {
+   "start": 232.281,
+   "end": 238.84,
+   "duration": 6.559,
+   "start_frame": 5575,
+   "end_frame": 5732,
+   "cue": "'Did' (Final chorus 6.0)",
+   "snapped_ms": 36
+  },
+  "D43": {
+   "start": 238.84,
+   "end": 244.854,
+   "duration": 6.014,
+   "start_frame": 5732,
+   "end_frame": 5876,
+   "cue": "'No' (Outro 0.0)",
+   "snapped_ms": -234
+  },
+  "D44": {
+   "start": 244.854,
+   "end": 249.231,
+   "duration": 4.377,
+   "start_frame": 5876,
+   "end_frame": 5982,
+   "cue": "'(Allegedly.)' (Outro 1.0)",
+   "snapped_ms": -244
+  },
+  "D44a": {
+   "start": 249.231,
+   "end": 253.063,
+   "duration": 3.832,
+   "start_frame": 5982,
+   "end_frame": 6074,
+   "cue": "'One' (Outro 2.0)",
+   "snapped_ms": 212
+  },
+  "D44b": {
+   "start": 253.063,
+   "end": 264.8,
+   "duration": 11.737,
+   "start_frame": 6074,
+   "end_frame": 6355,
+   "cue": "'And' (Outro 3.0)",
+   "snapped_ms": 74
+  },
+  "D45": {
+   "placement": "after the music",
+   "start": null,
+   "end": null,
+   "note": "claims card on black after the music; length from its text at M4/M6"
+  },
+  "D46": {
+   "placement": "after the music",
+   "start": null,
+   "end": null,
+   "note": "closing bookend: the real audit log scrolling"
+  },
+  "D47": {
+   "placement": "after the music",
+   "start": null,
+   "end": null,
+   "note": "end card: credits and disclosures"
+  }
+ },
+ "short_shots": [
+  "D26: 0.81 s"
+ ]
+}

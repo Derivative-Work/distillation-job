@@ -1,4 +1,4 @@
-<!-- Plain-text mirror of the Claude Doc https://claude.ai/artifact/4GsgfcSeDVLnMqr6Ko1zPZ (rev 43), read with the docs tools. The doc is the source of truth. Regenerate: scripts/mirror_brief.py. -->
+<!-- Plain-text mirror of the Claude Doc https://claude.ai/artifact/4GsgfcSeDVLnMqr6Ko1zPZ (rev 44), read with the docs tools. The doc is the source of truth. Regenerate: scripts/mirror_brief.py. -->
 
 # The Distillation Job: Shot List and Production Brief
 
@@ -487,7 +487,7 @@ Claude Code stops at each gate until the human approves; the gates follow Buy It
 - Each finding resolved in the audit log table; any finding Claude rejects goes to the human
 - "As a model made by—" sourced (TechCrunch, Dec 27, 2024)
 - "Prepaid cards" cut in v1.1 after both auditors objected
-- Short final audit pass on v1.2
+- Short final audit pass on v1.2: held off by the human on November 8, 2026, since anything it finds can be handled in on-screen text
 - Verify Gemini's and ChatGPT's unsourced claims (audit log) before any reaches the fact card
 - Every number in the lyrics and on screen matches a reopened source
 - No line names, quotes or clearly points to a real person

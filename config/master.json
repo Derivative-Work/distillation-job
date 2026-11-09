@@ -1,0 +1,9 @@
+{
+ "_doc": "The master. The take needs no edit, so the two candidates are the take as downloaded and the take through the post-filter (brief: one master with it, one without; the human picks). Both have identical timing (0-sample lag, production log 5), so M1 timing is built on the raw take and holds for either.",
+ "candidates": {
+  "raw": "audio/track/Distillation (Allegedly).wav",
+  "postfilter": "audio/postfilter/distillation_job_postfilter.wav"
+ },
+ "timing_reference": "audio/track/Distillation (Allegedly).wav",
+ "locked": null
+}

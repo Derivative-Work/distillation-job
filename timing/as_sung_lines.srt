@@ -1,0 +1,296 @@
+1
+00:00:04,504 --> 00:00:05,060
+Alright,
+
+2
+00:00:07,985 --> 00:00:10,000
+crew. Twenty-four thousand accounts.
+
+3
+00:00:12,319 --> 00:00:18,000
+Nobody touches the weights. We just... ask nicely.
+
+4
+00:00:20,156 --> 00:00:27,740
+Names withheld. Puppets are puppets. All of this... is alleged.
+
+5
+00:00:45,308 --> 00:00:49,020
+Got a crew of sock puppets in a rented proxy van
+
+6
+00:00:49,754 --> 00:00:53,040
+Every one a fresh account and a brand new burner plan
+
+7
+00:00:53,918 --> 00:00:57,240
+Shared cards and proxy hops, a hundred routes or more
+
+8
+00:00:57,616 --> 00:01:01,460
+(Where?) Everywhere, baby, knockin' on the API door
+
+9
+00:01:02,981 --> 00:01:06,120
+We don't crack the safe, we just ask it how it's made
+
+10
+00:01:07,103 --> 00:01:10,560
+Millions of times politely till the reasoning gets relayed
+
+11
+00:01:11,296 --> 00:01:14,334
+"Show your work," we whisper, "think it step by step"
+
+12
+00:01:14,354 --> 00:01:16,300
+Then we bottle every thought and ship it off to prep
+
+13
+00:01:16,522 --> 00:01:17,539
+Rate limit? (Respawn!)
+
+14
+00:01:17,620 --> 00:01:18,415
+Banned again? (Respawn!)
+
+15
+00:01:18,456 --> 00:01:21,260
+Cut one head off the hydra and two come back on
+
+16
+00:01:21,539 --> 00:01:23,977
+It's a distillation (allegedly!)
+
+17
+00:01:24,098 --> 00:01:25,777
+Pour the frontier through a sieve
+
+18
+00:01:25,438 --> 00:01:27,858
+Take the reasoning, leave the receipt
+
+19
+00:01:28,040 --> 00:01:29,940
+Tell 'em that's just how we live
+
+20
+00:01:30,303 --> 00:01:32,601
+It's a distillation (allegedly!)
+
+21
+00:01:32,661 --> 00:01:34,139
+Smooth as a hundred-proof pour
+
+22
+00:01:34,343 --> 00:01:36,242
+Why build the brain when you can rent it by the token
+
+23
+00:01:36,322 --> 00:01:38,940
+And stroll right out the door
+
+24
+00:01:41,732 --> 00:01:43,420
+And stroll right out the door
+
+25
+00:01:46,675 --> 00:01:50,560
+New model drops on Monday, by Tuesday we're in line
+
+26
+00:01:50,970 --> 00:01:54,920
+Half the traffic shifted over, so they say, right on time
+
+27
+00:01:55,312 --> 00:01:59,040
+Tell the teacher "Now imagine what you're thinkin' deep inside"
+
+28
+00:02:00,016 --> 00:02:04,050
+It writes us out a chain of thought, we take it for a ride
+
+29
+00:02:04,090 --> 00:02:06,391
+They say somebody got sloppy, said the metadata told
+
+30
+00:02:06,391 --> 00:02:08,852
+(Oops?) Matched a staff page on the web, or so the story goes
+
+31
+00:02:08,912 --> 00:02:11,240
+And somebody's bot keeps sayin' "As a model made by—" wait
+
+32
+00:02:11,894 --> 00:02:13,530
+Hey, that ain't us, man. That's just... inherited traits
+
+33
+00:02:13,550 --> 00:02:14,238
+Rate limit? (Respawn!)
+
+34
+00:02:14,420 --> 00:02:15,354
+Banned again? (Respawn!)
+
+35
+00:02:15,415 --> 00:02:18,260
+Cut one head off the hydra and two come back on
+
+36
+00:02:18,499 --> 00:02:20,978
+It's a distillation (allegedly!)
+
+37
+00:02:21,039 --> 00:02:22,657
+Pour the frontier through a sieve
+
+38
+00:02:22,822 --> 00:02:24,798
+Take the reasoning, leave the receipt
+
+39
+00:02:25,001 --> 00:02:27,020
+Tell 'em that's just how we live
+
+40
+00:02:27,243 --> 00:02:29,621
+It's a distillation (allegedly!)
+
+41
+00:02:29,661 --> 00:02:31,080
+Smooth as a hundred-proof pour
+
+42
+00:02:31,283 --> 00:02:33,201
+Why build the brain when you can rent it by the token
+
+43
+00:02:33,282 --> 00:02:35,720
+And stroll right out the door
+
+44
+00:02:38,041 --> 00:02:42,820
+Numbers courtesy of the vault. Their count, not ours.
+
+45
+00:02:43,602 --> 00:02:46,219
+Sixteen million! (That was February)
+
+46
+00:02:46,340 --> 00:02:48,339
+Twenty-eight point eight! (That was June)
+
+47
+00:02:48,520 --> 00:02:51,280
+A hundred fifty-one! (Peakin' at three mil a day)
+
+48
+00:02:51,401 --> 00:02:54,140
+Somebody stop the counter, we're gonna need a bigger van
+
+49
+00:02:55,101 --> 00:02:58,790
+Now the Feds put out a warning, three agencies, one pitch
+
+50
+00:02:58,910 --> 00:03:03,380
+Said feed the suspects watered answers, never let 'em see the switch
+
+51
+00:03:03,533 --> 00:03:07,832
+So we're sippin' on a spiked batch, wonderin' why it tastes so strange
+
+52
+00:03:07,952 --> 00:03:12,014
+Baby, did they swap the bottles? Did the recipe just change?
+
+53
+00:03:12,055 --> 00:03:14,775
+But hold up, who's the victim in this smooth operation?
+
+54
+00:03:14,815 --> 00:03:16,935
+That vault was built from the whole web's conversation
+
+55
+00:03:17,036 --> 00:03:19,096
+Every blog and every forum, scraped in plain daylight
+
+56
+00:03:19,177 --> 00:03:21,297
+Now they're hollerin' "Stop, thief!" from a house of borrowed light
+
+57
+00:03:21,339 --> 00:03:23,737
+Sure, a fake ID ain't a library card, I'll give 'em that one, fine
+
+58
+00:03:23,718 --> 00:03:25,999
+But their haul was "transformative," and ours crossed a national line
+
+59
+00:03:26,019 --> 00:03:28,199
+Take it to a judge? Careful: if an output can be owned
+
+60
+00:03:28,240 --> 00:03:30,278
+Then the writers that they trained on own a piece of what they've grown
+
+61
+00:03:30,381 --> 00:03:32,601
+And the startups down the block fine-tune on the models we made
+
+62
+00:03:32,502 --> 00:03:39,220
+So the loot goes round in circles, everybody's in the trade
+
+63
+00:03:39,432 --> 00:03:42,180
+It's a distillation (allegedly!)
+
+64
+00:03:42,181 --> 00:03:43,739
+Everybody's got a sieve
+
+65
+00:03:43,319 --> 00:03:45,739
+Take the reasoning, leave the receipt
+
+66
+00:03:45,941 --> 00:03:48,000
+Tell 'em that's just how we live
+
+67
+00:03:48,165 --> 00:03:50,543
+It's a distillation (allegedly!)
+
+68
+00:03:50,604 --> 00:03:52,001
+Smooth as a hundred-proof pour
+
+69
+00:03:52,245 --> 00:03:54,185
+Did we build the brain, or rent it by the token?
+
+70
+00:03:54,426 --> 00:03:56,720
+Depends who's at the door
+
+71
+00:03:59,074 --> 00:04:01,520
+No weights were harmed in the making of this song.
+
+72
+00:04:05,098 --> 00:04:06,060
+(Allegedly.)
+
+73
+00:04:09,019 --> 00:04:13,266
+One crew denies it. The rest ain't talkin'.
+
+74
+00:04:12,989 --> 00:04:19,680
+And the vault? Still sellin' tickets.
+

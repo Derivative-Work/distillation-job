@@ -1,0 +1,286 @@
+{
+ "_doc": "Start cue of every shot (brief rev 44 shot list). 'Section|line|word' = the word's start, indices from 0 as in lyrics/as_sung.txt; 't:<s>' a take time; 'section:<name>' its start. A shot ends where the next starts. 'snap': move onto a band beat (scripts/shot_times.py). 'pre'/'post': before or after the music; lengths set at M4.",
+ "shots": [
+  {
+   "id": "D01",
+   "cue": "pre",
+   "note": "before the music: the real research chat; length set at M4"
+  },
+  {
+   "id": "D02",
+   "cue": "t:0",
+   "note": "brief anchor 'Alright, crew.' (4.50 s); the bass starts at 0, so the garage opens with the music"
+  },
+  {
+   "id": "D03",
+   "cue": "Intro|1|1",
+   "snap": true
+  },
+  {
+   "id": "D04",
+   "cue": "Intro|2|4",
+   "snap": true
+  },
+  {
+   "id": "D04a",
+   "cue": "Intro|3|0",
+   "snap": true
+  },
+  {
+   "id": "D05",
+   "cue": "Verse 1|0|0",
+   "snap": true
+  },
+  {
+   "id": "D06",
+   "cue": "Verse 1|1|0",
+   "snap": true
+  },
+  {
+   "id": "D07",
+   "cue": "Verse 1|2|0",
+   "snap": true
+  },
+  {
+   "id": "D08",
+   "cue": "Verse 1|3|0",
+   "snap": true
+  },
+  {
+   "id": "D09",
+   "cue": "Verse 1|4|0",
+   "snap": true
+  },
+  {
+   "id": "D10",
+   "cue": "Verse 1|5|0",
+   "snap": true
+  },
+  {
+   "id": "D11",
+   "cue": "Verse 1|6|0",
+   "snap": true
+  },
+  {
+   "id": "D12",
+   "cue": "Verse 1|7|0",
+   "snap": true
+  },
+  {
+   "id": "D13",
+   "cue": "Pre-chorus 1|0|0",
+   "snap": true
+  },
+  {
+   "id": "D14",
+   "cue": "Pre-chorus 1|2|0",
+   "snap": true
+  },
+  {
+   "id": "D15",
+   "cue": "Chorus 1|0|0",
+   "snap": true
+  },
+  {
+   "id": "D16",
+   "cue": "Chorus 1|1|0",
+   "snap": true
+  },
+  {
+   "id": "D17",
+   "cue": "Chorus 1|2|0",
+   "snap": true
+  },
+  {
+   "id": "D18",
+   "cue": "Chorus 1|6|0",
+   "snap": true
+  },
+  {
+   "id": "D19",
+   "cue": "Chorus 1|7|0",
+   "snap": true
+  },
+  {
+   "id": "D20",
+   "cue": "Verse 2|0|0",
+   "snap": true
+  },
+  {
+   "id": "D21",
+   "cue": "Verse 2|1|0",
+   "snap": true
+  },
+  {
+   "id": "D22",
+   "cue": "Verse 2|2|0",
+   "snap": true
+  },
+  {
+   "id": "D23",
+   "cue": "Verse 2|4|0",
+   "snap": true
+  },
+  {
+   "id": "D24",
+   "cue": "Verse 2|5|0",
+   "snap": true
+  },
+  {
+   "id": "D25",
+   "cue": "Verse 2|6|0",
+   "snap": true
+  },
+  {
+   "id": "D26",
+   "cue": "Verse 2|7|7",
+   "note": "on 'inherited'",
+   "snap": true
+  },
+  {
+   "id": "D27",
+   "cue": "section:Pre-chorus 2",
+   "note": "reprise of D13-D19 with twice the puppets; split into sub-shots at M4"
+  },
+  {
+   "id": "D27a",
+   "cue": "Breakdown|0|0",
+   "snap": true
+  },
+  {
+   "id": "D28",
+   "cue": "Breakdown|1|0",
+   "snap": true
+  },
+  {
+   "id": "D29",
+   "cue": "Breakdown|2|0",
+   "snap": true
+  },
+  {
+   "id": "D30",
+   "cue": "Breakdown|3|0",
+   "snap": true
+  },
+  {
+   "id": "D31",
+   "cue": "Breakdown|4|0",
+   "snap": true
+  },
+  {
+   "id": "D32",
+   "cue": "Bridge|0|0",
+   "snap": true
+  },
+  {
+   "id": "D33",
+   "cue": "Bridge|1|0",
+   "snap": true
+  },
+  {
+   "id": "D34",
+   "cue": "Bridge|2|0",
+   "snap": true
+  },
+  {
+   "id": "D35",
+   "cue": "Bridge|3|0",
+   "snap": true
+  },
+  {
+   "id": "D36",
+   "cue": "Verse 3|0|0",
+   "snap": true
+  },
+  {
+   "id": "D37",
+   "cue": "Verse 3|1|0",
+   "snap": true
+  },
+  {
+   "id": "D38",
+   "cue": "Verse 3|2|0",
+   "snap": true
+  },
+  {
+   "id": "D39",
+   "cue": "Verse 3|3|0",
+   "snap": true
+  },
+  {
+   "id": "D39a",
+   "cue": "Verse 3|4|0",
+   "snap": true
+  },
+  {
+   "id": "D39b",
+   "cue": "Verse 3|5|0",
+   "snap": true
+  },
+  {
+   "id": "D39c",
+   "cue": "Verse 3|6|0",
+   "snap": true
+  },
+  {
+   "id": "D39d",
+   "cue": "Verse 3|7|0",
+   "snap": true
+  },
+  {
+   "id": "D40",
+   "cue": "Verse 3|8|0",
+   "snap": true
+  },
+  {
+   "id": "D41",
+   "cue": "Verse 3|9|0",
+   "snap": true
+  },
+  {
+   "id": "D42",
+   "cue": "Final chorus|0|0",
+   "snap": true
+  },
+  {
+   "id": "D42a",
+   "cue": "Final chorus|6|0",
+   "snap": true
+  },
+  {
+   "id": "D43",
+   "cue": "Outro|0|0",
+   "snap": true
+  },
+  {
+   "id": "D44",
+   "cue": "Outro|1|0",
+   "snap": true
+  },
+  {
+   "id": "D44a",
+   "cue": "Outro|2|0",
+   "snap": true
+  },
+  {
+   "id": "D44b",
+   "cue": "Outro|3|0",
+   "snap": true
+  },
+  {
+   "id": "D45",
+   "cue": "post",
+   "note": "claims card on black after the music; length from its text at M4/M6"
+  },
+  {
+   "id": "D46",
+   "cue": "post",
+   "note": "closing bookend: the real audit log scrolling"
+  },
+  {
+   "id": "D47",
+   "cue": "post",
+   "note": "end card: credits and disclosures"
+  }
+ ]
+}

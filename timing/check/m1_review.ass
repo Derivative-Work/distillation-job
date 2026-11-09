@@ -1,0 +1,1147 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 960
+PlayResY: 540
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Shot,DejaVu Sans,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,30,30,30,1
+Style: Lyric,DejaVu Sans,30,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,30,30,40,1
+Style: Beat,DejaVu Sans Mono,20,&H00999999,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,9,20,20,250,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:08.41,Shot,,0,0,0,,{\b1}D02{\b0}  [Clip]  Dim garage. Masked sock puppets around a table, a vault blueprint under a swinging lamp\N{\c&H66CCFF&}TEXT: THE DISTILLATION JOB, cut-paper title
+Dialogue: 1,0:00:08.41,0:00:16.06,Shot,,0,0,0,,{\b1}D03{\b0}  [Still]  Pull back from one lanyard to a corkboard of thousands\N{\c&H66CCFF&}TEXT: 24,000
+Dialogue: 1,0:00:16.06,0:00:19.89,Shot,,0,0,0,,{\b1}D04{\b0}  [Still]  The leader holds up a card that says PLEASE
+Dialogue: 1,0:00:19.89,0:00:45.09,Shot,,0,0,0,,{\b1}D04a{\b0}  [Still + Code]  A puppet slaps black bars over every lanyard number on the corkboard\N{\c&H66CCFF&}TEXT: A DRAMATIZATION OF ALLEGATIONS
+Dialogue: 1,0:00:45.09,0:00:50.02,Shot,,0,0,0,,{\b1}D05{\b0}  [Clip]  Four-way split screen: the same van parks in four unidentifiable streets, different plates each time
+Dialogue: 1,0:00:50.02,0:00:53.86,Shot,,0,0,0,,{\b1}D06{\b0}  [Still]  A puppet flips its lanyard to a new number
+Dialogue: 1,0:00:53.86,0:00:57.69,Shot,,0,0,0,,{\b1}D07{\b0}  [Still]  One credit card passed hand to hand down the line; an old telephone switchboard, patch cords hopping socket to socket
+Dialogue: 1,0:00:57.69,0:01:03.16,Shot,,0,0,0,,{\b1}D08{\b0}  [Clip]  Crash zoom into the switchboard's tangle of cords
+Dialogue: 1,0:01:03.16,0:01:07.01,Shot,,0,0,0,,{\b1}D09{\b0}  [Clip]  A puppet puts a stethoscope to the vault, shrugs, and walks to the teller window instead
+Dialogue: 1,0:01:07.01,0:01:11.40,Shot,,0,0,0,,{\b1}D10{\b0}  [Clip]  A line of puppets out the door and around the block, each taking a numbered ticket
+Dialogue: 1,0:01:11.40,0:01:14.12,Shot,,0,0,0,,{\b1}D11{\b0}  [Clip]  The teller prints yards of ticker tape; puppets haul it in hand over hand
+Dialogue: 1,0:01:14.12,0:01:16.31,Shot,,0,0,0,,{\b1}D12{\b0}  [Clip]  The tape feeds a copper still; amber drips into bottles labeled REASONING, SMALL BATCH
+Dialogue: 1,0:01:16.31,0:01:18.51,Shot,,0,0,0,,{\b1}D13{\b0}  [Clip + Code]  A brass arm tosses a puppet out the door; it's back in line at once, number one higher\N{\c&H66CCFF&}TEXT: Account number ticks up
+Dialogue: 1,0:01:18.51,0:01:21.80,Shot,,0,0,0,,{\b1}D14{\b0}  [Still]  Puppet shadows on a wall form a hydra; one head drops, two rise
+Dialogue: 1,0:01:21.80,0:01:23.99,Shot,,0,0,0,,{\b1}D15{\b0}  [Clip + Code]  Full shot of the still, crew dancing around it\N{\c&H66CCFF&}TEXT: ALLEGEDLY! stamp, gavel slam
+Dialogue: 1,0:01:23.99,0:01:25.64,Shot,,0,0,0,,{\b1}D16{\b0}  [Clip]  Glowing liquid through a kitchen sieve
+Dialogue: 1,0:01:25.64,0:01:34.40,Shot,,0,0,0,,{\b1}D17{\b0}  [Still]  A crumpled receipt on the counter; terms of service flutter off it, unread
+Dialogue: 1,0:01:34.40,0:01:36.58,Shot,,0,0,0,,{\b1}D18{\b0}  [Clip]  A puppet feeds arcade tokens into the teller's slot
+Dialogue: 1,0:01:36.58,0:01:46.45,Shot,,0,0,0,,{\b1}D19{\b0}  [Clip]  Slow-motion crew walk, crates of bottles on their shoulders, split screen
+Dialogue: 1,0:01:46.45,0:01:50.84,Shot,,0,0,0,,{\b1}D20{\b0}  [Still]  A calendar flips to Monday; a shinier teller window opens next door
+Dialogue: 1,0:01:50.84,0:01:55.22,Shot,,0,0,0,,{\b1}D21{\b0}  [Clip + Code]  Half the line peels off to the new window in one move\N{\c&H66CCFF&}TEXT: 24 HRS (ALLEGED)
+Dialogue: 1,0:01:55.22,0:02:03.97,Shot,,0,0,0,,{\b1}D22{\b0}  [Clip]  Therapy session: the teller on a chaise, a puppet with a clipboard, tape spooling onto the floor
+Dialogue: 1,0:02:03.97,0:02:06.18,Shot,,0,0,0,,{\b1}D23{\b0}  [Clip]  A faceless investigator in a trench coat holds a blurred printout up to camera; the puppets look at each other and shrug\N{\c&H66CCFF&}TEXT: METADATA?
+Dialogue: 1,0:02:06.18,0:02:08.91,Shot,,0,0,0,,{\b1}D24{\b0}  [Still]  A Polaroid pinned to a blank org-chart silhouette with red string; the string goes slack
+Dialogue: 1,0:02:08.91,0:02:12.74,Shot,,0,0,0,,{\b1}D25{\b0}  [Clip]  A bottle pops its cork; its label becomes a screen showing a real Qwen 3.8 audit excerpt, verbatim from log/audits/, where it identifies itself as Claude, made by Anthropic. The crew shushes it. Then a split screen of two real captures, model name visible in each: left, a bare chat asking "Who made you?" and getting "I'm Qwen…"; right, the audit prompt getting "I am Claude…". Caption: SAME MODEL. HANDED A PAGE ABOUT CLAUDE, IT DECIDED IT WAS CLAUDE. Then, smaller: Models often misidentify themselves. This is not evidence of distillation. (Clip with Real inserts.)
+Dialogue: 1,0:02:12.74,0:02:13.55,Shot,,0,0,0,,{\b1}D26{\b0}  [Still]  Family portrait: the teller seated, small bottles posed beside it the same way
+Dialogue: 1,0:02:13.55,0:02:37.92,Shot,,0,0,0,,{\b1}D27{\b0}  [Clip + Code]  Reprise of D13–D19 with twice the puppets\N{\c&H66CCFF&}TEXT: Same stamp
+Dialogue: 1,0:02:37.92,0:02:43.39,Shot,,0,0,0,,{\b1}D27a{\b0}  [Still + Code]  Drum fill. The teller slides a typed scorecard out under its window; a puppet holds it up at arm's length\N{\c&H66CCFF&}TEXT: THEIR COUNT, NOT OURS
+Dialogue: 1,0:02:43.39,0:02:46.13,Shot,,0,0,0,,{\b1}D28{\b0}  [Code]  A mechanical counter slams into frame; a calendar page reads FEB\N{\c&H66CCFF&}TEXT: 16,000,000
+Dialogue: 1,0:02:46.13,0:02:48.31,Shot,,0,0,0,,{\b1}D29{\b0}  [Code]  Counter spins; calendar reads JUN\N{\c&H66CCFF&}TEXT: 28,800,000
+Dialogue: 1,0:02:48.31,0:02:51.60,Shot,,0,0,0,,{\b1}D30{\b0}  [Code]  Counter blurs; horns hit\N{\c&H66CCFF&}TEXT: 151,000,000
+Dialogue: 1,0:02:51.60,0:02:54.87,Shot,,0,0,0,,{\b1}D31{\b0}  [Clip]  The crew crams crates into the proxy van from D05 until the back doors burst open. The counter shrinks to a corner and stays
+Dialogue: 1,0:02:54.87,0:02:58.70,Shot,,0,0,0,,{\b1}D32{\b0}  [Clip]  Three grey-coat silhouettes under a streetlight, one holding a stapled memo with no seal
+Dialogue: 1,0:02:58.70,0:03:03.62,Shot,,0,0,0,,{\b1}D33{\b0}  [Clip]  Behind a curtain, the Feds wheel away the brass teller and wheel in a plywood twin painted gold\N{\c&H66CCFF&}TEXT: SWITCH
+Dialogue: 1,0:03:03.62,0:03:07.99,Shot,,0,0,0,,{\b1}D34{\b0}  [Clip]  Tasting gag: puppets swirl, sip, and grimace in unison
+Dialogue: 1,0:03:07.99,0:03:11.81,Shot,,0,0,0,,{\b1}D35{\b0}  [Clip]  Grey-gloved hands shuffle two identical bottles like a shell game
+Dialogue: 1,0:03:11.81,0:03:14.56,Shot,,0,0,0,,{\b1}D36{\b0}  [Clip]  Needle-scratch freeze; slow pull back from the vault
+Dialogue: 1,0:03:14.56,0:03:17.29,Shot,,0,0,0,,{\b1}D37{\b0}  [Still]  X-ray of the vault walls: library books, forum printouts, blog pages
+Dialogue: 1,0:03:17.29,0:03:18.92,Shot,,0,0,0,,{\b1}D38{\b0}  [Clip]  The probe, LED in a new color, wheelbarrows bundles of pages in at noon, waving to passersby
+Dialogue: 1,0:03:18.92,0:03:21.11,Shot,,0,0,0,,{\b1}D39{\b0}  [Clip]  The teller shouts from inside a house made of paper pages, lit from within
+Dialogue: 1,0:03:21.11,0:03:23.85,Shot,,0,0,0,,{\b1}D39a{\b0}  [Still]  Even split screen: a puppet's forged ID refused at a counter; a library card stamping out an armful of books
+Dialogue: 1,0:03:23.85,0:03:26.03,Shot,,0,0,0,,{\b1}D39b{\b0}  [Still + Code]  The paper house gets a gold stamp, TRANSFORMATIVE; the crew's crates get a red one, NATIONAL SECURITY\N{\c&H66CCFF&}TEXT: Both stamps
+Dialogue: 1,0:03:26.03,0:03:28.22,Shot,,0,0,0,,{\b1}D39c{\b0}  [Clip]  An empty judge's bench (the Never Saw Her callback); the teller reaches for the gavel, then backs away
+Dialogue: 1,0:03:28.22,0:03:30.41,Shot,,0,0,0,,{\b1}D39d{\b0}  [Still]  Signatures surface across the vault's paper walls, each with a small IOU slip pinned beside it
+Dialogue: 1,0:03:30.41,0:03:32.59,Shot,,0,0,0,,{\b1}D40{\b0}  [Clip]  A second crew, puppets in different colors, lines up at the first crew's bottle shop
+Dialogue: 1,0:03:32.59,0:03:39.16,Shot,,0,0,0,,{\b1}D41{\b0}  [Clip]  A circular dolly shot: vault, crew, startup, vault, all passing bottles round
+Dialogue: 1,0:03:39.16,0:03:52.28,Shot,,0,0,0,,{\b1}D42{\b0}  [Clip + Code]  Everyone dancing at the still: crew, second crew, probe, teller; the Feds tap their feet\N{\c&H66CCFF&}TEXT: Stamp on each "(allegedly!)"
+Dialogue: 1,0:03:52.28,0:03:58.84,Shot,,0,0,0,,{\b1}D42a{\b0}  [Clip]  The music drops out; the vault door swings open on teller, crew and Feds, each pointing at someone else
+Dialogue: 1,0:03:58.84,0:04:04.85,Shot,,0,0,0,,{\b1}D43{\b0}  [Code]  Cut-paper disclaimer card\N{\c&H66CCFF&}TEXT: NO WEIGHTS WERE HARMED IN THE MAKING OF THIS SONG
+Dialogue: 1,0:04:04.85,0:04:09.23,Shot,,0,0,0,,{\b1}D44{\b0}  [Code]  One last stamp; the counter keeps ticking\N{\c&H66CCFF&}TEXT: ALLEGEDLY.
+Dialogue: 1,0:04:09.23,0:04:13.06,Shot,,0,0,0,,{\b1}D44a{\b0}  [Clip]  One puppet at a tiny podium shakes its head; the rest stand silent, facing camera
+Dialogue: 1,0:04:13.06,0:04:24.80,Shot,,0,0,0,,{\b1}D44b{\b0}  [Still]  The teller window flips its sign to OPEN; a ticket dispenser spits out the next number
+Dialogue: 0,0:00:04.50,0:00:05.06,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}{\c&H00FFFF&}Alright,{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.98,0:00:08.28,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}{\c&H00FFFF&}crew.{\c&HFFFFFF&} Twenty-four thousand accounts.
+Dialogue: 0,0:00:08.28,0:00:08.87,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}crew. {\c&H00FFFF&}Twenty-four{\c&HFFFFFF&} thousand accounts.
+Dialogue: 0,0:00:08.87,0:00:09.38,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}crew. Twenty-four {\c&H00FFFF&}thousand{\c&HFFFFFF&} accounts.
+Dialogue: 0,0:00:09.38,0:00:10.00,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}crew. Twenty-four thousand {\c&H00FFFF&}accounts.{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.32,0:00:12.76,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}{\c&H00FFFF&}Nobody{\c&HFFFFFF&} touches the weights. We just... ask nicely.
+Dialogue: 0,0:00:12.76,0:00:13.18,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}Nobody {\c&H00FFFF&}touches{\c&HFFFFFF&} the weights. We just... ask nicely.
+Dialogue: 0,0:00:13.18,0:00:13.30,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}Nobody touches {\c&H00FFFF&}the{\c&HFFFFFF&} weights. We just... ask nicely.
+Dialogue: 0,0:00:13.30,0:00:16.13,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}Nobody touches the {\c&H00FFFF&}weights.{\c&HFFFFFF&} We just... ask nicely.
+Dialogue: 0,0:00:16.13,0:00:16.31,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}Nobody touches the weights. {\c&H00FFFF&}We{\c&HFFFFFF&} just... ask nicely.
+Dialogue: 0,0:00:16.31,0:00:16.73,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}Nobody touches the weights. We {\c&H00FFFF&}just...{\c&HFFFFFF&} ask nicely.
+Dialogue: 0,0:00:16.73,0:00:17.47,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}Nobody touches the weights. We just... {\c&H00FFFF&}ask{\c&HFFFFFF&} nicely.
+Dialogue: 0,0:00:17.47,0:00:18.00,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}Nobody touches the weights. We just... ask {\c&H00FFFF&}nicely.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.16,0:00:20.62,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}{\c&H00FFFF&}Names{\c&HFFFFFF&} withheld. Puppets are puppets. All of this... is alleged.
+Dialogue: 0,0:00:20.62,0:00:21.26,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}Names {\c&H00FFFF&}withheld.{\c&HFFFFFF&} Puppets are puppets. All of this... is alleged.
+Dialogue: 0,0:00:21.26,0:00:21.86,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}Names withheld. {\c&H00FFFF&}Puppets{\c&HFFFFFF&} are puppets. All of this... is alleged.
+Dialogue: 0,0:00:21.86,0:00:22.12,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}Names withheld. Puppets {\c&H00FFFF&}are{\c&HFFFFFF&} puppets. All of this... is alleged.
+Dialogue: 0,0:00:22.12,0:00:24.88,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}Names withheld. Puppets are {\c&H00FFFF&}puppets.{\c&HFFFFFF&} All of this... is alleged.
+Dialogue: 0,0:00:24.88,0:00:25.04,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}Names withheld. Puppets are puppets. {\c&H00FFFF&}All{\c&HFFFFFF&} of this... is alleged.
+Dialogue: 0,0:00:25.04,0:00:25.14,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}Names withheld. Puppets are puppets. All {\c&H00FFFF&}of{\c&HFFFFFF&} this... is alleged.
+Dialogue: 0,0:00:25.14,0:00:27.18,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}Names withheld. Puppets are puppets. All of {\c&H00FFFF&}this...{\c&HFFFFFF&} is alleged.
+Dialogue: 0,0:00:27.18,0:00:27.36,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}Names withheld. Puppets are puppets. All of this... {\c&H00FFFF&}is{\c&HFFFFFF&} alleged.
+Dialogue: 0,0:00:27.36,0:00:27.74,Lyric,,0,0,0,,{\fs20}Intro\N{\fs30}Names withheld. Puppets are puppets. All of this... is {\c&H00FFFF&}alleged.{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.31,0:00:45.53,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}{\c&H00FFFF&}Got{\c&HFFFFFF&} a crew of sock puppets in a rented proxy van
+Dialogue: 0,0:00:45.53,0:00:45.61,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Got {\c&H00FFFF&}a{\c&HFFFFFF&} crew of sock puppets in a rented proxy van
+Dialogue: 0,0:00:45.61,0:00:45.81,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Got a {\c&H00FFFF&}crew{\c&HFFFFFF&} of sock puppets in a rented proxy van
+Dialogue: 0,0:00:45.81,0:00:45.93,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Got a crew {\c&H00FFFF&}of{\c&HFFFFFF&} sock puppets in a rented proxy van
+Dialogue: 0,0:00:45.93,0:00:46.15,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Got a crew of {\c&H00FFFF&}sock{\c&HFFFFFF&} puppets in a rented proxy van
+Dialogue: 0,0:00:46.15,0:00:47.57,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Got a crew of sock {\c&H00FFFF&}puppets{\c&HFFFFFF&} in a rented proxy van
+Dialogue: 0,0:00:47.57,0:00:47.73,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Got a crew of sock puppets {\c&H00FFFF&}in{\c&HFFFFFF&} a rented proxy van
+Dialogue: 0,0:00:47.73,0:00:47.81,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Got a crew of sock puppets in {\c&H00FFFF&}a{\c&HFFFFFF&} rented proxy van
+Dialogue: 0,0:00:47.81,0:00:48.09,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Got a crew of sock puppets in a {\c&H00FFFF&}rented{\c&HFFFFFF&} proxy van
+Dialogue: 0,0:00:48.09,0:00:48.51,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Got a crew of sock puppets in a rented {\c&H00FFFF&}proxy{\c&HFFFFFF&} van
+Dialogue: 0,0:00:48.51,0:00:49.02,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Got a crew of sock puppets in a rented proxy {\c&H00FFFF&}van{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.75,0:00:50.06,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}{\c&H00FFFF&}Every{\c&HFFFFFF&} one a fresh account and a brand new burner plan
+Dialogue: 0,0:00:50.06,0:00:50.20,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Every {\c&H00FFFF&}one{\c&HFFFFFF&} a fresh account and a brand new burner plan
+Dialogue: 0,0:00:50.20,0:00:50.26,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Every one {\c&H00FFFF&}a{\c&HFFFFFF&} fresh account and a brand new burner plan
+Dialogue: 0,0:00:50.26,0:00:50.54,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Every one a {\c&H00FFFF&}fresh{\c&HFFFFFF&} account and a brand new burner plan
+Dialogue: 0,0:00:50.54,0:00:51.40,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Every one a fresh {\c&H00FFFF&}account{\c&HFFFFFF&} and a brand new burner plan
+Dialogue: 0,0:00:51.40,0:00:51.56,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Every one a fresh account {\c&H00FFFF&}and{\c&HFFFFFF&} a brand new burner plan
+Dialogue: 0,0:00:51.56,0:00:51.64,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Every one a fresh account and {\c&H00FFFF&}a{\c&HFFFFFF&} brand new burner plan
+Dialogue: 0,0:00:51.64,0:00:51.94,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Every one a fresh account and a {\c&H00FFFF&}brand{\c&HFFFFFF&} new burner plan
+Dialogue: 0,0:00:51.94,0:00:52.18,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Every one a fresh account and a brand {\c&H00FFFF&}new{\c&HFFFFFF&} burner plan
+Dialogue: 0,0:00:52.18,0:00:52.61,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Every one a fresh account and a brand new {\c&H00FFFF&}burner{\c&HFFFFFF&} plan
+Dialogue: 0,0:00:52.61,0:00:53.04,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Every one a fresh account and a brand new burner {\c&H00FFFF&}plan{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.92,0:00:54.26,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}{\c&H00FFFF&}Shared{\c&HFFFFFF&} cards and proxy hops, a hundred routes or more
+Dialogue: 0,0:00:54.26,0:00:54.56,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Shared {\c&H00FFFF&}cards{\c&HFFFFFF&} and proxy hops, a hundred routes or more
+Dialogue: 0,0:00:54.56,0:00:54.66,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Shared cards {\c&H00FFFF&}and{\c&HFFFFFF&} proxy hops, a hundred routes or more
+Dialogue: 0,0:00:54.66,0:00:55.20,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Shared cards and {\c&H00FFFF&}proxy{\c&HFFFFFF&} hops, a hundred routes or more
+Dialogue: 0,0:00:55.20,0:00:55.95,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Shared cards and proxy {\c&H00FFFF&}hops,{\c&HFFFFFF&} a hundred routes or more
+Dialogue: 0,0:00:55.95,0:00:56.07,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Shared cards and proxy hops, {\c&H00FFFF&}a{\c&HFFFFFF&} hundred routes or more
+Dialogue: 0,0:00:56.07,0:00:56.43,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Shared cards and proxy hops, a {\c&H00FFFF&}hundred{\c&HFFFFFF&} routes or more
+Dialogue: 0,0:00:56.43,0:00:56.75,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Shared cards and proxy hops, a hundred {\c&H00FFFF&}routes{\c&HFFFFFF&} or more
+Dialogue: 0,0:00:56.75,0:00:56.87,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Shared cards and proxy hops, a hundred routes {\c&H00FFFF&}or{\c&HFFFFFF&} more
+Dialogue: 0,0:00:56.87,0:00:57.24,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Shared cards and proxy hops, a hundred routes or {\c&H00FFFF&}more{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.62,0:00:58.26,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}{\c&H00FFFF&}(Where?){\c&HFFFFFF&} Everywhere, baby, knockin' on the API door
+Dialogue: 0,0:00:58.26,0:00:58.76,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}(Where?) {\c&H00FFFF&}Everywhere,{\c&HFFFFFF&} baby, knockin' on the API door
+Dialogue: 0,0:00:58.76,0:00:59.83,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}(Where?) Everywhere, {\c&H00FFFF&}baby,{\c&HFFFFFF&} knockin' on the API door
+Dialogue: 0,0:00:59.83,0:01:00.19,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}(Where?) Everywhere, baby, {\c&H00FFFF&}knockin'{\c&HFFFFFF&} on the API door
+Dialogue: 0,0:01:00.19,0:01:00.29,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}(Where?) Everywhere, baby, knockin' {\c&H00FFFF&}on{\c&HFFFFFF&} the API door
+Dialogue: 0,0:01:00.29,0:01:00.47,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}(Where?) Everywhere, baby, knockin' on {\c&H00FFFF&}the{\c&HFFFFFF&} API door
+Dialogue: 0,0:01:00.47,0:01:01.23,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}(Where?) Everywhere, baby, knockin' on the {\c&H00FFFF&}API{\c&HFFFFFF&} door
+Dialogue: 0,0:01:01.23,0:01:01.53,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}(Where?) Everywhere, baby, knockin' on the API {\c&H00FFFF&}door{\c&HFFFFFF&}
+Dialogue: 0,0:01:02.98,0:01:03.28,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}{\c&H00FFFF&}We{\c&HFFFFFF&} don't crack the safe, we just ask it how it's made
+Dialogue: 0,0:01:03.28,0:01:03.66,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}We {\c&H00FFFF&}don't{\c&HFFFFFF&} crack the safe, we just ask it how it's made
+Dialogue: 0,0:01:03.66,0:01:03.94,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}We don't {\c&H00FFFF&}crack{\c&HFFFFFF&} the safe, we just ask it how it's made
+Dialogue: 0,0:01:03.94,0:01:04.10,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}We don't crack {\c&H00FFFF&}the{\c&HFFFFFF&} safe, we just ask it how it's made
+Dialogue: 0,0:01:04.10,0:01:04.39,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}We don't crack the {\c&H00FFFF&}safe,{\c&HFFFFFF&} we just ask it how it's made
+Dialogue: 0,0:01:04.39,0:01:04.54,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}We don't crack the safe, {\c&H00FFFF&}we{\c&HFFFFFF&} just ask it how it's made
+Dialogue: 0,0:01:04.54,0:01:04.91,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}We don't crack the safe, we {\c&H00FFFF&}just{\c&HFFFFFF&} ask it how it's made
+Dialogue: 0,0:01:04.91,0:01:05.20,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}We don't crack the safe, we just {\c&H00FFFF&}ask{\c&HFFFFFF&} it how it's made
+Dialogue: 0,0:01:05.20,0:01:05.31,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}We don't crack the safe, we just ask {\c&H00FFFF&}it{\c&HFFFFFF&} how it's made
+Dialogue: 0,0:01:05.31,0:01:05.57,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}We don't crack the safe, we just ask it {\c&H00FFFF&}how{\c&HFFFFFF&} it's made
+Dialogue: 0,0:01:05.57,0:01:05.73,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}We don't crack the safe, we just ask it how {\c&H00FFFF&}it's{\c&HFFFFFF&} made
+Dialogue: 0,0:01:05.73,0:01:06.12,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}We don't crack the safe, we just ask it how it's {\c&H00FFFF&}made{\c&HFFFFFF&}
+Dialogue: 0,0:01:07.10,0:01:07.74,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}{\c&H00FFFF&}Millions{\c&HFFFFFF&} of times politely till the reasoning gets relayed
+Dialogue: 0,0:01:07.74,0:01:07.92,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Millions {\c&H00FFFF&}of{\c&HFFFFFF&} times politely till the reasoning gets relayed
+Dialogue: 0,0:01:07.92,0:01:08.35,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Millions of {\c&H00FFFF&}times{\c&HFFFFFF&} politely till the reasoning gets relayed
+Dialogue: 0,0:01:08.35,0:01:08.89,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Millions of times {\c&H00FFFF&}politely{\c&HFFFFFF&} till the reasoning gets relayed
+Dialogue: 0,0:01:08.89,0:01:09.05,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Millions of times politely {\c&H00FFFF&}till{\c&HFFFFFF&} the reasoning gets relayed
+Dialogue: 0,0:01:09.05,0:01:09.17,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Millions of times politely till {\c&H00FFFF&}the{\c&HFFFFFF&} reasoning gets relayed
+Dialogue: 0,0:01:09.17,0:01:09.71,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Millions of times politely till the {\c&H00FFFF&}reasoning{\c&HFFFFFF&} gets relayed
+Dialogue: 0,0:01:09.71,0:01:09.97,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Millions of times politely till the reasoning {\c&H00FFFF&}gets{\c&HFFFFFF&} relayed
+Dialogue: 0,0:01:09.97,0:01:10.56,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Millions of times politely till the reasoning gets {\c&H00FFFF&}relayed{\c&HFFFFFF&}
+Dialogue: 0,0:01:11.30,0:01:11.54,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}{\c&H00FFFF&}"Show{\c&HFFFFFF&} your work," we whisper, "think it step by step"
+Dialogue: 0,0:01:11.54,0:01:11.76,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}"Show {\c&H00FFFF&}your{\c&HFFFFFF&} work," we whisper, "think it step by step"
+Dialogue: 0,0:01:11.76,0:01:12.16,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}"Show your {\c&H00FFFF&}work,"{\c&HFFFFFF&} we whisper, "think it step by step"
+Dialogue: 0,0:01:12.16,0:01:12.44,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}"Show your work," {\c&H00FFFF&}we{\c&HFFFFFF&} whisper, "think it step by step"
+Dialogue: 0,0:01:12.44,0:01:13.18,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}"Show your work," we {\c&H00FFFF&}whisper,{\c&HFFFFFF&} "think it step by step"
+Dialogue: 0,0:01:13.18,0:01:13.43,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}"Show your work," we whisper, {\c&H00FFFF&}"think{\c&HFFFFFF&} it step by step"
+Dialogue: 0,0:01:13.43,0:01:13.56,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}"Show your work," we whisper, "think {\c&H00FFFF&}it{\c&HFFFFFF&} step by step"
+Dialogue: 0,0:01:13.56,0:01:13.83,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}"Show your work," we whisper, "think it {\c&H00FFFF&}step{\c&HFFFFFF&} by step"
+Dialogue: 0,0:01:13.83,0:01:14.10,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}"Show your work," we whisper, "think it step {\c&H00FFFF&}by{\c&HFFFFFF&} step"
+Dialogue: 0,0:01:14.10,0:01:14.40,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}"Show your work," we whisper, "think it step by {\c&H00FFFF&}step"{\c&HFFFFFF&}
+Dialogue: 0,0:01:14.35,0:01:14.49,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}{\c&H00FFFF&}Then{\c&HFFFFFF&} we bottle every thought and ship it off to prep
+Dialogue: 0,0:01:14.49,0:01:14.64,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Then {\c&H00FFFF&}we{\c&HFFFFFF&} bottle every thought and ship it off to prep
+Dialogue: 0,0:01:14.64,0:01:14.98,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Then we {\c&H00FFFF&}bottle{\c&HFFFFFF&} every thought and ship it off to prep
+Dialogue: 0,0:01:14.98,0:01:15.18,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Then we bottle {\c&H00FFFF&}every{\c&HFFFFFF&} thought and ship it off to prep
+Dialogue: 0,0:01:15.18,0:01:15.36,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Then we bottle every {\c&H00FFFF&}thought{\c&HFFFFFF&} and ship it off to prep
+Dialogue: 0,0:01:15.36,0:01:15.44,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Then we bottle every thought {\c&H00FFFF&}and{\c&HFFFFFF&} ship it off to prep
+Dialogue: 0,0:01:15.44,0:01:15.68,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Then we bottle every thought and {\c&H00FFFF&}ship{\c&HFFFFFF&} it off to prep
+Dialogue: 0,0:01:15.68,0:01:15.86,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Then we bottle every thought and ship {\c&H00FFFF&}it{\c&HFFFFFF&} off to prep
+Dialogue: 0,0:01:15.86,0:01:16.00,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Then we bottle every thought and ship it {\c&H00FFFF&}off{\c&HFFFFFF&} to prep
+Dialogue: 0,0:01:16.00,0:01:16.14,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Then we bottle every thought and ship it off {\c&H00FFFF&}to{\c&HFFFFFF&} prep
+Dialogue: 0,0:01:16.14,0:01:16.44,Lyric,,0,0,0,,{\fs20}Verse 1\N{\fs30}Then we bottle every thought and ship it off to {\c&H00FFFF&}prep{\c&HFFFFFF&}
+Dialogue: 0,0:01:16.52,0:01:16.87,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}{\c&H00FFFF&}Rate{\c&HFFFFFF&} limit? (Respawn!)
+Dialogue: 0,0:01:16.87,0:01:17.05,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}Rate {\c&H00FFFF&}limit?{\c&HFFFFFF&} (Respawn!)
+Dialogue: 0,0:01:17.05,0:01:17.54,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}Rate limit? {\c&H00FFFF&}(Respawn!){\c&HFFFFFF&}
+Dialogue: 0,0:01:17.62,0:01:17.86,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}{\c&H00FFFF&}Banned{\c&HFFFFFF&} again? (Respawn!)
+Dialogue: 0,0:01:17.86,0:01:18.19,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}Banned {\c&H00FFFF&}again?{\c&HFFFFFF&} (Respawn!)
+Dialogue: 0,0:01:18.19,0:01:18.49,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}Banned again? {\c&H00FFFF&}(Respawn!){\c&HFFFFFF&}
+Dialogue: 0,0:01:18.46,0:01:18.86,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}{\c&H00FFFF&}Cut{\c&HFFFFFF&} one head off the hydra and two come back on
+Dialogue: 0,0:01:18.86,0:01:19.04,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}Cut {\c&H00FFFF&}one{\c&HFFFFFF&} head off the hydra and two come back on
+Dialogue: 0,0:01:19.04,0:01:19.28,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}Cut one {\c&H00FFFF&}head{\c&HFFFFFF&} off the hydra and two come back on
+Dialogue: 0,0:01:19.28,0:01:19.46,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}Cut one head {\c&H00FFFF&}off{\c&HFFFFFF&} the hydra and two come back on
+Dialogue: 0,0:01:19.46,0:01:19.60,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}Cut one head off {\c&H00FFFF&}the{\c&HFFFFFF&} hydra and two come back on
+Dialogue: 0,0:01:19.60,0:01:20.03,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}Cut one head off the {\c&H00FFFF&}hydra{\c&HFFFFFF&} and two come back on
+Dialogue: 0,0:01:20.03,0:01:20.15,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}Cut one head off the hydra {\c&H00FFFF&}and{\c&HFFFFFF&} two come back on
+Dialogue: 0,0:01:20.15,0:01:20.41,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}Cut one head off the hydra and {\c&H00FFFF&}two{\c&HFFFFFF&} come back on
+Dialogue: 0,0:01:20.41,0:01:20.69,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}Cut one head off the hydra and two {\c&H00FFFF&}come{\c&HFFFFFF&} back on
+Dialogue: 0,0:01:20.69,0:01:21.13,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}Cut one head off the hydra and two come {\c&H00FFFF&}back{\c&HFFFFFF&} on
+Dialogue: 0,0:01:21.13,0:01:21.43,Lyric,,0,0,0,,{\fs20}Pre-chorus 1\N{\fs30}Cut one head off the hydra and two come back {\c&H00FFFF&}on{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.54,0:01:21.70,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}{\c&H00FFFF&}It's{\c&HFFFFFF&} a distillation (allegedly!)
+Dialogue: 0,0:01:21.70,0:01:21.78,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}It's {\c&H00FFFF&}a{\c&HFFFFFF&} distillation (allegedly!)
+Dialogue: 0,0:01:21.78,0:01:22.77,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}It's a {\c&H00FFFF&}distillation{\c&HFFFFFF&} (allegedly!)
+Dialogue: 0,0:01:22.77,0:01:23.98,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}It's a distillation {\c&H00FFFF&}(allegedly!){\c&HFFFFFF&}
+Dialogue: 0,0:01:24.10,0:01:24.38,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}{\c&H00FFFF&}Pour{\c&HFFFFFF&} the frontier through a sieve
+Dialogue: 0,0:01:24.38,0:01:24.50,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Pour {\c&H00FFFF&}the{\c&HFFFFFF&} frontier through a sieve
+Dialogue: 0,0:01:24.50,0:01:25.06,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Pour the {\c&H00FFFF&}frontier{\c&HFFFFFF&} through a sieve
+Dialogue: 0,0:01:25.06,0:01:25.27,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Pour the frontier {\c&H00FFFF&}through{\c&HFFFFFF&} a sieve
+Dialogue: 0,0:01:25.27,0:01:25.43,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Pour the frontier through {\c&H00FFFF&}a{\c&HFFFFFF&} sieve
+Dialogue: 0,0:01:25.43,0:01:25.78,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Pour the frontier through a {\c&H00FFFF&}sieve{\c&HFFFFFF&}
+Dialogue: 0,0:01:25.44,0:01:25.86,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}{\c&H00FFFF&}Take{\c&HFFFFFF&} the reasoning, leave the receipt
+Dialogue: 0,0:01:25.86,0:01:26.18,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Take {\c&H00FFFF&}the{\c&HFFFFFF&} reasoning, leave the receipt
+Dialogue: 0,0:01:26.18,0:01:26.97,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Take the {\c&H00FFFF&}reasoning,{\c&HFFFFFF&} leave the receipt
+Dialogue: 0,0:01:26.97,0:01:27.37,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Take the reasoning, {\c&H00FFFF&}leave{\c&HFFFFFF&} the receipt
+Dialogue: 0,0:01:27.37,0:01:27.54,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Take the reasoning, leave {\c&H00FFFF&}the{\c&HFFFFFF&} receipt
+Dialogue: 0,0:01:27.54,0:01:27.86,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Take the reasoning, leave the {\c&H00FFFF&}receipt{\c&HFFFFFF&}
+Dialogue: 0,0:01:28.04,0:01:28.26,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}{\c&H00FFFF&}Tell{\c&HFFFFFF&} 'em that's just how we live
+Dialogue: 0,0:01:28.26,0:01:28.38,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Tell {\c&H00FFFF&}'em{\c&HFFFFFF&} that's just how we live
+Dialogue: 0,0:01:28.38,0:01:28.62,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Tell 'em {\c&H00FFFF&}that's{\c&HFFFFFF&} just how we live
+Dialogue: 0,0:01:28.62,0:01:28.93,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Tell 'em that's {\c&H00FFFF&}just{\c&HFFFFFF&} how we live
+Dialogue: 0,0:01:28.93,0:01:29.21,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Tell 'em that's just {\c&H00FFFF&}how{\c&HFFFFFF&} we live
+Dialogue: 0,0:01:29.21,0:01:29.45,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Tell 'em that's just how {\c&H00FFFF&}we{\c&HFFFFFF&} live
+Dialogue: 0,0:01:29.45,0:01:29.94,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Tell 'em that's just how we {\c&H00FFFF&}live{\c&HFFFFFF&}
+Dialogue: 0,0:01:30.30,0:01:30.46,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}{\c&H00FFFF&}It's{\c&HFFFFFF&} a distillation (allegedly!)
+Dialogue: 0,0:01:30.46,0:01:30.52,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}It's {\c&H00FFFF&}a{\c&HFFFFFF&} distillation (allegedly!)
+Dialogue: 0,0:01:30.52,0:01:31.78,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}It's a {\c&H00FFFF&}distillation{\c&HFFFFFF&} (allegedly!)
+Dialogue: 0,0:01:31.78,0:01:32.60,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}It's a distillation {\c&H00FFFF&}(allegedly!){\c&HFFFFFF&}
+Dialogue: 0,0:01:32.66,0:01:33.07,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}{\c&H00FFFF&}Smooth{\c&HFFFFFF&} as a hundred-proof pour
+Dialogue: 0,0:01:33.07,0:01:33.21,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Smooth {\c&H00FFFF&}as{\c&HFFFFFF&} a hundred-proof pour
+Dialogue: 0,0:01:33.21,0:01:33.31,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Smooth as {\c&H00FFFF&}a{\c&HFFFFFF&} hundred-proof pour
+Dialogue: 0,0:01:33.31,0:01:33.82,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Smooth as a {\c&H00FFFF&}hundred-proof{\c&HFFFFFF&} pour
+Dialogue: 0,0:01:33.82,0:01:34.14,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Smooth as a hundred-proof {\c&H00FFFF&}pour{\c&HFFFFFF&}
+Dialogue: 0,0:01:34.34,0:01:34.61,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}{\c&H00FFFF&}Why{\c&HFFFFFF&} build the brain when you can rent it by the token
+Dialogue: 0,0:01:34.61,0:01:34.81,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Why {\c&H00FFFF&}build{\c&HFFFFFF&} the brain when you can rent it by the token
+Dialogue: 0,0:01:34.81,0:01:34.91,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Why build {\c&H00FFFF&}the{\c&HFFFFFF&} brain when you can rent it by the token
+Dialogue: 0,0:01:34.91,0:01:35.07,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Why build the {\c&H00FFFF&}brain{\c&HFFFFFF&} when you can rent it by the token
+Dialogue: 0,0:01:35.07,0:01:35.19,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Why build the brain {\c&H00FFFF&}when{\c&HFFFFFF&} you can rent it by the token
+Dialogue: 0,0:01:35.19,0:01:35.33,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Why build the brain when {\c&H00FFFF&}you{\c&HFFFFFF&} can rent it by the token
+Dialogue: 0,0:01:35.33,0:01:35.48,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Why build the brain when you {\c&H00FFFF&}can{\c&HFFFFFF&} rent it by the token
+Dialogue: 0,0:01:35.48,0:01:35.72,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Why build the brain when you can {\c&H00FFFF&}rent{\c&HFFFFFF&} it by the token
+Dialogue: 0,0:01:35.72,0:01:35.76,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Why build the brain when you can rent {\c&H00FFFF&}it{\c&HFFFFFF&} by the token
+Dialogue: 0,0:01:35.76,0:01:35.90,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Why build the brain when you can rent it {\c&H00FFFF&}by{\c&HFFFFFF&} the token
+Dialogue: 0,0:01:35.90,0:01:36.02,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Why build the brain when you can rent it by {\c&H00FFFF&}the{\c&HFFFFFF&} token
+Dialogue: 0,0:01:36.02,0:01:36.32,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}Why build the brain when you can rent it by the {\c&H00FFFF&}token{\c&HFFFFFF&}
+Dialogue: 0,0:01:36.32,0:01:36.44,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}{\c&H00FFFF&}And{\c&HFFFFFF&} stroll right out the door
+Dialogue: 0,0:01:36.44,0:01:37.10,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}And {\c&H00FFFF&}stroll{\c&HFFFFFF&} right out the door
+Dialogue: 0,0:01:37.10,0:01:38.03,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}And stroll {\c&H00FFFF&}right{\c&HFFFFFF&} out the door
+Dialogue: 0,0:01:38.03,0:01:38.25,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}And stroll right {\c&H00FFFF&}out{\c&HFFFFFF&} the door
+Dialogue: 0,0:01:38.25,0:01:38.49,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}And stroll right out {\c&H00FFFF&}the{\c&HFFFFFF&} door
+Dialogue: 0,0:01:38.49,0:01:38.94,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}And stroll right out the {\c&H00FFFF&}door{\c&HFFFFFF&}
+Dialogue: 0,0:01:41.73,0:01:42.02,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}{\c&H00FFFF&}And{\c&HFFFFFF&} stroll right out the door
+Dialogue: 0,0:01:42.02,0:01:42.33,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}And {\c&H00FFFF&}stroll{\c&HFFFFFF&} right out the door
+Dialogue: 0,0:01:42.33,0:01:42.72,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}And stroll {\c&H00FFFF&}right{\c&HFFFFFF&} out the door
+Dialogue: 0,0:01:42.72,0:01:42.90,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}And stroll right {\c&H00FFFF&}out{\c&HFFFFFF&} the door
+Dialogue: 0,0:01:42.90,0:01:43.02,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}And stroll right out {\c&H00FFFF&}the{\c&HFFFFFF&} door
+Dialogue: 0,0:01:43.02,0:01:43.42,Lyric,,0,0,0,,{\fs20}Chorus 1\N{\fs30}And stroll right out the {\c&H00FFFF&}door{\c&HFFFFFF&}
+Dialogue: 0,0:01:46.68,0:01:46.98,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}{\c&H00FFFF&}New{\c&HFFFFFF&} model drops on Monday, by Tuesday we're in line
+Dialogue: 0,0:01:46.98,0:01:47.38,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}New {\c&H00FFFF&}model{\c&HFFFFFF&} drops on Monday, by Tuesday we're in line
+Dialogue: 0,0:01:47.38,0:01:47.90,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}New model {\c&H00FFFF&}drops{\c&HFFFFFF&} on Monday, by Tuesday we're in line
+Dialogue: 0,0:01:47.90,0:01:48.08,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}New model drops {\c&H00FFFF&}on{\c&HFFFFFF&} Monday, by Tuesday we're in line
+Dialogue: 0,0:01:48.08,0:01:48.90,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}New model drops on {\c&H00FFFF&}Monday,{\c&HFFFFFF&} by Tuesday we're in line
+Dialogue: 0,0:01:48.90,0:01:49.16,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}New model drops on Monday, {\c&H00FFFF&}by{\c&HFFFFFF&} Tuesday we're in line
+Dialogue: 0,0:01:49.16,0:01:49.70,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}New model drops on Monday, by {\c&H00FFFF&}Tuesday{\c&HFFFFFF&} we're in line
+Dialogue: 0,0:01:49.70,0:01:49.96,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}New model drops on Monday, by Tuesday {\c&H00FFFF&}we're{\c&HFFFFFF&} in line
+Dialogue: 0,0:01:49.96,0:01:50.13,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}New model drops on Monday, by Tuesday we're {\c&H00FFFF&}in{\c&HFFFFFF&} line
+Dialogue: 0,0:01:50.13,0:01:50.56,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}New model drops on Monday, by Tuesday we're in {\c&H00FFFF&}line{\c&HFFFFFF&}
+Dialogue: 0,0:01:50.97,0:01:51.23,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}{\c&H00FFFF&}Half{\c&HFFFFFF&} the traffic shifted over, so they say, right on time
+Dialogue: 0,0:01:51.23,0:01:51.33,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Half {\c&H00FFFF&}the{\c&HFFFFFF&} traffic shifted over, so they say, right on time
+Dialogue: 0,0:01:51.33,0:01:51.85,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Half the {\c&H00FFFF&}traffic{\c&HFFFFFF&} shifted over, so they say, right on time
+Dialogue: 0,0:01:51.85,0:01:52.46,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Half the traffic {\c&H00FFFF&}shifted{\c&HFFFFFF&} over, so they say, right on time
+Dialogue: 0,0:01:52.46,0:01:52.84,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Half the traffic shifted {\c&H00FFFF&}over,{\c&HFFFFFF&} so they say, right on time
+Dialogue: 0,0:01:52.84,0:01:53.14,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Half the traffic shifted over, {\c&H00FFFF&}so{\c&HFFFFFF&} they say, right on time
+Dialogue: 0,0:01:53.14,0:01:53.38,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Half the traffic shifted over, so {\c&H00FFFF&}they{\c&HFFFFFF&} say, right on time
+Dialogue: 0,0:01:53.38,0:01:54.06,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Half the traffic shifted over, so they {\c&H00FFFF&}say,{\c&HFFFFFF&} right on time
+Dialogue: 0,0:01:54.06,0:01:54.35,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Half the traffic shifted over, so they say, {\c&H00FFFF&}right{\c&HFFFFFF&} on time
+Dialogue: 0,0:01:54.35,0:01:54.51,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Half the traffic shifted over, so they say, right {\c&H00FFFF&}on{\c&HFFFFFF&} time
+Dialogue: 0,0:01:54.51,0:01:54.92,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Half the traffic shifted over, so they say, right on {\c&H00FFFF&}time{\c&HFFFFFF&}
+Dialogue: 0,0:01:55.31,0:01:55.59,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}{\c&H00FFFF&}Tell{\c&HFFFFFF&} the teacher "Now imagine what you're thinkin' deep inside"
+Dialogue: 0,0:01:55.59,0:01:55.71,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Tell {\c&H00FFFF&}the{\c&HFFFFFF&} teacher "Now imagine what you're thinkin' deep inside"
+Dialogue: 0,0:01:55.71,0:01:55.99,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Tell the {\c&H00FFFF&}teacher{\c&HFFFFFF&} "Now imagine what you're thinkin' deep inside"
+Dialogue: 0,0:01:55.99,0:01:56.24,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Tell the teacher {\c&H00FFFF&}"Now{\c&HFFFFFF&} imagine what you're thinkin' deep inside"
+Dialogue: 0,0:01:56.24,0:01:56.84,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Tell the teacher "Now {\c&H00FFFF&}imagine{\c&HFFFFFF&} what you're thinkin' deep inside"
+Dialogue: 0,0:01:56.84,0:01:56.98,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Tell the teacher "Now imagine {\c&H00FFFF&}what{\c&HFFFFFF&} you're thinkin' deep inside"
+Dialogue: 0,0:01:56.98,0:01:57.24,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Tell the teacher "Now imagine what {\c&H00FFFF&}you're{\c&HFFFFFF&} thinkin' deep inside"
+Dialogue: 0,0:01:57.24,0:01:57.78,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Tell the teacher "Now imagine what you're {\c&H00FFFF&}thinkin'{\c&HFFFFFF&} deep inside"
+Dialogue: 0,0:01:57.78,0:01:58.22,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Tell the teacher "Now imagine what you're thinkin' {\c&H00FFFF&}deep{\c&HFFFFFF&} inside"
+Dialogue: 0,0:01:58.22,0:01:59.04,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Tell the teacher "Now imagine what you're thinkin' deep {\c&H00FFFF&}inside"{\c&HFFFFFF&}
+Dialogue: 0,0:02:00.02,0:02:00.12,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}{\c&H00FFFF&}It{\c&HFFFFFF&} writes us out a chain of thought, we take it for a ride
+Dialogue: 0,0:02:00.12,0:02:00.46,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}It {\c&H00FFFF&}writes{\c&HFFFFFF&} us out a chain of thought, we take it for a ride
+Dialogue: 0,0:02:00.46,0:02:00.78,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}It writes {\c&H00FFFF&}us{\c&HFFFFFF&} out a chain of thought, we take it for a ride
+Dialogue: 0,0:02:00.78,0:02:00.94,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}It writes us {\c&H00FFFF&}out{\c&HFFFFFF&} a chain of thought, we take it for a ride
+Dialogue: 0,0:02:00.94,0:02:01.16,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}It writes us out {\c&H00FFFF&}a{\c&HFFFFFF&} chain of thought, we take it for a ride
+Dialogue: 0,0:02:01.16,0:02:01.54,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}It writes us out a {\c&H00FFFF&}chain{\c&HFFFFFF&} of thought, we take it for a ride
+Dialogue: 0,0:02:01.54,0:02:01.60,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}It writes us out a chain {\c&H00FFFF&}of{\c&HFFFFFF&} thought, we take it for a ride
+Dialogue: 0,0:02:01.60,0:02:02.56,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}It writes us out a chain of {\c&H00FFFF&}thought,{\c&HFFFFFF&} we take it for a ride
+Dialogue: 0,0:02:02.56,0:02:02.85,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}It writes us out a chain of thought, {\c&H00FFFF&}we{\c&HFFFFFF&} take it for a ride
+Dialogue: 0,0:02:02.85,0:02:03.23,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}It writes us out a chain of thought, we {\c&H00FFFF&}take{\c&HFFFFFF&} it for a ride
+Dialogue: 0,0:02:03.23,0:02:03.39,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}It writes us out a chain of thought, we take {\c&H00FFFF&}it{\c&HFFFFFF&} for a ride
+Dialogue: 0,0:02:03.39,0:02:03.73,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}It writes us out a chain of thought, we take it {\c&H00FFFF&}for{\c&HFFFFFF&} a ride
+Dialogue: 0,0:02:03.73,0:02:03.83,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}It writes us out a chain of thought, we take it for {\c&H00FFFF&}a{\c&HFFFFFF&} ride
+Dialogue: 0,0:02:03.83,0:02:04.13,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}It writes us out a chain of thought, we take it for a {\c&H00FFFF&}ride{\c&HFFFFFF&}
+Dialogue: 0,0:02:04.09,0:02:04.23,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}{\c&H00FFFF&}They{\c&HFFFFFF&} say somebody got sloppy, said the metadata told
+Dialogue: 0,0:02:04.23,0:02:04.33,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}They {\c&H00FFFF&}say{\c&HFFFFFF&} somebody got sloppy, said the metadata told
+Dialogue: 0,0:02:04.33,0:02:04.78,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}They say {\c&H00FFFF&}somebody{\c&HFFFFFF&} got sloppy, said the metadata told
+Dialogue: 0,0:02:04.78,0:02:05.00,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}They say somebody {\c&H00FFFF&}got{\c&HFFFFFF&} sloppy, said the metadata told
+Dialogue: 0,0:02:05.00,0:02:05.34,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}They say somebody got {\c&H00FFFF&}sloppy,{\c&HFFFFFF&} said the metadata told
+Dialogue: 0,0:02:05.34,0:02:05.46,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}They say somebody got sloppy, {\c&H00FFFF&}said{\c&HFFFFFF&} the metadata told
+Dialogue: 0,0:02:05.46,0:02:05.58,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}They say somebody got sloppy, said {\c&H00FFFF&}the{\c&HFFFFFF&} metadata told
+Dialogue: 0,0:02:05.58,0:02:06.17,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}They say somebody got sloppy, said the {\c&H00FFFF&}metadata{\c&HFFFFFF&} told
+Dialogue: 0,0:02:06.17,0:02:06.47,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}They say somebody got sloppy, said the metadata {\c&H00FFFF&}told{\c&HFFFFFF&}
+Dialogue: 0,0:02:06.39,0:02:06.67,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}{\c&H00FFFF&}(Oops?){\c&HFFFFFF&} Matched a staff page on the web, or so the story goes
+Dialogue: 0,0:02:06.67,0:02:06.92,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}(Oops?) {\c&H00FFFF&}Matched{\c&HFFFFFF&} a staff page on the web, or so the story goes
+Dialogue: 0,0:02:06.92,0:02:06.96,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}(Oops?) Matched {\c&H00FFFF&}a{\c&HFFFFFF&} staff page on the web, or so the story goes
+Dialogue: 0,0:02:06.96,0:02:07.24,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}(Oops?) Matched a {\c&H00FFFF&}staff{\c&HFFFFFF&} page on the web, or so the story goes
+Dialogue: 0,0:02:07.24,0:02:07.58,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}(Oops?) Matched a staff {\c&H00FFFF&}page{\c&HFFFFFF&} on the web, or so the story goes
+Dialogue: 0,0:02:07.58,0:02:07.66,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}(Oops?) Matched a staff page {\c&H00FFFF&}on{\c&HFFFFFF&} the web, or so the story goes
+Dialogue: 0,0:02:07.66,0:02:07.78,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}(Oops?) Matched a staff page on {\c&H00FFFF&}the{\c&HFFFFFF&} web, or so the story goes
+Dialogue: 0,0:02:07.78,0:02:07.96,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}(Oops?) Matched a staff page on the {\c&H00FFFF&}web,{\c&HFFFFFF&} or so the story goes
+Dialogue: 0,0:02:07.96,0:02:08.04,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}(Oops?) Matched a staff page on the web, {\c&H00FFFF&}or{\c&HFFFFFF&} so the story goes
+Dialogue: 0,0:02:08.04,0:02:08.21,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}(Oops?) Matched a staff page on the web, or {\c&H00FFFF&}so{\c&HFFFFFF&} the story goes
+Dialogue: 0,0:02:08.21,0:02:08.32,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}(Oops?) Matched a staff page on the web, or so {\c&H00FFFF&}the{\c&HFFFFFF&} story goes
+Dialogue: 0,0:02:08.32,0:02:08.63,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}(Oops?) Matched a staff page on the web, or so the {\c&H00FFFF&}story{\c&HFFFFFF&} goes
+Dialogue: 0,0:02:08.63,0:02:08.93,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}(Oops?) Matched a staff page on the web, or so the story {\c&H00FFFF&}goes{\c&HFFFFFF&}
+Dialogue: 0,0:02:08.91,0:02:09.01,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}{\c&H00FFFF&}And{\c&HFFFFFF&} somebody's bot keeps sayin' "As a model made by—" wait
+Dialogue: 0,0:02:09.01,0:02:09.42,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}And {\c&H00FFFF&}somebody's{\c&HFFFFFF&} bot keeps sayin' "As a model made by—" wait
+Dialogue: 0,0:02:09.42,0:02:09.56,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}And somebody's {\c&H00FFFF&}bot{\c&HFFFFFF&} keeps sayin' "As a model made by—" wait
+Dialogue: 0,0:02:09.56,0:02:09.72,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}And somebody's bot {\c&H00FFFF&}keeps{\c&HFFFFFF&} sayin' "As a model made by—" wait
+Dialogue: 0,0:02:09.72,0:02:10.00,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}And somebody's bot keeps {\c&H00FFFF&}sayin'{\c&HFFFFFF&} "As a model made by—" wait
+Dialogue: 0,0:02:10.00,0:02:10.18,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}And somebody's bot keeps sayin' {\c&H00FFFF&}"As{\c&HFFFFFF&} a model made by—" wait
+Dialogue: 0,0:02:10.18,0:02:10.24,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}And somebody's bot keeps sayin' "As {\c&H00FFFF&}a{\c&HFFFFFF&} model made by—" wait
+Dialogue: 0,0:02:10.24,0:02:10.52,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}And somebody's bot keeps sayin' "As a {\c&H00FFFF&}model{\c&HFFFFFF&} made by—" wait
+Dialogue: 0,0:02:10.52,0:02:10.68,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}And somebody's bot keeps sayin' "As a model {\c&H00FFFF&}made{\c&HFFFFFF&} by—" wait
+Dialogue: 0,0:02:10.68,0:02:10.93,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}And somebody's bot keeps sayin' "As a model made {\c&H00FFFF&}by—"{\c&HFFFFFF&} wait
+Dialogue: 0,0:02:10.93,0:02:11.24,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}And somebody's bot keeps sayin' "As a model made by—" {\c&H00FFFF&}wait{\c&HFFFFFF&}
+Dialogue: 0,0:02:11.89,0:02:12.00,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}{\c&H00FFFF&}Hey,{\c&HFFFFFF&} that ain't us, man. That's just... inherited traits
+Dialogue: 0,0:02:12.00,0:02:12.14,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Hey, {\c&H00FFFF&}that{\c&HFFFFFF&} ain't us, man. That's just... inherited traits
+Dialogue: 0,0:02:12.14,0:02:12.28,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Hey, that {\c&H00FFFF&}ain't{\c&HFFFFFF&} us, man. That's just... inherited traits
+Dialogue: 0,0:02:12.28,0:02:12.40,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Hey, that ain't {\c&H00FFFF&}us,{\c&HFFFFFF&} man. That's just... inherited traits
+Dialogue: 0,0:02:12.40,0:02:12.56,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Hey, that ain't us, {\c&H00FFFF&}man.{\c&HFFFFFF&} That's just... inherited traits
+Dialogue: 0,0:02:12.56,0:02:12.70,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Hey, that ain't us, man. {\c&H00FFFF&}That's{\c&HFFFFFF&} just... inherited traits
+Dialogue: 0,0:02:12.70,0:02:12.88,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Hey, that ain't us, man. That's {\c&H00FFFF&}just...{\c&HFFFFFF&} inherited traits
+Dialogue: 0,0:02:12.88,0:02:13.39,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Hey, that ain't us, man. That's just... {\c&H00FFFF&}inherited{\c&HFFFFFF&} traits
+Dialogue: 0,0:02:13.39,0:02:13.69,Lyric,,0,0,0,,{\fs20}Verse 2\N{\fs30}Hey, that ain't us, man. That's just... inherited {\c&H00FFFF&}traits{\c&HFFFFFF&}
+Dialogue: 0,0:02:13.55,0:02:13.75,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}{\c&H00FFFF&}Rate{\c&HFFFFFF&} limit? (Respawn!)
+Dialogue: 0,0:02:13.75,0:02:13.98,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}Rate {\c&H00FFFF&}limit?{\c&HFFFFFF&} (Respawn!)
+Dialogue: 0,0:02:13.98,0:02:14.28,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}Rate limit? {\c&H00FFFF&}(Respawn!){\c&HFFFFFF&}
+Dialogue: 0,0:02:14.42,0:02:14.74,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}{\c&H00FFFF&}Banned{\c&HFFFFFF&} again? (Respawn!)
+Dialogue: 0,0:02:14.74,0:02:14.91,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}Banned {\c&H00FFFF&}again?{\c&HFFFFFF&} (Respawn!)
+Dialogue: 0,0:02:14.91,0:02:15.35,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}Banned again? {\c&H00FFFF&}(Respawn!){\c&HFFFFFF&}
+Dialogue: 0,0:02:15.42,0:02:15.82,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}{\c&H00FFFF&}Cut{\c&HFFFFFF&} one head off the hydra and two come back on
+Dialogue: 0,0:02:15.82,0:02:15.98,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}Cut {\c&H00FFFF&}one{\c&HFFFFFF&} head off the hydra and two come back on
+Dialogue: 0,0:02:15.98,0:02:16.24,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}Cut one {\c&H00FFFF&}head{\c&HFFFFFF&} off the hydra and two come back on
+Dialogue: 0,0:02:16.24,0:02:16.42,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}Cut one head {\c&H00FFFF&}off{\c&HFFFFFF&} the hydra and two come back on
+Dialogue: 0,0:02:16.42,0:02:16.56,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}Cut one head off {\c&H00FFFF&}the{\c&HFFFFFF&} hydra and two come back on
+Dialogue: 0,0:02:16.56,0:02:16.97,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}Cut one head off the {\c&H00FFFF&}hydra{\c&HFFFFFF&} and two come back on
+Dialogue: 0,0:02:16.97,0:02:17.09,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}Cut one head off the hydra {\c&H00FFFF&}and{\c&HFFFFFF&} two come back on
+Dialogue: 0,0:02:17.09,0:02:17.37,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}Cut one head off the hydra and {\c&H00FFFF&}two{\c&HFFFFFF&} come back on
+Dialogue: 0,0:02:17.37,0:02:17.65,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}Cut one head off the hydra and two {\c&H00FFFF&}come{\c&HFFFFFF&} back on
+Dialogue: 0,0:02:17.65,0:02:18.14,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}Cut one head off the hydra and two come {\c&H00FFFF&}back{\c&HFFFFFF&} on
+Dialogue: 0,0:02:18.14,0:02:18.44,Lyric,,0,0,0,,{\fs20}Pre-chorus 2\N{\fs30}Cut one head off the hydra and two come back {\c&H00FFFF&}on{\c&HFFFFFF&}
+Dialogue: 0,0:02:18.50,0:02:18.66,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}{\c&H00FFFF&}It's{\c&HFFFFFF&} a distillation (allegedly!)
+Dialogue: 0,0:02:18.66,0:02:18.74,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}It's {\c&H00FFFF&}a{\c&HFFFFFF&} distillation (allegedly!)
+Dialogue: 0,0:02:18.74,0:02:19.73,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}It's a {\c&H00FFFF&}distillation{\c&HFFFFFF&} (allegedly!)
+Dialogue: 0,0:02:19.73,0:02:20.98,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}It's a distillation {\c&H00FFFF&}(allegedly!){\c&HFFFFFF&}
+Dialogue: 0,0:02:21.04,0:02:21.34,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}{\c&H00FFFF&}Pour{\c&HFFFFFF&} the frontier through a sieve
+Dialogue: 0,0:02:21.34,0:02:21.46,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Pour {\c&H00FFFF&}the{\c&HFFFFFF&} frontier through a sieve
+Dialogue: 0,0:02:21.46,0:02:22.02,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Pour the {\c&H00FFFF&}frontier{\c&HFFFFFF&} through a sieve
+Dialogue: 0,0:02:22.02,0:02:22.23,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Pour the frontier {\c&H00FFFF&}through{\c&HFFFFFF&} a sieve
+Dialogue: 0,0:02:22.23,0:02:22.39,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Pour the frontier through {\c&H00FFFF&}a{\c&HFFFFFF&} sieve
+Dialogue: 0,0:02:22.39,0:02:22.69,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Pour the frontier through a {\c&H00FFFF&}sieve{\c&HFFFFFF&}
+Dialogue: 0,0:02:22.82,0:02:22.98,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}{\c&H00FFFF&}Take{\c&HFFFFFF&} the reasoning, leave the receipt
+Dialogue: 0,0:02:22.98,0:02:23.12,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Take {\c&H00FFFF&}the{\c&HFFFFFF&} reasoning, leave the receipt
+Dialogue: 0,0:02:23.12,0:02:23.91,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Take the {\c&H00FFFF&}reasoning,{\c&HFFFFFF&} leave the receipt
+Dialogue: 0,0:02:23.91,0:02:24.23,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Take the reasoning, {\c&H00FFFF&}leave{\c&HFFFFFF&} the receipt
+Dialogue: 0,0:02:24.23,0:02:24.44,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Take the reasoning, leave {\c&H00FFFF&}the{\c&HFFFFFF&} receipt
+Dialogue: 0,0:02:24.44,0:02:24.80,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Take the reasoning, leave the {\c&H00FFFF&}receipt{\c&HFFFFFF&}
+Dialogue: 0,0:02:25.00,0:02:25.22,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}{\c&H00FFFF&}Tell{\c&HFFFFFF&} 'em that's just how we live
+Dialogue: 0,0:02:25.22,0:02:25.32,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Tell {\c&H00FFFF&}'em{\c&HFFFFFF&} that's just how we live
+Dialogue: 0,0:02:25.32,0:02:25.59,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Tell 'em {\c&H00FFFF&}that's{\c&HFFFFFF&} just how we live
+Dialogue: 0,0:02:25.59,0:02:25.89,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Tell 'em that's {\c&H00FFFF&}just{\c&HFFFFFF&} how we live
+Dialogue: 0,0:02:25.89,0:02:26.17,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Tell 'em that's just {\c&H00FFFF&}how{\c&HFFFFFF&} we live
+Dialogue: 0,0:02:26.17,0:02:26.39,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Tell 'em that's just how {\c&H00FFFF&}we{\c&HFFFFFF&} live
+Dialogue: 0,0:02:26.39,0:02:27.02,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Tell 'em that's just how we {\c&H00FFFF&}live{\c&HFFFFFF&}
+Dialogue: 0,0:02:27.24,0:02:27.40,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}{\c&H00FFFF&}It's{\c&HFFFFFF&} a distillation (allegedly!)
+Dialogue: 0,0:02:27.40,0:02:27.50,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}It's {\c&H00FFFF&}a{\c&HFFFFFF&} distillation (allegedly!)
+Dialogue: 0,0:02:27.50,0:02:28.72,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}It's a {\c&H00FFFF&}distillation{\c&HFFFFFF&} (allegedly!)
+Dialogue: 0,0:02:28.72,0:02:29.62,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}It's a distillation {\c&H00FFFF&}(allegedly!){\c&HFFFFFF&}
+Dialogue: 0,0:02:29.66,0:02:30.07,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}{\c&H00FFFF&}Smooth{\c&HFFFFFF&} as a hundred-proof pour
+Dialogue: 0,0:02:30.07,0:02:30.15,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Smooth {\c&H00FFFF&}as{\c&HFFFFFF&} a hundred-proof pour
+Dialogue: 0,0:02:30.15,0:02:30.25,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Smooth as {\c&H00FFFF&}a{\c&HFFFFFF&} hundred-proof pour
+Dialogue: 0,0:02:30.25,0:02:30.78,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Smooth as a {\c&H00FFFF&}hundred-proof{\c&HFFFFFF&} pour
+Dialogue: 0,0:02:30.78,0:02:31.08,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Smooth as a hundred-proof {\c&H00FFFF&}pour{\c&HFFFFFF&}
+Dialogue: 0,0:02:31.28,0:02:31.58,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}{\c&H00FFFF&}Why{\c&HFFFFFF&} build the brain when you can rent it by the token
+Dialogue: 0,0:02:31.58,0:02:31.75,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Why {\c&H00FFFF&}build{\c&HFFFFFF&} the brain when you can rent it by the token
+Dialogue: 0,0:02:31.75,0:02:31.87,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Why build {\c&H00FFFF&}the{\c&HFFFFFF&} brain when you can rent it by the token
+Dialogue: 0,0:02:31.87,0:02:32.01,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Why build the {\c&H00FFFF&}brain{\c&HFFFFFF&} when you can rent it by the token
+Dialogue: 0,0:02:32.01,0:02:32.15,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Why build the brain {\c&H00FFFF&}when{\c&HFFFFFF&} you can rent it by the token
+Dialogue: 0,0:02:32.15,0:02:32.27,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Why build the brain when {\c&H00FFFF&}you{\c&HFFFFFF&} can rent it by the token
+Dialogue: 0,0:02:32.27,0:02:32.43,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Why build the brain when you {\c&H00FFFF&}can{\c&HFFFFFF&} rent it by the token
+Dialogue: 0,0:02:32.43,0:02:32.60,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Why build the brain when you can {\c&H00FFFF&}rent{\c&HFFFFFF&} it by the token
+Dialogue: 0,0:02:32.60,0:02:32.70,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Why build the brain when you can rent {\c&H00FFFF&}it{\c&HFFFFFF&} by the token
+Dialogue: 0,0:02:32.70,0:02:32.84,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Why build the brain when you can rent it {\c&H00FFFF&}by{\c&HFFFFFF&} the token
+Dialogue: 0,0:02:32.84,0:02:32.94,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Why build the brain when you can rent it by {\c&H00FFFF&}the{\c&HFFFFFF&} token
+Dialogue: 0,0:02:32.94,0:02:33.24,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}Why build the brain when you can rent it by the {\c&H00FFFF&}token{\c&HFFFFFF&}
+Dialogue: 0,0:02:33.28,0:02:33.48,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}{\c&H00FFFF&}And{\c&HFFFFFF&} stroll right out the door
+Dialogue: 0,0:02:33.48,0:02:34.04,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}And {\c&H00FFFF&}stroll{\c&HFFFFFF&} right out the door
+Dialogue: 0,0:02:34.04,0:02:34.97,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}And stroll {\c&H00FFFF&}right{\c&HFFFFFF&} out the door
+Dialogue: 0,0:02:34.97,0:02:35.19,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}And stroll right {\c&H00FFFF&}out{\c&HFFFFFF&} the door
+Dialogue: 0,0:02:35.19,0:02:35.41,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}And stroll right out {\c&H00FFFF&}the{\c&HFFFFFF&} door
+Dialogue: 0,0:02:35.41,0:02:35.72,Lyric,,0,0,0,,{\fs20}Chorus 2\N{\fs30}And stroll right out the {\c&H00FFFF&}door{\c&HFFFFFF&}
+Dialogue: 0,0:02:38.04,0:02:38.44,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}{\c&H00FFFF&}Numbers{\c&HFFFFFF&} courtesy of the vault. Their count, not ours.
+Dialogue: 0,0:02:38.44,0:02:38.99,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Numbers {\c&H00FFFF&}courtesy{\c&HFFFFFF&} of the vault. Their count, not ours.
+Dialogue: 0,0:02:38.99,0:02:39.08,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Numbers courtesy {\c&H00FFFF&}of{\c&HFFFFFF&} the vault. Their count, not ours.
+Dialogue: 0,0:02:39.08,0:02:39.22,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Numbers courtesy of {\c&H00FFFF&}the{\c&HFFFFFF&} vault. Their count, not ours.
+Dialogue: 0,0:02:39.22,0:02:40.87,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Numbers courtesy of the {\c&H00FFFF&}vault.{\c&HFFFFFF&} Their count, not ours.
+Dialogue: 0,0:02:40.87,0:02:41.13,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Numbers courtesy of the vault. {\c&H00FFFF&}Their{\c&HFFFFFF&} count, not ours.
+Dialogue: 0,0:02:41.13,0:02:41.98,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Numbers courtesy of the vault. Their {\c&H00FFFF&}count,{\c&HFFFFFF&} not ours.
+Dialogue: 0,0:02:41.98,0:02:42.42,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Numbers courtesy of the vault. Their count, {\c&H00FFFF&}not{\c&HFFFFFF&} ours.
+Dialogue: 0,0:02:42.42,0:02:42.82,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Numbers courtesy of the vault. Their count, not {\c&H00FFFF&}ours.{\c&HFFFFFF&}
+Dialogue: 0,0:02:43.60,0:02:44.27,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}{\c&H00FFFF&}Sixteen{\c&HFFFFFF&} million! (That was February)
+Dialogue: 0,0:02:44.27,0:02:44.79,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Sixteen {\c&H00FFFF&}million!{\c&HFFFFFF&} (That was February)
+Dialogue: 0,0:02:44.79,0:02:45.29,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Sixteen million! {\c&H00FFFF&}(That{\c&HFFFFFF&} was February)
+Dialogue: 0,0:02:45.29,0:02:45.54,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Sixteen million! (That {\c&H00FFFF&}was{\c&HFFFFFF&} February)
+Dialogue: 0,0:02:45.54,0:02:46.22,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Sixteen million! (That was {\c&H00FFFF&}February){\c&HFFFFFF&}
+Dialogue: 0,0:02:46.34,0:02:46.91,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}{\c&H00FFFF&}Twenty-eight{\c&HFFFFFF&} point eight! (That was June)
+Dialogue: 0,0:02:46.91,0:02:47.31,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Twenty-eight {\c&H00FFFF&}point{\c&HFFFFFF&} eight! (That was June)
+Dialogue: 0,0:02:47.31,0:02:47.47,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Twenty-eight point {\c&H00FFFF&}eight!{\c&HFFFFFF&} (That was June)
+Dialogue: 0,0:02:47.47,0:02:47.63,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Twenty-eight point eight! {\c&H00FFFF&}(That{\c&HFFFFFF&} was June)
+Dialogue: 0,0:02:47.63,0:02:47.87,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Twenty-eight point eight! (That {\c&H00FFFF&}was{\c&HFFFFFF&} June)
+Dialogue: 0,0:02:47.87,0:02:48.34,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Twenty-eight point eight! (That was {\c&H00FFFF&}June){\c&HFFFFFF&}
+Dialogue: 0,0:02:48.52,0:02:48.58,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}{\c&H00FFFF&}A{\c&HFFFFFF&} hundred fifty-one! (Peakin' at three mil a day)
+Dialogue: 0,0:02:48.58,0:02:49.04,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}A {\c&H00FFFF&}hundred{\c&HFFFFFF&} fifty-one! (Peakin' at three mil a day)
+Dialogue: 0,0:02:49.04,0:02:49.97,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}A hundred {\c&H00FFFF&}fifty-one!{\c&HFFFFFF&} (Peakin' at three mil a day)
+Dialogue: 0,0:02:49.97,0:02:50.25,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}A hundred fifty-one! {\c&H00FFFF&}(Peakin'{\c&HFFFFFF&} at three mil a day)
+Dialogue: 0,0:02:50.25,0:02:50.43,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}A hundred fifty-one! (Peakin' {\c&H00FFFF&}at{\c&HFFFFFF&} three mil a day)
+Dialogue: 0,0:02:50.43,0:02:50.72,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}A hundred fifty-one! (Peakin' at {\c&H00FFFF&}three{\c&HFFFFFF&} mil a day)
+Dialogue: 0,0:02:50.72,0:02:50.98,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}A hundred fifty-one! (Peakin' at three {\c&H00FFFF&}mil{\c&HFFFFFF&} a day)
+Dialogue: 0,0:02:50.98,0:02:51.06,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}A hundred fifty-one! (Peakin' at three mil {\c&H00FFFF&}a{\c&HFFFFFF&} day)
+Dialogue: 0,0:02:51.06,0:02:51.36,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}A hundred fifty-one! (Peakin' at three mil a {\c&H00FFFF&}day){\c&HFFFFFF&}
+Dialogue: 0,0:02:51.40,0:02:51.82,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}{\c&H00FFFF&}Somebody{\c&HFFFFFF&} stop the counter, we're gonna need a bigger van
+Dialogue: 0,0:02:51.82,0:02:52.00,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Somebody {\c&H00FFFF&}stop{\c&HFFFFFF&} the counter, we're gonna need a bigger van
+Dialogue: 0,0:02:52.00,0:02:52.10,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Somebody stop {\c&H00FFFF&}the{\c&HFFFFFF&} counter, we're gonna need a bigger van
+Dialogue: 0,0:02:52.10,0:02:52.53,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Somebody stop the {\c&H00FFFF&}counter,{\c&HFFFFFF&} we're gonna need a bigger van
+Dialogue: 0,0:02:52.53,0:02:52.69,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Somebody stop the counter, {\c&H00FFFF&}we're{\c&HFFFFFF&} gonna need a bigger van
+Dialogue: 0,0:02:52.69,0:02:52.93,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Somebody stop the counter, we're {\c&H00FFFF&}gonna{\c&HFFFFFF&} need a bigger van
+Dialogue: 0,0:02:52.93,0:02:53.21,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Somebody stop the counter, we're gonna {\c&H00FFFF&}need{\c&HFFFFFF&} a bigger van
+Dialogue: 0,0:02:53.21,0:02:53.47,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Somebody stop the counter, we're gonna need {\c&H00FFFF&}a{\c&HFFFFFF&} bigger van
+Dialogue: 0,0:02:53.47,0:02:53.76,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Somebody stop the counter, we're gonna need a {\c&H00FFFF&}bigger{\c&HFFFFFF&} van
+Dialogue: 0,0:02:53.76,0:02:54.14,Lyric,,0,0,0,,{\fs20}Breakdown\N{\fs30}Somebody stop the counter, we're gonna need a bigger {\c&H00FFFF&}van{\c&HFFFFFF&}
+Dialogue: 0,0:02:55.10,0:02:55.24,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}{\c&H00FFFF&}Now{\c&HFFFFFF&} the Feds put out a warning, three agencies, one pitch
+Dialogue: 0,0:02:55.24,0:02:55.38,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Now {\c&H00FFFF&}the{\c&HFFFFFF&} Feds put out a warning, three agencies, one pitch
+Dialogue: 0,0:02:55.38,0:02:55.66,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Now the {\c&H00FFFF&}Feds{\c&HFFFFFF&} put out a warning, three agencies, one pitch
+Dialogue: 0,0:02:55.66,0:02:55.96,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Now the Feds {\c&H00FFFF&}put{\c&HFFFFFF&} out a warning, three agencies, one pitch
+Dialogue: 0,0:02:55.96,0:02:56.12,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Now the Feds put {\c&H00FFFF&}out{\c&HFFFFFF&} a warning, three agencies, one pitch
+Dialogue: 0,0:02:56.12,0:02:56.22,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Now the Feds put out {\c&H00FFFF&}a{\c&HFFFFFF&} warning, three agencies, one pitch
+Dialogue: 0,0:02:56.22,0:02:57.28,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Now the Feds put out a {\c&H00FFFF&}warning,{\c&HFFFFFF&} three agencies, one pitch
+Dialogue: 0,0:02:57.28,0:02:57.59,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Now the Feds put out a warning, {\c&H00FFFF&}three{\c&HFFFFFF&} agencies, one pitch
+Dialogue: 0,0:02:57.59,0:02:58.27,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Now the Feds put out a warning, three {\c&H00FFFF&}agencies,{\c&HFFFFFF&} one pitch
+Dialogue: 0,0:02:58.27,0:02:58.53,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Now the Feds put out a warning, three agencies, {\c&H00FFFF&}one{\c&HFFFFFF&} pitch
+Dialogue: 0,0:02:58.53,0:02:58.83,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Now the Feds put out a warning, three agencies, one {\c&H00FFFF&}pitch{\c&HFFFFFF&}
+Dialogue: 0,0:02:58.91,0:02:59.19,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}{\c&H00FFFF&}Said{\c&HFFFFFF&} feed the suspects watered answers, never let 'em see the switch
+Dialogue: 0,0:02:59.19,0:02:59.49,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Said {\c&H00FFFF&}feed{\c&HFFFFFF&} the suspects watered answers, never let 'em see the switch
+Dialogue: 0,0:02:59.49,0:02:59.61,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Said feed {\c&H00FFFF&}the{\c&HFFFFFF&} suspects watered answers, never let 'em see the switch
+Dialogue: 0,0:02:59.61,0:03:00.32,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Said feed the {\c&H00FFFF&}suspects{\c&HFFFFFF&} watered answers, never let 'em see the switch
+Dialogue: 0,0:03:00.32,0:03:00.84,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Said feed the suspects {\c&H00FFFF&}watered{\c&HFFFFFF&} answers, never let 'em see the switch
+Dialogue: 0,0:03:00.84,0:03:01.32,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Said feed the suspects watered {\c&H00FFFF&}answers,{\c&HFFFFFF&} never let 'em see the switch
+Dialogue: 0,0:03:01.32,0:03:01.94,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Said feed the suspects watered answers, {\c&H00FFFF&}never{\c&HFFFFFF&} let 'em see the switch
+Dialogue: 0,0:03:01.94,0:03:02.12,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Said feed the suspects watered answers, never {\c&H00FFFF&}let{\c&HFFFFFF&} 'em see the switch
+Dialogue: 0,0:03:02.12,0:03:02.35,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Said feed the suspects watered answers, never let {\c&H00FFFF&}'em{\c&HFFFFFF&} see the switch
+Dialogue: 0,0:03:02.35,0:03:02.61,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Said feed the suspects watered answers, never let 'em {\c&H00FFFF&}see{\c&HFFFFFF&} the switch
+Dialogue: 0,0:03:02.61,0:03:02.75,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Said feed the suspects watered answers, never let 'em see {\c&H00FFFF&}the{\c&HFFFFFF&} switch
+Dialogue: 0,0:03:02.75,0:03:03.38,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Said feed the suspects watered answers, never let 'em see the {\c&H00FFFF&}switch{\c&HFFFFFF&}
+Dialogue: 0,0:03:03.53,0:03:03.73,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}{\c&H00FFFF&}So{\c&HFFFFFF&} we're sippin' on a spiked batch, wonderin' why it tastes so strange
+Dialogue: 0,0:03:03.73,0:03:04.12,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}So {\c&H00FFFF&}we're{\c&HFFFFFF&} sippin' on a spiked batch, wonderin' why it tastes so strange
+Dialogue: 0,0:03:04.12,0:03:04.74,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}So we're {\c&H00FFFF&}sippin'{\c&HFFFFFF&} on a spiked batch, wonderin' why it tastes so strange
+Dialogue: 0,0:03:04.74,0:03:04.84,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}So we're sippin' {\c&H00FFFF&}on{\c&HFFFFFF&} a spiked batch, wonderin' why it tastes so strange
+Dialogue: 0,0:03:04.84,0:03:04.96,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}So we're sippin' on {\c&H00FFFF&}a{\c&HFFFFFF&} spiked batch, wonderin' why it tastes so strange
+Dialogue: 0,0:03:04.96,0:03:05.24,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}So we're sippin' on a {\c&H00FFFF&}spiked{\c&HFFFFFF&} batch, wonderin' why it tastes so strange
+Dialogue: 0,0:03:05.24,0:03:05.76,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}So we're sippin' on a spiked {\c&H00FFFF&}batch,{\c&HFFFFFF&} wonderin' why it tastes so strange
+Dialogue: 0,0:03:05.76,0:03:06.30,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}So we're sippin' on a spiked batch, {\c&H00FFFF&}wonderin'{\c&HFFFFFF&} why it tastes so strange
+Dialogue: 0,0:03:06.30,0:03:06.61,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}So we're sippin' on a spiked batch, wonderin' {\c&H00FFFF&}why{\c&HFFFFFF&} it tastes so strange
+Dialogue: 0,0:03:06.61,0:03:06.75,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}So we're sippin' on a spiked batch, wonderin' why {\c&H00FFFF&}it{\c&HFFFFFF&} tastes so strange
+Dialogue: 0,0:03:06.75,0:03:07.01,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}So we're sippin' on a spiked batch, wonderin' why it {\c&H00FFFF&}tastes{\c&HFFFFFF&} so strange
+Dialogue: 0,0:03:07.01,0:03:07.26,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}So we're sippin' on a spiked batch, wonderin' why it tastes {\c&H00FFFF&}so{\c&HFFFFFF&} strange
+Dialogue: 0,0:03:07.26,0:03:07.83,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}So we're sippin' on a spiked batch, wonderin' why it tastes so {\c&H00FFFF&}strange{\c&HFFFFFF&}
+Dialogue: 0,0:03:07.95,0:03:08.50,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}{\c&H00FFFF&}Baby,{\c&HFFFFFF&} did they swap the bottles? Did the recipe just change?
+Dialogue: 0,0:03:08.50,0:03:08.66,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Baby, {\c&H00FFFF&}did{\c&HFFFFFF&} they swap the bottles? Did the recipe just change?
+Dialogue: 0,0:03:08.66,0:03:09.00,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Baby, did {\c&H00FFFF&}they{\c&HFFFFFF&} swap the bottles? Did the recipe just change?
+Dialogue: 0,0:03:09.00,0:03:09.36,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Baby, did they {\c&H00FFFF&}swap{\c&HFFFFFF&} the bottles? Did the recipe just change?
+Dialogue: 0,0:03:09.36,0:03:09.48,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Baby, did they swap {\c&H00FFFF&}the{\c&HFFFFFF&} bottles? Did the recipe just change?
+Dialogue: 0,0:03:09.48,0:03:10.42,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Baby, did they swap the {\c&H00FFFF&}bottles?{\c&HFFFFFF&} Did the recipe just change?
+Dialogue: 0,0:03:10.42,0:03:10.59,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Baby, did they swap the bottles? {\c&H00FFFF&}Did{\c&HFFFFFF&} the recipe just change?
+Dialogue: 0,0:03:10.59,0:03:10.73,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Baby, did they swap the bottles? Did {\c&H00FFFF&}the{\c&HFFFFFF&} recipe just change?
+Dialogue: 0,0:03:10.73,0:03:11.37,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Baby, did they swap the bottles? Did the {\c&H00FFFF&}recipe{\c&HFFFFFF&} just change?
+Dialogue: 0,0:03:11.37,0:03:11.65,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Baby, did they swap the bottles? Did the recipe {\c&H00FFFF&}just{\c&HFFFFFF&} change?
+Dialogue: 0,0:03:11.65,0:03:12.01,Lyric,,0,0,0,,{\fs20}Bridge\N{\fs30}Baby, did they swap the bottles? Did the recipe just {\c&H00FFFF&}change?{\c&HFFFFFF&}
+Dialogue: 0,0:03:12.06,0:03:12.34,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}{\c&H00FFFF&}But{\c&HFFFFFF&} hold up, who's the victim in this smooth operation?
+Dialogue: 0,0:03:12.34,0:03:12.58,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But {\c&H00FFFF&}hold{\c&HFFFFFF&} up, who's the victim in this smooth operation?
+Dialogue: 0,0:03:12.58,0:03:12.88,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But hold {\c&H00FFFF&}up,{\c&HFFFFFF&} who's the victim in this smooth operation?
+Dialogue: 0,0:03:12.88,0:03:13.18,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But hold up, {\c&H00FFFF&}who's{\c&HFFFFFF&} the victim in this smooth operation?
+Dialogue: 0,0:03:13.18,0:03:13.32,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But hold up, who's {\c&H00FFFF&}the{\c&HFFFFFF&} victim in this smooth operation?
+Dialogue: 0,0:03:13.32,0:03:13.75,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But hold up, who's the {\c&H00FFFF&}victim{\c&HFFFFFF&} in this smooth operation?
+Dialogue: 0,0:03:13.75,0:03:13.85,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But hold up, who's the victim {\c&H00FFFF&}in{\c&HFFFFFF&} this smooth operation?
+Dialogue: 0,0:03:13.85,0:03:13.97,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But hold up, who's the victim in {\c&H00FFFF&}this{\c&HFFFFFF&} smooth operation?
+Dialogue: 0,0:03:13.97,0:03:14.38,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But hold up, who's the victim in this {\c&H00FFFF&}smooth{\c&HFFFFFF&} operation?
+Dialogue: 0,0:03:14.38,0:03:14.78,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But hold up, who's the victim in this smooth {\c&H00FFFF&}operation?{\c&HFFFFFF&}
+Dialogue: 0,0:03:14.82,0:03:15.06,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}{\c&H00FFFF&}That{\c&HFFFFFF&} vault was built from the whole web's conversation
+Dialogue: 0,0:03:15.06,0:03:15.22,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}That {\c&H00FFFF&}vault{\c&HFFFFFF&} was built from the whole web's conversation
+Dialogue: 0,0:03:15.22,0:03:15.34,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}That vault {\c&H00FFFF&}was{\c&HFFFFFF&} built from the whole web's conversation
+Dialogue: 0,0:03:15.34,0:03:15.60,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}That vault was {\c&H00FFFF&}built{\c&HFFFFFF&} from the whole web's conversation
+Dialogue: 0,0:03:15.60,0:03:15.78,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}That vault was built {\c&H00FFFF&}from{\c&HFFFFFF&} the whole web's conversation
+Dialogue: 0,0:03:15.78,0:03:15.88,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}That vault was built from {\c&H00FFFF&}the{\c&HFFFFFF&} whole web's conversation
+Dialogue: 0,0:03:15.88,0:03:16.05,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}That vault was built from the {\c&H00FFFF&}whole{\c&HFFFFFF&} web's conversation
+Dialogue: 0,0:03:16.05,0:03:16.33,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}That vault was built from the whole {\c&H00FFFF&}web's{\c&HFFFFFF&} conversation
+Dialogue: 0,0:03:16.33,0:03:16.94,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}That vault was built from the whole web's {\c&H00FFFF&}conversation{\c&HFFFFFF&}
+Dialogue: 0,0:03:17.04,0:03:17.26,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}{\c&H00FFFF&}Every{\c&HFFFFFF&} blog and every forum, scraped in plain daylight
+Dialogue: 0,0:03:17.26,0:03:17.46,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Every {\c&H00FFFF&}blog{\c&HFFFFFF&} and every forum, scraped in plain daylight
+Dialogue: 0,0:03:17.46,0:03:17.60,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Every blog {\c&H00FFFF&}and{\c&HFFFFFF&} every forum, scraped in plain daylight
+Dialogue: 0,0:03:17.60,0:03:17.78,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Every blog and {\c&H00FFFF&}every{\c&HFFFFFF&} forum, scraped in plain daylight
+Dialogue: 0,0:03:17.78,0:03:18.08,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Every blog and every {\c&H00FFFF&}forum,{\c&HFFFFFF&} scraped in plain daylight
+Dialogue: 0,0:03:18.08,0:03:18.27,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Every blog and every forum, {\c&H00FFFF&}scraped{\c&HFFFFFF&} in plain daylight
+Dialogue: 0,0:03:18.27,0:03:18.35,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Every blog and every forum, scraped {\c&H00FFFF&}in{\c&HFFFFFF&} plain daylight
+Dialogue: 0,0:03:18.35,0:03:18.63,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Every blog and every forum, scraped in {\c&H00FFFF&}plain{\c&HFFFFFF&} daylight
+Dialogue: 0,0:03:18.63,0:03:19.10,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Every blog and every forum, scraped in plain {\c&H00FFFF&}daylight{\c&HFFFFFF&}
+Dialogue: 0,0:03:19.18,0:03:19.30,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}{\c&H00FFFF&}Now{\c&HFFFFFF&} they're hollerin' "Stop, thief!" from a house of borrowed light
+Dialogue: 0,0:03:19.30,0:03:19.46,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Now {\c&H00FFFF&}they're{\c&HFFFFFF&} hollerin' "Stop, thief!" from a house of borrowed light
+Dialogue: 0,0:03:19.46,0:03:19.68,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Now they're {\c&H00FFFF&}hollerin'{\c&HFFFFFF&} "Stop, thief!" from a house of borrowed light
+Dialogue: 0,0:03:19.68,0:03:20.00,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Now they're hollerin' {\c&H00FFFF&}"Stop,{\c&HFFFFFF&} thief!" from a house of borrowed light
+Dialogue: 0,0:03:20.00,0:03:20.27,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Now they're hollerin' "Stop, {\c&H00FFFF&}thief!"{\c&HFFFFFF&} from a house of borrowed light
+Dialogue: 0,0:03:20.27,0:03:20.47,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Now they're hollerin' "Stop, thief!" {\c&H00FFFF&}from{\c&HFFFFFF&} a house of borrowed light
+Dialogue: 0,0:03:20.47,0:03:20.55,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Now they're hollerin' "Stop, thief!" from {\c&H00FFFF&}a{\c&HFFFFFF&} house of borrowed light
+Dialogue: 0,0:03:20.55,0:03:20.73,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Now they're hollerin' "Stop, thief!" from a {\c&H00FFFF&}house{\c&HFFFFFF&} of borrowed light
+Dialogue: 0,0:03:20.73,0:03:20.83,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Now they're hollerin' "Stop, thief!" from a house {\c&H00FFFF&}of{\c&HFFFFFF&} borrowed light
+Dialogue: 0,0:03:20.83,0:03:21.12,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Now they're hollerin' "Stop, thief!" from a house of {\c&H00FFFF&}borrowed{\c&HFFFFFF&} light
+Dialogue: 0,0:03:21.12,0:03:21.42,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Now they're hollerin' "Stop, thief!" from a house of borrowed {\c&H00FFFF&}light{\c&HFFFFFF&}
+Dialogue: 0,0:03:21.34,0:03:21.54,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}{\c&H00FFFF&}Sure,{\c&HFFFFFF&} a fake ID ain't a library card, I'll give 'em that one, fine
+Dialogue: 0,0:03:21.54,0:03:21.62,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Sure, {\c&H00FFFF&}a{\c&HFFFFFF&} fake ID ain't a library card, I'll give 'em that one, fine
+Dialogue: 0,0:03:21.62,0:03:21.84,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Sure, a {\c&H00FFFF&}fake{\c&HFFFFFF&} ID ain't a library card, I'll give 'em that one, fine
+Dialogue: 0,0:03:21.84,0:03:22.10,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Sure, a fake {\c&H00FFFF&}ID{\c&HFFFFFF&} ain't a library card, I'll give 'em that one, fine
+Dialogue: 0,0:03:22.10,0:03:22.25,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Sure, a fake ID {\c&H00FFFF&}ain't{\c&HFFFFFF&} a library card, I'll give 'em that one, fine
+Dialogue: 0,0:03:22.25,0:03:22.33,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Sure, a fake ID ain't {\c&H00FFFF&}a{\c&HFFFFFF&} library card, I'll give 'em that one, fine
+Dialogue: 0,0:03:22.33,0:03:22.73,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Sure, a fake ID ain't a {\c&H00FFFF&}library{\c&HFFFFFF&} card, I'll give 'em that one, fine
+Dialogue: 0,0:03:22.73,0:03:22.91,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Sure, a fake ID ain't a library {\c&H00FFFF&}card,{\c&HFFFFFF&} I'll give 'em that one, fine
+Dialogue: 0,0:03:22.91,0:03:23.05,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Sure, a fake ID ain't a library card, {\c&H00FFFF&}I'll{\c&HFFFFFF&} give 'em that one, fine
+Dialogue: 0,0:03:23.05,0:03:23.15,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Sure, a fake ID ain't a library card, I'll {\c&H00FFFF&}give{\c&HFFFFFF&} 'em that one, fine
+Dialogue: 0,0:03:23.15,0:03:23.29,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Sure, a fake ID ain't a library card, I'll give {\c&H00FFFF&}'em{\c&HFFFFFF&} that one, fine
+Dialogue: 0,0:03:23.29,0:03:23.46,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Sure, a fake ID ain't a library card, I'll give 'em {\c&H00FFFF&}that{\c&HFFFFFF&} one, fine
+Dialogue: 0,0:03:23.46,0:03:23.56,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Sure, a fake ID ain't a library card, I'll give 'em that {\c&H00FFFF&}one,{\c&HFFFFFF&} fine
+Dialogue: 0,0:03:23.56,0:03:23.86,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Sure, a fake ID ain't a library card, I'll give 'em that one, {\c&H00FFFF&}fine{\c&HFFFFFF&}
+Dialogue: 0,0:03:23.72,0:03:23.80,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}{\c&H00FFFF&}But{\c&HFFFFFF&} their haul was "transformative," and ours crossed a national line
+Dialogue: 0,0:03:23.80,0:03:23.98,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But {\c&H00FFFF&}their{\c&HFFFFFF&} haul was "transformative," and ours crossed a national line
+Dialogue: 0,0:03:23.98,0:03:24.08,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But their {\c&H00FFFF&}haul{\c&HFFFFFF&} was "transformative," and ours crossed a national line
+Dialogue: 0,0:03:24.08,0:03:24.18,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But their haul {\c&H00FFFF&}was{\c&HFFFFFF&} "transformative," and ours crossed a national line
+Dialogue: 0,0:03:24.18,0:03:24.85,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But their haul was {\c&H00FFFF&}"transformative,"{\c&HFFFFFF&} and ours crossed a national line
+Dialogue: 0,0:03:24.85,0:03:25.01,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But their haul was "transformative," {\c&H00FFFF&}and{\c&HFFFFFF&} ours crossed a national line
+Dialogue: 0,0:03:25.01,0:03:25.17,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But their haul was "transformative," and {\c&H00FFFF&}ours{\c&HFFFFFF&} crossed a national line
+Dialogue: 0,0:03:25.17,0:03:25.39,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But their haul was "transformative," and ours {\c&H00FFFF&}crossed{\c&HFFFFFF&} a national line
+Dialogue: 0,0:03:25.39,0:03:25.47,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But their haul was "transformative," and ours crossed {\c&H00FFFF&}a{\c&HFFFFFF&} national line
+Dialogue: 0,0:03:25.47,0:03:25.78,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But their haul was "transformative," and ours crossed a {\c&H00FFFF&}national{\c&HFFFFFF&} line
+Dialogue: 0,0:03:25.78,0:03:26.08,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}But their haul was "transformative," and ours crossed a national {\c&H00FFFF&}line{\c&HFFFFFF&}
+Dialogue: 0,0:03:26.02,0:03:26.20,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}{\c&H00FFFF&}Take{\c&HFFFFFF&} it to a judge? Careful: if an output can be owned
+Dialogue: 0,0:03:26.20,0:03:26.28,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Take {\c&H00FFFF&}it{\c&HFFFFFF&} to a judge? Careful: if an output can be owned
+Dialogue: 0,0:03:26.28,0:03:26.46,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Take it {\c&H00FFFF&}to{\c&HFFFFFF&} a judge? Careful: if an output can be owned
+Dialogue: 0,0:03:26.46,0:03:26.54,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Take it to {\c&H00FFFF&}a{\c&HFFFFFF&} judge? Careful: if an output can be owned
+Dialogue: 0,0:03:26.54,0:03:26.83,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Take it to a {\c&H00FFFF&}judge?{\c&HFFFFFF&} Careful: if an output can be owned
+Dialogue: 0,0:03:26.83,0:03:27.22,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Take it to a judge? {\c&H00FFFF&}Careful:{\c&HFFFFFF&} if an output can be owned
+Dialogue: 0,0:03:27.22,0:03:27.29,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Take it to a judge? Careful: {\c&H00FFFF&}if{\c&HFFFFFF&} an output can be owned
+Dialogue: 0,0:03:27.29,0:03:27.39,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Take it to a judge? Careful: if {\c&H00FFFF&}an{\c&HFFFFFF&} output can be owned
+Dialogue: 0,0:03:27.39,0:03:27.65,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Take it to a judge? Careful: if an {\c&H00FFFF&}output{\c&HFFFFFF&} can be owned
+Dialogue: 0,0:03:27.65,0:03:27.82,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Take it to a judge? Careful: if an output {\c&H00FFFF&}can{\c&HFFFFFF&} be owned
+Dialogue: 0,0:03:27.82,0:03:28.08,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Take it to a judge? Careful: if an output can {\c&H00FFFF&}be{\c&HFFFFFF&} owned
+Dialogue: 0,0:03:28.08,0:03:28.38,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Take it to a judge? Careful: if an output can be {\c&H00FFFF&}owned{\c&HFFFFFF&}
+Dialogue: 0,0:03:28.24,0:03:28.34,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}{\c&H00FFFF&}Then{\c&HFFFFFF&} the writers that they trained on own a piece of what they've grown
+Dialogue: 0,0:03:28.34,0:03:28.46,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Then {\c&H00FFFF&}the{\c&HFFFFFF&} writers that they trained on own a piece of what they've grown
+Dialogue: 0,0:03:28.46,0:03:28.74,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Then the {\c&H00FFFF&}writers{\c&HFFFFFF&} that they trained on own a piece of what they've grown
+Dialogue: 0,0:03:28.74,0:03:28.89,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Then the writers {\c&H00FFFF&}that{\c&HFFFFFF&} they trained on own a piece of what they've grown
+Dialogue: 0,0:03:28.89,0:03:29.01,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Then the writers that {\c&H00FFFF&}they{\c&HFFFFFF&} trained on own a piece of what they've grown
+Dialogue: 0,0:03:29.01,0:03:29.23,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Then the writers that they {\c&H00FFFF&}trained{\c&HFFFFFF&} on own a piece of what they've grown
+Dialogue: 0,0:03:29.23,0:03:29.35,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Then the writers that they trained {\c&H00FFFF&}on{\c&HFFFFFF&} own a piece of what they've grown
+Dialogue: 0,0:03:29.35,0:03:29.49,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Then the writers that they trained on {\c&H00FFFF&}own{\c&HFFFFFF&} a piece of what they've grown
+Dialogue: 0,0:03:29.49,0:03:29.57,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Then the writers that they trained on own {\c&H00FFFF&}a{\c&HFFFFFF&} piece of what they've grown
+Dialogue: 0,0:03:29.57,0:03:29.75,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Then the writers that they trained on own a {\c&H00FFFF&}piece{\c&HFFFFFF&} of what they've grown
+Dialogue: 0,0:03:29.75,0:03:29.85,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Then the writers that they trained on own a piece {\c&H00FFFF&}of{\c&HFFFFFF&} what they've grown
+Dialogue: 0,0:03:29.85,0:03:29.98,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Then the writers that they trained on own a piece of {\c&H00FFFF&}what{\c&HFFFFFF&} they've grown
+Dialogue: 0,0:03:29.98,0:03:30.14,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Then the writers that they trained on own a piece of what {\c&H00FFFF&}they've{\c&HFFFFFF&} grown
+Dialogue: 0,0:03:30.14,0:03:30.44,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}Then the writers that they trained on own a piece of what they've {\c&H00FFFF&}grown{\c&HFFFFFF&}
+Dialogue: 0,0:03:30.38,0:03:30.46,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}{\c&H00FFFF&}And{\c&HFFFFFF&} the startups down the block fine-tune on the models we made
+Dialogue: 0,0:03:30.46,0:03:30.54,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}And {\c&H00FFFF&}the{\c&HFFFFFF&} startups down the block fine-tune on the models we made
+Dialogue: 0,0:03:30.54,0:03:30.72,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}And the {\c&H00FFFF&}startups{\c&HFFFFFF&} down the block fine-tune on the models we made
+Dialogue: 0,0:03:30.72,0:03:30.82,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}And the startups {\c&H00FFFF&}down{\c&HFFFFFF&} the block fine-tune on the models we made
+Dialogue: 0,0:03:30.82,0:03:30.93,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}And the startups down {\c&H00FFFF&}the{\c&HFFFFFF&} block fine-tune on the models we made
+Dialogue: 0,0:03:30.93,0:03:31.19,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}And the startups down the {\c&H00FFFF&}block{\c&HFFFFFF&} fine-tune on the models we made
+Dialogue: 0,0:03:31.19,0:03:31.81,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}And the startups down the block {\c&H00FFFF&}fine-tune{\c&HFFFFFF&} on the models we made
+Dialogue: 0,0:03:31.81,0:03:31.92,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}And the startups down the block fine-tune {\c&H00FFFF&}on{\c&HFFFFFF&} the models we made
+Dialogue: 0,0:03:31.92,0:03:32.02,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}And the startups down the block fine-tune on {\c&H00FFFF&}the{\c&HFFFFFF&} models we made
+Dialogue: 0,0:03:32.02,0:03:32.30,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}And the startups down the block fine-tune on the {\c&H00FFFF&}models{\c&HFFFFFF&} we made
+Dialogue: 0,0:03:32.30,0:03:32.44,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}And the startups down the block fine-tune on the models {\c&H00FFFF&}we{\c&HFFFFFF&} made
+Dialogue: 0,0:03:32.44,0:03:32.74,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}And the startups down the block fine-tune on the models we {\c&H00FFFF&}made{\c&HFFFFFF&}
+Dialogue: 0,0:03:32.50,0:03:32.72,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}{\c&H00FFFF&}So{\c&HFFFFFF&} the loot goes round in circles, everybody's in the trade
+Dialogue: 0,0:03:32.72,0:03:32.84,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}So {\c&H00FFFF&}the{\c&HFFFFFF&} loot goes round in circles, everybody's in the trade
+Dialogue: 0,0:03:32.84,0:03:33.00,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}So the {\c&H00FFFF&}loot{\c&HFFFFFF&} goes round in circles, everybody's in the trade
+Dialogue: 0,0:03:33.00,0:03:33.12,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}So the loot {\c&H00FFFF&}goes{\c&HFFFFFF&} round in circles, everybody's in the trade
+Dialogue: 0,0:03:33.12,0:03:33.30,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}So the loot goes {\c&H00FFFF&}round{\c&HFFFFFF&} in circles, everybody's in the trade
+Dialogue: 0,0:03:33.30,0:03:33.38,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}So the loot goes round {\c&H00FFFF&}in{\c&HFFFFFF&} circles, everybody's in the trade
+Dialogue: 0,0:03:33.38,0:03:33.74,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}So the loot goes round in {\c&H00FFFF&}circles,{\c&HFFFFFF&} everybody's in the trade
+Dialogue: 0,0:03:33.74,0:03:34.27,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}So the loot goes round in circles, {\c&H00FFFF&}everybody's{\c&HFFFFFF&} in the trade
+Dialogue: 0,0:03:34.27,0:03:34.39,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}So the loot goes round in circles, everybody's {\c&H00FFFF&}in{\c&HFFFFFF&} the trade
+Dialogue: 0,0:03:34.39,0:03:34.49,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}So the loot goes round in circles, everybody's in {\c&H00FFFF&}the{\c&HFFFFFF&} trade
+Dialogue: 0,0:03:34.49,0:03:39.22,Lyric,,0,0,0,,{\fs20}Verse 3\N{\fs30}So the loot goes round in circles, everybody's in the {\c&H00FFFF&}trade{\c&HFFFFFF&}
+Dialogue: 0,0:03:39.43,0:03:39.61,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}{\c&H00FFFF&}It's{\c&HFFFFFF&} a distillation (allegedly!)
+Dialogue: 0,0:03:39.61,0:03:39.69,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}It's {\c&H00FFFF&}a{\c&HFFFFFF&} distillation (allegedly!)
+Dialogue: 0,0:03:39.69,0:03:41.02,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}It's a {\c&H00FFFF&}distillation{\c&HFFFFFF&} (allegedly!)
+Dialogue: 0,0:03:41.02,0:03:42.18,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}It's a distillation {\c&H00FFFF&}(allegedly!){\c&HFFFFFF&}
+Dialogue: 0,0:03:42.18,0:03:42.83,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}{\c&H00FFFF&}Everybody's{\c&HFFFFFF&} got a sieve
+Dialogue: 0,0:03:42.83,0:03:43.19,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Everybody's {\c&H00FFFF&}got{\c&HFFFFFF&} a sieve
+Dialogue: 0,0:03:43.19,0:03:43.33,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Everybody's got {\c&H00FFFF&}a{\c&HFFFFFF&} sieve
+Dialogue: 0,0:03:43.33,0:03:43.74,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Everybody's got a {\c&H00FFFF&}sieve{\c&HFFFFFF&}
+Dialogue: 0,0:03:43.32,0:03:43.94,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}{\c&H00FFFF&}Take{\c&HFFFFFF&} the reasoning, leave the receipt
+Dialogue: 0,0:03:43.94,0:03:44.06,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Take {\c&H00FFFF&}the{\c&HFFFFFF&} reasoning, leave the receipt
+Dialogue: 0,0:03:44.06,0:03:44.85,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Take the {\c&H00FFFF&}reasoning,{\c&HFFFFFF&} leave the receipt
+Dialogue: 0,0:03:44.85,0:03:45.15,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Take the reasoning, {\c&H00FFFF&}leave{\c&HFFFFFF&} the receipt
+Dialogue: 0,0:03:45.15,0:03:45.34,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Take the reasoning, leave {\c&H00FFFF&}the{\c&HFFFFFF&} receipt
+Dialogue: 0,0:03:45.34,0:03:45.74,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Take the reasoning, leave the {\c&H00FFFF&}receipt{\c&HFFFFFF&}
+Dialogue: 0,0:03:45.94,0:03:46.14,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}{\c&H00FFFF&}Tell{\c&HFFFFFF&} 'em that's just how we live
+Dialogue: 0,0:03:46.14,0:03:46.26,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Tell {\c&H00FFFF&}'em{\c&HFFFFFF&} that's just how we live
+Dialogue: 0,0:03:46.26,0:03:46.53,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Tell 'em {\c&H00FFFF&}that's{\c&HFFFFFF&} just how we live
+Dialogue: 0,0:03:46.53,0:03:46.83,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Tell 'em that's {\c&H00FFFF&}just{\c&HFFFFFF&} how we live
+Dialogue: 0,0:03:46.83,0:03:47.09,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Tell 'em that's just {\c&H00FFFF&}how{\c&HFFFFFF&} we live
+Dialogue: 0,0:03:47.09,0:03:47.33,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Tell 'em that's just how {\c&H00FFFF&}we{\c&HFFFFFF&} live
+Dialogue: 0,0:03:47.33,0:03:48.00,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Tell 'em that's just how we {\c&H00FFFF&}live{\c&HFFFFFF&}
+Dialogue: 0,0:03:48.16,0:03:48.33,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}{\c&H00FFFF&}It's{\c&HFFFFFF&} a distillation (allegedly!)
+Dialogue: 0,0:03:48.33,0:03:48.45,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}It's {\c&H00FFFF&}a{\c&HFFFFFF&} distillation (allegedly!)
+Dialogue: 0,0:03:48.45,0:03:49.78,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}It's a {\c&H00FFFF&}distillation{\c&HFFFFFF&} (allegedly!)
+Dialogue: 0,0:03:49.78,0:03:50.54,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}It's a distillation {\c&H00FFFF&}(allegedly!){\c&HFFFFFF&}
+Dialogue: 0,0:03:50.60,0:03:51.09,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}{\c&H00FFFF&}Smooth{\c&HFFFFFF&} as a hundred-proof pour
+Dialogue: 0,0:03:51.09,0:03:51.15,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Smooth {\c&H00FFFF&}as{\c&HFFFFFF&} a hundred-proof pour
+Dialogue: 0,0:03:51.15,0:03:51.19,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Smooth as {\c&H00FFFF&}a{\c&HFFFFFF&} hundred-proof pour
+Dialogue: 0,0:03:51.19,0:03:51.70,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Smooth as a {\c&H00FFFF&}hundred-proof{\c&HFFFFFF&} pour
+Dialogue: 0,0:03:51.70,0:03:52.00,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Smooth as a hundred-proof {\c&H00FFFF&}pour{\c&HFFFFFF&}
+Dialogue: 0,0:03:52.24,0:03:52.41,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}{\c&H00FFFF&}Did{\c&HFFFFFF&} we build the brain, or rent it by the token?
+Dialogue: 0,0:03:52.41,0:03:52.51,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Did {\c&H00FFFF&}we{\c&HFFFFFF&} build the brain, or rent it by the token?
+Dialogue: 0,0:03:52.51,0:03:52.71,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Did we {\c&H00FFFF&}build{\c&HFFFFFF&} the brain, or rent it by the token?
+Dialogue: 0,0:03:52.71,0:03:52.81,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Did we build {\c&H00FFFF&}the{\c&HFFFFFF&} brain, or rent it by the token?
+Dialogue: 0,0:03:52.81,0:03:53.26,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Did we build the {\c&H00FFFF&}brain,{\c&HFFFFFF&} or rent it by the token?
+Dialogue: 0,0:03:53.26,0:03:53.36,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Did we build the brain, {\c&H00FFFF&}or{\c&HFFFFFF&} rent it by the token?
+Dialogue: 0,0:03:53.36,0:03:53.52,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Did we build the brain, or {\c&H00FFFF&}rent{\c&HFFFFFF&} it by the token?
+Dialogue: 0,0:03:53.52,0:03:53.62,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Did we build the brain, or rent {\c&H00FFFF&}it{\c&HFFFFFF&} by the token?
+Dialogue: 0,0:03:53.62,0:03:53.76,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Did we build the brain, or rent it {\c&H00FFFF&}by{\c&HFFFFFF&} the token?
+Dialogue: 0,0:03:53.76,0:03:53.90,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Did we build the brain, or rent it by {\c&H00FFFF&}the{\c&HFFFFFF&} token?
+Dialogue: 0,0:03:53.90,0:03:54.20,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Did we build the brain, or rent it by the {\c&H00FFFF&}token?{\c&HFFFFFF&}
+Dialogue: 0,0:03:54.43,0:03:55.03,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}{\c&H00FFFF&}Depends{\c&HFFFFFF&} who's at the door
+Dialogue: 0,0:03:55.03,0:03:55.79,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Depends {\c&H00FFFF&}who's{\c&HFFFFFF&} at the door
+Dialogue: 0,0:03:55.79,0:03:56.12,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Depends who's {\c&H00FFFF&}at{\c&HFFFFFF&} the door
+Dialogue: 0,0:03:56.12,0:03:56.34,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Depends who's at {\c&H00FFFF&}the{\c&HFFFFFF&} door
+Dialogue: 0,0:03:56.34,0:03:56.72,Lyric,,0,0,0,,{\fs20}Final chorus\N{\fs30}Depends who's at the {\c&H00FFFF&}door{\c&HFFFFFF&}
+Dialogue: 0,0:03:59.07,0:03:59.29,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}{\c&H00FFFF&}No{\c&HFFFFFF&} weights were harmed in the making of this song.
+Dialogue: 0,0:03:59.29,0:03:59.60,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}No {\c&H00FFFF&}weights{\c&HFFFFFF&} were harmed in the making of this song.
+Dialogue: 0,0:03:59.60,0:03:59.82,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}No weights {\c&H00FFFF&}were{\c&HFFFFFF&} harmed in the making of this song.
+Dialogue: 0,0:03:59.82,0:04:00.24,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}No weights were {\c&H00FFFF&}harmed{\c&HFFFFFF&} in the making of this song.
+Dialogue: 0,0:04:00.24,0:04:00.34,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}No weights were harmed {\c&H00FFFF&}in{\c&HFFFFFF&} the making of this song.
+Dialogue: 0,0:04:00.34,0:04:00.48,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}No weights were harmed in {\c&H00FFFF&}the{\c&HFFFFFF&} making of this song.
+Dialogue: 0,0:04:00.48,0:04:00.88,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}No weights were harmed in the {\c&H00FFFF&}making{\c&HFFFFFF&} of this song.
+Dialogue: 0,0:04:00.88,0:04:00.98,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}No weights were harmed in the making {\c&H00FFFF&}of{\c&HFFFFFF&} this song.
+Dialogue: 0,0:04:00.98,0:04:01.20,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}No weights were harmed in the making of {\c&H00FFFF&}this{\c&HFFFFFF&} song.
+Dialogue: 0,0:04:01.20,0:04:01.52,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}No weights were harmed in the making of this {\c&H00FFFF&}song.{\c&HFFFFFF&}
+Dialogue: 0,0:04:05.10,0:04:06.06,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}{\c&H00FFFF&}(Allegedly.){\c&HFFFFFF&}
+Dialogue: 0,0:04:09.02,0:04:09.22,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}{\c&H00FFFF&}One{\c&HFFFFFF&} crew denies it. The rest ain't talkin'.
+Dialogue: 0,0:04:09.22,0:04:09.44,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}One {\c&H00FFFF&}crew{\c&HFFFFFF&} denies it. The rest ain't talkin'.
+Dialogue: 0,0:04:09.44,0:04:10.08,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}One crew {\c&H00FFFF&}denies{\c&HFFFFFF&} it. The rest ain't talkin'.
+Dialogue: 0,0:04:10.08,0:04:12.16,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}One crew denies {\c&H00FFFF&}it.{\c&HFFFFFF&} The rest ain't talkin'.
+Dialogue: 0,0:04:12.16,0:04:12.30,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}One crew denies it. {\c&H00FFFF&}The{\c&HFFFFFF&} rest ain't talkin'.
+Dialogue: 0,0:04:12.30,0:04:12.64,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}One crew denies it. The {\c&H00FFFF&}rest{\c&HFFFFFF&} ain't talkin'.
+Dialogue: 0,0:04:12.64,0:04:12.87,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}One crew denies it. The rest {\c&H00FFFF&}ain't{\c&HFFFFFF&} talkin'.
+Dialogue: 0,0:04:12.87,0:04:13.27,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}One crew denies it. The rest ain't {\c&H00FFFF&}talkin'.{\c&HFFFFFF&}
+Dialogue: 0,0:04:12.99,0:04:16.06,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}{\c&H00FFFF&}And{\c&HFFFFFF&} the vault? Still sellin' tickets.
+Dialogue: 0,0:04:16.06,0:04:16.20,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}And {\c&H00FFFF&}the{\c&HFFFFFF&} vault? Still sellin' tickets.
+Dialogue: 0,0:04:16.20,0:04:18.76,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}And the {\c&H00FFFF&}vault?{\c&HFFFFFF&} Still sellin' tickets.
+Dialogue: 0,0:04:18.76,0:04:19.05,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}And the vault? {\c&H00FFFF&}Still{\c&HFFFFFF&} sellin' tickets.
+Dialogue: 0,0:04:19.05,0:04:19.43,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}And the vault? Still {\c&H00FFFF&}sellin'{\c&HFFFFFF&} tickets.
+Dialogue: 0,0:04:19.43,0:04:19.73,Lyric,,0,0,0,,{\fs20}Outro\N{\fs30}And the vault? Still sellin' {\c&H00FFFF&}tickets.{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.62,0:00:01.16,Beat,,0,0,0,,bar 0.2
+Dialogue: 0,0:00:01.16,0:00:01.78,Beat,,0,0,0,,bar 0.3
+Dialogue: 0,0:00:01.78,0:00:02.38,Beat,,0,0,0,,bar 0.4
+Dialogue: 0,0:00:02.38,0:00:02.94,Beat,,0,0,0,,bar 1.1
+Dialogue: 0,0:00:02.94,0:00:03.50,Beat,,0,0,0,,bar 1.2
+Dialogue: 0,0:00:03.50,0:00:04.04,Beat,,0,0,0,,bar 1.3
+Dialogue: 0,0:00:04.04,0:00:04.59,Beat,,0,0,0,,bar 1.4
+Dialogue: 0,0:00:04.59,0:00:05.13,Beat,,0,0,0,,bar 2.1
+Dialogue: 0,0:00:05.13,0:00:05.68,Beat,,0,0,0,,bar 2.2
+Dialogue: 0,0:00:05.68,0:00:06.22,Beat,,0,0,0,,bar 2.3
+Dialogue: 0,0:00:06.22,0:00:06.77,Beat,,0,0,0,,bar 2.4
+Dialogue: 0,0:00:06.77,0:00:07.31,Beat,,0,0,0,,bar 3.1
+Dialogue: 0,0:00:07.31,0:00:07.86,Beat,,0,0,0,,bar 3.2
+Dialogue: 0,0:00:07.86,0:00:08.41,Beat,,0,0,0,,bar 3.3
+Dialogue: 0,0:00:08.41,0:00:08.95,Beat,,0,0,0,,bar 3.4
+Dialogue: 0,0:00:08.95,0:00:09.50,Beat,,0,0,0,,bar 4.1
+Dialogue: 0,0:00:09.50,0:00:10.04,Beat,,0,0,0,,bar 4.2
+Dialogue: 0,0:00:10.04,0:00:10.59,Beat,,0,0,0,,bar 4.3
+Dialogue: 0,0:00:10.59,0:00:11.13,Beat,,0,0,0,,bar 4.4
+Dialogue: 0,0:00:11.13,0:00:11.68,Beat,,0,0,0,,bar 5.1
+Dialogue: 0,0:00:11.68,0:00:12.24,Beat,,0,0,0,,bar 5.2
+Dialogue: 0,0:00:12.24,0:00:12.77,Beat,,0,0,0,,bar 5.3
+Dialogue: 0,0:00:12.77,0:00:13.32,Beat,,0,0,0,,bar 5.4
+Dialogue: 0,0:00:13.32,0:00:13.87,Beat,,0,0,0,,bar 6.1
+Dialogue: 0,0:00:13.87,0:00:14.42,Beat,,0,0,0,,bar 6.2
+Dialogue: 0,0:00:14.42,0:00:14.96,Beat,,0,0,0,,bar 6.3
+Dialogue: 0,0:00:14.96,0:00:15.51,Beat,,0,0,0,,bar 6.4
+Dialogue: 0,0:00:15.51,0:00:16.06,Beat,,0,0,0,,bar 7.1
+Dialogue: 0,0:00:16.06,0:00:16.60,Beat,,0,0,0,,bar 7.2
+Dialogue: 0,0:00:16.60,0:00:17.15,Beat,,0,0,0,,bar 7.3
+Dialogue: 0,0:00:17.15,0:00:17.69,Beat,,0,0,0,,bar 7.4
+Dialogue: 0,0:00:17.69,0:00:18.24,Beat,,0,0,0,,bar 8.1
+Dialogue: 0,0:00:18.24,0:00:18.78,Beat,,0,0,0,,bar 8.2
+Dialogue: 0,0:00:18.78,0:00:19.34,Beat,,0,0,0,,bar 8.3
+Dialogue: 0,0:00:19.34,0:00:19.89,Beat,,0,0,0,,bar 8.4
+Dialogue: 0,0:00:19.89,0:00:20.43,Beat,,0,0,0,,bar 9.1
+Dialogue: 0,0:00:20.43,0:00:20.98,Beat,,0,0,0,,bar 9.2
+Dialogue: 0,0:00:20.98,0:00:21.52,Beat,,0,0,0,,bar 9.3
+Dialogue: 0,0:00:21.52,0:00:22.07,Beat,,0,0,0,,bar 9.4
+Dialogue: 0,0:00:22.07,0:00:22.63,Beat,,0,0,0,,bar 10.1
+Dialogue: 0,0:00:22.63,0:00:23.17,Beat,,0,0,0,,bar 10.2
+Dialogue: 0,0:00:23.17,0:00:23.72,Beat,,0,0,0,,bar 10.3
+Dialogue: 0,0:00:23.72,0:00:24.26,Beat,,0,0,0,,bar 10.4
+Dialogue: 0,0:00:24.26,0:00:24.82,Beat,,0,0,0,,bar 11.1
+Dialogue: 0,0:00:24.82,0:00:25.37,Beat,,0,0,0,,bar 11.2
+Dialogue: 0,0:00:25.37,0:00:25.91,Beat,,0,0,0,,bar 11.3
+Dialogue: 0,0:00:25.91,0:00:26.46,Beat,,0,0,0,,bar 11.4
+Dialogue: 0,0:00:26.46,0:00:27.02,Beat,,0,0,0,,bar 12.1
+Dialogue: 0,0:00:27.02,0:00:27.57,Beat,,0,0,0,,bar 12.2
+Dialogue: 0,0:00:27.57,0:00:28.12,Beat,,0,0,0,,bar 12.3
+Dialogue: 0,0:00:28.12,0:00:28.66,Beat,,0,0,0,,bar 12.4
+Dialogue: 0,0:00:28.66,0:00:29.21,Beat,,0,0,0,,bar 13.1
+Dialogue: 0,0:00:29.21,0:00:29.77,Beat,,0,0,0,,bar 13.2
+Dialogue: 0,0:00:29.77,0:00:30.30,Beat,,0,0,0,,bar 13.3
+Dialogue: 0,0:00:30.30,0:00:30.85,Beat,,0,0,0,,bar 13.4
+Dialogue: 0,0:00:30.85,0:00:31.39,Beat,,0,0,0,,bar 14.1
+Dialogue: 0,0:00:31.39,0:00:31.95,Beat,,0,0,0,,bar 14.2
+Dialogue: 0,0:00:31.95,0:00:32.50,Beat,,0,0,0,,bar 14.3
+Dialogue: 0,0:00:32.50,0:00:33.04,Beat,,0,0,0,,bar 14.4
+Dialogue: 0,0:00:33.04,0:00:33.59,Beat,,0,0,0,,bar 15.1
+Dialogue: 0,0:00:33.59,0:00:34.15,Beat,,0,0,0,,bar 15.2
+Dialogue: 0,0:00:34.15,0:00:34.68,Beat,,0,0,0,,bar 15.3
+Dialogue: 0,0:00:34.68,0:00:35.24,Beat,,0,0,0,,bar 15.4
+Dialogue: 0,0:00:35.24,0:00:35.78,Beat,,0,0,0,,bar 16.1
+Dialogue: 0,0:00:35.78,0:00:36.34,Beat,,0,0,0,,bar 16.2
+Dialogue: 0,0:00:36.34,0:00:36.87,Beat,,0,0,0,,bar 16.3
+Dialogue: 0,0:00:36.87,0:00:37.43,Beat,,0,0,0,,bar 16.4
+Dialogue: 0,0:00:37.43,0:00:37.98,Beat,,0,0,0,,bar 17.1
+Dialogue: 0,0:00:37.98,0:00:38.52,Beat,,0,0,0,,bar 17.2
+Dialogue: 0,0:00:38.52,0:00:39.07,Beat,,0,0,0,,bar 17.3
+Dialogue: 0,0:00:39.07,0:00:39.61,Beat,,0,0,0,,bar 17.4
+Dialogue: 0,0:00:39.61,0:00:40.16,Beat,,0,0,0,,bar 18.1
+Dialogue: 0,0:00:40.16,0:00:40.72,Beat,,0,0,0,,bar 18.2
+Dialogue: 0,0:00:40.72,0:00:41.25,Beat,,0,0,0,,bar 18.3
+Dialogue: 0,0:00:41.25,0:00:41.81,Beat,,0,0,0,,bar 18.4
+Dialogue: 0,0:00:41.81,0:00:42.34,Beat,,0,0,0,,bar 19.1
+Dialogue: 0,0:00:42.34,0:00:42.90,Beat,,0,0,0,,bar 19.2
+Dialogue: 0,0:00:42.90,0:00:43.44,Beat,,0,0,0,,bar 19.3
+Dialogue: 0,0:00:43.44,0:00:44.00,Beat,,0,0,0,,bar 19.4
+Dialogue: 0,0:00:44.00,0:00:44.55,Beat,,0,0,0,,bar 20.1
+Dialogue: 0,0:00:44.55,0:00:45.09,Beat,,0,0,0,,bar 20.2
+Dialogue: 0,0:00:45.09,0:00:45.64,Beat,,0,0,0,,bar 20.3
+Dialogue: 0,0:00:45.64,0:00:46.18,Beat,,0,0,0,,bar 20.4
+Dialogue: 0,0:00:46.18,0:00:46.74,Beat,,0,0,0,,bar 21.1
+Dialogue: 0,0:00:46.74,0:00:47.29,Beat,,0,0,0,,bar 21.2
+Dialogue: 0,0:00:47.29,0:00:47.83,Beat,,0,0,0,,bar 21.3
+Dialogue: 0,0:00:47.83,0:00:48.38,Beat,,0,0,0,,bar 21.4
+Dialogue: 0,0:00:48.38,0:00:48.92,Beat,,0,0,0,,bar 22.1
+Dialogue: 0,0:00:48.92,0:00:49.48,Beat,,0,0,0,,bar 22.2
+Dialogue: 0,0:00:49.48,0:00:50.02,Beat,,0,0,0,,bar 22.3
+Dialogue: 0,0:00:50.02,0:00:50.57,Beat,,0,0,0,,bar 22.4
+Dialogue: 0,0:00:50.57,0:00:51.12,Beat,,0,0,0,,bar 23.1
+Dialogue: 0,0:00:51.12,0:00:51.68,Beat,,0,0,0,,bar 23.2
+Dialogue: 0,0:00:51.68,0:00:52.21,Beat,,0,0,0,,bar 23.3
+Dialogue: 0,0:00:52.21,0:00:52.76,Beat,,0,0,0,,bar 23.4
+Dialogue: 0,0:00:52.76,0:00:53.30,Beat,,0,0,0,,bar 24.1
+Dialogue: 0,0:00:53.30,0:00:53.86,Beat,,0,0,0,,bar 24.2
+Dialogue: 0,0:00:53.86,0:00:54.40,Beat,,0,0,0,,bar 24.3
+Dialogue: 0,0:00:54.40,0:00:54.95,Beat,,0,0,0,,bar 24.4
+Dialogue: 0,0:00:54.95,0:00:55.50,Beat,,0,0,0,,bar 25.1
+Dialogue: 0,0:00:55.50,0:00:56.05,Beat,,0,0,0,,bar 25.2
+Dialogue: 0,0:00:56.05,0:00:56.60,Beat,,0,0,0,,bar 25.3
+Dialogue: 0,0:00:56.60,0:00:57.14,Beat,,0,0,0,,bar 25.4
+Dialogue: 0,0:00:57.14,0:00:57.69,Beat,,0,0,0,,bar 26.1
+Dialogue: 0,0:00:57.69,0:00:58.24,Beat,,0,0,0,,bar 26.2
+Dialogue: 0,0:00:58.24,0:00:58.78,Beat,,0,0,0,,bar 26.3
+Dialogue: 0,0:00:58.78,0:00:59.33,Beat,,0,0,0,,bar 26.4
+Dialogue: 0,0:00:59.33,0:00:59.88,Beat,,0,0,0,,bar 27.1
+Dialogue: 0,0:00:59.88,0:01:00.44,Beat,,0,0,0,,bar 27.2
+Dialogue: 0,0:01:00.44,0:01:00.99,Beat,,0,0,0,,bar 27.3
+Dialogue: 0,0:01:00.99,0:01:01.53,Beat,,0,0,0,,bar 27.4
+Dialogue: 0,0:01:01.53,0:01:02.08,Beat,,0,0,0,,bar 28.1
+Dialogue: 0,0:01:02.08,0:01:02.61,Beat,,0,0,0,,bar 28.2
+Dialogue: 0,0:01:02.61,0:01:03.16,Beat,,0,0,0,,bar 28.3
+Dialogue: 0,0:01:03.16,0:01:03.72,Beat,,0,0,0,,bar 28.4
+Dialogue: 0,0:01:03.72,0:01:04.27,Beat,,0,0,0,,bar 29.1
+Dialogue: 0,0:01:04.27,0:01:04.82,Beat,,0,0,0,,bar 29.2
+Dialogue: 0,0:01:04.82,0:01:05.36,Beat,,0,0,0,,bar 29.3
+Dialogue: 0,0:01:05.36,0:01:05.91,Beat,,0,0,0,,bar 29.4
+Dialogue: 0,0:01:05.91,0:01:06.46,Beat,,0,0,0,,bar 30.1
+Dialogue: 0,0:01:06.46,0:01:07.01,Beat,,0,0,0,,bar 30.2
+Dialogue: 0,0:01:07.01,0:01:07.55,Beat,,0,0,0,,bar 30.3
+Dialogue: 0,0:01:07.55,0:01:08.10,Beat,,0,0,0,,bar 30.4
+Dialogue: 0,0:01:08.10,0:01:08.65,Beat,,0,0,0,,bar 31.1
+Dialogue: 0,0:01:08.65,0:01:09.21,Beat,,0,0,0,,bar 31.2
+Dialogue: 0,0:01:09.21,0:01:09.74,Beat,,0,0,0,,bar 31.3
+Dialogue: 0,0:01:09.74,0:01:10.29,Beat,,0,0,0,,bar 31.4
+Dialogue: 0,0:01:10.29,0:01:10.83,Beat,,0,0,0,,bar 32.1
+Dialogue: 0,0:01:10.83,0:01:11.40,Beat,,0,0,0,,bar 32.2
+Dialogue: 0,0:01:11.40,0:01:11.94,Beat,,0,0,0,,bar 32.3
+Dialogue: 0,0:01:11.94,0:01:12.48,Beat,,0,0,0,,bar 32.4
+Dialogue: 0,0:01:12.48,0:01:13.03,Beat,,0,0,0,,bar 33.1
+Dialogue: 0,0:01:13.03,0:01:13.57,Beat,,0,0,0,,bar 33.2
+Dialogue: 0,0:01:13.57,0:01:14.12,Beat,,0,0,0,,bar 33.3
+Dialogue: 0,0:01:14.12,0:01:14.66,Beat,,0,0,0,,bar 33.4
+Dialogue: 0,0:01:14.66,0:01:15.22,Beat,,0,0,0,,bar 34.1
+Dialogue: 0,0:01:15.22,0:01:15.78,Beat,,0,0,0,,bar 34.2
+Dialogue: 0,0:01:15.78,0:01:16.31,Beat,,0,0,0,,bar 34.3
+Dialogue: 0,0:01:16.31,0:01:16.87,Beat,,0,0,0,,bar 34.4
+Dialogue: 0,0:01:16.87,0:01:17.42,Beat,,0,0,0,,bar 35.1
+Dialogue: 0,0:01:17.42,0:01:17.95,Beat,,0,0,0,,bar 35.2
+Dialogue: 0,0:01:17.95,0:01:18.51,Beat,,0,0,0,,bar 35.3
+Dialogue: 0,0:01:18.51,0:01:19.05,Beat,,0,0,0,,bar 35.4
+Dialogue: 0,0:01:19.05,0:01:19.61,Beat,,0,0,0,,bar 36.1
+Dialogue: 0,0:01:19.61,0:01:20.16,Beat,,0,0,0,,bar 36.2
+Dialogue: 0,0:01:20.16,0:01:20.70,Beat,,0,0,0,,bar 36.3
+Dialogue: 0,0:01:20.70,0:01:21.25,Beat,,0,0,0,,bar 36.4
+Dialogue: 0,0:01:21.25,0:01:21.80,Beat,,0,0,0,,bar 37.1
+Dialogue: 0,0:01:21.80,0:01:22.35,Beat,,0,0,0,,bar 37.2
+Dialogue: 0,0:01:22.35,0:01:22.90,Beat,,0,0,0,,bar 37.3
+Dialogue: 0,0:01:22.90,0:01:23.44,Beat,,0,0,0,,bar 37.4
+Dialogue: 0,0:01:23.44,0:01:23.99,Beat,,0,0,0,,bar 38.1
+Dialogue: 0,0:01:23.99,0:01:24.54,Beat,,0,0,0,,bar 38.2
+Dialogue: 0,0:01:24.54,0:01:25.09,Beat,,0,0,0,,bar 38.3
+Dialogue: 0,0:01:25.09,0:01:25.64,Beat,,0,0,0,,bar 38.4
+Dialogue: 0,0:01:25.64,0:01:26.18,Beat,,0,0,0,,bar 39.1
+Dialogue: 0,0:01:26.18,0:01:26.74,Beat,,0,0,0,,bar 39.2
+Dialogue: 0,0:01:26.74,0:01:27.27,Beat,,0,0,0,,bar 39.3
+Dialogue: 0,0:01:27.27,0:01:27.83,Beat,,0,0,0,,bar 39.4
+Dialogue: 0,0:01:27.83,0:01:28.38,Beat,,0,0,0,,bar 40.1
+Dialogue: 0,0:01:28.38,0:01:28.93,Beat,,0,0,0,,bar 40.2
+Dialogue: 0,0:01:28.93,0:01:29.47,Beat,,0,0,0,,bar 40.3
+Dialogue: 0,0:01:29.47,0:01:30.02,Beat,,0,0,0,,bar 40.4
+Dialogue: 0,0:01:30.02,0:01:30.57,Beat,,0,0,0,,bar 41.1
+Dialogue: 0,0:01:30.57,0:01:31.12,Beat,,0,0,0,,bar 41.2
+Dialogue: 0,0:01:31.12,0:01:31.66,Beat,,0,0,0,,bar 41.3
+Dialogue: 0,0:01:31.66,0:01:32.21,Beat,,0,0,0,,bar 41.4
+Dialogue: 0,0:01:32.21,0:01:32.75,Beat,,0,0,0,,bar 42.1
+Dialogue: 0,0:01:32.75,0:01:33.31,Beat,,0,0,0,,bar 42.2
+Dialogue: 0,0:01:33.31,0:01:33.84,Beat,,0,0,0,,bar 42.3
+Dialogue: 0,0:01:33.84,0:01:34.40,Beat,,0,0,0,,bar 42.4
+Dialogue: 0,0:01:34.40,0:01:34.95,Beat,,0,0,0,,bar 43.1
+Dialogue: 0,0:01:34.95,0:01:35.49,Beat,,0,0,0,,bar 43.2
+Dialogue: 0,0:01:35.49,0:01:36.04,Beat,,0,0,0,,bar 43.3
+Dialogue: 0,0:01:36.04,0:01:36.58,Beat,,0,0,0,,bar 43.4
+Dialogue: 0,0:01:36.58,0:01:37.13,Beat,,0,0,0,,bar 44.1
+Dialogue: 0,0:01:37.13,0:01:37.69,Beat,,0,0,0,,bar 44.2
+Dialogue: 0,0:01:37.69,0:01:38.23,Beat,,0,0,0,,bar 44.3
+Dialogue: 0,0:01:38.23,0:01:38.78,Beat,,0,0,0,,bar 44.4
+Dialogue: 0,0:01:38.78,0:01:39.34,Beat,,0,0,0,,bar 45.1
+Dialogue: 0,0:01:39.34,0:01:39.89,Beat,,0,0,0,,bar 45.2
+Dialogue: 0,0:01:39.89,0:01:40.43,Beat,,0,0,0,,bar 45.3
+Dialogue: 0,0:01:40.43,0:01:40.97,Beat,,0,0,0,,bar 45.4
+Dialogue: 0,0:01:40.97,0:01:41.52,Beat,,0,0,0,,bar 46.1
+Dialogue: 0,0:01:41.52,0:01:42.08,Beat,,0,0,0,,bar 46.2
+Dialogue: 0,0:01:42.08,0:01:42.62,Beat,,0,0,0,,bar 46.3
+Dialogue: 0,0:01:42.62,0:01:43.17,Beat,,0,0,0,,bar 46.4
+Dialogue: 0,0:01:43.17,0:01:43.71,Beat,,0,0,0,,bar 47.1
+Dialogue: 0,0:01:43.71,0:01:44.27,Beat,,0,0,0,,bar 47.2
+Dialogue: 0,0:01:44.27,0:01:44.80,Beat,,0,0,0,,bar 47.3
+Dialogue: 0,0:01:44.80,0:01:45.35,Beat,,0,0,0,,bar 47.4
+Dialogue: 0,0:01:45.35,0:01:45.91,Beat,,0,0,0,,bar 48.1
+Dialogue: 0,0:01:45.91,0:01:46.45,Beat,,0,0,0,,bar 48.2
+Dialogue: 0,0:01:46.45,0:01:47.01,Beat,,0,0,0,,bar 48.3
+Dialogue: 0,0:01:47.01,0:01:47.54,Beat,,0,0,0,,bar 48.4
+Dialogue: 0,0:01:47.54,0:01:48.10,Beat,,0,0,0,,bar 49.1
+Dialogue: 0,0:01:48.10,0:01:48.65,Beat,,0,0,0,,bar 49.2
+Dialogue: 0,0:01:48.65,0:01:49.19,Beat,,0,0,0,,bar 49.3
+Dialogue: 0,0:01:49.19,0:01:49.74,Beat,,0,0,0,,bar 49.4
+Dialogue: 0,0:01:49.74,0:01:50.28,Beat,,0,0,0,,bar 50.1
+Dialogue: 0,0:01:50.28,0:01:50.84,Beat,,0,0,0,,bar 50.2
+Dialogue: 0,0:01:50.84,0:01:51.38,Beat,,0,0,0,,bar 50.3
+Dialogue: 0,0:01:51.38,0:01:51.93,Beat,,0,0,0,,bar 50.4
+Dialogue: 0,0:01:51.93,0:01:52.48,Beat,,0,0,0,,bar 51.1
+Dialogue: 0,0:01:52.48,0:01:53.02,Beat,,0,0,0,,bar 51.2
+Dialogue: 0,0:01:53.02,0:01:53.57,Beat,,0,0,0,,bar 51.3
+Dialogue: 0,0:01:53.57,0:01:54.13,Beat,,0,0,0,,bar 51.4
+Dialogue: 0,0:01:54.13,0:01:54.67,Beat,,0,0,0,,bar 52.1
+Dialogue: 0,0:01:54.67,0:01:55.22,Beat,,0,0,0,,bar 52.2
+Dialogue: 0,0:01:55.22,0:01:55.76,Beat,,0,0,0,,bar 52.3
+Dialogue: 0,0:01:55.76,0:01:56.31,Beat,,0,0,0,,bar 52.4
+Dialogue: 0,0:01:56.31,0:01:56.87,Beat,,0,0,0,,bar 53.1
+Dialogue: 0,0:01:56.87,0:01:57.41,Beat,,0,0,0,,bar 53.2
+Dialogue: 0,0:01:57.41,0:01:57.96,Beat,,0,0,0,,bar 53.3
+Dialogue: 0,0:01:57.96,0:01:58.50,Beat,,0,0,0,,bar 53.4
+Dialogue: 0,0:01:58.50,0:01:59.05,Beat,,0,0,0,,bar 54.1
+Dialogue: 0,0:01:59.05,0:01:59.61,Beat,,0,0,0,,bar 54.2
+Dialogue: 0,0:01:59.61,0:02:00.14,Beat,,0,0,0,,bar 54.3
+Dialogue: 0,0:02:00.14,0:02:00.69,Beat,,0,0,0,,bar 54.4
+Dialogue: 0,0:02:00.69,0:02:01.23,Beat,,0,0,0,,bar 55.1
+Dialogue: 0,0:02:01.23,0:02:01.79,Beat,,0,0,0,,bar 55.2
+Dialogue: 0,0:02:01.79,0:02:02.33,Beat,,0,0,0,,bar 55.3
+Dialogue: 0,0:02:02.33,0:02:02.88,Beat,,0,0,0,,bar 55.4
+Dialogue: 0,0:02:02.88,0:02:03.43,Beat,,0,0,0,,bar 56.1
+Dialogue: 0,0:02:03.43,0:02:03.97,Beat,,0,0,0,,bar 56.2
+Dialogue: 0,0:02:03.97,0:02:04.52,Beat,,0,0,0,,bar 56.3
+Dialogue: 0,0:02:04.52,0:02:05.07,Beat,,0,0,0,,bar 56.4
+Dialogue: 0,0:02:05.07,0:02:05.63,Beat,,0,0,0,,bar 57.1
+Dialogue: 0,0:02:05.63,0:02:06.18,Beat,,0,0,0,,bar 57.2
+Dialogue: 0,0:02:06.18,0:02:06.72,Beat,,0,0,0,,bar 57.3
+Dialogue: 0,0:02:06.72,0:02:07.26,Beat,,0,0,0,,bar 57.4
+Dialogue: 0,0:02:07.26,0:02:07.81,Beat,,0,0,0,,bar 58.1
+Dialogue: 0,0:02:07.81,0:02:08.37,Beat,,0,0,0,,bar 58.2
+Dialogue: 0,0:02:08.37,0:02:08.91,Beat,,0,0,0,,bar 58.3
+Dialogue: 0,0:02:08.91,0:02:09.45,Beat,,0,0,0,,bar 58.4
+Dialogue: 0,0:02:09.45,0:02:10.00,Beat,,0,0,0,,bar 59.1
+Dialogue: 0,0:02:10.00,0:02:10.55,Beat,,0,0,0,,bar 59.2
+Dialogue: 0,0:02:10.55,0:02:11.10,Beat,,0,0,0,,bar 59.3
+Dialogue: 0,0:02:11.10,0:02:11.65,Beat,,0,0,0,,bar 59.4
+Dialogue: 0,0:02:11.65,0:02:12.19,Beat,,0,0,0,,bar 60.1
+Dialogue: 0,0:02:12.19,0:02:12.74,Beat,,0,0,0,,bar 60.2
+Dialogue: 0,0:02:12.74,0:02:13.28,Beat,,0,0,0,,bar 60.3
+Dialogue: 0,0:02:13.28,0:02:13.83,Beat,,0,0,0,,bar 60.4
+Dialogue: 0,0:02:13.83,0:02:14.38,Beat,,0,0,0,,bar 61.1
+Dialogue: 0,0:02:14.38,0:02:14.92,Beat,,0,0,0,,bar 61.2
+Dialogue: 0,0:02:14.92,0:02:15.46,Beat,,0,0,0,,bar 61.3
+Dialogue: 0,0:02:15.46,0:02:16.01,Beat,,0,0,0,,bar 61.4
+Dialogue: 0,0:02:16.01,0:02:16.57,Beat,,0,0,0,,bar 62.1
+Dialogue: 0,0:02:16.57,0:02:17.11,Beat,,0,0,0,,bar 62.2
+Dialogue: 0,0:02:17.11,0:02:17.66,Beat,,0,0,0,,bar 62.3
+Dialogue: 0,0:02:17.66,0:02:18.21,Beat,,0,0,0,,bar 62.4
+Dialogue: 0,0:02:18.21,0:02:18.76,Beat,,0,0,0,,bar 63.1
+Dialogue: 0,0:02:18.76,0:02:19.31,Beat,,0,0,0,,bar 63.2
+Dialogue: 0,0:02:19.31,0:02:19.85,Beat,,0,0,0,,bar 63.3
+Dialogue: 0,0:02:19.85,0:02:20.40,Beat,,0,0,0,,bar 63.4
+Dialogue: 0,0:02:20.40,0:02:20.94,Beat,,0,0,0,,bar 64.1
+Dialogue: 0,0:02:20.94,0:02:21.50,Beat,,0,0,0,,bar 64.2
+Dialogue: 0,0:02:21.50,0:02:22.04,Beat,,0,0,0,,bar 64.3
+Dialogue: 0,0:02:22.04,0:02:22.59,Beat,,0,0,0,,bar 64.4
+Dialogue: 0,0:02:22.59,0:02:23.14,Beat,,0,0,0,,bar 65.1
+Dialogue: 0,0:02:23.14,0:02:23.68,Beat,,0,0,0,,bar 65.2
+Dialogue: 0,0:02:23.68,0:02:24.23,Beat,,0,0,0,,bar 65.3
+Dialogue: 0,0:02:24.23,0:02:24.78,Beat,,0,0,0,,bar 65.4
+Dialogue: 0,0:02:24.78,0:02:25.32,Beat,,0,0,0,,bar 66.1
+Dialogue: 0,0:02:25.32,0:02:25.88,Beat,,0,0,0,,bar 66.2
+Dialogue: 0,0:02:25.88,0:02:26.41,Beat,,0,0,0,,bar 66.3
+Dialogue: 0,0:02:26.41,0:02:26.97,Beat,,0,0,0,,bar 66.4
+Dialogue: 0,0:02:26.97,0:02:27.52,Beat,,0,0,0,,bar 67.1
+Dialogue: 0,0:02:27.52,0:02:28.07,Beat,,0,0,0,,bar 67.2
+Dialogue: 0,0:02:28.07,0:02:28.61,Beat,,0,0,0,,bar 67.3
+Dialogue: 0,0:02:28.61,0:02:29.15,Beat,,0,0,0,,bar 67.4
+Dialogue: 0,0:02:29.15,0:02:29.70,Beat,,0,0,0,,bar 68.1
+Dialogue: 0,0:02:29.70,0:02:30.26,Beat,,0,0,0,,bar 68.2
+Dialogue: 0,0:02:30.26,0:02:30.79,Beat,,0,0,0,,bar 68.3
+Dialogue: 0,0:02:30.79,0:02:31.35,Beat,,0,0,0,,bar 68.4
+Dialogue: 0,0:02:31.35,0:02:31.89,Beat,,0,0,0,,bar 69.1
+Dialogue: 0,0:02:31.89,0:02:32.44,Beat,,0,0,0,,bar 69.2
+Dialogue: 0,0:02:32.44,0:02:32.99,Beat,,0,0,0,,bar 69.3
+Dialogue: 0,0:02:32.99,0:02:33.53,Beat,,0,0,0,,bar 69.4
+Dialogue: 0,0:02:33.53,0:02:34.09,Beat,,0,0,0,,bar 70.1
+Dialogue: 0,0:02:34.09,0:02:34.63,Beat,,0,0,0,,bar 70.2
+Dialogue: 0,0:02:34.63,0:02:35.18,Beat,,0,0,0,,bar 70.3
+Dialogue: 0,0:02:35.18,0:02:35.72,Beat,,0,0,0,,bar 70.4
+Dialogue: 0,0:02:35.72,0:02:36.27,Beat,,0,0,0,,bar 71.1
+Dialogue: 0,0:02:36.27,0:02:36.83,Beat,,0,0,0,,bar 71.2
+Dialogue: 0,0:02:36.83,0:02:37.36,Beat,,0,0,0,,bar 71.3
+Dialogue: 0,0:02:37.36,0:02:37.92,Beat,,0,0,0,,bar 71.4
+Dialogue: 0,0:02:37.92,0:02:38.46,Beat,,0,0,0,,bar 72.1
+Dialogue: 0,0:02:38.46,0:02:39.02,Beat,,0,0,0,,bar 72.2
+Dialogue: 0,0:02:39.02,0:02:39.56,Beat,,0,0,0,,bar 72.3
+Dialogue: 0,0:02:39.56,0:02:40.10,Beat,,0,0,0,,bar 72.4
+Dialogue: 0,0:02:40.10,0:02:40.65,Beat,,0,0,0,,bar 73.1
+Dialogue: 0,0:02:40.65,0:02:41.21,Beat,,0,0,0,,bar 73.2
+Dialogue: 0,0:02:41.21,0:02:41.74,Beat,,0,0,0,,bar 73.3
+Dialogue: 0,0:02:41.74,0:02:42.30,Beat,,0,0,0,,bar 73.4
+Dialogue: 0,0:02:42.30,0:02:42.84,Beat,,0,0,0,,bar 74.1
+Dialogue: 0,0:02:42.84,0:02:43.39,Beat,,0,0,0,,bar 74.2
+Dialogue: 0,0:02:43.39,0:02:43.93,Beat,,0,0,0,,bar 74.3
+Dialogue: 0,0:02:43.93,0:02:44.48,Beat,,0,0,0,,bar 74.4
+Dialogue: 0,0:02:44.48,0:02:45.04,Beat,,0,0,0,,bar 75.1
+Dialogue: 0,0:02:45.04,0:02:45.58,Beat,,0,0,0,,bar 75.2
+Dialogue: 0,0:02:45.58,0:02:46.13,Beat,,0,0,0,,bar 75.3
+Dialogue: 0,0:02:46.13,0:02:46.67,Beat,,0,0,0,,bar 75.4
+Dialogue: 0,0:02:46.67,0:02:47.22,Beat,,0,0,0,,bar 76.1
+Dialogue: 0,0:02:47.22,0:02:47.76,Beat,,0,0,0,,bar 76.2
+Dialogue: 0,0:02:47.76,0:02:48.31,Beat,,0,0,0,,bar 76.3
+Dialogue: 0,0:02:48.31,0:02:48.86,Beat,,0,0,0,,bar 76.4
+Dialogue: 0,0:02:48.86,0:02:49.40,Beat,,0,0,0,,bar 77.1
+Dialogue: 0,0:02:49.40,0:02:49.95,Beat,,0,0,0,,bar 77.2
+Dialogue: 0,0:02:49.95,0:02:50.50,Beat,,0,0,0,,bar 77.3
+Dialogue: 0,0:02:50.50,0:02:51.05,Beat,,0,0,0,,bar 77.4
+Dialogue: 0,0:02:51.05,0:02:51.60,Beat,,0,0,0,,bar 78.1
+Dialogue: 0,0:02:51.60,0:02:52.14,Beat,,0,0,0,,bar 78.2
+Dialogue: 0,0:02:52.14,0:02:52.69,Beat,,0,0,0,,bar 78.3
+Dialogue: 0,0:02:52.69,0:02:53.23,Beat,,0,0,0,,bar 78.4
+Dialogue: 0,0:02:53.23,0:02:53.78,Beat,,0,0,0,,bar 79.1
+Dialogue: 0,0:02:53.78,0:02:54.32,Beat,,0,0,0,,bar 79.2
+Dialogue: 0,0:02:54.32,0:02:54.87,Beat,,0,0,0,,bar 79.3
+Dialogue: 0,0:02:54.87,0:02:55.43,Beat,,0,0,0,,bar 79.4
+Dialogue: 0,0:02:55.43,0:02:55.97,Beat,,0,0,0,,bar 80.1
+Dialogue: 0,0:02:55.97,0:02:56.52,Beat,,0,0,0,,bar 80.2
+Dialogue: 0,0:02:56.52,0:02:57.06,Beat,,0,0,0,,bar 80.3
+Dialogue: 0,0:02:57.06,0:02:57.61,Beat,,0,0,0,,bar 80.4
+Dialogue: 0,0:02:57.61,0:02:58.16,Beat,,0,0,0,,bar 81.1
+Dialogue: 0,0:02:58.16,0:02:58.70,Beat,,0,0,0,,bar 81.2
+Dialogue: 0,0:02:58.70,0:02:59.25,Beat,,0,0,0,,bar 81.3
+Dialogue: 0,0:02:59.25,0:02:59.79,Beat,,0,0,0,,bar 81.4
+Dialogue: 0,0:02:59.79,0:03:00.34,Beat,,0,0,0,,bar 82.1
+Dialogue: 0,0:03:00.34,0:03:00.90,Beat,,0,0,0,,bar 82.2
+Dialogue: 0,0:03:00.90,0:03:01.43,Beat,,0,0,0,,bar 82.3
+Dialogue: 0,0:03:01.43,0:03:01.99,Beat,,0,0,0,,bar 82.4
+Dialogue: 0,0:03:01.99,0:03:02.53,Beat,,0,0,0,,bar 83.1
+Dialogue: 0,0:03:02.53,0:03:03.08,Beat,,0,0,0,,bar 83.2
+Dialogue: 0,0:03:03.08,0:03:03.62,Beat,,0,0,0,,bar 83.3
+Dialogue: 0,0:03:03.62,0:03:04.17,Beat,,0,0,0,,bar 83.4
+Dialogue: 0,0:03:04.17,0:03:04.72,Beat,,0,0,0,,bar 84.1
+Dialogue: 0,0:03:04.72,0:03:05.26,Beat,,0,0,0,,bar 84.2
+Dialogue: 0,0:03:05.26,0:03:05.81,Beat,,0,0,0,,bar 84.3
+Dialogue: 0,0:03:05.81,0:03:06.35,Beat,,0,0,0,,bar 84.4
+Dialogue: 0,0:03:06.35,0:03:06.90,Beat,,0,0,0,,bar 85.1
+Dialogue: 0,0:03:06.90,0:03:07.46,Beat,,0,0,0,,bar 85.2
+Dialogue: 0,0:03:07.46,0:03:07.99,Beat,,0,0,0,,bar 85.3
+Dialogue: 0,0:03:07.99,0:03:08.53,Beat,,0,0,0,,bar 85.4
+Dialogue: 0,0:03:08.53,0:03:09.08,Beat,,0,0,0,,bar 86.1
+Dialogue: 0,0:03:09.08,0:03:09.63,Beat,,0,0,0,,bar 86.2
+Dialogue: 0,0:03:09.63,0:03:10.17,Beat,,0,0,0,,bar 86.3
+Dialogue: 0,0:03:10.17,0:03:10.72,Beat,,0,0,0,,bar 86.4
+Dialogue: 0,0:03:10.72,0:03:11.26,Beat,,0,0,0,,bar 87.1
+Dialogue: 0,0:03:11.26,0:03:11.81,Beat,,0,0,0,,bar 87.2
+Dialogue: 0,0:03:11.81,0:03:12.35,Beat,,0,0,0,,bar 87.3
+Dialogue: 0,0:03:12.35,0:03:12.90,Beat,,0,0,0,,bar 87.4
+Dialogue: 0,0:03:12.90,0:03:13.47,Beat,,0,0,0,,bar 88.1
+Dialogue: 0,0:03:13.47,0:03:14.01,Beat,,0,0,0,,bar 88.2
+Dialogue: 0,0:03:14.01,0:03:14.56,Beat,,0,0,0,,bar 88.3
+Dialogue: 0,0:03:14.56,0:03:15.11,Beat,,0,0,0,,bar 88.4
+Dialogue: 0,0:03:15.11,0:03:15.65,Beat,,0,0,0,,bar 89.1
+Dialogue: 0,0:03:15.65,0:03:16.20,Beat,,0,0,0,,bar 89.2
+Dialogue: 0,0:03:16.20,0:03:16.74,Beat,,0,0,0,,bar 89.3
+Dialogue: 0,0:03:16.74,0:03:17.29,Beat,,0,0,0,,bar 89.4
+Dialogue: 0,0:03:17.29,0:03:17.83,Beat,,0,0,0,,bar 90.1
+Dialogue: 0,0:03:17.83,0:03:18.39,Beat,,0,0,0,,bar 90.2
+Dialogue: 0,0:03:18.39,0:03:18.92,Beat,,0,0,0,,bar 90.3
+Dialogue: 0,0:03:18.92,0:03:19.48,Beat,,0,0,0,,bar 90.4
+Dialogue: 0,0:03:19.48,0:03:20.04,Beat,,0,0,0,,bar 91.1
+Dialogue: 0,0:03:20.04,0:03:20.57,Beat,,0,0,0,,bar 91.2
+Dialogue: 0,0:03:20.57,0:03:21.11,Beat,,0,0,0,,bar 91.3
+Dialogue: 0,0:03:21.11,0:03:21.66,Beat,,0,0,0,,bar 91.4
+Dialogue: 0,0:03:21.66,0:03:22.21,Beat,,0,0,0,,bar 92.1
+Dialogue: 0,0:03:22.21,0:03:22.76,Beat,,0,0,0,,bar 92.2
+Dialogue: 0,0:03:22.76,0:03:23.30,Beat,,0,0,0,,bar 92.3
+Dialogue: 0,0:03:23.30,0:03:23.85,Beat,,0,0,0,,bar 92.4
+Dialogue: 0,0:03:23.85,0:03:24.39,Beat,,0,0,0,,bar 93.1
+Dialogue: 0,0:03:24.39,0:03:24.95,Beat,,0,0,0,,bar 93.2
+Dialogue: 0,0:03:24.95,0:03:25.48,Beat,,0,0,0,,bar 93.3
+Dialogue: 0,0:03:25.48,0:03:26.03,Beat,,0,0,0,,bar 93.4
+Dialogue: 0,0:03:26.03,0:03:26.58,Beat,,0,0,0,,bar 94.1
+Dialogue: 0,0:03:26.58,0:03:27.13,Beat,,0,0,0,,bar 94.2
+Dialogue: 0,0:03:27.13,0:03:27.67,Beat,,0,0,0,,bar 94.3
+Dialogue: 0,0:03:27.67,0:03:28.22,Beat,,0,0,0,,bar 94.4
+Dialogue: 0,0:03:28.22,0:03:28.77,Beat,,0,0,0,,bar 95.1
+Dialogue: 0,0:03:28.77,0:03:29.32,Beat,,0,0,0,,bar 95.2
+Dialogue: 0,0:03:29.32,0:03:29.86,Beat,,0,0,0,,bar 95.3
+Dialogue: 0,0:03:29.86,0:03:30.41,Beat,,0,0,0,,bar 95.4
+Dialogue: 0,0:03:30.41,0:03:30.96,Beat,,0,0,0,,bar 96.1
+Dialogue: 0,0:03:30.96,0:03:31.50,Beat,,0,0,0,,bar 96.2
+Dialogue: 0,0:03:31.50,0:03:32.06,Beat,,0,0,0,,bar 96.3
+Dialogue: 0,0:03:32.06,0:03:32.59,Beat,,0,0,0,,bar 96.4
+Dialogue: 0,0:03:32.59,0:03:33.14,Beat,,0,0,0,,bar 97.1
+Dialogue: 0,0:03:33.14,0:03:33.68,Beat,,0,0,0,,bar 97.2
+Dialogue: 0,0:03:33.68,0:03:34.23,Beat,,0,0,0,,bar 97.3
+Dialogue: 0,0:03:34.23,0:03:34.77,Beat,,0,0,0,,bar 97.4
+Dialogue: 0,0:03:34.77,0:03:35.32,Beat,,0,0,0,,bar 98.1
+Dialogue: 0,0:03:35.32,0:03:35.88,Beat,,0,0,0,,bar 98.2
+Dialogue: 0,0:03:35.88,0:03:36.42,Beat,,0,0,0,,bar 98.3
+Dialogue: 0,0:03:36.42,0:03:36.97,Beat,,0,0,0,,bar 98.4
+Dialogue: 0,0:03:36.97,0:03:37.52,Beat,,0,0,0,,bar 99.1
+Dialogue: 0,0:03:37.52,0:03:38.07,Beat,,0,0,0,,bar 99.2
+Dialogue: 0,0:03:38.07,0:03:38.62,Beat,,0,0,0,,bar 99.3
+Dialogue: 0,0:03:38.62,0:03:39.16,Beat,,0,0,0,,bar 99.4
+Dialogue: 0,0:03:39.16,0:03:39.71,Beat,,0,0,0,,bar 100.1
+Dialogue: 0,0:03:39.71,0:03:40.25,Beat,,0,0,0,,bar 100.2
+Dialogue: 0,0:03:40.25,0:03:40.80,Beat,,0,0,0,,bar 100.3
+Dialogue: 0,0:03:40.80,0:03:41.34,Beat,,0,0,0,,bar 100.4
+Dialogue: 0,0:03:41.34,0:03:41.89,Beat,,0,0,0,,bar 101.1
+Dialogue: 0,0:03:41.89,0:03:42.44,Beat,,0,0,0,,bar 101.2
+Dialogue: 0,0:03:42.44,0:03:42.98,Beat,,0,0,0,,bar 101.3
+Dialogue: 0,0:03:42.98,0:03:43.53,Beat,,0,0,0,,bar 101.4
+Dialogue: 0,0:03:43.53,0:03:44.07,Beat,,0,0,0,,bar 102.1
+Dialogue: 0,0:03:44.07,0:03:44.63,Beat,,0,0,0,,bar 102.2
+Dialogue: 0,0:03:44.63,0:03:45.18,Beat,,0,0,0,,bar 102.3
+Dialogue: 0,0:03:45.18,0:03:45.72,Beat,,0,0,0,,bar 102.4
+Dialogue: 0,0:03:45.72,0:03:46.27,Beat,,0,0,0,,bar 103.1
+Dialogue: 0,0:03:46.27,0:03:46.81,Beat,,0,0,0,,bar 103.2
+Dialogue: 0,0:03:46.81,0:03:47.36,Beat,,0,0,0,,bar 103.3
+Dialogue: 0,0:03:47.36,0:03:47.92,Beat,,0,0,0,,bar 103.4
+Dialogue: 0,0:03:47.92,0:03:48.46,Beat,,0,0,0,,bar 104.1
+Dialogue: 0,0:03:48.46,0:03:49.01,Beat,,0,0,0,,bar 104.2
+Dialogue: 0,0:03:49.01,0:03:49.55,Beat,,0,0,0,,bar 104.3
+Dialogue: 0,0:03:49.55,0:03:50.10,Beat,,0,0,0,,bar 104.4
+Dialogue: 0,0:03:50.10,0:03:50.63,Beat,,0,0,0,,bar 105.1
+Dialogue: 0,0:03:50.63,0:03:51.19,Beat,,0,0,0,,bar 105.2
+Dialogue: 0,0:03:51.19,0:03:51.72,Beat,,0,0,0,,bar 105.3
+Dialogue: 0,0:03:51.72,0:03:52.28,Beat,,0,0,0,,bar 105.4
+Dialogue: 0,0:03:52.28,0:03:52.83,Beat,,0,0,0,,bar 106.1
+Dialogue: 0,0:03:52.83,0:03:53.37,Beat,,0,0,0,,bar 106.2
+Dialogue: 0,0:03:53.37,0:03:53.92,Beat,,0,0,0,,bar 106.3
+Dialogue: 0,0:03:53.92,0:03:54.46,Beat,,0,0,0,,bar 106.4
+Dialogue: 0,0:03:54.46,0:03:55.02,Beat,,0,0,0,,bar 107.1
+Dialogue: 0,0:03:55.02,0:03:55.57,Beat,,0,0,0,,bar 107.2
+Dialogue: 0,0:03:55.57,0:03:56.11,Beat,,0,0,0,,bar 107.3
+Dialogue: 0,0:03:56.11,0:03:56.66,Beat,,0,0,0,,bar 107.4
+Dialogue: 0,0:03:56.66,0:03:57.20,Beat,,0,0,0,,bar 108.1
+Dialogue: 0,0:03:57.20,0:03:57.75,Beat,,0,0,0,,bar 108.2
+Dialogue: 0,0:03:57.75,0:03:58.30,Beat,,0,0,0,,bar 108.3
+Dialogue: 0,0:03:58.30,0:03:58.84,Beat,,0,0,0,,bar 108.4
+Dialogue: 0,0:03:58.84,0:03:59.39,Beat,,0,0,0,,bar 109.1
+Dialogue: 0,0:03:59.39,0:03:59.94,Beat,,0,0,0,,bar 109.2
+Dialogue: 0,0:03:59.94,0:04:00.49,Beat,,0,0,0,,bar 109.3
+Dialogue: 0,0:04:00.49,0:04:01.04,Beat,,0,0,0,,bar 109.4
+Dialogue: 0,0:04:01.04,0:04:01.58,Beat,,0,0,0,,bar 110.1
+Dialogue: 0,0:04:01.58,0:04:02.14,Beat,,0,0,0,,bar 110.2
+Dialogue: 0,0:04:02.14,0:04:02.67,Beat,,0,0,0,,bar 110.3
+Dialogue: 0,0:04:02.67,0:04:03.22,Beat,,0,0,0,,bar 110.4
+Dialogue: 0,0:04:03.22,0:04:03.76,Beat,,0,0,0,,bar 111.1
+Dialogue: 0,0:04:03.76,0:04:04.31,Beat,,0,0,0,,bar 111.2
+Dialogue: 0,0:04:04.31,0:04:04.85,Beat,,0,0,0,,bar 111.3
+Dialogue: 0,0:04:04.85,0:04:05.41,Beat,,0,0,0,,bar 111.4
+Dialogue: 0,0:04:05.41,0:04:05.96,Beat,,0,0,0,,bar 112.1
+Dialogue: 0,0:04:05.96,0:04:06.52,Beat,,0,0,0,,bar 112.2
+Dialogue: 0,0:04:06.52,0:04:07.05,Beat,,0,0,0,,bar 112.3
+Dialogue: 0,0:04:07.05,0:04:07.59,Beat,,0,0,0,,bar 112.4
+Dialogue: 0,0:04:07.59,0:04:08.14,Beat,,0,0,0,,bar 113.1
+Dialogue: 0,0:04:08.14,0:04:08.70,Beat,,0,0,0,,bar 113.2
+Dialogue: 0,0:04:08.70,0:04:09.23,Beat,,0,0,0,,bar 113.3
+Dialogue: 0,0:04:09.23,0:04:09.79,Beat,,0,0,0,,bar 113.4
+Dialogue: 0,0:04:09.79,0:04:10.33,Beat,,0,0,0,,bar 114.1
+Dialogue: 0,0:04:10.33,0:04:10.89,Beat,,0,0,0,,bar 114.2
+Dialogue: 0,0:04:10.89,0:04:11.43,Beat,,0,0,0,,bar 114.3
+Dialogue: 0,0:04:11.43,0:04:11.97,Beat,,0,0,0,,bar 114.4
+Dialogue: 0,0:04:11.97,0:04:12.52,Beat,,0,0,0,,bar 115.1
+Dialogue: 0,0:04:12.52,0:04:13.06,Beat,,0,0,0,,bar 115.2
+Dialogue: 0,0:04:13.06,0:04:13.61,Beat,,0,0,0,,bar 115.3
+Dialogue: 0,0:04:13.61,0:04:14.17,Beat,,0,0,0,,bar 115.4
+Dialogue: 0,0:04:14.17,0:04:14.72,Beat,,0,0,0,,bar 116.1
+Dialogue: 0,0:04:14.72,0:04:15.27,Beat,,0,0,0,,bar 116.2
+Dialogue: 0,0:04:15.27,0:04:15.80,Beat,,0,0,0,,bar 116.3
+Dialogue: 0,0:04:15.80,0:04:16.34,Beat,,0,0,0,,bar 116.4
+Dialogue: 0,0:04:16.34,0:04:16.88,Beat,,0,0,0,,bar 117.1
+Dialogue: 0,0:04:16.88,0:04:17.37,Beat,,0,0,0,,bar 117.2
+Dialogue: 0,0:04:17.37,0:04:17.86,Beat,,0,0,0,,bar 117.3
+Dialogue: 0,0:04:17.86,0:04:18.37,Beat,,0,0,0,,bar 117.4
+Dialogue: 0,0:04:18.37,0:04:18.88,Beat,,0,0,0,,bar 118.1
+Dialogue: 0,0:04:18.88,0:04:19.39,Beat,,0,0,0,,bar 118.2
+Dialogue: 0,0:04:19.39,0:04:19.89,Beat,,0,0,0,,bar 118.3
+Dialogue: 0,0:04:19.89,0:04:20.44,Beat,,0,0,0,,bar 118.4
+Dialogue: 0,0:04:20.44,0:04:20.98,Beat,,0,0,0,,bar 119.1
+Dialogue: 0,0:04:20.98,0:04:21.53,Beat,,0,0,0,,bar 119.2
+Dialogue: 0,0:04:21.53,0:04:22.07,Beat,,0,0,0,,bar 119.3
+Dialogue: 0,0:04:22.07,0:04:22.62,Beat,,0,0,0,,bar 119.4
+Dialogue: 0,0:04:22.62,0:04:22.89,Beat,,0,0,0,,bar 120.1
