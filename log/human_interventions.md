@@ -37,3 +37,11 @@ Append-only. Every human action: when, what, and why.
 - **Breakdown:** "It's "151""
 - **Final audit pass:** "Let's hold off on that final audit pass for now: I don't think anything will come up that can't be addressed by onscreen text." Brief checklist updated (rev 44).
 - **Master (raw or post-filtered):** not yet picked.
+
+## 6. 2026-11-09 — M1 review
+
+- **Timing:** "Timing is good." (on `timing/check/m1_review.mp4`)
+- **Master:** "Use the postfiltered version." Locked in `config/master.json`.
+- **D04a:** "I'm not sure what you mean about "fills the instrumental". I think we're going to need more content to fill in D04a." New shots proposed by the agent, pending approval.
+- **D25/D26:** "Yes, fold D26 into D25."
+- **D42, D44b:** "Yes, split D42 and D44b as well." New shots proposed by the agent, pending approval.

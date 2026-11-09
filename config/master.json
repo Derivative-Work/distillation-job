@@ -5,5 +5,10 @@
   "postfilter": "audio/postfilter/distillation_job_postfilter.wav"
  },
  "timing_reference": "audio/track/Distillation (Allegedly).wav",
- "locked": null
+ "locked": {
+  "file": "audio/postfilter/distillation_job_postfilter.wav",
+  "sha256": "0b0d82c8ced81f96aca6d892fb59801f67578075baae4b5044d7800eaefdb8f9",
+  "when": "2026-11-09",
+  "by": "human: \"Use the postfiltered version.\""
+ }
 }

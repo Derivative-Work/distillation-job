@@ -64,3 +64,9 @@ Direct edits, not suggestions, with the docs tools:
 - `config/shot_cues.json`: one cue per shot from the brief's anchors (line starts, snapped to a band beat); D01 before the music, D45–D47 after it, lengths at M4. The script checks the IDs match the brief's.
 - `python3 -I scripts/shot_times.py` (adapted: pre/post shots, no cards yet) → `timing/shot_times.json`. All in order. Shots under 1.5 s: D26 (0.81 s). Gate questions in `log/decisions.md` 3.
 - `.venv/bin/python -I scripts/m1_review.py` (adapted) → `timing/check/m1_review.mp4` (960×540, 264.8 s: shot ID, type, picture and on-screen text; the lyric with the current word; bar.beat; the take plus a beat click) and `master_click.wav`. Frames at 130 s (D25) and 167 s (D29) checked.
+
+## 9. 2026-11-09 — Master locked; D26 folded into D25 (brief rev 50)
+
+- `config/master.json` → `locked`: `audio/postfilter/distillation_job_postfilter.wav` (sha256 `0b0d82c8…`). The timing map stays on the raw take (same timing, step 5).
+- Brief, direct edits: D25's shot now runs the split screen "From "wait" through pre-chorus 2" and "Absorbs D26, so the caption gets a full read"; D26 "Retired November 9, 2026: folded into D25…; the family portrait is dropped"; D27 is chorus 2 only, "Reprise of D15–D19…".
+- `config/shot_cues.json`: D26 `retired`; D27 cue `section:Chorus 2` (snapped +263 ms to 138.76 s). `scripts/shot_times.py` handles `retired`. D25 128.91–138.76 s (9.86 s; the split screen from "wait" ≈130.9 s gets ~7.9 s); no shot under 1.5 s.

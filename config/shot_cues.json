@@ -1,5 +1,5 @@
 {
- "_doc": "Start cue of every shot (brief rev 44 shot list). 'Section|line|word' = the word's start, indices from 0 as in lyrics/as_sung.txt; 't:<s>' a take time; 'section:<name>' its start. A shot ends where the next starts. 'snap': move onto a band beat (scripts/shot_times.py). 'pre'/'post': before or after the music; lengths set at M4.",
+ "_doc": "Start cue of every shot (brief rev 44 shot list). 'Section|line|word' = the word's start, indices from 0 as in lyrics/as_sung.txt; 't:<s>' a take time; 'section:<name>' its start. A shot ends where the next starts. 'snap': move onto a band beat (scripts/shot_times.py). 'pre'/'post': before or after the music; lengths set at M4. 'retired': the ID stays, the shot is gone (brief rule).",
  "shots": [
   {
    "id": "D01",
@@ -129,18 +129,19 @@
   {
    "id": "D25",
    "cue": "Verse 2|6|0",
-   "snap": true
+   "snap": true,
+   "note": "bottle gag, then from 'wait' through pre-chorus 2 the split screen of real captures and caption (absorbs D26)"
   },
   {
    "id": "D26",
-   "cue": "Verse 2|7|7",
-   "note": "on 'inherited'",
-   "snap": true
+   "cue": "retired",
+   "note": "folded into D25 (human, 2026-11-09)"
   },
   {
    "id": "D27",
-   "cue": "section:Pre-chorus 2",
-   "note": "reprise of D13-D19 with twice the puppets; split into sub-shots at M4"
+   "cue": "section:Chorus 2",
+   "note": "reprise of D15-D19 with twice the puppets; split into sub-shots at M4",
+   "snap": true
   },
   {
    "id": "D27a",

@@ -1,7 +1,8 @@
 """M1: resolve every shot cue (config/shot_cues.json) to take time and frames: timing/shot_times.json.
 
 Adapted from Buy It on Margin. Cues: "Section|line|word" (the word's start), "end:…", "mid:…", "t:<s>",
-"section:<name>", and "pre"/"post" for shots before or after the music (D01; D45-D47), whose lengths are set at M4.
+"section:<name>", "pre"/"post" for shots before or after the music (D01; D45-D47), whose lengths are set at M4,
+and "retired" for IDs whose shot was removed (the ID never changes or gets reused).
 - snap: move the start onto a band beat: the beat at or just before the word if within 200 ms (sung onsets lag the
   beat), else the nearest within half a beat.
 - Reports shots shorter than the brief's text needs once cards exist (M2); for now, shots under 1.5 s.
@@ -42,7 +43,7 @@ def main():
     cues = json.load(open(CUES))["shots"]
     rows = []
     for s in cues:
-        if s["cue"] in ("pre", "post"):
+        if s["cue"] in ("pre", "post", "retired"):
             continue
         t, label = resolve(s["cue"], tm)
         rows.append({**s, "t": snap(t, beats, half) if s.get("snap") else t, "raw": t, "label": label})
@@ -50,8 +51,8 @@ def main():
         raise SystemExit("shot cues are out of order")
     out, short = {}, []
     for s in cues:
-        if s["cue"] in ("pre", "post"):
-            out[s["id"]] = {"placement": "before the music" if s["cue"] == "pre" else "after the music",
+        if s["cue"] in ("pre", "post", "retired"):
+            out[s["id"]] = {"placement": {"pre": "before the music", "post": "after the music", "retired": "retired"}[s["cue"]],
                             "start": None, "end": None, "note": s.get("note")}
     for i, r in enumerate(rows):
         end = rows[i + 1]["t"] if i + 1 < len(rows) else end_music

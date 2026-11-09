@@ -229,32 +229,29 @@
   },
   "D25": {
    "start": 128.906,
-   "end": 132.737,
-   "duration": 3.831,
+   "end": 138.762,
+   "duration": 9.856,
    "start_frame": 3094,
-   "end_frame": 3186,
+   "end_frame": 3330,
    "cue": "'And' (Verse 2 6.0)",
-   "snapped_ms": -6
+   "snapped_ms": -6,
+   "note": "bottle gag, then from 'wait' through pre-chorus 2 the split screen of real captures and caption (absorbs D26)"
   },
   "D26": {
-   "start": 132.737,
-   "end": 133.55,
-   "duration": 0.813,
-   "start_frame": 3186,
-   "end_frame": 3205,
-   "cue": "'inherited' (Verse 2 7.7)",
-   "snapped_ms": -147,
-   "note": "on 'inherited'"
+   "placement": "retired",
+   "start": null,
+   "end": null,
+   "note": "folded into D25 (human, 2026-11-09)"
   },
   "D27": {
-   "start": 133.55,
+   "start": 138.762,
    "end": 157.919,
-   "duration": 24.369,
-   "start_frame": 3205,
+   "duration": 19.157,
+   "start_frame": 3330,
    "end_frame": 3790,
-   "cue": "section:Pre-chorus 2",
-   "snapped_ms": 0,
-   "note": "reprise of D13-D19 with twice the puppets; split into sub-shots at M4"
+   "cue": "section:Chorus 2",
+   "snapped_ms": 263,
+   "note": "reprise of D15-D19 with twice the puppets; split into sub-shots at M4"
   },
   "D27a": {
    "start": 157.919,
@@ -500,7 +497,5 @@
    "note": "end card: credits and disclosures"
   }
  },
- "short_shots": [
-  "D26: 0.81 s"
- ]
+ "short_shots": []
 }
