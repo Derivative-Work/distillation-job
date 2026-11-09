@@ -11,7 +11,42 @@
   41,
   42
  ],
- "kept": {},
+ "kept": {
+  "D02": "takes/clips/D02/D02_s41.mp4",
+  "D04e": "takes/clips/D04e/D04e_s42.mp4",
+  "D05": "takes/clips/D05/D05_s41.mp4",
+  "D08": "takes/clips/D08/D08_s42.mp4",
+  "D09": "takes/clips/D09/D09_s41.mp4",
+  "D10": "takes/clips/D10/D10_s41.mp4",
+  "D11": "takes/clips/D11/D11_s42.mp4",
+  "D12": "takes/clips/D12/D12_s41.mp4",
+  "D13": "takes/clips/D13/D13_s42.mp4",
+  "D15": "takes/clips/D15/D15_s42.mp4",
+  "D16": "takes/clips/D16/D16_s41.mp4",
+  "D18": "takes/clips/D18/D18_s42.mp4",
+  "D19": "takes/clips/D19/D19_s41.mp4",
+  "D21": "takes/clips/D21/D21_s41.mp4",
+  "D22": "takes/clips/D22/D22_s42.mp4",
+  "D23": "takes/clips/D23/D23_s42.mp4",
+  "D25": "takes/clips/D25/D25_s41.mp4",
+  "D27": "takes/clips/D27/D27_s42.mp4",
+  "D31": "takes/clips/D31/D31_s41.mp4",
+  "D32": "takes/clips/D32/D32_s41.mp4",
+  "D33": "takes/clips/D33/D33_s41.mp4",
+  "D34": "takes/clips/D34/D34_s41.mp4",
+  "D35": "takes/clips/D35/D35_s42.mp4",
+  "D36": "takes/clips/D36/D36_s41.mp4",
+  "D38": "takes/clips/D38/D38_s42.mp4",
+  "D39": "takes/clips/D39/D39_s42.mp4",
+  "D39c": "takes/clips/D39c/D39c_s42.mp4",
+  "D40": "takes/clips/D40/D40_s41.mp4",
+  "D41": "takes/clips/D41/D41_s42.mp4",
+  "D42a": "takes/clips/D42a/D42a_s41.mp4",
+  "D42b": "takes/clips/D42b/D42b_s41.mp4",
+  "D44a": "takes/clips/D44a/D44a_s41.mp4",
+  "D44c": "takes/clips/D44c/D44c_s42.mp4",
+  "D42": "takes/clips/D42/D42_s45.mp4"
+ },
  "style_sets": {},
  "clips": {
   "D02": {
@@ -161,8 +196,13 @@
   },
   "D42": {
    "keyframe": "D42",
-   "motion": "everyone dances around the copper still, bouncing and swinging their arms to a funky beat; the probe's green light pulses",
-   "seconds": 6
+   "motion": "the knitted sock puppets dance in place around the copper still, bouncing and swinging their arms to a funky beat; the probe's green light pulses. Every puppet keeps its knitted ski mask and gray felt face with button eyes and no mouth; only puppets in the room, the background stays dark and empty, no people, no human faces",
+   "seconds": 6,
+   "seeds": [
+    45,
+    46
+   ],
+   "note": "s41/s42 rejected: realistic human faces appeared in the background crowd, and the teal puppets turned into white faces with red mouths (decision 4); s43/s44 (stricter prompt, same keyframe) still showed the people, which were in the keyframe; s45/s46 from keyframe D42_v2_s43"
   },
   "D42a": {
    "keyframe": "D42a",
@@ -184,5 +224,6 @@
    "motion": "the camera slowly pulls back along the long line of puppets on the night street; the teller window glows",
    "seconds": 5
   }
- }
+ },
+ "_kept_status": "provisional (agent's picks, 2026-11-09), for the human to confirm in the M4 animatic"
 }

@@ -765,15 +765,18 @@
     1008
    ],
    "style": "scene",
-   "subject": "Wide shot of a party around the copper pot still from the reference: the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards), teal-masked puppets, the small chrome probe with a green light and the brass teller machine all dancing",
+   "subject": "Wide shot of a party around the copper pot still from the reference, in the dim garage: only knitted sock puppets dance, the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, gray felt faces with button eyes and no mouth, charcoal-gray sock bodies, blank white badges on black lanyards) and the same puppets in teal knit ski masks with the same gray felt faces and button eyes; the small dark chrome probe with a green glowing lens and the brass teller machine dance among them. The background is the dark empty garage. No people, no human faces, no audience, no white faces, no lips, no red mouths",
    "refs": [
     "ref_still",
     "ref_crew",
-    "ref_probe"
+    "ref_probe",
+    "ref_teller"
    ],
    "batch": 2,
    "shot": "D42",
-   "kind": "keyframe"
+   "kind": "keyframe",
+   "v": 2,
+   "note": "v1 pick (s41) had realistic people in the background and white-faced teal puppets with red mouths (decision 4), seen only at full size after the clips"
   },
   "D42b": {
    "size": [
@@ -903,13 +906,13 @@
   "D39d": 41,
   "D40": 41,
   "D41": 43,
-  "D42": 41,
   "D44a": 41,
   "D44b": 43,
   "D44c": 41,
   "D32": 41,
   "D33": 42,
   "D42a": 42,
-  "D42b": 42
+  "D42b": 42,
+  "D42": "D42_v2_s43"
  }
 }

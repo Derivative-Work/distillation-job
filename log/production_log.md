@@ -111,3 +111,11 @@ Direct edits, not suggestions, with the docs tools:
 - The full clip run was stopped by Claude Code's memory guard before its first take: ComfyUI still held FLUX.2 in RAM from the still batches (33 of 38 GB used).
 - Method from the sibling projects (`../folks-like-us/style/vram_plan.md`, `../buy-it-on-margin/scripts/batch2b.sh`): one model family at a time, `POST /free` (`comfy_client.free()`) between stages, nothing else on the GPU or in RAM during a batch. Freed: RAM 33 → 3 GB used, VRAM 0.9 GB.
 - New `scripts/run_stage.sh stills|clips [items]` frees before and after each stage. LTX-2.3 alone peaks at about 37 GB RAM plus 5–7 GB swap on this box (Folks Like Us measurement), so the guard can still fire on an idle session; Folks Like Us ran with `CLAUDE_CODE_DISABLE_BG_SHELL_PRESSURE_REAP=1`.
+
+## 16. 2026-11-09 — Clips generated and checked; D42 keyframe replaced
+
+- `scripts/run_stage.sh clips` → 68 takes in `takes/clips/` (34 clips × seeds 41, 42), log `takes_clips.log`; RAM 3 GB before and after, about 34 GB during. Filmstrips (6 frames per take) checked.
+- **D42 rejected:** both takes showed realistic people in the background and teal puppets with white faces and red mouths (decision 4). A stricter motion prompt (s43, s44) kept them, because they were in the keyframe: the batch-2 pick `D42_s41` has them, missed at thumbnail size. New still prompt v2 (only puppets, gray felt faces, no people; refs + ref_teller) → `D42_v2_s41–44`, all clean; picked s43. Clip s45/s46 from it: clean; s45 picked. The other crowd keyframes (D15, D27, D40, D41, D42a, D44a) re-checked at full size: clean.
+- Drift seen and avoided in the picks: D13 s41 (the brass arm turns into a torpedo), D39 s41 (generic human-like figures appear), D42a s42 (a figure appears inside the vault, plus an extra Fed), D35 s41 (bottles melt), D39c s41 (a brass column grows).
+- Provisional picks in `config/clips.json` `kept`, for the human to confirm at M4.
+- Lesson: check every picked keyframe at full size before it becomes a clip, not only the 4-up grids.
