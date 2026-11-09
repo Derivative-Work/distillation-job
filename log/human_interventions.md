@@ -54,3 +54,8 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "Teller A, Still C, Van C, and of the most recent set Crew A, Probe A. I don't see a set of Feds for me to pick" (crew = v2, probe = v3); then, after the Feds grid was resent, "Feds D".
 - **Recorded:** `config/stills.json` `kept`: ref_teller 41, ref_still 43, ref_van 43, ref_crew `ref_crew_v2_s41`, ref_probe `ref_probe_v3_s41`, ref_feds 44.
+
+## 9. 2026-11-09 — M2 approved; batch 2 picks delegated
+
+- **What:** "Look test is good, go with your call" — on `renders/m2/m2_look_test_review.mp4` and the agent's recommended picks for all 52 batch-2 items (including the reruns D23 v2, D38 v2, D39a_l v2 seed 43, D39a_r v2).
+- **Recorded:** `config/stills.json` `kept`. M2 closed.

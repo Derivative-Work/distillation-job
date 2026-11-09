@@ -238,3 +238,44 @@ Model `flux2_dev_fp8mixed.safetensors`, text encoder `mistral_3_small_flux2_fp4_
 | D44c (refs: ref_teller, ref_crew) | 42 | 1792×1008 | `takes/stills/D44c/D44c_s42.png` | 104.1 | 2026-11-09T12:45:45-05:00 | pending pick |
 | D44c (refs: ref_teller, ref_crew) | 43 | 1792×1008 | `takes/stills/D44c/D44c_s43.png` | 104.1 | 2026-11-09T12:47:29-05:00 | pending pick |
 | D44c (refs: ref_teller, ref_crew) | 44 | 1792×1008 | `takes/stills/D44c/D44c_s44.png` | 104.1 | 2026-11-09T12:49:13-05:00 | pending pick |
+| D32 (refs: ref_feds) | 41 | 1792×1008 | `takes/stills/D32/D32_s41.png` | 75.1 | 2026-11-09T12:50:38-05:00 | pending pick |
+| D32 (refs: ref_feds) | 42 | 1792×1008 | `takes/stills/D32/D32_s42.png` | 74.1 | 2026-11-09T12:51:52-05:00 | pending pick |
+| D32 (refs: ref_feds) | 43 | 1792×1008 | `takes/stills/D32/D32_s43.png` | 74.1 | 2026-11-09T12:53:06-05:00 | pending pick |
+| D32 (refs: ref_feds) | 44 | 1792×1008 | `takes/stills/D32/D32_s44.png` | 74.1 | 2026-11-09T12:54:20-05:00 | pending pick |
+| D33 (refs: ref_feds, ref_teller) | 41 | 1792×1008 | `takes/stills/D33/D33_s41.png` | 104.2 | 2026-11-09T12:56:05-05:00 | pending pick |
+| D33 (refs: ref_feds, ref_teller) | 42 | 1792×1008 | `takes/stills/D33/D33_s42.png` | 104.2 | 2026-11-09T12:57:49-05:00 | pending pick |
+| D33 (refs: ref_feds, ref_teller) | 43 | 1792×1008 | `takes/stills/D33/D33_s43.png` | 104.1 | 2026-11-09T12:59:33-05:00 | pending pick |
+| D33 (refs: ref_feds, ref_teller) | 44 | 1792×1008 | `takes/stills/D33/D33_s44.png` | 104.1 | 2026-11-09T13:01:17-05:00 | pending pick |
+| D42a (refs: ref_teller, ref_crew, ref_feds) | 41 | 1792×1008 | `takes/stills/D42a/D42a_s41.png` | 145.4 | 2026-11-09T13:03:43-05:00 | pending pick |
+| D42a (refs: ref_teller, ref_crew, ref_feds) | 42 | 1792×1008 | `takes/stills/D42a/D42a_s42.png` | 145.2 | 2026-11-09T13:06:08-05:00 | pending pick |
+| D42a (refs: ref_teller, ref_crew, ref_feds) | 43 | 1792×1008 | `takes/stills/D42a/D42a_s43.png` | 145.2 | 2026-11-09T13:08:33-05:00 | pending pick |
+| D42a (refs: ref_teller, ref_crew, ref_feds) | 44 | 1792×1008 | `takes/stills/D42a/D42a_s44.png` | 145.2 | 2026-11-09T13:10:59-05:00 | pending pick |
+| D42b (refs: ref_feds) | 41 | 1792×1008 | `takes/stills/D42b/D42b_s41.png` | 75.1 | 2026-11-09T13:12:14-05:00 | pending pick |
+| D42b (refs: ref_feds) | 42 | 1792×1008 | `takes/stills/D42b/D42b_s42.png` | 74.2 | 2026-11-09T13:13:28-05:00 | pending pick |
+| D42b (refs: ref_feds) | 43 | 1792×1008 | `takes/stills/D42b/D42b_s43.png` | 74.2 | 2026-11-09T13:14:43-05:00 | pending pick |
+| D42b (refs: ref_feds) | 44 | 1792×1008 | `takes/stills/D42b/D42b_s44.png` | 74.1 | 2026-11-09T13:15:57-05:00 | pending pick |
+| D23_v2 (refs: ref_crew, ref_feds) | 41 | 1792×1008 | `takes/stills/D23/D23_v2_s41.png` | 104.2 | 2026-11-09T13:17:55-05:00 | pending pick |
+| D23_v2 (refs: ref_crew, ref_feds) | 42 | 1792×1008 | `takes/stills/D23/D23_v2_s42.png` | 104.1 | 2026-11-09T13:19:39-05:00 | pending pick |
+| D23_v2 (refs: ref_crew, ref_feds) | 43 | 1792×1008 | `takes/stills/D23/D23_v2_s43.png` | 104.1 | 2026-11-09T13:21:23-05:00 | pending pick |
+| D23_v2 (refs: ref_crew, ref_feds) | 44 | 1792×1008 | `takes/stills/D23/D23_v2_s44.png` | 104.1 | 2026-11-09T13:23:07-05:00 | pending pick |
+| D38_v2 (refs: ref_probe, ref_teller, ref_crew) | 41 | 1792×1008 | `takes/stills/D38/D38_v2_s41.png` | 146.2 | 2026-11-09T13:25:34-05:00 | pending pick |
+| D38_v2 (refs: ref_probe, ref_teller, ref_crew) | 42 | 1792×1008 | `takes/stills/D38/D38_v2_s42.png` | 145.2 | 2026-11-09T13:27:59-05:00 | pending pick |
+| D38_v2 (refs: ref_probe, ref_teller, ref_crew) | 43 | 1792×1008 | `takes/stills/D38/D38_v2_s43.png` | 145.2 | 2026-11-09T13:30:24-05:00 | pending pick |
+| D38_v2 (refs: ref_probe, ref_teller, ref_crew) | 44 | 1792×1008 | `takes/stills/D38/D38_v2_s44.png` | 145.2 | 2026-11-09T13:32:50-05:00 | pending pick |
+| D39a_l_v2 (refs: ref_crew) | 41 | 1792×1008 | `takes/stills/D39a_l/D39a_l_v2_s41.png` | 74.4 | 2026-11-09T13:34:05-05:00 | pending pick |
+| D39a_l_v2 (refs: ref_crew) | 42 | 1792×1008 | `takes/stills/D39a_l/D39a_l_v2_s42.png` | 74.3 | 2026-11-09T13:35:19-05:00 | pending pick |
+| D39a_l_v2 (refs: ref_crew) | 43 | 1792×1008 | `takes/stills/D39a_l/D39a_l_v2_s43.png` | 74.1 | 2026-11-09T13:36:33-05:00 | pending pick |
+| D39a_l_v2 (refs: ref_crew) | 44 | 1792×1008 | `takes/stills/D39a_l/D39a_l_v2_s44.png` | 74.1 | 2026-11-09T13:37:47-05:00 | pending pick |
+| D39a_r_v2 | 41 | 1792×1008 | `takes/stills/D39a_r/D39a_r_v2_s41.png` | 42.1 | 2026-11-09T13:38:30-05:00 | pending pick |
+| D39a_r_v2 | 42 | 1792×1008 | `takes/stills/D39a_r/D39a_r_v2_s42.png` | 42.0 | 2026-11-09T13:39:12-05:00 | pending pick |
+| D39a_r_v2 | 43 | 1792×1008 | `takes/stills/D39a_r/D39a_r_v2_s43.png` | 42.0 | 2026-11-09T13:39:54-05:00 | pending pick |
+| D39a_r_v2 | 44 | 1792×1008 | `takes/stills/D39a_r/D39a_r_v2_s44.png` | 42.0 | 2026-11-09T13:40:36-05:00 | pending pick |
+
+## Clips: LTX-2.3
+
+ComfyUI template `video_ltx2_3_i2v` (`ltx-2.3-22b-dev-fp8` + distilled LoRA 0.5, Gemma 3 12B fp4 encoder, x2 spatial upscaler), via `scripts/clips.py`. Prompt = motion + the shared clip style.
+
+| Clip | Keyframe | Seed | Output | Seconds | When | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| D09 | `takes/stills/D09/D09_s43.png` | 41 | `takes/clips/D09/D09_s41.mp4` | 50.4 | 2026-11-09T14:26:33-05:00 | pending pick |
+| D09 | `takes/stills/D09/D09_s43.png` | 42 | `takes/clips/D09/D09_s42.mp4` | 14.3 | 2026-11-09T14:26:47-05:00 | pending pick |

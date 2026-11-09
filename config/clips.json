@@ -1,0 +1,188 @@
+{
+ "_doc": "M3: LTX-2.3 image-to-video from the picked batch-2 keyframes (scripts/clips.py, ComfyUI template video_ltx2_3_i2v). Prompt = motion + the shared clip style. 24 fps, 1280x720 (16:9; the template's half-res + 2x upscale). Seconds = the shot's length rounded up, 3-6 s; longer shots are slowed, held or recut at M4. Two seeds per clip. Picks go in 'kept' as {clip: path}.",
+ "style": "1970s 16mm caper film footage of practical puppet and miniature sets, burnt orange and teal palette, steady camera unless the motion says otherwise, smooth natural motion, puppets keep their shapes, no text, no logos",
+ "size": [
+  1280,
+  720
+ ],
+ "fps": 24,
+ "seconds": 4,
+ "seeds": [
+  41,
+  42
+ ],
+ "kept": {},
+ "style_sets": {},
+ "clips": {
+  "D02": {
+   "keyframe": "D02",
+   "motion": "the hanging lamp swings slowly, its light sweeping across the table; the puppets lean in over the blueprint and point at it, nodding",
+   "seconds": 6
+  },
+  "D04e": {
+   "keyframe": "D04e",
+   "motion": "the van rolls slowly forward out of the garage toward the camera, headlights sweeping across the walls",
+   "seconds": 5
+  },
+  "D05": {
+   "keyframe": "D05",
+   "motion": "the van rolls in from the left and pulls up to the curb, then stops; the street stays still",
+   "seconds": 4
+  },
+  "D08": {
+   "keyframe": "D08",
+   "motion": "the camera pushes in fast toward the tangle of cords on the switchboard; a few cords sway",
+   "seconds": 6
+  },
+  "D09": {
+   "keyframe": "D09",
+   "motion": "the puppet presses the stethoscope to the vault door and listens, then lowers it, shrugs its shoulders and turns away to the right",
+   "seconds": 4
+  },
+  "D10": {
+   "keyframe": "D10",
+   "motion": "the line of puppets shuffles forward one step; the first puppet takes a paper ticket from the dispenser and steps aside",
+   "seconds": 5
+  },
+  "D11": {
+   "keyframe": "D11",
+   "motion": "the ticker tape keeps streaming out of the vault; the puppets pull it in hand over hand along the line",
+   "seconds": 3
+  },
+  "D12": {
+   "keyframe": "D12",
+   "motion": "amber liquid drips steadily from the copper coil into the little bottles, which fill one by one; the paper tape keeps feeding into the pot",
+   "seconds": 3
+  },
+  "D13": {
+   "keyframe": "D13",
+   "motion": "the brass arm flings the puppet out the door; the puppet tumbles through the air and lands on the sidewalk",
+   "seconds": 3
+  },
+  "D15": {
+   "keyframe": "D15",
+   "motion": "the puppets dance in a circle around the copper still, bouncing to a funky beat, steam rising from the still",
+   "seconds": 3
+  },
+  "D16": {
+   "keyframe": "D16",
+   "motion": "glowing amber liquid pours through the mesh sieve into the copper bowl, rippling",
+   "seconds": 3
+  },
+  "D18": {
+   "keyframe": "D18",
+   "motion": "the puppet drops coins one after another into the teller machine's slot; the machine's dials twitch",
+   "seconds": 3
+  },
+  "D19": {
+   "keyframe": "D19",
+   "motion": "slow motion: the puppets stride toward the camera with crates of bottles on their shoulders, swaggering",
+   "seconds": 6
+  },
+  "D21": {
+   "keyframe": "D21",
+   "motion": "half of the puppets in the line turn together in one move and step toward the shiny new chrome teller window",
+   "seconds": 5
+  },
+  "D22": {
+   "keyframe": "D22",
+   "motion": "the ticker tape slowly spools out of the machine on the chaise onto the floor; the puppet in the armchair nods and writes on its clipboard",
+   "seconds": 6
+  },
+  "D23": {
+   "keyframe": "D23",
+   "motion": "the faceless investigator holds the printout up toward the camera; the two masked puppets turn to each other and shrug",
+   "seconds": 3
+  },
+  "D25": {
+   "keyframe": "D25",
+   "motion": "the cork pops off the little bottle and flies up; the two puppets jerk back, startled, then lean in and shush it",
+   "seconds": 6
+  },
+  "D27": {
+   "keyframe": "D27",
+   "motion": "a huge crowd of puppets dances around the copper still, bouncing to a funky beat, steam billowing",
+   "seconds": 6
+  },
+  "D31": {
+   "keyframe": "D31",
+   "motion": "the puppets shove more crates into the back of the van until the crates topple and the back doors swing wide open",
+   "seconds": 4
+  },
+  "D32": {
+   "keyframe": "D32",
+   "motion": "the three figures stand still under the streetlight; the middle one slowly raises the memo; the streetlight flickers",
+   "seconds": 4
+  },
+  "D33": {
+   "keyframe": "D33",
+   "motion": "the figures wheel the gold teller machine on its trolley across the stage and behind the red curtain",
+   "seconds": 5
+  },
+  "D34": {
+   "keyframe": "D34",
+   "motion": "the puppets lift their glasses, swirl, sip, and all grimace together in unison",
+   "seconds": 5
+  },
+  "D35": {
+   "keyframe": "D35",
+   "motion": "the gloved hands slide the two small bottles around each other on the green felt, swapping their places quickly like a shell game",
+   "seconds": 4
+  },
+  "D36": {
+   "keyframe": "D36",
+   "motion": "the camera slowly pulls back from the vault across the wide marble hall",
+   "seconds": 3
+  },
+  "D38": {
+   "keyframe": "D38",
+   "motion": "the probe rolls forward pushing the wheelbarrow of pages and waves one arm; the two puppets wave back",
+   "seconds": 3
+  },
+  "D39": {
+   "keyframe": "D39",
+   "motion": "the warm light inside the paper house flickers; the teller machine inside rattles and shakes as if shouting",
+   "seconds": 3
+  },
+  "D39c": {
+   "keyframe": "D39c",
+   "motion": "the brass mechanical arm reaches slowly toward the gavel, hesitates, then pulls back away from it",
+   "seconds": 3
+  },
+  "D40": {
+   "keyframe": "D40",
+   "motion": "the teal-masked puppets shuffle up to the counter and look over the bottles; the mustard-masked puppet behind the counter gestures at them",
+   "seconds": 3
+  },
+  "D41": {
+   "keyframe": "D41",
+   "motion": "the camera circles slowly around the room as the puppets pass bottles from hand to hand around the circle",
+   "seconds": 6
+  },
+  "D42": {
+   "keyframe": "D42",
+   "motion": "everyone dances around the copper still, bouncing and swinging their arms to a funky beat; the probe's green light pulses",
+   "seconds": 6
+  },
+  "D42a": {
+   "keyframe": "D42a",
+   "motion": "the vault door swings slowly open; the puppets and the figures in coats each point at someone else",
+   "seconds": 6
+  },
+  "D42b": {
+   "keyframe": "D42b",
+   "motion": "the three figures in coats tap their feet; one lifts the bottle and takes a quick sip, then freezes, still",
+   "seconds": 5
+  },
+  "D44a": {
+   "keyframe": "D44a",
+   "motion": "the puppet at the podium slowly shakes its head from side to side; the rest of the crew stand perfectly still",
+   "seconds": 4
+  },
+  "D44c": {
+   "keyframe": "D44c",
+   "motion": "the camera slowly pulls back along the long line of puppets on the night street; the teller window glows",
+   "seconds": 5
+  }
+ }
+}

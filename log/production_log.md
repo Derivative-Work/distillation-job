@@ -98,3 +98,10 @@ Direct edits, not suggestions, with the docs tools:
 - 48 items done (`takes_batch2.log`, no errors); review grids sent in groups of four.
 - Guardrail problems: D39a_l (all four fake IDs carry a realistic human face photo) and D38 (the passersby are Muppet-like characters). Also D23 (investigator in tan with human-looking hands; one printout has a seal-like emblem) and D39a_r (human hand and suit). Avoid also: D42 B–D and D44a D (realistic human faces in the crowd), D21 B (garbled sign text), D04d D and D36 D (figures in the teller cage).
 - Revised prompts (`config/stills.json` v2, notes in each item): D38 (passersby = the crew; refs + ref_crew), D39a_l (crayon cardboard ID, no photo), D39a_r (felt puppet hand), D23 (conditioned on ref_feds, blank printout). Queued after D32/D33/D42a/D42b.
+
+## 14. 2026-11-09 — Batch 2 picks; clips
+
+- Reruns (v2) done; D39a_l still draws a portrait on most cards; seed 43 (a crayon card) picked, its card to be replaced in compositing with a clean "FAKE ID" card.
+- `config/clips.json`: 34 clips (every shot whose type includes Clip), motion prompts, 1280×720 (LTX outputs 1280×704), 24 fps, seconds = shot length rounded up, 3–6 s, seeds 41 and 42.
+- Test: `.venv/bin/python -I scripts/clips.py D09` → 50 s first take (model load), 14 s second; s41 shows the listen, shrug and walk-off.
+- Full run: `.venv/bin/python -I scripts/clips.py` → `takes/clips/`, log `takes_clips.log`.
