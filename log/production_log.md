@@ -78,3 +78,17 @@ Direct edits, not suggestions, with the docs tools:
 - Instrumental after the intro: the band's downbeats (bar phase 3) match the drums' strongest low onsets at 28.64, 30.84 … 41.80, 46.18 s; "Got a crew" (45.31 s) is a pickup into 46.18 s. So the 8-bar phrase is 28.66–46.18 s: D04b–D04e get 4.38 s each, and D05 now cuts on that downbeat (was the beat before the pickup, 45.09 s).
 - D42 219.16–227.91, D42b 227.91–232.28 (Final chorus line 4), D44b 253.06–260.44, D44c 260.44–264.80 (first downbeat after "tickets."). No shot under 1.5 s.
 - `timing/check/m1_review.mp4` re-rendered.
+
+## 11. 2026-11-09 — M3 batch 1: cast references
+
+- `.venv/bin/python -I scripts/stills.py ref_teller ref_still ref_van ref_feds ref_crew ref_probe` (FLUX.2 [dev], seeds 41–44) → `takes/stills/<item>/`, review grids `takes/stills/review_<item>.png`; log `takes_batch1.log`, prompts and timings in `shots/prompts.md`.
+- `ref_crew` v1 rejected (decision 4); v2 (mustard mask, eye slot, no lips) → `ref_crew_v2_s41–44`.
+- `ref_probe` v1 and v2 drifted to a bright silver ball with antennas. Cause: the reference `reference/sandbox_rhapsody_probe_274s.png` shows a dark box, not the probe (decision 5). New reference: `reference/sandbox_rhapsody_probe_80s.png`, crop 1100×1000+1580+820 of `../sandbox-rhapsody/deliverables/sandbox_rhapsody_main_release.mp4` at 80 s (`ffmpeg -ss 80 … -vf crop=1100:1000:1580:820`). v3 (dark mirror-chrome sphere, lens in a glowing ring, dome lamp, two jointed legs; amber glows → green) → `ref_probe_v3_s41–44`; matches.
+- The crew and probe reruns were first queued behind wait loops on `pgrep -f scripts/stills.py`, which matched each other's command lines and never started; rerun in sequence. Later waits use the process's PID.
+- Picks (intervention 8) in `config/stills.json` `kept`.
+
+## 12. 2026-11-09 — M2 look test with the picked references; batch 2 started
+
+- Placeholders `public/media/test/{crew,vault,still,van}.png` ← picks `ref_crew_v2_s41`, `ref_teller_s41`, `ref_still_s43`, `ref_van_s43` (reference sheets, so two-up framing).
+- `npx remotion render src/index.ts M2Test renders/m2/m2_look_test.mp4 --concurrency=8` (999 frames, 128 MB); review copy `ffmpeg -i … -c:v libx264 -crf 27 -preset slow -vf scale=1280:-2 -c:a aac -b:a 160k renders/m2/m2_look_test_review.mp4` (20 MB). Contact sheet checked: titles, D04 crew name cards, vault, stamp, counter with calendar pages, van with counter.
+- Batch 2: `stills.py` on the 48 batch-2 items that don't use `ref_feds` → `takes_batch2.log`; then D32, D33, D42a, D42b after the Feds pick.

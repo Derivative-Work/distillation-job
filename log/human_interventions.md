@@ -49,3 +49,8 @@ Append-only. Every human action: when, what, and why.
 ## 7. 2026-11-09 — New shots approved; M1 closed
 
 - **What:** "That works for me, put them in the brief then keep going" — on the agent's proposal: D04b–D04e (opening titles over the 8-bar instrumental; the title moves from D02 to D04b), D42b (the Feds' sneaked sip), D44c (pull back and fade). With "Timing is good" (intervention 6), M1 is approved.
+
+## 8. 2026-11-09 — Batch 1 picks
+
+- **What:** "Teller A, Still C, Van C, and of the most recent set Crew A, Probe A. I don't see a set of Feds for me to pick" (crew = v2, probe = v3); then, after the Feds grid was resent, "Feds D".
+- **Recorded:** `config/stills.json` `kept`: ref_teller 41, ref_still 43, ref_van 43, ref_crew `ref_crew_v2_s41`, ref_probe `ref_probe_v3_s41`, ref_feds 44.

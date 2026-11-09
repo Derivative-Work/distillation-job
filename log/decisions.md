@@ -28,3 +28,7 @@ Questions:
 ## 4. 2026-11-09 — Crew puppet v1 rejected: reads as blackface caricature
 
 `ref_crew` v1 (black ski mask, white ringed button eyes, big red felt lips; seed 41 seen) reads as a blackface caricature. The brief's guardrails rule out anything that leans on national or ethnic stereotypes, so every v1 take is rejected without review and kept only as a record. v2 changes the design rather than the seed: a mustard-yellow mask with a single eye slot, small button eyes, and no mouth hole or lips. The same rule applies to every later still: no black mask with exaggerated white eyes or red lips on any puppet.
+
+## 5. 2026-11-09 — Probe reference frame replaced
+
+The brief says the Sandbox Rhapsody probe returns with its LED in a new color. The saved reference (`reference/sandbox_rhapsody_probe_274s.png`) turned out to show no probe, so v1 and v2 were invented designs. v3 is conditioned on a close-up at 80 s of the Sandbox Rhapsody release video. Every amber glow (lens ring, lens face, dome lamp) is green. The old crop stays in the repo as a record but is no longer referenced.
