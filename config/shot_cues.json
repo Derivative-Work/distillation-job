@@ -1,5 +1,5 @@
 {
- "_doc": "Start cue of every shot (brief rev 44 shot list). 'Section|line|word' = the word's start, indices from 0 as in lyrics/as_sung.txt; 't:<s>' a take time; 'section:<name>' its start. A shot ends where the next starts. 'snap': move onto a band beat (scripts/shot_times.py). 'pre'/'post': before or after the music; lengths set at M4. 'retired': the ID stays, the shot is gone (brief rule).",
+ "_doc": "Start cue of every shot (brief rev 44 shot list). 'Section|line|word' = the word's start, indices from 0 as in lyrics/as_sung.txt; 't:<s>' a take time; 'section:<name>' its start. A shot ends where the next starts. 'snap': move onto a band beat (scripts/shot_times.py). 'pre'/'post': before or after the music; lengths set at M4. 'retired': the ID stays, the shot is gone (brief rule). 'downbeat_after:<cue>': the first bar downbeat at or after that cue's time. 'bars_after:<ID>:<n>': n bars (4n beats) after that shot's start.",
  "shots": [
   {
    "id": "D01",
@@ -27,9 +27,26 @@
    "snap": true
   },
   {
+   "id": "D04b",
+   "cue": "downbeat_after:end:Intro|3|9",
+   "note": "opening titles over the 8-bar instrumental"
+  },
+  {
+   "id": "D04c",
+   "cue": "bars_after:D04b:2"
+  },
+  {
+   "id": "D04d",
+   "cue": "bars_after:D04c:2"
+  },
+  {
+   "id": "D04e",
+   "cue": "bars_after:D04d:2"
+  },
+  {
    "id": "D05",
-   "cue": "Verse 1|0|0",
-   "snap": true
+   "cue": "downbeat_after:Verse 1|0|0",
+   "note": "\"Got a crew\" is a pickup; cut on the downbeat that ends the 8-bar instrumental, so D04b-e get 2 bars each"
   },
   {
    "id": "D06",
@@ -244,6 +261,11 @@
    "snap": true
   },
   {
+   "id": "D42b",
+   "cue": "Final chorus|4|0",
+   "snap": true
+  },
+  {
    "id": "D42a",
    "cue": "Final chorus|6|0",
    "snap": true
@@ -267,6 +289,11 @@
    "id": "D44b",
    "cue": "Outro|3|0",
    "snap": true
+  },
+  {
+   "id": "D44c",
+   "cue": "downbeat_after:end:Outro|3|5",
+   "note": "pull back and fade with the bass"
   },
   {
    "id": "D45",

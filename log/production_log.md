@@ -70,3 +70,11 @@ Direct edits, not suggestions, with the docs tools:
 - `config/master.json` → `locked`: `audio/postfilter/distillation_job_postfilter.wav` (sha256 `0b0d82c8…`). The timing map stays on the raw take (same timing, step 5).
 - Brief, direct edits: D25's shot now runs the split screen "From "wait" through pre-chorus 2" and "Absorbs D26, so the caption gets a full read"; D26 "Retired November 9, 2026: folded into D25…; the family portrait is dropped"; D27 is chorus 2 only, "Reprise of D15–D19…".
 - `config/shot_cues.json`: D26 `retired`; D27 cue `section:Chorus 2` (snapped +263 ms to 138.76 s). `scripts/shot_times.py` handles `retired`. D25 128.91–138.76 s (9.86 s; the split screen from "wait" ≈130.9 s gets ~7.9 s); no shot under 1.5 s.
+
+## 10. 2026-11-09 — New shots in the brief (rev 54); cues; M1 closed
+
+- Brief, direct edits: rows D04b–D04e after D04a, D42b after D42, D44c after D44b; D02's on-screen text → "— (the title moves to D04b)"; D42 anchor "Lines 1–4" and its Feds clause moved to D42b. `scripts/mirror_brief.py` → rev 54 (diff shows only these).
+- New `scripts/shot_descriptions.py` (the step 8 inline parse, as a script) → 62 IDs. `scripts/shot_times.py`: cue kinds `downbeat_after:` and `bars_after:`, and a check that the cue IDs match the brief's in order.
+- Instrumental after the intro: the band's downbeats (bar phase 3) match the drums' strongest low onsets at 28.64, 30.84 … 41.80, 46.18 s; "Got a crew" (45.31 s) is a pickup into 46.18 s. So the 8-bar phrase is 28.66–46.18 s: D04b–D04e get 4.38 s each, and D05 now cuts on that downbeat (was the beat before the pickup, 45.09 s).
+- D42 219.16–227.91, D42b 227.91–232.28 (Final chorus line 4), D44b 253.06–260.44, D44c 260.44–264.80 (first downbeat after "tickets."). No shot under 1.5 s.
+- `timing/check/m1_review.mp4` re-rendered.

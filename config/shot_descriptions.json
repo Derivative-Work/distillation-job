@@ -1,5 +1,5 @@
 {
- "_doc": "Section, anchor, picture, on-screen text and asset type per shot, from the brief's shot list (rev 44), for review overlays. Regenerate from docs/brief.md.",
+ "_doc": "Section, anchor, picture, on-screen text and asset type per shot, from the brief's shot list (rev 54). Regenerate with scripts/shot_descriptions.py.",
  "D01": {
   "section": "Opening bookend",
   "anchor": "Before the bass",
@@ -11,7 +11,7 @@
   "section": "Intro",
   "anchor": "\"Alright, crew.\"",
   "picture": "Dim garage. Masked sock puppets around a table, a vault blueprint under a swinging lamp",
-  "text": "THE DISTILLATION JOB, cut-paper title",
+  "text": "— (the title moves to D04b)",
   "type": "Clip"
  },
  "D03": {
@@ -34,6 +34,34 @@
   "picture": "A puppet slaps black bars over every lanyard number on the corkboard",
   "text": "A DRAMATIZATION OF ALLEGATIONS",
   "type": "Still + Code"
+ },
+ "D04b": {
+  "section": "Intro (instrumental)",
+  "anchor": "First downbeat after \"…is alleged.\"",
+  "picture": "The cut-paper title slams in on the downbeat with a horn stab",
+  "text": "THE DISTILLATION JOB, cut-paper title",
+  "type": "Code"
+ },
+ "D04c": {
+  "section": "Intro (instrumental)",
+  "anchor": "Two bars later",
+  "picture": "Four-way split-screen roll call: four identical masked puppets, each freeze-framed with a typed role",
+  "text": "THE PROXY / THE BURNER / THE PROMPTER / THE BOTTLER",
+  "type": "Still + Code"
+ },
+ "D04d": {
+  "section": "Intro (instrumental)",
+  "anchor": "Two bars later",
+  "picture": "The vault at night: brass gleaming, the teller window lit, a sign reading OPEN",
+  "text": "—",
+  "type": "Still"
+ },
+ "D04e": {
+  "section": "Intro (instrumental)",
+  "anchor": "Two bars later",
+  "picture": "The proxy van pulls out of the garage, headlights sweeping the wall; hands off to D05's four-way van split",
+  "text": "—",
+  "type": "Clip"
  },
  "D05": {
   "section": "Verse 1",
@@ -178,21 +206,21 @@
  "D25": {
   "section": "Verse 2",
   "anchor": "\"'As a model made by—' wait\"",
-  "picture": "A bottle pops its cork; its label becomes a screen showing a real Qwen 3.8 audit excerpt, verbatim from log/audits/, where it identifies itself as Claude, made by Anthropic. The crew shushes it. Then a split screen of two real captures, model name visible in each: left, a bare chat asking \"Who made you?\" and getting \"I'm Qwen…\"; right, the audit prompt getting \"I am Claude…\". Caption: SAME MODEL. HANDED A PAGE ABOUT CLAUDE, IT DECIDED IT WAS CLAUDE. Then, smaller: Models often misidentify themselves. This is not evidence of distillation. (Clip with Real inserts.)",
+  "picture": "A bottle pops its cork; its label becomes a screen showing a real Qwen 3.8 audit excerpt, verbatim from log/audits/, where it identifies itself as Claude, made by Anthropic. The crew shushes it. From \"wait\" through pre-chorus 2, a split screen of two real captures, model name visible in each: left, a bare chat asking \"Who made you?\" and getting \"I'm Qwen…\"; right, the audit prompt getting \"I am Claude…\". Caption: SAME MODEL. HANDED A PAGE ABOUT CLAUDE, IT DECIDED IT WAS CLAUDE. Then, smaller: Models often misidentify themselves. This is not evidence of distillation. (Clip with Real inserts. Absorbs D26, so the caption gets a full read: about 7.6 s, to chorus 2.)",
   "text": "—",
   "type": "Clip"
  },
  "D26": {
   "section": "Verse 2",
   "anchor": "\"…inherited traits\"",
-  "picture": "Family portrait: the teller seated, small bottles posed beside it the same way",
+  "picture": "Retired November 9, 2026: folded into D25, whose split screen now runs over \"inherited traits\". The family portrait is dropped",
   "text": "—",
   "type": "Still"
  },
  "D27": {
-  "section": "Pre-chorus 2, chorus 2",
-  "anchor": "Whole sections",
-  "picture": "Reprise of D13–D19 with twice the puppets",
+  "section": "Chorus 2",
+  "anchor": "Whole section",
+  "picture": "Reprise of D15–D19 with twice the puppets (pre-chorus 2 is under D25's split screen)",
   "text": "Same stamp",
   "type": "Clip + Code"
  },
@@ -331,9 +359,16 @@
  },
  "D42": {
   "section": "Final chorus",
-  "anchor": "Lines 1–6",
-  "picture": "Everyone dancing at the still: crew, second crew, probe, teller; the Feds tap their feet",
+  "anchor": "Lines 1–4",
+  "picture": "Everyone dancing at the still: crew, second crew, probe, teller",
   "text": "Stamp on each \"(allegedly!)\"",
+  "type": "Clip + Code"
+ },
+ "D42b": {
+  "section": "Final chorus",
+  "anchor": "Second \"It's a distillation (allegedly!)\", lines 5–6",
+  "picture": "The Feds alone in a corner, tapping their feet; one sneaks a sip from a bottle and freezes when the camera finds it",
+  "text": "ALLEGEDLY! stamp",
   "type": "Clip + Code"
  },
  "D42a": {
@@ -370,6 +405,13 @@
   "picture": "The teller window flips its sign to OPEN; a ticket dispenser spits out the next number",
   "text": "—",
   "type": "Still"
+ },
+ "D44c": {
+  "section": "Outro",
+  "anchor": "First downbeat after \"…tickets.\"",
+  "picture": "Pull back from the teller window along the line of puppets around the block (the D10 callback), the exchange counter still ticking in the corner; fade to black with the bass",
+  "text": "—",
+  "type": "Clip"
  },
  "D45": {
   "section": "Fact card",

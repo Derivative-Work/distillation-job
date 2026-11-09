@@ -45,3 +45,7 @@ Append-only. Every human action: when, what, and why.
 - **D04a:** "I'm not sure what you mean about "fills the instrumental". I think we're going to need more content to fill in D04a." New shots proposed by the agent, pending approval.
 - **D25/D26:** "Yes, fold D26 into D25."
 - **D42, D44b:** "Yes, split D42 and D44b as well." New shots proposed by the agent, pending approval.
+
+## 7. 2026-11-09 — New shots approved; M1 closed
+
+- **What:** "That works for me, put them in the brief then keep going" — on the agent's proposal: D04b–D04e (opening titles over the 8-bar instrumental; the title moves from D02 to D04b), D42b (the Feds' sneaked sip), D44c (pull back and fade). With "Timing is good" (intervention 6), M1 is approved.

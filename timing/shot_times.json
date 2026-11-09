@@ -40,21 +40,59 @@
   },
   "D04a": {
    "start": 19.888,
-   "end": 45.093,
-   "duration": 25.205,
+   "end": 28.665,
+   "duration": 8.777,
    "start_frame": 477,
-   "end_frame": 1082,
+   "end_frame": 688,
    "cue": "'Names' (Intro 3.0)",
    "snapped_ms": -268
   },
+  "D04b": {
+   "start": 28.665,
+   "end": 33.042,
+   "duration": 4.377,
+   "start_frame": 688,
+   "end_frame": 793,
+   "cue": "first downbeat after end of 'alleged.' (Intro 3.9)",
+   "snapped_ms": 0,
+   "note": "opening titles over the 8-bar instrumental"
+  },
+  "D04c": {
+   "start": 33.042,
+   "end": 37.431,
+   "duration": 4.389,
+   "start_frame": 793,
+   "end_frame": 898,
+   "cue": "2 bars after D04b",
+   "snapped_ms": 0
+  },
+  "D04d": {
+   "start": 37.431,
+   "end": 41.808,
+   "duration": 4.377,
+   "start_frame": 898,
+   "end_frame": 1003,
+   "cue": "2 bars after D04c",
+   "snapped_ms": 0
+  },
+  "D04e": {
+   "start": 41.808,
+   "end": 46.184,
+   "duration": 4.376,
+   "start_frame": 1003,
+   "end_frame": 1108,
+   "cue": "2 bars after D04d",
+   "snapped_ms": 0
+  },
   "D05": {
-   "start": 45.093,
+   "start": 46.184,
    "end": 50.016,
-   "duration": 4.923,
-   "start_frame": 1082,
+   "duration": 3.832,
+   "start_frame": 1108,
    "end_frame": 1200,
-   "cue": "'Got' (Verse 1 0.0)",
-   "snapped_ms": -215
+   "cue": "first downbeat after 'Got' (Verse 1 0.0)",
+   "snapped_ms": 0,
+   "note": "\"Got a crew\" is a pickup; cut on the downbeat that ends the 8-bar instrumental, so D04b-e get 2 bars each"
   },
   "D06": {
    "start": 50.016,
@@ -426,12 +464,21 @@
   },
   "D42": {
    "start": 219.162,
-   "end": 232.281,
-   "duration": 13.119,
+   "end": 227.915,
+   "duration": 8.753,
    "start_frame": 5260,
-   "end_frame": 5575,
+   "end_frame": 5470,
    "cue": "\"It's\" (Final chorus 0.0)",
    "snapped_ms": -270
+  },
+  "D42b": {
+   "start": 227.915,
+   "end": 232.281,
+   "duration": 4.366,
+   "start_frame": 5470,
+   "end_frame": 5575,
+   "cue": "\"It's\" (Final chorus 4.0)",
+   "snapped_ms": -250
   },
   "D42a": {
    "start": 232.281,
@@ -471,12 +518,22 @@
   },
   "D44b": {
    "start": 253.063,
-   "end": 264.8,
-   "duration": 11.737,
+   "end": 260.435,
+   "duration": 7.372,
    "start_frame": 6074,
-   "end_frame": 6355,
+   "end_frame": 6250,
    "cue": "'And' (Outro 3.0)",
    "snapped_ms": 74
+  },
+  "D44c": {
+   "start": 260.435,
+   "end": 264.8,
+   "duration": 4.365,
+   "start_frame": 6250,
+   "end_frame": 6355,
+   "cue": "first downbeat after end of 'tickets.' (Outro 3.5)",
+   "snapped_ms": 0,
+   "note": "pull back and fade with the bass"
   },
   "D45": {
    "placement": "after the music",

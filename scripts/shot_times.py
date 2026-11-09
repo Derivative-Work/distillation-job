@@ -2,7 +2,8 @@
 
 Adapted from Buy It on Margin. Cues: "Section|line|word" (the word's start), "end:…", "mid:…", "t:<s>",
 "section:<name>", "pre"/"post" for shots before or after the music (D01; D45-D47), whose lengths are set at M4,
-and "retired" for IDs whose shot was removed (the ID never changes or gets reused).
+"retired" for IDs whose shot was removed (the ID never changes or gets reused), "downbeat_after:<cue>" (the first
+bar downbeat at or after that cue) and "bars_after:<ID>:<n>" (n bars, 4n band beats, after that shot's start).
 - snap: move the start onto a band beat: the beat at or just before the word if within 200 ms (sung onsets lag the
   beat), else the nearest within half a beat.
 - Reports shots shorter than the brief's text needs once cards exist (M2); for now, shots under 1.5 s.
@@ -15,7 +16,15 @@ CUES, TIMING, OUT, FPS = Path("config/shot_cues.json"), Path("timing/timing_map.
 SHORT_S = 1.5
 
 
-def resolve(cue, tm):
+def resolve(cue, tm, starts=None):
+    beats = tm["beats"]["band"]
+    if cue.startswith("downbeat_after:"):
+        t0, label = resolve(cue[15:], tm, starts)
+        return next(b for b in beats["downbeats"] if b >= t0 - 0.03), f"first downbeat after {label}"
+    if cue.startswith("bars_after:"):
+        _, sid, n = cue.split(":")
+        i = min(range(len(beats["beats"])), key=lambda k: abs(beats["beats"][k] - starts[sid]))
+        return beats["beats"][i + 4 * int(n)], f"{n} bars after {sid}"
     if cue.startswith("t:"):
         return float(cue[2:]), cue
     if cue.startswith("section:"):
@@ -45,8 +54,11 @@ def main():
     for s in cues:
         if s["cue"] in ("pre", "post", "retired"):
             continue
-        t, label = resolve(s["cue"], tm)
+        t, label = resolve(s["cue"], tm, {r["id"]: r["t"] for r in rows})
         rows.append({**s, "t": snap(t, beats, half) if s.get("snap") else t, "raw": t, "label": label})
+    ids = [k for k in json.load(open("config/shot_descriptions.json")) if not k.startswith("_")]
+    if [s["id"] for s in cues] != ids:
+        raise SystemExit("shot IDs differ from the brief's (scripts/shot_descriptions.py)")
     if [r["t"] for r in rows] != sorted(r["t"] for r in rows):
         raise SystemExit("shot cues are out of order")
     out, short = {}, []

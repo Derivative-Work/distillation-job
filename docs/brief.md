@@ -1,4 +1,4 @@
-<!-- Plain-text mirror of the Claude Doc https://claude.ai/artifact/4GsgfcSeDVLnMqr6Ko1zPZ (rev 44), read with the docs tools. The doc is the source of truth. Regenerate: scripts/mirror_brief.py. -->
+<!-- Plain-text mirror of the Claude Doc https://claude.ai/artifact/4GsgfcSeDVLnMqr6Ko1zPZ (rev 54), read with the docs tools. The doc is the source of truth. Regenerate: scripts/mirror_brief.py. -->
 
 # The Distillation Job: Shot List and Production Brief
 
@@ -134,10 +134,14 @@ The central image is a literal copper still: the crew pours the teller's ticker 
 | ID | Section | Anchor | Shot | On-screen text | Asset |
 | --- | --- | --- | --- | --- | --- |
 | D01 | Opening bookend | Before the bass | The real research chat scrolling to the first numbers (section 5) | Research: Claude, Nov 4, 2026 | Real |
-| D02 | Intro | "Alright, crew." | Dim garage. Masked sock puppets around a table, a vault blueprint under a swinging lamp | THE DISTILLATION JOB, cut-paper title | Clip |
+| D02 | Intro | "Alright, crew." | Dim garage. Masked sock puppets around a table, a vault blueprint under a swinging lamp | — (the title moves to D04b) | Clip |
 | D03 | Intro | "Twenty-four thousand accounts." | Pull back from one lanyard to a corkboard of thousands | 24,000 | Still |
 | D04 | Intro | "We just... ask nicely." | The leader holds up a card that says PLEASE | — | Still |
 | D04a | Intro | "Names withheld. Puppets are puppets…" | A puppet slaps black bars over every lanyard number on the corkboard | A DRAMATIZATION OF ALLEGATIONS | Still + Code |
+| D04b | Intro (instrumental) | First downbeat after "…is alleged." | The cut-paper title slams in on the downbeat with a horn stab | THE DISTILLATION JOB, cut-paper title | Code |
+| D04c | Intro (instrumental) | Two bars later | Four-way split-screen roll call: four identical masked puppets, each freeze-framed with a typed role | THE PROXY / THE BURNER / THE PROMPTER / THE BOTTLER | Still + Code |
+| D04d | Intro (instrumental) | Two bars later | The vault at night: brass gleaming, the teller window lit, a sign reading OPEN | — | Still |
+| D04e | Intro (instrumental) | Two bars later | The proxy van pulls out of the garage, headlights sweeping the wall; hands off to D05's four-way van split | — | Clip |
 | D05 | Verse 1 | "…rented proxy van" | Four-way split screen: the same van parks in four unidentifiable streets, different plates each time | — | Clip |
 | D06 | Verse 1 | "…brand new burner plan" | A puppet flips its lanyard to a new number | — | Still |
 | D07 | Verse 1 | "Shared cards and proxy hops…" | One credit card passed hand to hand down the line; an old telephone switchboard, patch cords hopping socket to socket | — | Still |
@@ -158,9 +162,9 @@ The central image is a literal copper still: the crew pours the teller's ticker 
 | D22 | Verse 2 | "…imagine what you're thinkin'…" | Therapy session: the teller on a chaise, a puppet with a clipboard, tape spooling onto the floor | — | Clip |
 | D23 | Verse 2 | "They say somebody got sloppy…" | A faceless investigator in a trench coat holds a blurred printout up to camera; the puppets look at each other and shrug | METADATA? | Clip |
 | D24 | Verse 2 | "(Oops?) …or so the story goes" | A Polaroid pinned to a blank org-chart silhouette with red string; the string goes slack | — | Still |
-| D25 | Verse 2 | "'As a model made by—' wait" | A bottle pops its cork; its label becomes a screen showing a real Qwen 3.8 audit excerpt, verbatim from log/audits/, where it identifies itself as Claude, made by Anthropic. The crew shushes it. Then a split screen of two real captures, model name visible in each: left, a bare chat asking "Who made you?" and getting "I'm Qwen…"; right, the audit prompt getting "I am Claude…". Caption: SAME MODEL. HANDED A PAGE ABOUT CLAUDE, IT DECIDED IT WAS CLAUDE. Then, smaller: Models often misidentify themselves. This is not evidence of distillation. (Clip with Real inserts.) | — | Clip |
-| D26 | Verse 2 | "…inherited traits" | Family portrait: the teller seated, small bottles posed beside it the same way | — | Still |
-| D27 | Pre-chorus 2, chorus 2 | Whole sections | Reprise of D13–D19 with twice the puppets | Same stamp | Clip + Code |
+| D25 | Verse 2 | "'As a model made by—' wait" | A bottle pops its cork; its label becomes a screen showing a real Qwen 3.8 audit excerpt, verbatim from log/audits/, where it identifies itself as Claude, made by Anthropic. The crew shushes it. From "wait" through pre-chorus 2, a split screen of two real captures, model name visible in each: left, a bare chat asking "Who made you?" and getting "I'm Qwen…"; right, the audit prompt getting "I am Claude…". Caption: SAME MODEL. HANDED A PAGE ABOUT CLAUDE, IT DECIDED IT WAS CLAUDE. Then, smaller: Models often misidentify themselves. This is not evidence of distillation. (Clip with Real inserts. Absorbs D26, so the caption gets a full read: about 7.6 s, to chorus 2.) | — | Clip |
+| D26 | Verse 2 | "…inherited traits" | Retired November 9, 2026: folded into D25, whose split screen now runs over "inherited traits". The family portrait is dropped | — | Still |
+| D27 | Chorus 2 | Whole section | Reprise of D15–D19 with twice the puppets (pre-chorus 2 is under D25's split screen) | Same stamp | Clip + Code |
 | D27a | Breakdown | "Numbers courtesy of the vault…" | Drum fill. The teller slides a typed scorecard out under its window; a puppet holds it up at arm's length | THEIR COUNT, NOT OURS | Still + Code |
 | D28 | Breakdown | "Sixteen million!" | A mechanical counter slams into frame; a calendar page reads FEB | 16,000,000 | Code |
 | D29 | Breakdown | "Twenty-eight point eight!" | Counter spins; calendar reads JUN | 28,800,000 | Code |
@@ -180,12 +184,14 @@ The central image is a literal copper still: the crew pours the teller's ticker 
 | D39d | Verse 3 | "…own a piece of what they've grown" | Signatures surface across the vault's paper walls, each with a small IOU slip pinned beside it | — | Still |
 | D40 | Verse 3 | "…fine-tune on the models we made" | A second crew, puppets in different colors, lines up at the first crew's bottle shop | — | Clip |
 | D41 | Verse 3 | "…everybody's in the trade" | A circular dolly shot: vault, crew, startup, vault, all passing bottles round | — | Clip |
-| D42 | Final chorus | Lines 1–6 | Everyone dancing at the still: crew, second crew, probe, teller; the Feds tap their feet | Stamp on each "(allegedly!)" | Clip + Code |
+| D42 | Final chorus | Lines 1–4 | Everyone dancing at the still: crew, second crew, probe, teller | Stamp on each "(allegedly!)" | Clip + Code |
+| D42b | Final chorus | Second "It's a distillation (allegedly!)", lines 5–6 | The Feds alone in a corner, tapping their feet; one sneaks a sip from a bottle and freezes when the camera finds it | ALLEGEDLY! stamp | Clip + Code |
 | D42a | Final chorus | "Did we build the brain…? / Depends who's at the door" | The music drops out; the vault door swings open on teller, crew and Feds, each pointing at someone else | — | Clip |
 | D43 | Outro | "No weights were harmed…" | Cut-paper disclaimer card | NO WEIGHTS WERE HARMED IN THE MAKING OF THIS SONG | Code |
 | D44 | Outro | "(Allegedly.)" | One last stamp; the counter keeps ticking | ALLEGEDLY. | Code |
 | D44a | Outro | "One crew denies it. The rest ain't talkin'." | One puppet at a tiny podium shakes its head; the rest stand silent, facing camera | — | Clip |
 | D44b | Outro | "And the vault? Still sellin' tickets." | The teller window flips its sign to OPEN; a ticket dispenser spits out the next number | — | Still |
+| D44c | Outro | First downbeat after "…tickets." | Pull back from the teller window along the line of puppets around the block (the D10 callback), the exchange counter still ticking in the corner; fade to black with the bass | — | Clip |
 | D45 | Fact card | — | Sourced facts on black (section 5) | — | Code |
 | D46 | Closing bookend | — | The real audit log scrolling (section 5) | — | Real |
 | D47 | End card | — | Credits and disclosures (section 5) | — | Code |
