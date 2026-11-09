@@ -1,0 +1,47 @@
+/home/antiai-aiclub/Projects/distillation-allegedly/.venv/lib/python3.12/site-packages/pyannote/audio/core/io.py:48: UserWarning: 
+torchcodec is not installed correctly so built-in audio decoding will fail. Solutions are:
+* use audio preloaded in-memory as a {'waveform': (channel, time) torch.Tensor, 'sample_rate': int} dictionary;
+* fix torchcodec installation. Error message was:
+
+Could not load libtorchcodec. Likely causes:
+          1. FFmpeg is not properly installed in your environment. We support
+             versions 4, 5, 6 and 7.
+          2. The PyTorch version (2.8.0+cu128) is not compatible with
+             this version of TorchCodec. Refer to the version compatibility
+             table:
+             https://github.com/pytorch/torchcodec?tab=readme-ov-file#installing-torchcodec.
+          3. Another runtime dependency; see exceptions below.
+        The following exceptions were raised as we tried to load libtorchcodec:
+        
+[start of libtorchcodec loading traceback]
+FFmpeg version 7: libavutil.so.59: cannot open shared object file: No such file or directory
+FFmpeg version 6: libavutil.so.58: cannot open shared object file: No such file or directory
+FFmpeg version 5: libavutil.so.57: cannot open shared object file: No such file or directory
+FFmpeg version 4: libavutil.so.56: cannot open shared object file: No such file or directory
+[end of libtorchcodec loading traceback].
+  warnings.warn(
+2026-11-08 23:10:04 - whisperx.vads.pyannote - INFO - Performing voice activity detection using Pyannote...
+Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.6.6. To apply the upgrade to your files permanently, run `python -m lightning.pytorch.utilities.upgrade_checkpoint .venv/lib/python3.12/site-packages/whisperx/assets/pytorch_model.bin`
+/home/antiai-aiclub/Projects/distillation-allegedly/.venv/lib/python3.12/site-packages/pyannote/audio/utils/reproducibility.py:74: ReproducibilityWarning: TensorFloat-32 (TF32) has been disabled as it might lead to reproducibility issues and lower accuracy.
+It can be re-enabled by calling
+   >>> import torch
+   >>> torch.backends.cuda.matmul.allow_tf32 = True
+   >>> torch.backends.cudnn.allow_tf32 = True
+See https://github.com/pyannote/pyannote-audio/issues/1370 for more details.
+
+  warnings.warn(
+[  77.10 -   78.02] Respawn.
+[  78.18 -   78.84] Respawn.
+[  78.86 -   79.04] Respawn.
+[  81.48 -   81.84] Respawn.
+[  81.86 -   82.22] Respawn.
+[ 114.05 -  114.89] Right on time.
+[ 134.06 -  134.82] Respawn.
+[ 135.16 -  135.95] Respawn.
+[ 138.51 -  139.73] It's a distillation.
+[ 142.80 -  143.78] Take the reasoning.
+[ 147.25 -  148.49] It's a distillation.
+[ 210.17 -  220.70] It's a distillation.
+[ 223.74 -  225.80] Take the reason and leave the receipt.
+[ 228.19 -  229.39] It's a distillation.
+[ 239.08 -  241.54] No waves were harmed in the making of this song.

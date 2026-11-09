@@ -1,0 +1,35 @@
+# Large files: excluded from git, listed in MANIFEST.sha256 (scripts/manifest.sh), published separately.
+audio/
+renders/
+takes/
+deliverables/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.zip
+*.mp4
+*.mov
+*.mkv
+*.webm
+
+# Regenerable: never archived; versions and regen commands are logged instead.
+frames/
+**/frames/
+cache/
+**/__pycache__/
+.venv/
+node_modules/
+models/
+*.pt
+*.safetensors
+*.gguf
+
+# The production archive (scripts/archive.sh), published as a release.
+archive/
+
+# Capture dumps: regenerate with scripts/fetch_*.mjs. The clip record and lyrics (suno_clip.py) and the chat
+# snapshot JSON and Markdown are kept; the raw page dumps and API responses are not.
+docs/suno/resp_*.json
+docs/suno/page.html
+docs/planning_chat/planning_chat.html

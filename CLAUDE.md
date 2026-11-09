@@ -1,0 +1,12 @@
+# The Distillation Job
+
+A 1970s heist-funk music video about model distillation: a crew of sock puppets never breaks in, they line up at the vault's teller window and ask it, millions of times, how it was built; in verse 3 the vault turns out to be built from everyone else's stuff. The agent does the production; the human approves at each milestone gate, picks takes, and supplies what the agent can't reach (Suno, the audits run in other labs' chat apps, screen captures, the media-lawyer review).
+
+**Start here:** the brief is the Claude Doc https://claude.ai/artifact/4GsgfcSeDVLnMqr6Ko1zPZ (shot list, look, lyrics v1.2, audit plan, claims card, guardrails). Read it with the docs tools, not a web fetch; `docs/brief.md` is a plain-text mirror. The planning chat is captured in `docs/planning_chat/`. Then read the latest entries of `log/production_log.md` and `log/human_interventions.md`.
+
+- **Conflict of interest:** Claude drafted the lyrics and Anthropic is the main accuser and the main source of the numbers. Any audit finding Claude rejects goes to the human for the final call. Every accusation is labeled alleged; the claims card never maps a lyric line to a company (brief, guardrails).
+- **Logs:** `log/production_log.md` gets one entry per generation, render or analysis step. Every human action goes in `log/human_interventions.md`. Anything the generator changed (words sung differently, structure) goes in `log/ai_changes.md`; deviations from the brief go in `log/decisions.md`. Auditor outputs go verbatim to `log/audits/`. Still/clip prompts and seeds go in `shots/prompts.md`; each shot's asset type and swaps in `shots/pipeline.md`.
+- **Seeds:** every random process reads its seed from `config/seeds.json`; main video seed 41.
+- **Large files** (audio, renders, takes, weights) stay out of git; run `scripts/manifest.sh` after adding any. Log the command that regenerates them.
+- **Sibling projects** in `~/Projects` are reference only: read them for method, never modify them. The last video, `../buy-it-on-margin`, has the most recent versions of the shared scripts (capture, stills, clips, Remotion film layer, archive and rebuild).
+- **Tools:** Python steps run on this repo's `.venv` (`uv sync`; same pins as Buy It on Margin: torch 2.8 cu128, WhisperX 3.8.6). Captures use Puppeteer (`npm ci`). ComfyUI in `~/ComfyUI` for stills and clips. The post-filter is music-deslop in `~/Code/music-deslop` (brief: render one master with it and one without; the human picks).

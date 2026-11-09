@@ -1,0 +1,63 @@
+{
+ "model": "large-v3",
+ "stem": "/tmp/claude-1000/-home-antiai-aiclub-Projects-distillation-allegedly/99df8b14-c6f2-424f-a693-d39de4539f86/scratchpad/focus_intro.wav",
+ "whisperx": null,
+ "segments": [
+  {
+   "start": 7.972,
+   "end": 9.798,
+   "text": "Crew 24,000 accounts.",
+   "words": [
+    {
+     "w": "Crew",
+     "start": 7.972,
+     "end": 8.554,
+     "score": 0.738
+    },
+    {
+     "w": "24,000",
+     "start": 8.594,
+     "end": 9.276,
+     "score": 0.659
+    },
+    {
+     "w": "accounts.",
+     "start": 9.316,
+     "end": 9.798,
+     "score": 0.896
+    }
+   ]
+  },
+  {
+   "start": 12.325,
+   "end": 13.629,
+   "text": "Nobody touches the weights.",
+   "words": [
+    {
+     "w": "Nobody",
+     "start": 12.325,
+     "end": 12.686,
+     "score": 0.926
+    },
+    {
+     "w": "touches",
+     "start": 12.766,
+     "end": 13.127,
+     "score": 0.883
+    },
+    {
+     "w": "the",
+     "start": 13.188,
+     "end": 13.268,
+     "score": 0.833
+    },
+    {
+     "w": "weights.",
+     "start": 13.308,
+     "end": 13.629,
+     "score": 0.851
+    }
+   ]
+  }
+ ]
+}

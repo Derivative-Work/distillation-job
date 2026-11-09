@@ -1,0 +1,4 @@
+{
+  "_doc": "Every random process reads its seed from here by name (series rule). Main video seed 41, the series default.",
+  "main": 41
+}

@@ -1,0 +1,330 @@
+{
+ "model": "large-v3",
+ "stem": "/tmp/claude-1000/-home-antiai-aiclub-Projects-distillation-allegedly/99df8b14-c6f2-424f-a693-d39de4539f86/scratchpad/focus_breakdown.wav",
+ "whisperx": null,
+ "segments": [
+  {
+   "start": 2.035,
+   "end": 3.617,
+   "text": "Numbers courtesy of the vault.",
+   "words": [
+    {
+     "w": "Numbers",
+     "start": 2.035,
+     "end": 2.355,
+     "score": 0.883
+    },
+    {
+     "w": "courtesy",
+     "start": 2.436,
+     "end": 2.936,
+     "score": 0.794
+    },
+    {
+     "w": "of",
+     "start": 2.976,
+     "end": 3.036,
+     "score": 0.741
+    },
+    {
+     "w": "the",
+     "start": 3.096,
+     "end": 3.156,
+     "score": 0.987
+    },
+    {
+     "w": "vault.",
+     "start": 3.237,
+     "end": 3.617,
+     "score": 0.89
+    }
+   ]
+  },
+  {
+   "start": 4.859,
+   "end": 6.681,
+   "text": "Their count, not ours.",
+   "words": [
+    {
+     "w": "Their",
+     "start": 4.859,
+     "end": 5.079,
+     "score": 0.783
+    },
+    {
+     "w": "count,",
+     "start": 5.139,
+     "end": 5.499,
+     "score": 0.923
+    },
+    {
+     "w": "not",
+     "start": 5.96,
+     "end": 6.18,
+     "score": 0.935
+    },
+    {
+     "w": "ours.",
+     "start": 6.38,
+     "end": 6.681,
+     "score": 0.852
+    }
+   ]
+  },
+  {
+   "start": 7.602,
+   "end": 8.783,
+   "text": "16 million.",
+   "words": [
+    {
+     "w": "16",
+     "start": 7.602,
+     "end": 8.183,
+     "score": 0.765
+    },
+    {
+     "w": "million.",
+     "start": 8.263,
+     "end": 8.783,
+     "score": 0.813
+    }
+   ]
+  },
+  {
+   "start": 9.124,
+   "end": 10.245,
+   "text": "That was February.",
+   "words": [
+    {
+     "w": "That",
+     "start": 9.124,
+     "end": 9.264,
+     "score": 0.852
+    },
+    {
+     "w": "was",
+     "start": 9.304,
+     "end": 9.424,
+     "score": 0.866
+    },
+    {
+     "w": "February.",
+     "start": 9.544,
+     "end": 10.245,
+     "score": 0.817
+    }
+   ]
+  },
+  {
+   "start": 10.445,
+   "end": 10.866,
+   "text": "28.8.",
+   "words": [
+    {
+     "w": "28.8.",
+     "start": 10.445,
+     "end": 10.866,
+     "score": 0.613
+    }
+   ]
+  },
+  {
+   "start": 11.146,
+   "end": 12.368,
+   "text": "That was June.",
+   "words": [
+    {
+     "w": "That",
+     "start": 11.146,
+     "end": 11.607,
+     "score": 0.54
+    },
+    {
+     "w": "was",
+     "start": 11.647,
+     "end": 11.767,
+     "score": 0.686
+    },
+    {
+     "w": "June.",
+     "start": 11.867,
+     "end": 12.368,
+     "score": 0.799
+    }
+   ]
+  },
+  {
+   "start": 12.648,
+   "end": 12.928,
+   "text": "151.",
+   "words": [
+    {
+     "w": "151.",
+     "start": 12.648,
+     "end": 12.928,
+     "score": 0.844
+    }
+   ]
+  },
+  {
+   "start": 13.069,
+   "end": 15.351,
+   "text": "Peaking at three mil a day.",
+   "words": [
+    {
+     "w": "Peaking",
+     "start": 13.069,
+     "end": 14.23,
+     "score": 0.446
+    },
+    {
+     "w": "at",
+     "start": 14.27,
+     "end": 14.37,
+     "score": 0.796
+    },
+    {
+     "w": "three",
+     "start": 14.43,
+     "end": 14.671,
+     "score": 0.851
+    },
+    {
+     "w": "mil",
+     "start": 14.731,
+     "end": 14.931,
+     "score": 0.897
+    },
+    {
+     "w": "a",
+     "start": 14.971,
+     "end": 15.031,
+     "score": 0.674
+    },
+    {
+     "w": "day.",
+     "start": 15.071,
+     "end": 15.351,
+     "score": 0.935
+    }
+   ]
+  },
+  {
+   "start": 15.411,
+   "end": 16.513,
+   "text": "Somebody stop the counter.",
+   "words": [
+    {
+     "w": "Somebody",
+     "start": 15.411,
+     "end": 15.792,
+     "score": 0.929
+    },
+    {
+     "w": "stop",
+     "start": 15.812,
+     "end": 15.992,
+     "score": 0.816
+    },
+    {
+     "w": "the",
+     "start": 16.032,
+     "end": 16.092,
+     "score": 0.955
+    },
+    {
+     "w": "counter.",
+     "start": 16.132,
+     "end": 16.513,
+     "score": 0.762
+    }
+   ]
+  },
+  {
+   "start": 16.533,
+   "end": 18.175,
+   "text": "We're going to need a bigger van.",
+   "words": [
+    {
+     "w": "We're",
+     "start": 16.533,
+     "end": 16.673,
+     "score": 0.75
+    },
+    {
+     "w": "going",
+     "start": 16.713,
+     "end": 16.833,
+     "score": 0.8
+    },
+    {
+     "w": "to",
+     "start": 16.853,
+     "end": 16.913,
+     "score": 0.839
+    },
+    {
+     "w": "need",
+     "start": 16.953,
+     "end": 17.214,
+     "score": 0.408
+    },
+    {
+     "w": "a",
+     "start": 17.234,
+     "end": 17.254,
+     "score": 0.015
+    },
+    {
+     "w": "bigger",
+     "start": 17.474,
+     "end": 17.734,
+     "score": 0.607
+    },
+    {
+     "w": "van.",
+     "start": 17.774,
+     "end": 18.175,
+     "score": 0.906
+    }
+   ]
+  },
+  {
+   "start": 19.116,
+   "end": 19.977,
+   "text": "Now the feds put out.",
+   "words": [
+    {
+     "w": "Now",
+     "start": 19.116,
+     "end": 19.236,
+     "score": 0.967
+    },
+    {
+     "w": "the",
+     "start": 19.276,
+     "end": 19.356,
+     "score": 0.84
+    },
+    {
+     "w": "feds",
+     "start": 19.396,
+     "end": 19.657,
+     "score": 0.577
+    },
+    {
+     "w": "put",
+     "start": 19.697,
+     "end": 19.837,
+     "score": 0.996
+    },
+    {
+     "w": "out.",
+     "start": 19.857,
+     "end": 19.977,
+     "score": 0.168
+    }
+   ]
+  }
+ ]
+}

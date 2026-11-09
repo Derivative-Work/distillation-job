@@ -1,0 +1,4063 @@
+{
+ "model": "large-v3",
+ "stem": "audio/stems/0 Lead Vocals.wav",
+ "whisperx": null,
+ "segments": [
+  {
+   "start": 7.972,
+   "end": 9.793,
+   "text": "Crew 24,000 accounts.",
+   "words": [
+    {
+     "w": "Crew",
+     "start": 7.972,
+     "end": 8.552,
+     "score": 0.724
+    },
+    {
+     "w": "24,000",
+     "start": 8.592,
+     "end": 9.272,
+     "score": 0.764
+    },
+    {
+     "w": "accounts.",
+     "start": 9.312,
+     "end": 9.793,
+     "score": 0.871
+    }
+   ]
+  },
+  {
+   "start": 12.313,
+   "end": 13.654,
+   "text": "Nobody touches the weights.",
+   "words": [
+    {
+     "w": "Nobody",
+     "start": 12.313,
+     "end": 12.693,
+     "score": 0.88
+    },
+    {
+     "w": "touches",
+     "start": 12.753,
+     "end": 13.114,
+     "score": 0.906
+    },
+    {
+     "w": "the",
+     "start": 13.174,
+     "end": 13.254,
+     "score": 0.832
+    },
+    {
+     "w": "weights.",
+     "start": 13.294,
+     "end": 13.654,
+     "score": 0.864
+    }
+   ]
+  },
+  {
+   "start": 16.114,
+   "end": 17.995,
+   "text": "We just ask nicely.",
+   "words": [
+    {
+     "w": "We",
+     "start": 16.114,
+     "end": 16.274,
+     "score": 0.983
+    },
+    {
+     "w": "just",
+     "start": 16.294,
+     "end": 16.515,
+     "score": 0.884
+    },
+    {
+     "w": "ask",
+     "start": 16.715,
+     "end": 16.975,
+     "score": 0.847
+    },
+    {
+     "w": "nicely.",
+     "start": 17.455,
+     "end": 17.995,
+     "score": 0.933
+    }
+   ]
+  },
+  {
+   "start": 20.156,
+   "end": 22.616,
+   "text": "Names withheld puppets are puppets.",
+   "words": [
+    {
+     "w": "Names",
+     "start": 20.156,
+     "end": 20.556,
+     "score": 0.794
+    },
+    {
+     "w": "withheld",
+     "start": 20.616,
+     "end": 21.136,
+     "score": 0.875
+    },
+    {
+     "w": "puppets",
+     "start": 21.256,
+     "end": 21.736,
+     "score": 0.957
+    },
+    {
+     "w": "are",
+     "start": 21.876,
+     "end": 21.976,
+     "score": 0.752
+    },
+    {
+     "w": "puppets.",
+     "start": 22.136,
+     "end": 22.616,
+     "score": 0.969
+    }
+   ]
+  },
+  {
+   "start": 24.877,
+   "end": 27.838,
+   "text": "All of this is alleged.",
+   "words": [
+    {
+     "w": "All",
+     "start": 24.877,
+     "end": 25.017,
+     "score": 0.81
+    },
+    {
+     "w": "of",
+     "start": 25.037,
+     "end": 25.077,
+     "score": 0.372
+    },
+    {
+     "w": "this",
+     "start": 25.137,
+     "end": 25.417,
+     "score": 0.848
+    },
+    {
+     "w": "is",
+     "start": 27.178,
+     "end": 27.298,
+     "score": 0.707
+    },
+    {
+     "w": "alleged.",
+     "start": 27.358,
+     "end": 27.838,
+     "score": 0.887
+    }
+   ]
+  },
+  {
+   "start": 45.308,
+   "end": 48.89,
+   "text": "Got a crew of sock puppets in a rented proxy van.",
+   "words": [
+    {
+     "w": "Got",
+     "start": 45.308,
+     "end": 45.508,
+     "score": 0.978
+    },
+    {
+     "w": "a",
+     "start": 45.528,
+     "end": 45.568,
+     "score": 0.935
+    },
+    {
+     "w": "crew",
+     "start": 45.608,
+     "end": 45.768,
+     "score": 0.607
+    },
+    {
+     "w": "of",
+     "start": 45.788,
+     "end": 45.888,
+     "score": 0.46
+    },
+    {
+     "w": "sock",
+     "start": 45.928,
+     "end": 46.109,
+     "score": 0.264
+    },
+    {
+     "w": "puppets",
+     "start": 46.149,
+     "end": 46.649,
+     "score": 0.827
+    },
+    {
+     "w": "in",
+     "start": 47.569,
+     "end": 47.69,
+     "score": 0.648
+    },
+    {
+     "w": "a",
+     "start": 47.73,
+     "end": 47.77,
+     "score": 0.845
+    },
+    {
+     "w": "rented",
+     "start": 47.81,
+     "end": 48.05,
+     "score": 0.49
+    },
+    {
+     "w": "proxy",
+     "start": 48.07,
+     "end": 48.47,
+     "score": 0.854
+    },
+    {
+     "w": "van.",
+     "start": 48.51,
+     "end": 48.89,
+     "score": 0.909
+    }
+   ]
+  },
+  {
+   "start": 49.751,
+   "end": 52.973,
+   "text": "Every one a fresh account and a brand new burner plan.",
+   "words": [
+    {
+     "w": "Every",
+     "start": 49.751,
+     "end": 49.971,
+     "score": 0.952
+    },
+    {
+     "w": "one",
+     "start": 50.051,
+     "end": 50.151,
+     "score": 0.842
+    },
+    {
+     "w": "a",
+     "start": 50.171,
+     "end": 50.211,
+     "score": 0.412
+    },
+    {
+     "w": "fresh",
+     "start": 50.251,
+     "end": 50.431,
+     "score": 0.765
+    },
+    {
+     "w": "account",
+     "start": 50.451,
+     "end": 50.951,
+     "score": 0.635
+    },
+    {
+     "w": "and",
+     "start": 51.392,
+     "end": 51.512,
+     "score": 0.716
+    },
+    {
+     "w": "a",
+     "start": 51.552,
+     "end": 51.592,
+     "score": 0.797
+    },
+    {
+     "w": "brand",
+     "start": 51.632,
+     "end": 51.892,
+     "score": 0.826
+    },
+    {
+     "w": "new",
+     "start": 51.932,
+     "end": 52.112,
+     "score": 0.853
+    },
+    {
+     "w": "burner",
+     "start": 52.172,
+     "end": 52.552,
+     "score": 0.515
+    },
+    {
+     "w": "plan.",
+     "start": 52.592,
+     "end": 52.973,
+     "score": 0.957
+    }
+   ]
+  },
+  {
+   "start": 53.913,
+   "end": 57.275,
+   "text": "Shed cards and proxy hops, a hundred routes or more.",
+   "words": [
+    {
+     "w": "Shed",
+     "start": 53.913,
+     "end": 54.213,
+     "score": 0.769
+    },
+    {
+     "w": "cards",
+     "start": 54.253,
+     "end": 54.514,
+     "score": 0.845
+    },
+    {
+     "w": "and",
+     "start": 54.554,
+     "end": 54.634,
+     "score": 0.352
+    },
+    {
+     "w": "proxy",
+     "start": 54.654,
+     "end": 55.134,
+     "score": 0.874
+    },
+    {
+     "w": "hops,",
+     "start": 55.194,
+     "end": 55.634,
+     "score": 0.822
+    },
+    {
+     "w": "a",
+     "start": 55.934,
+     "end": 56.035,
+     "score": 0.678
+    },
+    {
+     "w": "hundred",
+     "start": 56.055,
+     "end": 56.335,
+     "score": 0.959
+    },
+    {
+     "w": "routes",
+     "start": 56.435,
+     "end": 56.675,
+     "score": 0.626
+    },
+    {
+     "w": "or",
+     "start": 56.735,
+     "end": 56.815,
+     "score": 0.614
+    },
+    {
+     "w": "more.",
+     "start": 56.855,
+     "end": 57.275,
+     "score": 0.964
+    }
+   ]
+  },
+  {
+   "start": 57.616,
+   "end": 57.916,
+   "text": "Where?",
+   "words": [
+    {
+     "w": "Where?",
+     "start": 57.616,
+     "end": 57.916,
+     "score": 0.902
+    }
+   ]
+  },
+  {
+   "start": 58.276,
+   "end": 59.056,
+   "text": "Everywhere, baby.",
+   "words": [
+    {
+     "w": "Everywhere,",
+     "start": 58.276,
+     "end": 58.696,
+     "score": 0.913
+    },
+    {
+     "w": "baby.",
+     "start": 58.756,
+     "end": 59.056,
+     "score": 0.918
+    }
+   ]
+  },
+  {
+   "start": 59.817,
+   "end": 61.598,
+   "text": "Knockin' on the API door.",
+   "words": [
+    {
+     "w": "Knockin'",
+     "start": 59.817,
+     "end": 60.137,
+     "score": 0.849
+    },
+    {
+     "w": "on",
+     "start": 60.197,
+     "end": 60.257,
+     "score": 0.924
+    },
+    {
+     "w": "the",
+     "start": 60.277,
+     "end": 60.397,
+     "score": 0.341
+    },
+    {
+     "w": "API",
+     "start": 60.497,
+     "end": 61.178,
+     "score": 0.816
+    },
+    {
+     "w": "door.",
+     "start": 61.218,
+     "end": 61.598,
+     "score": 0.837
+    }
+   ]
+  },
+  {
+   "start": 62.999,
+   "end": 66.061,
+   "text": "We don't crack the safe, we just ask it how it's made.",
+   "words": [
+    {
+     "w": "We",
+     "start": 62.999,
+     "end": 63.199,
+     "score": 0.986
+    },
+    {
+     "w": "don't",
+     "start": 63.279,
+     "end": 63.599,
+     "score": 0.77
+    },
+    {
+     "w": "crack",
+     "start": 63.659,
+     "end": 63.919,
+     "score": 0.914
+    },
+    {
+     "w": "the",
+     "start": 63.959,
+     "end": 64.059,
+     "score": 0.89
+    },
+    {
+     "w": "safe,",
+     "start": 64.099,
+     "end": 64.36,
+     "score": 0.837
+    },
+    {
+     "w": "we",
+     "start": 64.38,
+     "end": 64.52,
+     "score": 0.952
+    },
+    {
+     "w": "just",
+     "start": 64.54,
+     "end": 64.76,
+     "score": 0.71
+    },
+    {
+     "w": "ask",
+     "start": 64.9,
+     "end": 65.08,
+     "score": 0.953
+    },
+    {
+     "w": "it",
+     "start": 65.14,
+     "end": 65.24,
+     "score": 0.203
+    },
+    {
+     "w": "how",
+     "start": 65.3,
+     "end": 65.5,
+     "score": 0.971
+    },
+    {
+     "w": "it's",
+     "start": 65.56,
+     "end": 65.68,
+     "score": 0.789
+    },
+    {
+     "w": "made.",
+     "start": 65.74,
+     "end": 66.061,
+     "score": 0.805
+    }
+   ]
+  },
+  {
+   "start": 67.111,
+   "end": 70.512,
+   "text": "Millions of times politely till the reasoning gets relayed.",
+   "words": [
+    {
+     "w": "Millions",
+     "start": 67.111,
+     "end": 67.651,
+     "score": 0.818
+    },
+    {
+     "w": "of",
+     "start": 67.751,
+     "end": 67.831,
+     "score": 0.897
+    },
+    {
+     "w": "times",
+     "start": 67.911,
+     "end": 68.271,
+     "score": 0.851
+    },
+    {
+     "w": "politely",
+     "start": 68.332,
+     "end": 68.852,
+     "score": 0.778
+    },
+    {
+     "w": "till",
+     "start": 68.872,
+     "end": 69.032,
+     "score": 0.833
+    },
+    {
+     "w": "the",
+     "start": 69.052,
+     "end": 69.112,
+     "score": 0.979
+    },
+    {
+     "w": "reasoning",
+     "start": 69.152,
+     "end": 69.672,
+     "score": 0.828
+    },
+    {
+     "w": "gets",
+     "start": 69.692,
+     "end": 69.932,
+     "score": 0.902
+    },
+    {
+     "w": "relayed.",
+     "start": 69.972,
+     "end": 70.512,
+     "score": 0.753
+    }
+   ]
+  },
+  {
+   "start": 71.293,
+   "end": 72.893,
+   "text": "Show your work, we whisper.",
+   "words": [
+    {
+     "w": "Show",
+     "start": 71.293,
+     "end": 71.493,
+     "score": 0.888
+    },
+    {
+     "w": "your",
+     "start": 71.533,
+     "end": 71.693,
+     "score": 0.575
+    },
+    {
+     "w": "work,",
+     "start": 71.753,
+     "end": 72.033,
+     "score": 0.594
+    },
+    {
+     "w": "we",
+     "start": 72.153,
+     "end": 72.373,
+     "score": 0.893
+    },
+    {
+     "w": "whisper.",
+     "start": 72.453,
+     "end": 72.893,
+     "score": 0.952
+    }
+   ]
+  },
+  {
+   "start": 73.233,
+   "end": 76.475,
+   "text": "Think it step by step, then we bottle every thought and ship it off to prep.",
+   "words": [
+    {
+     "w": "Think",
+     "start": 73.233,
+     "end": 73.393,
+     "score": 0.637
+    },
+    {
+     "w": "it",
+     "start": 73.414,
+     "end": 73.494,
+     "score": 0.251
+    },
+    {
+     "w": "step",
+     "start": 73.514,
+     "end": 73.734,
+     "score": 0.756
+    },
+    {
+     "w": "by",
+     "start": 73.794,
+     "end": 73.974,
+     "score": 0.948
+    },
+    {
+     "w": "step,",
+     "start": 74.014,
+     "end": 74.334,
+     "score": 0.869
+    },
+    {
+     "w": "then",
+     "start": 74.354,
+     "end": 74.474,
+     "score": 0.711
+    },
+    {
+     "w": "we",
+     "start": 74.494,
+     "end": 74.614,
+     "score": 0.891
+    },
+    {
+     "w": "bottle",
+     "start": 74.654,
+     "end": 74.934,
+     "score": 0.813
+    },
+    {
+     "w": "every",
+     "start": 74.974,
+     "end": 75.134,
+     "score": 0.877
+    },
+    {
+     "w": "thought",
+     "start": 75.154,
+     "end": 75.334,
+     "score": 0.856
+    },
+    {
+     "w": "and",
+     "start": 75.354,
+     "end": 75.434,
+     "score": 0.182
+    },
+    {
+     "w": "ship",
+     "start": 75.454,
+     "end": 75.574,
+     "score": 0.251
+    },
+    {
+     "w": "it",
+     "start": 75.674,
+     "end": 75.774,
+     "score": 0.959
+    },
+    {
+     "w": "off",
+     "start": 75.854,
+     "end": 75.975,
+     "score": 0.996
+    },
+    {
+     "w": "to",
+     "start": 76.015,
+     "end": 76.095,
+     "score": 0.736
+    },
+    {
+     "w": "prep.",
+     "start": 76.135,
+     "end": 76.475,
+     "score": 0.813
+    }
+   ]
+  },
+  {
+   "start": 76.555,
+   "end": 78.355,
+   "text": "Radial energy, respond again.",
+   "words": [
+    {
+     "w": "Radial",
+     "start": 76.555,
+     "end": 76.815,
+     "score": 0.59
+    },
+    {
+     "w": "energy,",
+     "start": 76.835,
+     "end": 77.115,
+     "score": 0.296
+    },
+    {
+     "w": "respond",
+     "start": 77.135,
+     "end": 77.815,
+     "score": 0.739
+    },
+    {
+     "w": "again.",
+     "start": 77.855,
+     "end": 78.355,
+     "score": 0.847
+    }
+   ]
+  },
+  {
+   "start": 78.455,
+   "end": 81.277,
+   "text": "Cut one head off the hydra and two come back on.",
+   "words": [
+    {
+     "w": "Cut",
+     "start": 78.455,
+     "end": 78.776,
+     "score": 0.658
+    },
+    {
+     "w": "one",
+     "start": 78.876,
+     "end": 78.976,
+     "score": 0.972
+    },
+    {
+     "w": "head",
+     "start": 79.036,
+     "end": 79.216,
+     "score": 0.952
+    },
+    {
+     "w": "off",
+     "start": 79.276,
+     "end": 79.416,
+     "score": 0.981
+    },
+    {
+     "w": "the",
+     "start": 79.456,
+     "end": 79.556,
+     "score": 0.783
+    },
+    {
+     "w": "hydra",
+     "start": 79.596,
+     "end": 79.956,
+     "score": 0.751
+    },
+    {
+     "w": "and",
+     "start": 80.016,
+     "end": 80.096,
+     "score": 0.799
+    },
+    {
+     "w": "two",
+     "start": 80.136,
+     "end": 80.376,
+     "score": 0.727
+    },
+    {
+     "w": "come",
+     "start": 80.396,
+     "end": 80.636,
+     "score": 0.962
+    },
+    {
+     "w": "back",
+     "start": 80.676,
+     "end": 80.936,
+     "score": 0.887
+    },
+    {
+     "w": "on.",
+     "start": 81.137,
+     "end": 81.277,
+     "score": 0.92
+    }
+   ]
+  },
+  {
+   "start": 81.537,
+   "end": 82.717,
+   "text": "It's a distillation.",
+   "words": [
+    {
+     "w": "It's",
+     "start": 81.537,
+     "end": 81.637,
+     "score": 0.722
+    },
+    {
+     "w": "a",
+     "start": 81.697,
+     "end": 81.737,
+     "score": 0.794
+    },
+    {
+     "w": "distillation.",
+     "start": 81.797,
+     "end": 82.717,
+     "score": 0.895
+    }
+   ]
+  },
+  {
+   "start": 83.177,
+   "end": 84.038,
+   "text": "Allegedly.",
+   "words": [
+    {
+     "w": "Allegedly.",
+     "start": 83.177,
+     "end": 84.038,
+     "score": 0.85
+    }
+   ]
+  },
+  {
+   "start": 84.098,
+   "end": 85.858,
+   "text": "Pour the frontier through a seal.",
+   "words": [
+    {
+     "w": "Pour",
+     "start": 84.098,
+     "end": 84.358,
+     "score": 0.629
+    },
+    {
+     "w": "the",
+     "start": 84.398,
+     "end": 84.478,
+     "score": 0.825
+    },
+    {
+     "w": "frontier",
+     "start": 84.518,
+     "end": 85.018,
+     "score": 0.915
+    },
+    {
+     "w": "through",
+     "start": 85.058,
+     "end": 85.238,
+     "score": 0.387
+    },
+    {
+     "w": "a",
+     "start": 85.258,
+     "end": 85.358,
+     "score": 0.725
+    },
+    {
+     "w": "seal.",
+     "start": 85.438,
+     "end": 85.858,
+     "score": 0.743
+    }
+   ]
+  },
+  {
+   "start": 85.878,
+   "end": 87.899,
+   "text": "Take the reasoning, leave the receipt.",
+   "words": [
+    {
+     "w": "Take",
+     "start": 85.878,
+     "end": 85.998,
+     "score": 0.347
+    },
+    {
+     "w": "the",
+     "start": 86.038,
+     "end": 86.138,
+     "score": 0.581
+    },
+    {
+     "w": "reasoning,",
+     "start": 86.178,
+     "end": 86.819,
+     "score": 0.796
+    },
+    {
+     "w": "leave",
+     "start": 86.959,
+     "end": 87.219,
+     "score": 0.843
+    },
+    {
+     "w": "the",
+     "start": 87.259,
+     "end": 87.379,
+     "score": 0.884
+    },
+    {
+     "w": "receipt.",
+     "start": 87.419,
+     "end": 87.899,
+     "score": 0.7
+    }
+   ]
+  },
+  {
+   "start": 88.059,
+   "end": 89.9,
+   "text": "Tell them that's just how we live.",
+   "words": [
+    {
+     "w": "Tell",
+     "start": 88.059,
+     "end": 88.239,
+     "score": 0.97
+    },
+    {
+     "w": "them",
+     "start": 88.259,
+     "end": 88.359,
+     "score": 0.025
+    },
+    {
+     "w": "that's",
+     "start": 88.379,
+     "end": 88.599,
+     "score": 0.44
+    },
+    {
+     "w": "just",
+     "start": 88.639,
+     "end": 88.86,
+     "score": 0.845
+    },
+    {
+     "w": "how",
+     "start": 88.92,
+     "end": 89.16,
+     "score": 0.993
+    },
+    {
+     "w": "we",
+     "start": 89.2,
+     "end": 89.4,
+     "score": 0.856
+    },
+    {
+     "w": "live.",
+     "start": 89.46,
+     "end": 89.9,
+     "score": 0.814
+    }
+   ]
+  },
+  {
+   "start": 90.3,
+   "end": 91.521,
+   "text": "It's a distillation.",
+   "words": [
+    {
+     "w": "It's",
+     "start": 90.3,
+     "end": 90.4,
+     "score": 0.63
+    },
+    {
+     "w": "a",
+     "start": 90.46,
+     "end": 90.5,
+     "score": 0.536
+    },
+    {
+     "w": "distillation.",
+     "start": 90.56,
+     "end": 91.521,
+     "score": 0.877
+    }
+   ]
+  },
+  {
+   "start": 91.941,
+   "end": 92.621,
+   "text": "Allegedly.",
+   "words": [
+    {
+     "w": "Allegedly.",
+     "start": 91.941,
+     "end": 92.621,
+     "score": 0.846
+    }
+   ]
+  },
+  {
+   "start": 92.641,
+   "end": 118.952,
+   "text": "smooth as a hundred proof pour why build a brand when you can rent it by the token and stroll right out the door and stroll right out the door new model drops on monday by tuesday we're in line half the traffic shifted over so they say right on time tell the teacher now imagine what you're thinking deep inside",
+   "words": [
+    {
+     "w": "smooth",
+     "start": 92.641,
+     "end": 93.021,
+     "score": 0.523
+    },
+    {
+     "w": "as",
+     "start": 93.041,
+     "end": 93.161,
+     "score": 0.729
+    },
+    {
+     "w": "a",
+     "start": 93.201,
+     "end": 93.261,
+     "score": 0.637
+    },
+    {
+     "w": "hundred",
+     "start": 93.301,
+     "end": 93.521,
+     "score": 0.906
+    },
+    {
+     "w": "proof",
+     "start": 93.541,
+     "end": 93.761,
+     "score": 0.647
+    },
+    {
+     "w": "pour",
+     "start": 93.801,
+     "end": 94.202,
+     "score": 0.804
+    },
+    {
+     "w": "why",
+     "start": 94.362,
+     "end": 94.582,
+     "score": 0.926
+    },
+    {
+     "w": "build",
+     "start": 94.622,
+     "end": 94.822,
+     "score": 0.262
+    },
+    {
+     "w": "a",
+     "start": 94.842,
+     "end": 94.882,
+     "score": 0.497
+    },
+    {
+     "w": "brand",
+     "start": 94.922,
+     "end": 95.042,
+     "score": 0.523
+    },
+    {
+     "w": "when",
+     "start": 95.062,
+     "end": 95.162,
+     "score": 0.667
+    },
+    {
+     "w": "you",
+     "start": 95.202,
+     "end": 95.282,
+     "score": 0.995
+    },
+    {
+     "w": "can",
+     "start": 95.302,
+     "end": 95.442,
+     "score": 0.7
+    },
+    {
+     "w": "rent",
+     "start": 95.482,
+     "end": 95.622,
+     "score": 0.574
+    },
+    {
+     "w": "it",
+     "start": 95.662,
+     "end": 95.702,
+     "score": 0.644
+    },
+    {
+     "w": "by",
+     "start": 95.742,
+     "end": 95.862,
+     "score": 0.72
+    },
+    {
+     "w": "the",
+     "start": 95.882,
+     "end": 95.982,
+     "score": 0.88
+    },
+    {
+     "w": "token",
+     "start": 96.002,
+     "end": 96.282,
+     "score": 0.77
+    },
+    {
+     "w": "and",
+     "start": 96.343,
+     "end": 96.443,
+     "score": 0.501
+    },
+    {
+     "w": "stroll",
+     "start": 96.463,
+     "end": 97.003,
+     "score": 0.813
+    },
+    {
+     "w": "right",
+     "start": 97.103,
+     "end": 97.703,
+     "score": 0.64
+    },
+    {
+     "w": "out",
+     "start": 98.043,
+     "end": 98.203,
+     "score": 0.867
+    },
+    {
+     "w": "the",
+     "start": 98.263,
+     "end": 98.363,
+     "score": 0.872
+    },
+    {
+     "w": "door",
+     "start": 98.483,
+     "end": 98.904,
+     "score": 0.928
+    },
+    {
+     "w": "and",
+     "start": 101.725,
+     "end": 101.885,
+     "score": 0.793
+    },
+    {
+     "w": "stroll",
+     "start": 101.945,
+     "end": 102.285,
+     "score": 0.648
+    },
+    {
+     "w": "right",
+     "start": 102.325,
+     "end": 102.645,
+     "score": 0.509
+    },
+    {
+     "w": "out",
+     "start": 102.725,
+     "end": 102.845,
+     "score": 0.85
+    },
+    {
+     "w": "the",
+     "start": 102.865,
+     "end": 102.945,
+     "score": 0.937
+    },
+    {
+     "w": "door",
+     "start": 102.985,
+     "end": 103.325,
+     "score": 0.832
+    },
+    {
+     "w": "new",
+     "start": 106.687,
+     "end": 106.907,
+     "score": 0.808
+    },
+    {
+     "w": "model",
+     "start": 106.967,
+     "end": 107.307,
+     "score": 0.69
+    },
+    {
+     "w": "drops",
+     "start": 107.367,
+     "end": 107.747,
+     "score": 0.74
+    },
+    {
+     "w": "on",
+     "start": 107.907,
+     "end": 108.027,
+     "score": 0.769
+    },
+    {
+     "w": "monday",
+     "start": 108.067,
+     "end": 108.628,
+     "score": 0.765
+    },
+    {
+     "w": "by",
+     "start": 108.888,
+     "end": 109.088,
+     "score": 0.849
+    },
+    {
+     "w": "tuesday",
+     "start": 109.148,
+     "end": 109.648,
+     "score": 0.907
+    },
+    {
+     "w": "we're",
+     "start": 109.688,
+     "end": 109.888,
+     "score": 0.568
+    },
+    {
+     "w": "in",
+     "start": 109.948,
+     "end": 110.028,
+     "score": 0.908
+    },
+    {
+     "w": "line",
+     "start": 110.108,
+     "end": 110.528,
+     "score": 0.565
+    },
+    {
+     "w": "half",
+     "start": 110.968,
+     "end": 111.189,
+     "score": 0.965
+    },
+    {
+     "w": "the",
+     "start": 111.229,
+     "end": 111.309,
+     "score": 0.897
+    },
+    {
+     "w": "traffic",
+     "start": 111.329,
+     "end": 111.789,
+     "score": 0.939
+    },
+    {
+     "w": "shifted",
+     "start": 111.869,
+     "end": 112.289,
+     "score": 0.867
+    },
+    {
+     "w": "over",
+     "start": 112.449,
+     "end": 112.729,
+     "score": 0.918
+    },
+    {
+     "w": "so",
+     "start": 112.829,
+     "end": 113.089,
+     "score": 0.91
+    },
+    {
+     "w": "they",
+     "start": 113.129,
+     "end": 113.309,
+     "score": 0.792
+    },
+    {
+     "w": "say",
+     "start": 113.369,
+     "end": 113.69,
+     "score": 0.856
+    },
+    {
+     "w": "right",
+     "start": 114.05,
+     "end": 114.27,
+     "score": 0.836
+    },
+    {
+     "w": "on",
+     "start": 114.33,
+     "end": 114.43,
+     "score": 0.988
+    },
+    {
+     "w": "time",
+     "start": 114.49,
+     "end": 114.81,
+     "score": 0.875
+    },
+    {
+     "w": "tell",
+     "start": 115.33,
+     "end": 115.57,
+     "score": 0.79
+    },
+    {
+     "w": "the",
+     "start": 115.61,
+     "end": 115.69,
+     "score": 0.977
+    },
+    {
+     "w": "teacher",
+     "start": 115.73,
+     "end": 115.99,
+     "score": 0.9
+    },
+    {
+     "w": "now",
+     "start": 116.031,
+     "end": 116.211,
+     "score": 0.731
+    },
+    {
+     "w": "imagine",
+     "start": 116.251,
+     "end": 116.771,
+     "score": 0.818
+    },
+    {
+     "w": "what",
+     "start": 116.831,
+     "end": 116.951,
+     "score": 0.953
+    },
+    {
+     "w": "you're",
+     "start": 116.991,
+     "end": 117.211,
+     "score": 0.583
+    },
+    {
+     "w": "thinking",
+     "start": 117.251,
+     "end": 117.751,
+     "score": 0.854
+    },
+    {
+     "w": "deep",
+     "start": 117.791,
+     "end": 118.051,
+     "score": 0.922
+    },
+    {
+     "w": "inside",
+     "start": 118.191,
+     "end": 118.952,
+     "score": 0.631
+    }
+   ]
+  },
+  {
+   "start": 120.008,
+   "end": 121.929,
+   "text": "It writes us out a chain of thought.",
+   "words": [
+    {
+     "w": "It",
+     "start": 120.008,
+     "end": 120.068,
+     "score": 0.986
+    },
+    {
+     "w": "writes",
+     "start": 120.108,
+     "end": 120.388,
+     "score": 0.902
+    },
+    {
+     "w": "us",
+     "start": 120.448,
+     "end": 120.528,
+     "score": 0.79
+    },
+    {
+     "w": "out",
+     "start": 120.768,
+     "end": 120.928,
+     "score": 0.918
+    },
+    {
+     "w": "a",
+     "start": 121.009,
+     "end": 121.089,
+     "score": 0.644
+    },
+    {
+     "w": "chain",
+     "start": 121.149,
+     "end": 121.469,
+     "score": 0.836
+    },
+    {
+     "w": "of",
+     "start": 121.509,
+     "end": 121.549,
+     "score": 0.132
+    },
+    {
+     "w": "thought.",
+     "start": 121.589,
+     "end": 121.929,
+     "score": 0.377
+    }
+   ]
+  },
+  {
+   "start": 122.549,
+   "end": 124.05,
+   "text": "We take it for a ride.",
+   "words": [
+    {
+     "w": "We",
+     "start": 122.549,
+     "end": 122.809,
+     "score": 0.882
+    },
+    {
+     "w": "take",
+     "start": 122.829,
+     "end": 123.11,
+     "score": 0.698
+    },
+    {
+     "w": "it",
+     "start": 123.21,
+     "end": 123.31,
+     "score": 0.567
+    },
+    {
+     "w": "for",
+     "start": 123.37,
+     "end": 123.71,
+     "score": 0.867
+    },
+    {
+     "w": "a",
+     "start": 123.73,
+     "end": 123.75,
+     "score": 0.009
+    },
+    {
+     "w": "ride.",
+     "start": 123.81,
+     "end": 124.05,
+     "score": 0.313
+    }
+   ]
+  },
+  {
+   "start": 124.07,
+   "end": 126.351,
+   "text": "They say somebody got sloppy, said the metadata told.",
+   "words": [
+    {
+     "w": "They",
+     "start": 124.07,
+     "end": 124.21,
+     "score": 0.617
+    },
+    {
+     "w": "say",
+     "start": 124.23,
+     "end": 124.33,
+     "score": 0.672
+    },
+    {
+     "w": "somebody",
+     "start": 124.37,
+     "end": 124.73,
+     "score": 0.881
+    },
+    {
+     "w": "got",
+     "start": 124.79,
+     "end": 124.95,
+     "score": 0.648
+    },
+    {
+     "w": "sloppy,",
+     "start": 124.97,
+     "end": 125.311,
+     "score": 0.81
+    },
+    {
+     "w": "said",
+     "start": 125.331,
+     "end": 125.451,
+     "score": 0.316
+    },
+    {
+     "w": "the",
+     "start": 125.471,
+     "end": 125.551,
+     "score": 0.833
+    },
+    {
+     "w": "metadata",
+     "start": 125.591,
+     "end": 126.131,
+     "score": 0.746
+    },
+    {
+     "w": "told.",
+     "start": 126.151,
+     "end": 126.351,
+     "score": 0.484
+    }
+   ]
+  },
+  {
+   "start": 126.411,
+   "end": 126.651,
+   "text": "Oops.",
+   "words": [
+    {
+     "w": "Oops.",
+     "start": 126.411,
+     "end": 126.651,
+     "score": 0.617
+    }
+   ]
+  },
+  {
+   "start": 126.691,
+   "end": 128.872,
+   "text": "Master staff page on the web or so the story goes.",
+   "words": [
+    {
+     "w": "Master",
+     "start": 126.691,
+     "end": 126.911,
+     "score": 0.483
+    },
+    {
+     "w": "staff",
+     "start": 126.931,
+     "end": 127.191,
+     "score": 0.946
+    },
+    {
+     "w": "page",
+     "start": 127.231,
+     "end": 127.512,
+     "score": 0.87
+    },
+    {
+     "w": "on",
+     "start": 127.572,
+     "end": 127.632,
+     "score": 0.994
+    },
+    {
+     "w": "the",
+     "start": 127.672,
+     "end": 127.732,
+     "score": 0.963
+    },
+    {
+     "w": "web",
+     "start": 127.772,
+     "end": 127.932,
+     "score": 0.581
+    },
+    {
+     "w": "or",
+     "start": 127.952,
+     "end": 128.012,
+     "score": 0.479
+    },
+    {
+     "w": "so",
+     "start": 128.032,
+     "end": 128.152,
+     "score": 0.972
+    },
+    {
+     "w": "the",
+     "start": 128.192,
+     "end": 128.272,
+     "score": 0.832
+    },
+    {
+     "w": "story",
+     "start": 128.292,
+     "end": 128.572,
+     "score": 0.953
+    },
+    {
+     "w": "goes.",
+     "start": 128.612,
+     "end": 128.872,
+     "score": 0.909
+    }
+   ]
+  },
+  {
+   "start": 128.912,
+   "end": 131.013,
+   "text": "And somebody's about to keep saying as a model may buy it.",
+   "words": [
+    {
+     "w": "And",
+     "start": 128.912,
+     "end": 128.992,
+     "score": 0.835
+    },
+    {
+     "w": "somebody's",
+     "start": 129.012,
+     "end": 129.392,
+     "score": 0.912
+    },
+    {
+     "w": "about",
+     "start": 129.412,
+     "end": 129.513,
+     "score": 0.213
+    },
+    {
+     "w": "to",
+     "start": 129.533,
+     "end": 129.573,
+     "score": 0.0
+    },
+    {
+     "w": "keep",
+     "start": 129.593,
+     "end": 129.693,
+     "score": 0.414
+    },
+    {
+     "w": "saying",
+     "start": 129.713,
+     "end": 129.993,
+     "score": 0.629
+    },
+    {
+     "w": "as",
+     "start": 130.033,
+     "end": 130.113,
+     "score": 0.847
+    },
+    {
+     "w": "a",
+     "start": 130.173,
+     "end": 130.213,
+     "score": 0.58
+    },
+    {
+     "w": "model",
+     "start": 130.233,
+     "end": 130.493,
+     "score": 0.809
+    },
+    {
+     "w": "may",
+     "start": 130.513,
+     "end": 130.633,
+     "score": 0.973
+    },
+    {
+     "w": "buy",
+     "start": 130.673,
+     "end": 130.893,
+     "score": 0.852
+    },
+    {
+     "w": "it.",
+     "start": 130.953,
+     "end": 131.013,
+     "score": 0.167
+    }
+   ]
+  },
+  {
+   "start": 131.053,
+   "end": 131.874,
+   "text": "Wait.",
+   "words": [
+    {
+     "w": "Wait.",
+     "start": 131.053,
+     "end": 131.874,
+     "score": 0.887
+    }
+   ]
+  },
+  {
+   "start": 131.894,
+   "end": 132.534,
+   "text": "That ain't us, man.",
+   "words": [
+    {
+     "w": "That",
+     "start": 131.894,
+     "end": 131.994,
+     "score": 0.64
+    },
+    {
+     "w": "ain't",
+     "start": 132.014,
+     "end": 132.134,
+     "score": 0.851
+    },
+    {
+     "w": "us,",
+     "start": 132.214,
+     "end": 132.374,
+     "score": 0.768
+    },
+    {
+     "w": "man.",
+     "start": 132.394,
+     "end": 132.534,
+     "score": 0.684
+    }
+   ]
+  },
+  {
+   "start": 132.554,
+   "end": 133.715,
+   "text": "That's just inherited traits.",
+   "words": [
+    {
+     "w": "That's",
+     "start": 132.554,
+     "end": 132.674,
+     "score": 0.384
+    },
+    {
+     "w": "just",
+     "start": 132.714,
+     "end": 132.834,
+     "score": 0.86
+    },
+    {
+     "w": "inherited",
+     "start": 132.894,
+     "end": 133.354,
+     "score": 0.853
+    },
+    {
+     "w": "traits.",
+     "start": 133.394,
+     "end": 133.715,
+     "score": 0.517
+    }
+   ]
+  },
+  {
+   "start": 133.735,
+   "end": 134.235,
+   "text": "Radling it.",
+   "words": [
+    {
+     "w": "Radling",
+     "start": 133.735,
+     "end": 133.955,
+     "score": 0.388
+    },
+    {
+     "w": "it.",
+     "start": 134.015,
+     "end": 134.235,
+     "score": 0.391
+    }
+   ]
+  },
+  {
+   "start": 134.415,
+   "end": 135.335,
+   "text": "Banned again.",
+   "words": [
+    {
+     "w": "Banned",
+     "start": 134.415,
+     "end": 134.755,
+     "score": 0.578
+    },
+    {
+     "w": "again.",
+     "start": 134.815,
+     "end": 135.335,
+     "score": 0.655
+    }
+   ]
+  },
+  {
+   "start": 135.435,
+   "end": 138.237,
+   "text": "Cut one head off the hydrant to come back on.",
+   "words": [
+    {
+     "w": "Cut",
+     "start": 135.435,
+     "end": 135.715,
+     "score": 0.695
+    },
+    {
+     "w": "one",
+     "start": 135.836,
+     "end": 135.936,
+     "score": 0.938
+    },
+    {
+     "w": "head",
+     "start": 135.976,
+     "end": 136.176,
+     "score": 0.769
+    },
+    {
+     "w": "off",
+     "start": 136.236,
+     "end": 136.376,
+     "score": 0.994
+    },
+    {
+     "w": "the",
+     "start": 136.416,
+     "end": 136.516,
+     "score": 0.937
+    },
+    {
+     "w": "hydrant",
+     "start": 136.576,
+     "end": 137.056,
+     "score": 0.619
+    },
+    {
+     "w": "to",
+     "start": 137.096,
+     "end": 137.296,
+     "score": 0.814
+    },
+    {
+     "w": "come",
+     "start": 137.356,
+     "end": 137.596,
+     "score": 0.943
+    },
+    {
+     "w": "back",
+     "start": 137.656,
+     "end": 137.917,
+     "score": 0.96
+    },
+    {
+     "w": "on.",
+     "start": 138.097,
+     "end": 138.237,
+     "score": 0.871
+    }
+   ]
+  },
+  {
+   "start": 138.497,
+   "end": 139.697,
+   "text": "It's a distillation.",
+   "words": [
+    {
+     "w": "It's",
+     "start": 138.497,
+     "end": 138.597,
+     "score": 0.67
+    },
+    {
+     "w": "a",
+     "start": 138.657,
+     "end": 138.697,
+     "score": 0.796
+    },
+    {
+     "w": "distillation.",
+     "start": 138.737,
+     "end": 139.697,
+     "score": 0.843
+    }
+   ]
+  },
+  {
+   "start": 140.138,
+   "end": 140.958,
+   "text": "Allegedly.",
+   "words": [
+    {
+     "w": "Allegedly.",
+     "start": 140.138,
+     "end": 140.958,
+     "score": 0.72
+    }
+   ]
+  },
+  {
+   "start": 141.058,
+   "end": 142.819,
+   "text": "Pour the frontier through a seal.",
+   "words": [
+    {
+     "w": "Pour",
+     "start": 141.058,
+     "end": 141.298,
+     "score": 0.603
+    },
+    {
+     "w": "the",
+     "start": 141.338,
+     "end": 141.418,
+     "score": 0.82
+    },
+    {
+     "w": "frontier",
+     "start": 141.458,
+     "end": 141.958,
+     "score": 0.794
+    },
+    {
+     "w": "through",
+     "start": 141.998,
+     "end": 142.138,
+     "score": 0.335
+    },
+    {
+     "w": "a",
+     "start": 142.218,
+     "end": 142.298,
+     "score": 0.681
+    },
+    {
+     "w": "seal.",
+     "start": 142.378,
+     "end": 142.819,
+     "score": 0.881
+    }
+   ]
+  },
+  {
+   "start": 142.839,
+   "end": 143.739,
+   "text": "Take the reasoning.",
+   "words": [
+    {
+     "w": "Take",
+     "start": 142.839,
+     "end": 142.939,
+     "score": 0.097
+    },
+    {
+     "w": "the",
+     "start": 142.979,
+     "end": 143.119,
+     "score": 0.4
+    },
+    {
+     "w": "reasoning.",
+     "start": 143.139,
+     "end": 143.739,
+     "score": 0.659
+    }
+   ]
+  },
+  {
+   "start": 143.899,
+   "end": 144.799,
+   "text": "Leave the receipt.",
+   "words": [
+    {
+     "w": "Leave",
+     "start": 143.899,
+     "end": 144.199,
+     "score": 0.758
+    },
+    {
+     "w": "the",
+     "start": 144.219,
+     "end": 144.319,
+     "score": 0.395
+    },
+    {
+     "w": "receipt.",
+     "start": 144.339,
+     "end": 144.799,
+     "score": 0.496
+    }
+   ]
+  },
+  {
+   "start": 144.999,
+   "end": 146.86,
+   "text": "Tell them that's just how we live.",
+   "words": [
+    {
+     "w": "Tell",
+     "start": 144.999,
+     "end": 145.159,
+     "score": 0.995
+    },
+    {
+     "w": "them",
+     "start": 145.179,
+     "end": 145.3,
+     "score": 0.546
+    },
+    {
+     "w": "that's",
+     "start": 145.32,
+     "end": 145.54,
+     "score": 0.799
+    },
+    {
+     "w": "just",
+     "start": 145.58,
+     "end": 145.82,
+     "score": 0.728
+    },
+    {
+     "w": "how",
+     "start": 145.86,
+     "end": 146.1,
+     "score": 0.953
+    },
+    {
+     "w": "we",
+     "start": 146.14,
+     "end": 146.3,
+     "score": 0.986
+    },
+    {
+     "w": "live.",
+     "start": 146.38,
+     "end": 146.86,
+     "score": 0.856
+    }
+   ]
+  },
+  {
+   "start": 147.24,
+   "end": 148.481,
+   "text": "It's a distillation.",
+   "words": [
+    {
+     "w": "It's",
+     "start": 147.24,
+     "end": 147.34,
+     "score": 0.629
+    },
+    {
+     "w": "a",
+     "start": 147.4,
+     "end": 147.46,
+     "score": 0.417
+    },
+    {
+     "w": "distillation.",
+     "start": 147.5,
+     "end": 148.481,
+     "score": 0.821
+    }
+   ]
+  },
+  {
+   "start": 148.861,
+   "end": 149.641,
+   "text": "Allegedly.",
+   "words": [
+    {
+     "w": "Allegedly.",
+     "start": 148.861,
+     "end": 149.641,
+     "score": 0.68
+    }
+   ]
+  },
+  {
+   "start": 149.661,
+   "end": 151.202,
+   "text": "Smooth as a hundred proof pour.",
+   "words": [
+    {
+     "w": "Smooth",
+     "start": 149.661,
+     "end": 149.961,
+     "score": 0.441
+    },
+    {
+     "w": "as",
+     "start": 149.981,
+     "end": 150.121,
+     "score": 0.344
+    },
+    {
+     "w": "a",
+     "start": 150.161,
+     "end": 150.201,
+     "score": 0.67
+    },
+    {
+     "w": "hundred",
+     "start": 150.241,
+     "end": 150.461,
+     "score": 0.83
+    },
+    {
+     "w": "proof",
+     "start": 150.481,
+     "end": 150.721,
+     "score": 0.927
+    },
+    {
+     "w": "pour.",
+     "start": 150.761,
+     "end": 151.202,
+     "score": 0.793
+    }
+   ]
+  },
+  {
+   "start": 151.282,
+   "end": 153.943,
+   "text": "Why build a brain when you can rent it by the token and throw?",
+   "words": [
+    {
+     "w": "Why",
+     "start": 151.282,
+     "end": 151.522,
+     "score": 0.895
+    },
+    {
+     "w": "build",
+     "start": 151.562,
+     "end": 151.722,
+     "score": 0.617
+    },
+    {
+     "w": "a",
+     "start": 151.802,
+     "end": 151.842,
+     "score": 0.087
+    },
+    {
+     "w": "brain",
+     "start": 151.862,
+     "end": 152.002,
+     "score": 0.626
+    },
+    {
+     "w": "when",
+     "start": 152.022,
+     "end": 152.122,
+     "score": 0.868
+    },
+    {
+     "w": "you",
+     "start": 152.142,
+     "end": 152.242,
+     "score": 0.985
+    },
+    {
+     "w": "can",
+     "start": 152.262,
+     "end": 152.382,
+     "score": 0.603
+    },
+    {
+     "w": "rent",
+     "start": 152.422,
+     "end": 152.562,
+     "score": 0.494
+    },
+    {
+     "w": "it",
+     "start": 152.602,
+     "end": 152.662,
+     "score": 0.74
+    },
+    {
+     "w": "by",
+     "start": 152.702,
+     "end": 152.802,
+     "score": 0.829
+    },
+    {
+     "w": "the",
+     "start": 152.822,
+     "end": 152.922,
+     "score": 0.78
+    },
+    {
+     "w": "token",
+     "start": 152.942,
+     "end": 153.242,
+     "score": 0.759
+    },
+    {
+     "w": "and",
+     "start": 153.302,
+     "end": 153.422,
+     "score": 0.321
+    },
+    {
+     "w": "throw?",
+     "start": 153.482,
+     "end": 153.943,
+     "score": 0.56
+    }
+   ]
+  },
+  {
+   "start": 154.043,
+   "end": 155.843,
+   "text": "Right out the door.",
+   "words": [
+    {
+     "w": "Right",
+     "start": 154.043,
+     "end": 154.663,
+     "score": 0.663
+    },
+    {
+     "w": "out",
+     "start": 154.983,
+     "end": 155.143,
+     "score": 0.877
+    },
+    {
+     "w": "the",
+     "start": 155.183,
+     "end": 155.303,
+     "score": 0.958
+    },
+    {
+     "w": "door.",
+     "start": 155.423,
+     "end": 155.843,
+     "score": 0.918
+    }
+   ]
+  },
+  {
+   "start": 158.044,
+   "end": 159.645,
+   "text": "Numbers courtesy of the vault.",
+   "words": [
+    {
+     "w": "Numbers",
+     "start": 158.044,
+     "end": 158.364,
+     "score": 0.848
+    },
+    {
+     "w": "courtesy",
+     "start": 158.444,
+     "end": 158.944,
+     "score": 0.93
+    },
+    {
+     "w": "of",
+     "start": 158.984,
+     "end": 159.044,
+     "score": 0.735
+    },
+    {
+     "w": "the",
+     "start": 159.084,
+     "end": 159.164,
+     "score": 0.829
+    },
+    {
+     "w": "vault.",
+     "start": 159.224,
+     "end": 159.645,
+     "score": 0.813
+    }
+   ]
+  },
+  {
+   "start": 160.865,
+   "end": 162.686,
+   "text": "Their count, not ours.",
+   "words": [
+    {
+     "w": "Their",
+     "start": 160.865,
+     "end": 161.085,
+     "score": 0.772
+    },
+    {
+     "w": "count,",
+     "start": 161.145,
+     "end": 161.485,
+     "score": 0.832
+    },
+    {
+     "w": "not",
+     "start": 161.965,
+     "end": 162.186,
+     "score": 0.861
+    },
+    {
+     "w": "ours.",
+     "start": 162.406,
+     "end": 162.686,
+     "score": 0.947
+    }
+   ]
+  },
+  {
+   "start": 163.606,
+   "end": 164.786,
+   "text": "16 million.",
+   "words": [
+    {
+     "w": "16",
+     "start": 163.606,
+     "end": 164.186,
+     "score": 0.774
+    },
+    {
+     "w": "million.",
+     "start": 164.266,
+     "end": 164.786,
+     "score": 0.822
+    }
+   ]
+  },
+  {
+   "start": 165.127,
+   "end": 166.207,
+   "text": "That was February.",
+   "words": [
+    {
+     "w": "That",
+     "start": 165.127,
+     "end": 165.267,
+     "score": 0.93
+    },
+    {
+     "w": "was",
+     "start": 165.307,
+     "end": 165.427,
+     "score": 0.855
+    },
+    {
+     "w": "February.",
+     "start": 165.547,
+     "end": 166.207,
+     "score": 0.834
+    }
+   ]
+  },
+  {
+   "start": 166.227,
+   "end": 166.467,
+   "text": "28.8.",
+   "words": [
+    {
+     "w": "28.8.",
+     "start": 166.227,
+     "end": 166.467,
+     "score": 0.867
+    }
+   ]
+  },
+  {
+   "start": 166.527,
+   "end": 167.167,
+   "text": "That was June.",
+   "words": [
+    {
+     "w": "That",
+     "start": 166.527,
+     "end": 166.687,
+     "score": 0.391
+    },
+    {
+     "w": "was",
+     "start": 166.767,
+     "end": 166.867,
+     "score": 0.165
+    },
+    {
+     "w": "June.",
+     "start": 166.907,
+     "end": 167.167,
+     "score": 0.429
+    }
+   ]
+  },
+  {
+   "start": 167.187,
+   "end": 167.267,
+   "text": "150.",
+   "words": [
+    {
+     "w": "150.",
+     "start": 167.187,
+     "end": 167.267,
+     "score": 0.968
+    }
+   ]
+  },
+  {
+   "start": 169.967,
+   "end": 189.853,
+   "text": "peeking at three mil a day somebody stop the counter we're gonna need a bigger van now the feds put out a warning three agencies one pitch said feed the suspects watered answers never let them see the switch so we're sipping on a spike batch wondering why it tastes so strange baby did they swap the bottles",
+   "words": [
+    {
+     "w": "peeking",
+     "start": 169.967,
+     "end": 170.207,
+     "score": 0.466
+    },
+    {
+     "w": "at",
+     "start": 170.267,
+     "end": 170.367,
+     "score": 0.504
+    },
+    {
+     "w": "three",
+     "start": 170.407,
+     "end": 170.667,
+     "score": 0.745
+    },
+    {
+     "w": "mil",
+     "start": 170.707,
+     "end": 170.907,
+     "score": 0.839
+    },
+    {
+     "w": "a",
+     "start": 170.947,
+     "end": 171.007,
+     "score": 0.23
+    },
+    {
+     "w": "day",
+     "start": 171.047,
+     "end": 171.347,
+     "score": 0.909
+    },
+    {
+     "w": "somebody",
+     "start": 171.407,
+     "end": 171.768,
+     "score": 0.915
+    },
+    {
+     "w": "stop",
+     "start": 171.788,
+     "end": 171.968,
+     "score": 0.61
+    },
+    {
+     "w": "the",
+     "start": 172.008,
+     "end": 172.068,
+     "score": 0.968
+    },
+    {
+     "w": "counter",
+     "start": 172.108,
+     "end": 172.488,
+     "score": 0.78
+    },
+    {
+     "w": "we're",
+     "start": 172.528,
+     "end": 172.668,
+     "score": 0.805
+    },
+    {
+     "w": "gonna",
+     "start": 172.688,
+     "end": 172.888,
+     "score": 0.553
+    },
+    {
+     "w": "need",
+     "start": 172.928,
+     "end": 173.188,
+     "score": 0.645
+    },
+    {
+     "w": "a",
+     "start": 173.208,
+     "end": 173.228,
+     "score": 0.015
+    },
+    {
+     "w": "bigger",
+     "start": 173.468,
+     "end": 173.708,
+     "score": 0.975
+    },
+    {
+     "w": "van",
+     "start": 173.768,
+     "end": 174.148,
+     "score": 0.861
+    },
+    {
+     "w": "now",
+     "start": 175.089,
+     "end": 175.209,
+     "score": 0.887
+    },
+    {
+     "w": "the",
+     "start": 175.249,
+     "end": 175.349,
+     "score": 0.877
+    },
+    {
+     "w": "feds",
+     "start": 175.389,
+     "end": 175.629,
+     "score": 0.609
+    },
+    {
+     "w": "put",
+     "start": 175.669,
+     "end": 175.849,
+     "score": 0.793
+    },
+    {
+     "w": "out",
+     "start": 175.969,
+     "end": 176.089,
+     "score": 0.888
+    },
+    {
+     "w": "a",
+     "start": 176.129,
+     "end": 176.169,
+     "score": 0.365
+    },
+    {
+     "w": "warning",
+     "start": 176.209,
+     "end": 176.569,
+     "score": 0.371
+    },
+    {
+     "w": "three",
+     "start": 177.269,
+     "end": 177.469,
+     "score": 0.922
+    },
+    {
+     "w": "agencies",
+     "start": 177.569,
+     "end": 178.089,
+     "score": 0.819
+    },
+    {
+     "w": "one",
+     "start": 178.269,
+     "end": 178.43,
+     "score": 0.751
+    },
+    {
+     "w": "pitch",
+     "start": 178.53,
+     "end": 178.83,
+     "score": 0.894
+    },
+    {
+     "w": "said",
+     "start": 178.91,
+     "end": 179.13,
+     "score": 0.896
+    },
+    {
+     "w": "feed",
+     "start": 179.19,
+     "end": 179.47,
+     "score": 0.886
+    },
+    {
+     "w": "the",
+     "start": 179.51,
+     "end": 179.59,
+     "score": 0.819
+    },
+    {
+     "w": "suspects",
+     "start": 179.63,
+     "end": 180.23,
+     "score": 0.843
+    },
+    {
+     "w": "watered",
+     "start": 180.31,
+     "end": 180.75,
+     "score": 0.86
+    },
+    {
+     "w": "answers",
+     "start": 180.83,
+     "end": 181.27,
+     "score": 0.846
+    },
+    {
+     "w": "never",
+     "start": 181.31,
+     "end": 181.69,
+     "score": 0.862
+    },
+    {
+     "w": "let",
+     "start": 181.931,
+     "end": 182.091,
+     "score": 0.985
+    },
+    {
+     "w": "them",
+     "start": 182.111,
+     "end": 182.251,
+     "score": 0.619
+    },
+    {
+     "w": "see",
+     "start": 182.331,
+     "end": 182.551,
+     "score": 0.901
+    },
+    {
+     "w": "the",
+     "start": 182.591,
+     "end": 182.671,
+     "score": 0.982
+    },
+    {
+     "w": "switch",
+     "start": 182.731,
+     "end": 183.151,
+     "score": 0.936
+    },
+    {
+     "w": "so",
+     "start": 183.551,
+     "end": 183.691,
+     "score": 0.996
+    },
+    {
+     "w": "we're",
+     "start": 183.731,
+     "end": 184.031,
+     "score": 0.648
+    },
+    {
+     "w": "sipping",
+     "start": 184.091,
+     "end": 184.531,
+     "score": 0.63
+    },
+    {
+     "w": "on",
+     "start": 184.711,
+     "end": 184.811,
+     "score": 0.894
+    },
+    {
+     "w": "a",
+     "start": 184.831,
+     "end": 184.871,
+     "score": 0.736
+    },
+    {
+     "w": "spike",
+     "start": 184.891,
+     "end": 185.191,
+     "score": 0.935
+    },
+    {
+     "w": "batch",
+     "start": 185.232,
+     "end": 185.672,
+     "score": 0.953
+    },
+    {
+     "w": "wondering",
+     "start": 185.752,
+     "end": 186.252,
+     "score": 0.759
+    },
+    {
+     "w": "why",
+     "start": 186.312,
+     "end": 186.512,
+     "score": 0.912
+    },
+    {
+     "w": "it",
+     "start": 186.572,
+     "end": 186.672,
+     "score": 0.922
+    },
+    {
+     "w": "tastes",
+     "start": 186.732,
+     "end": 186.972,
+     "score": 0.685
+    },
+    {
+     "w": "so",
+     "start": 187.012,
+     "end": 187.172,
+     "score": 0.994
+    },
+    {
+     "w": "strange",
+     "start": 187.232,
+     "end": 187.892,
+     "score": 0.818
+    },
+    {
+     "w": "baby",
+     "start": 187.952,
+     "end": 188.252,
+     "score": 0.756
+    },
+    {
+     "w": "did",
+     "start": 188.492,
+     "end": 188.653,
+     "score": 0.764
+    },
+    {
+     "w": "they",
+     "start": 188.673,
+     "end": 188.913,
+     "score": 0.806
+    },
+    {
+     "w": "swap",
+     "start": 188.993,
+     "end": 189.333,
+     "score": 0.876
+    },
+    {
+     "w": "the",
+     "start": 189.353,
+     "end": 189.433,
+     "score": 0.786
+    },
+    {
+     "w": "bottles",
+     "start": 189.473,
+     "end": 189.853,
+     "score": 0.974
+    }
+   ]
+  },
+  {
+   "start": 190.413,
+   "end": 191.954,
+   "text": "Did the recipe just change?",
+   "words": [
+    {
+     "w": "Did",
+     "start": 190.413,
+     "end": 190.533,
+     "score": 0.985
+    },
+    {
+     "w": "the",
+     "start": 190.573,
+     "end": 190.653,
+     "score": 0.829
+    },
+    {
+     "w": "recipe",
+     "start": 190.713,
+     "end": 191.273,
+     "score": 0.951
+    },
+    {
+     "w": "just",
+     "start": 191.333,
+     "end": 191.574,
+     "score": 0.871
+    },
+    {
+     "w": "change?",
+     "start": 191.614,
+     "end": 191.954,
+     "score": 0.597
+    }
+   ]
+  },
+  {
+   "start": 192.054,
+   "end": 192.694,
+   "text": "But hold up.",
+   "words": [
+    {
+     "w": "But",
+     "start": 192.054,
+     "end": 192.294,
+     "score": 0.911
+    },
+    {
+     "w": "hold",
+     "start": 192.334,
+     "end": 192.494,
+     "score": 0.853
+    },
+    {
+     "w": "up.",
+     "start": 192.594,
+     "end": 192.694,
+     "score": 0.477
+    }
+   ]
+  },
+  {
+   "start": 192.874,
+   "end": 196.996,
+   "text": "Who's the victim in the smooth operation that thought was built from the whole web's conversation?",
+   "words": [
+    {
+     "w": "Who's",
+     "start": 192.874,
+     "end": 193.154,
+     "score": 0.757
+    },
+    {
+     "w": "the",
+     "start": 193.174,
+     "end": 193.274,
+     "score": 0.575
+    },
+    {
+     "w": "victim",
+     "start": 193.334,
+     "end": 193.694,
+     "score": 0.934
+    },
+    {
+     "w": "in",
+     "start": 193.734,
+     "end": 193.814,
+     "score": 0.774
+    },
+    {
+     "w": "the",
+     "start": 193.834,
+     "end": 193.894,
+     "score": 0.875
+    },
+    {
+     "w": "smooth",
+     "start": 193.934,
+     "end": 194.255,
+     "score": 0.832
+    },
+    {
+     "w": "operation",
+     "start": 194.315,
+     "end": 194.775,
+     "score": 0.77
+    },
+    {
+     "w": "that",
+     "start": 194.815,
+     "end": 194.975,
+     "score": 0.708
+    },
+    {
+     "w": "thought",
+     "start": 195.055,
+     "end": 195.195,
+     "score": 0.15
+    },
+    {
+     "w": "was",
+     "start": 195.215,
+     "end": 195.315,
+     "score": 0.572
+    },
+    {
+     "w": "built",
+     "start": 195.355,
+     "end": 195.555,
+     "score": 0.84
+    },
+    {
+     "w": "from",
+     "start": 195.595,
+     "end": 195.735,
+     "score": 0.844
+    },
+    {
+     "w": "the",
+     "start": 195.755,
+     "end": 195.835,
+     "score": 0.767
+    },
+    {
+     "w": "whole",
+     "start": 195.875,
+     "end": 196.015,
+     "score": 0.721
+    },
+    {
+     "w": "web's",
+     "start": 196.035,
+     "end": 196.275,
+     "score": 0.506
+    },
+    {
+     "w": "conversation?",
+     "start": 196.315,
+     "end": 196.996,
+     "score": 0.886
+    }
+   ]
+  },
+  {
+   "start": 197.036,
+   "end": 199.117,
+   "text": "Every blog and every forum scraped in plain daylight.",
+   "words": [
+    {
+     "w": "Every",
+     "start": 197.036,
+     "end": 197.216,
+     "score": 0.919
+    },
+    {
+     "w": "blog",
+     "start": 197.236,
+     "end": 197.436,
+     "score": 0.798
+    },
+    {
+     "w": "and",
+     "start": 197.456,
+     "end": 197.536,
+     "score": 0.727
+    },
+    {
+     "w": "every",
+     "start": 197.596,
+     "end": 197.756,
+     "score": 0.919
+    },
+    {
+     "w": "forum",
+     "start": 197.776,
+     "end": 198.036,
+     "score": 0.583
+    },
+    {
+     "w": "scraped",
+     "start": 198.056,
+     "end": 198.196,
+     "score": 0.101
+    },
+    {
+     "w": "in",
+     "start": 198.256,
+     "end": 198.336,
+     "score": 0.403
+    },
+    {
+     "w": "plain",
+     "start": 198.356,
+     "end": 198.596,
+     "score": 0.753
+    },
+    {
+     "w": "daylight.",
+     "start": 198.636,
+     "end": 199.117,
+     "score": 0.874
+    }
+   ]
+  },
+  {
+   "start": 199.177,
+   "end": 201.317,
+   "text": "Now they're hollering, stop thief from my house of borrowed life.",
+   "words": [
+    {
+     "w": "Now",
+     "start": 199.177,
+     "end": 199.277,
+     "score": 0.856
+    },
+    {
+     "w": "they're",
+     "start": 199.297,
+     "end": 199.437,
+     "score": 0.278
+    },
+    {
+     "w": "hollering,",
+     "start": 199.457,
+     "end": 199.677,
+     "score": 0.336
+    },
+    {
+     "w": "stop",
+     "start": 199.697,
+     "end": 199.917,
+     "score": 0.513
+    },
+    {
+     "w": "thief",
+     "start": 199.977,
+     "end": 200.217,
+     "score": 0.669
+    },
+    {
+     "w": "from",
+     "start": 200.257,
+     "end": 200.397,
+     "score": 0.795
+    },
+    {
+     "w": "my",
+     "start": 200.417,
+     "end": 200.517,
+     "score": 0.481
+    },
+    {
+     "w": "house",
+     "start": 200.537,
+     "end": 200.697,
+     "score": 0.941
+    },
+    {
+     "w": "of",
+     "start": 200.737,
+     "end": 200.777,
+     "score": 0.892
+    },
+    {
+     "w": "borrowed",
+     "start": 200.817,
+     "end": 201.077,
+     "score": 0.377
+    },
+    {
+     "w": "life.",
+     "start": 201.097,
+     "end": 201.317,
+     "score": 0.727
+    }
+   ]
+  },
+  {
+   "start": 201.337,
+   "end": 203.698,
+   "text": "Sure a fake ID ain't a library card, I'll give them that one fine.",
+   "words": [
+    {
+     "w": "Sure",
+     "start": 201.337,
+     "end": 201.478,
+     "score": 0.513
+    },
+    {
+     "w": "a",
+     "start": 201.538,
+     "end": 201.598,
+     "score": 0.488
+    },
+    {
+     "w": "fake",
+     "start": 201.638,
+     "end": 201.758,
+     "score": 0.284
+    },
+    {
+     "w": "ID",
+     "start": 201.818,
+     "end": 202.038,
+     "score": 0.487
+    },
+    {
+     "w": "ain't",
+     "start": 202.078,
+     "end": 202.198,
+     "score": 0.887
+    },
+    {
+     "w": "a",
+     "start": 202.258,
+     "end": 202.298,
+     "score": 0.727
+    },
+    {
+     "w": "library",
+     "start": 202.318,
+     "end": 202.698,
+     "score": 0.578
+    },
+    {
+     "w": "card,",
+     "start": 202.718,
+     "end": 202.898,
+     "score": 0.811
+    },
+    {
+     "w": "I'll",
+     "start": 202.918,
+     "end": 203.018,
+     "score": 0.362
+    },
+    {
+     "w": "give",
+     "start": 203.038,
+     "end": 203.138,
+     "score": 0.931
+    },
+    {
+     "w": "them",
+     "start": 203.158,
+     "end": 203.258,
+     "score": 0.114
+    },
+    {
+     "w": "that",
+     "start": 203.278,
+     "end": 203.398,
+     "score": 0.55
+    },
+    {
+     "w": "one",
+     "start": 203.458,
+     "end": 203.518,
+     "score": 0.596
+    },
+    {
+     "w": "fine.",
+     "start": 203.538,
+     "end": 203.698,
+     "score": 0.425
+    }
+   ]
+  },
+  {
+   "start": 203.718,
+   "end": 205.999,
+   "text": "That heart was transformative and ours crossed the national line.",
+   "words": [
+    {
+     "w": "That",
+     "start": 203.718,
+     "end": 203.798,
+     "score": 0.094
+    },
+    {
+     "w": "heart",
+     "start": 203.818,
+     "end": 203.938,
+     "score": 0.16
+    },
+    {
+     "w": "was",
+     "start": 203.959,
+     "end": 204.059,
+     "score": 0.422
+    },
+    {
+     "w": "transformative",
+     "start": 204.079,
+     "end": 204.799,
+     "score": 0.805
+    },
+    {
+     "w": "and",
+     "start": 204.839,
+     "end": 204.919,
+     "score": 0.642
+    },
+    {
+     "w": "ours",
+     "start": 204.999,
+     "end": 205.139,
+     "score": 0.672
+    },
+    {
+     "w": "crossed",
+     "start": 205.179,
+     "end": 205.339,
+     "score": 0.675
+    },
+    {
+     "w": "the",
+     "start": 205.359,
+     "end": 205.439,
+     "score": 0.775
+    },
+    {
+     "w": "national",
+     "start": 205.479,
+     "end": 205.719,
+     "score": 0.856
+    },
+    {
+     "w": "line.",
+     "start": 205.759,
+     "end": 205.999,
+     "score": 0.821
+    }
+   ]
+  },
+  {
+   "start": 206.019,
+   "end": 208.22,
+   "text": "Take it to a judge, careful if an apple can be owned.",
+   "words": [
+    {
+     "w": "Take",
+     "start": 206.019,
+     "end": 206.139,
+     "score": 0.203
+    },
+    {
+     "w": "it",
+     "start": 206.199,
+     "end": 206.259,
+     "score": 0.461
+    },
+    {
+     "w": "to",
+     "start": 206.279,
+     "end": 206.379,
+     "score": 0.92
+    },
+    {
+     "w": "a",
+     "start": 206.46,
+     "end": 206.52,
+     "score": 0.585
+    },
+    {
+     "w": "judge,",
+     "start": 206.54,
+     "end": 206.8,
+     "score": 0.806
+    },
+    {
+     "w": "careful",
+     "start": 206.82,
+     "end": 207.08,
+     "score": 0.898
+    },
+    {
+     "w": "if",
+     "start": 207.16,
+     "end": 207.24,
+     "score": 0.86
+    },
+    {
+     "w": "an",
+     "start": 207.28,
+     "end": 207.36,
+     "score": 0.436
+    },
+    {
+     "w": "apple",
+     "start": 207.42,
+     "end": 207.62,
+     "score": 0.402
+    },
+    {
+     "w": "can",
+     "start": 207.66,
+     "end": 207.78,
+     "score": 0.884
+    },
+    {
+     "w": "be",
+     "start": 207.82,
+     "end": 207.88,
+     "score": 0.98
+    },
+    {
+     "w": "owned.",
+     "start": 208.06,
+     "end": 208.22,
+     "score": 0.784
+    }
+   ]
+  },
+  {
+   "start": 208.26,
+   "end": 210.361,
+   "text": "And the writers that they train on own a piece of what they've grown.",
+   "words": [
+    {
+     "w": "And",
+     "start": 208.26,
+     "end": 208.34,
+     "score": 0.716
+    },
+    {
+     "w": "the",
+     "start": 208.36,
+     "end": 208.44,
+     "score": 0.802
+    },
+    {
+     "w": "writers",
+     "start": 208.46,
+     "end": 208.72,
+     "score": 0.752
+    },
+    {
+     "w": "that",
+     "start": 208.74,
+     "end": 208.84,
+     "score": 0.901
+    },
+    {
+     "w": "they",
+     "start": 208.88,
+     "end": 209.001,
+     "score": 0.894
+    },
+    {
+     "w": "train",
+     "start": 209.021,
+     "end": 209.181,
+     "score": 0.781
+    },
+    {
+     "w": "on",
+     "start": 209.221,
+     "end": 209.301,
+     "score": 0.641
+    },
+    {
+     "w": "own",
+     "start": 209.341,
+     "end": 209.461,
+     "score": 0.661
+    },
+    {
+     "w": "a",
+     "start": 209.501,
+     "end": 209.541,
+     "score": 0.528
+    },
+    {
+     "w": "piece",
+     "start": 209.561,
+     "end": 209.721,
+     "score": 0.85
+    },
+    {
+     "w": "of",
+     "start": 209.761,
+     "end": 209.801,
+     "score": 0.939
+    },
+    {
+     "w": "what",
+     "start": 209.841,
+     "end": 209.941,
+     "score": 0.852
+    },
+    {
+     "w": "they've",
+     "start": 209.961,
+     "end": 210.101,
+     "score": 0.295
+    },
+    {
+     "w": "grown.",
+     "start": 210.121,
+     "end": 210.361,
+     "score": 0.554
+    }
+   ]
+  },
+  {
+   "start": 210.381,
+   "end": 212.562,
+   "text": "Start us down the block, fine tune on the models we make.",
+   "words": [
+    {
+     "w": "Start",
+     "start": 210.381,
+     "end": 210.541,
+     "score": 0.388
+    },
+    {
+     "w": "us",
+     "start": 210.581,
+     "end": 210.641,
+     "score": 0.038
+    },
+    {
+     "w": "down",
+     "start": 210.661,
+     "end": 210.801,
+     "score": 0.466
+    },
+    {
+     "w": "the",
+     "start": 210.821,
+     "end": 210.901,
+     "score": 0.141
+    },
+    {
+     "w": "block,",
+     "start": 210.941,
+     "end": 211.161,
+     "score": 0.821
+    },
+    {
+     "w": "fine",
+     "start": 211.181,
+     "end": 211.442,
+     "score": 0.859
+    },
+    {
+     "w": "tune",
+     "start": 211.482,
+     "end": 211.762,
+     "score": 0.73
+    },
+    {
+     "w": "on",
+     "start": 211.822,
+     "end": 211.882,
+     "score": 0.844
+    },
+    {
+     "w": "the",
+     "start": 211.902,
+     "end": 211.982,
+     "score": 0.83
+    },
+    {
+     "w": "models",
+     "start": 212.022,
+     "end": 212.262,
+     "score": 0.878
+    },
+    {
+     "w": "we",
+     "start": 212.302,
+     "end": 212.402,
+     "score": 0.992
+    },
+    {
+     "w": "make.",
+     "start": 212.442,
+     "end": 212.562,
+     "score": 0.476
+    }
+   ]
+  },
+  {
+   "start": 212.582,
+   "end": 214.963,
+   "text": "Show the locals round in circles, everybody's in the trade.",
+   "words": [
+    {
+     "w": "Show",
+     "start": 212.582,
+     "end": 212.702,
+     "score": 0.076
+    },
+    {
+     "w": "the",
+     "start": 212.742,
+     "end": 212.822,
+     "score": 0.834
+    },
+    {
+     "w": "locals",
+     "start": 212.842,
+     "end": 213.102,
+     "score": 0.731
+    },
+    {
+     "w": "round",
+     "start": 213.142,
+     "end": 213.262,
+     "score": 0.911
+    },
+    {
+     "w": "in",
+     "start": 213.322,
+     "end": 213.362,
+     "score": 0.659
+    },
+    {
+     "w": "circles,",
+     "start": 213.402,
+     "end": 213.682,
+     "score": 0.905
+    },
+    {
+     "w": "everybody's",
+     "start": 213.742,
+     "end": 214.243,
+     "score": 0.8
+    },
+    {
+     "w": "in",
+     "start": 214.283,
+     "end": 214.363,
+     "score": 0.793
+    },
+    {
+     "w": "the",
+     "start": 214.383,
+     "end": 214.463,
+     "score": 0.798
+    },
+    {
+     "w": "trade.",
+     "start": 214.483,
+     "end": 214.963,
+     "score": 0.67
+    }
+   ]
+  },
+  {
+   "start": 219.436,
+   "end": 245.853,
+   "text": "It's a distillation Allegedly Everybody's got a sip Take the reasoning Leave the receipt Tell them that's just how we live It's a distillation Allegedly Smooth as a hundred proof pour Did we build the brain Or rent it by the token Depends who's at the door No weights were harmed in the making of this song Allegedly",
+   "words": [
+    {
+     "w": "It's",
+     "start": 219.436,
+     "end": 219.556,
+     "score": 0.75
+    },
+    {
+     "w": "a",
+     "start": 219.596,
+     "end": 219.636,
+     "score": 0.356
+    },
+    {
+     "w": "distillation",
+     "start": 219.696,
+     "end": 220.637,
+     "score": 0.796
+    },
+    {
+     "w": "Allegedly",
+     "start": 220.657,
+     "end": 221.918,
+     "score": 0.545
+    },
+    {
+     "w": "Everybody's",
+     "start": 222.178,
+     "end": 222.778,
+     "score": 0.883
+    },
+    {
+     "w": "got",
+     "start": 222.818,
+     "end": 223.039,
+     "score": 0.974
+    },
+    {
+     "w": "a",
+     "start": 223.159,
+     "end": 223.239,
+     "score": 0.788
+    },
+    {
+     "w": "sip",
+     "start": 223.319,
+     "end": 223.739,
+     "score": 0.728
+    },
+    {
+     "w": "Take",
+     "start": 223.779,
+     "end": 223.919,
+     "score": 0.469
+    },
+    {
+     "w": "the",
+     "start": 223.939,
+     "end": 224.019,
+     "score": 0.837
+    },
+    {
+     "w": "reasoning",
+     "start": 224.079,
+     "end": 224.7,
+     "score": 0.845
+    },
+    {
+     "w": "Leave",
+     "start": 224.86,
+     "end": 225.14,
+     "score": 0.889
+    },
+    {
+     "w": "the",
+     "start": 225.16,
+     "end": 225.3,
+     "score": 0.457
+    },
+    {
+     "w": "receipt",
+     "start": 225.32,
+     "end": 225.78,
+     "score": 0.647
+    },
+    {
+     "w": "Tell",
+     "start": 225.94,
+     "end": 226.1,
+     "score": 0.984
+    },
+    {
+     "w": "them",
+     "start": 226.12,
+     "end": 226.241,
+     "score": 0.428
+    },
+    {
+     "w": "that's",
+     "start": 226.261,
+     "end": 226.481,
+     "score": 0.616
+    },
+    {
+     "w": "just",
+     "start": 226.521,
+     "end": 226.761,
+     "score": 0.702
+    },
+    {
+     "w": "how",
+     "start": 226.801,
+     "end": 227.041,
+     "score": 0.969
+    },
+    {
+     "w": "we",
+     "start": 227.081,
+     "end": 227.241,
+     "score": 0.995
+    },
+    {
+     "w": "live",
+     "start": 227.321,
+     "end": 227.802,
+     "score": 0.905
+    },
+    {
+     "w": "It's",
+     "start": 228.182,
+     "end": 228.302,
+     "score": 0.753
+    },
+    {
+     "w": "a",
+     "start": 228.342,
+     "end": 228.362,
+     "score": 0.65
+    },
+    {
+     "w": "distillation",
+     "start": 228.422,
+     "end": 229.403,
+     "score": 0.837
+    },
+    {
+     "w": "Allegedly",
+     "start": 229.423,
+     "end": 230.483,
+     "score": 0.823
+    },
+    {
+     "w": "Smooth",
+     "start": 230.563,
+     "end": 230.923,
+     "score": 0.611
+    },
+    {
+     "w": "as",
+     "start": 230.943,
+     "end": 231.044,
+     "score": 0.614
+    },
+    {
+     "w": "a",
+     "start": 231.104,
+     "end": 231.164,
+     "score": 0.648
+    },
+    {
+     "w": "hundred",
+     "start": 231.184,
+     "end": 231.404,
+     "score": 0.52
+    },
+    {
+     "w": "proof",
+     "start": 231.424,
+     "end": 231.664,
+     "score": 0.879
+    },
+    {
+     "w": "pour",
+     "start": 231.704,
+     "end": 232.144,
+     "score": 0.591
+    },
+    {
+     "w": "Did",
+     "start": 232.244,
+     "end": 232.384,
+     "score": 0.566
+    },
+    {
+     "w": "we",
+     "start": 232.404,
+     "end": 232.504,
+     "score": 0.894
+    },
+    {
+     "w": "build",
+     "start": 232.524,
+     "end": 232.665,
+     "score": 0.205
+    },
+    {
+     "w": "the",
+     "start": 232.705,
+     "end": 232.785,
+     "score": 0.874
+    },
+    {
+     "w": "brain",
+     "start": 232.825,
+     "end": 233.145,
+     "score": 0.943
+    },
+    {
+     "w": "Or",
+     "start": 233.265,
+     "end": 233.325,
+     "score": 0.756
+    },
+    {
+     "w": "rent",
+     "start": 233.345,
+     "end": 233.485,
+     "score": 0.48
+    },
+    {
+     "w": "it",
+     "start": 233.525,
+     "end": 233.585,
+     "score": 0.475
+    },
+    {
+     "w": "by",
+     "start": 233.625,
+     "end": 233.745,
+     "score": 0.892
+    },
+    {
+     "w": "the",
+     "start": 233.765,
+     "end": 233.865,
+     "score": 0.729
+    },
+    {
+     "w": "token",
+     "start": 233.905,
+     "end": 234.306,
+     "score": 0.663
+    },
+    {
+     "w": "Depends",
+     "start": 234.326,
+     "end": 234.986,
+     "score": 0.617
+    },
+    {
+     "w": "who's",
+     "start": 235.026,
+     "end": 235.566,
+     "score": 0.903
+    },
+    {
+     "w": "at",
+     "start": 235.887,
+     "end": 236.027,
+     "score": 0.938
+    },
+    {
+     "w": "the",
+     "start": 236.107,
+     "end": 236.207,
+     "score": 0.926
+    },
+    {
+     "w": "door",
+     "start": 236.347,
+     "end": 236.827,
+     "score": 0.858
+    },
+    {
+     "w": "No",
+     "start": 239.069,
+     "end": 239.249,
+     "score": 0.986
+    },
+    {
+     "w": "weights",
+     "start": 239.309,
+     "end": 239.569,
+     "score": 0.634
+    },
+    {
+     "w": "were",
+     "start": 239.589,
+     "end": 239.769,
+     "score": 0.883
+    },
+    {
+     "w": "harmed",
+     "start": 239.829,
+     "end": 240.189,
+     "score": 0.949
+    },
+    {
+     "w": "in",
+     "start": 240.229,
+     "end": 240.309,
+     "score": 0.758
+    },
+    {
+     "w": "the",
+     "start": 240.349,
+     "end": 240.429,
+     "score": 0.885
+    },
+    {
+     "w": "making",
+     "start": 240.489,
+     "end": 240.83,
+     "score": 0.92
+    },
+    {
+     "w": "of",
+     "start": 240.87,
+     "end": 240.93,
+     "score": 0.748
+    },
+    {
+     "w": "this",
+     "start": 240.99,
+     "end": 241.11,
+     "score": 0.764
+    },
+    {
+     "w": "song",
+     "start": 241.19,
+     "end": 241.59,
+     "score": 0.357
+    },
+    {
+     "w": "Allegedly",
+     "start": 245.152,
+     "end": 245.853,
+     "score": 0.834
+    }
+   ]
+  },
+  {
+   "start": 249.027,
+   "end": 250.148,
+   "text": "One crew denies it.",
+   "words": [
+    {
+     "w": "One",
+     "start": 249.027,
+     "end": 249.147,
+     "score": 0.649
+    },
+    {
+     "w": "crew",
+     "start": 249.207,
+     "end": 249.407,
+     "score": 0.582
+    },
+    {
+     "w": "denies",
+     "start": 249.427,
+     "end": 249.948,
+     "score": 0.798
+    },
+    {
+     "w": "it.",
+     "start": 250.068,
+     "end": 250.148,
+     "score": 0.954
+    }
+   ]
+  },
+  {
+   "start": 252.169,
+   "end": 253.269,
+   "text": "The rest ain't talking.",
+   "words": [
+    {
+     "w": "The",
+     "start": 252.169,
+     "end": 252.249,
+     "score": 0.991
+    },
+    {
+     "w": "rest",
+     "start": 252.289,
+     "end": 252.569,
+     "score": 0.533
+    },
+    {
+     "w": "ain't",
+     "start": 252.649,
+     "end": 252.809,
+     "score": 0.764
+    },
+    {
+     "w": "talking.",
+     "start": 252.869,
+     "end": 253.269,
+     "score": 0.922
+    }
+   ]
+  },
+  {
+   "start": 255.911,
+   "end": 256.551,
+   "text": "And the vault?",
+   "words": [
+    {
+     "w": "And",
+     "start": 255.911,
+     "end": 256.031,
+     "score": 0.782
+    },
+    {
+     "w": "the",
+     "start": 256.051,
+     "end": 256.131,
+     "score": 0.963
+    },
+    {
+     "w": "vault?",
+     "start": 256.191,
+     "end": 256.551,
+     "score": 0.721
+    }
+   ]
+  },
+  {
+   "start": 258.692,
+   "end": 259.833,
+   "text": "Still selling tickets.",
+   "words": [
+    {
+     "w": "Still",
+     "start": 258.692,
+     "end": 258.992,
+     "score": 0.871
+    },
+    {
+     "w": "selling",
+     "start": 259.032,
+     "end": 259.373,
+     "score": 0.826
+    },
+    {
+     "w": "tickets.",
+     "start": 259.413,
+     "end": 259.833,
+     "score": 0.967
+    }
+   ]
+  }
+ ]
+}

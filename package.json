@@ -1,0 +1,9 @@
+{
+  "name": "distillation-allegedly",
+  "private": true,
+  "type": "module",
+  "description": "The Distillation Job: 1970s heist-funk music video; capture scripts (Puppeteer), film layer to come.",
+  "dependencies": {
+    "puppeteer": "24.43.1"
+  }
+}

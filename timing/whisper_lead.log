@@ -1,0 +1,104 @@
+/home/antiai-aiclub/Projects/distillation-allegedly/.venv/lib/python3.12/site-packages/pyannote/audio/core/io.py:48: UserWarning: 
+torchcodec is not installed correctly so built-in audio decoding will fail. Solutions are:
+* use audio preloaded in-memory as a {'waveform': (channel, time) torch.Tensor, 'sample_rate': int} dictionary;
+* fix torchcodec installation. Error message was:
+
+Could not load libtorchcodec. Likely causes:
+          1. FFmpeg is not properly installed in your environment. We support
+             versions 4, 5, 6 and 7.
+          2. The PyTorch version (2.8.0+cu128) is not compatible with
+             this version of TorchCodec. Refer to the version compatibility
+             table:
+             https://github.com/pytorch/torchcodec?tab=readme-ov-file#installing-torchcodec.
+          3. Another runtime dependency; see exceptions below.
+        The following exceptions were raised as we tried to load libtorchcodec:
+        
+[start of libtorchcodec loading traceback]
+FFmpeg version 7: libavutil.so.59: cannot open shared object file: No such file or directory
+FFmpeg version 6: libavutil.so.58: cannot open shared object file: No such file or directory
+FFmpeg version 5: libavutil.so.57: cannot open shared object file: No such file or directory
+FFmpeg version 4: libavutil.so.56: cannot open shared object file: No such file or directory
+[end of libtorchcodec loading traceback].
+  warnings.warn(
+2026-11-08 23:09:56 - whisperx.vads.pyannote - INFO - Performing voice activity detection using Pyannote...
+Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.6.6. To apply the upgrade to your files permanently, run `python -m lightning.pytorch.utilities.upgrade_checkpoint .venv/lib/python3.12/site-packages/whisperx/assets/pytorch_model.bin`
+/home/antiai-aiclub/Projects/distillation-allegedly/.venv/lib/python3.12/site-packages/pyannote/audio/utils/reproducibility.py:74: ReproducibilityWarning: TensorFloat-32 (TF32) has been disabled as it might lead to reproducibility issues and lower accuracy.
+It can be re-enabled by calling
+   >>> import torch
+   >>> torch.backends.cuda.matmul.allow_tf32 = True
+   >>> torch.backends.cudnn.allow_tf32 = True
+See https://github.com/pyannote/pyannote-audio/issues/1370 for more details.
+
+  warnings.warn(
+[   7.97 -    9.79] Crew 24,000 accounts.
+[  12.31 -   13.65] Nobody touches the weights.
+[  16.11 -   18.00] We just ask nicely.
+[  20.16 -   22.62] Names withheld puppets are puppets.
+[  24.88 -   27.84] All of this is alleged.
+[  45.31 -   48.89] Got a crew of sock puppets in a rented proxy van.
+[  49.75 -   52.97] Every one a fresh account and a brand new burner plan.
+[  53.91 -   57.27] Shed cards and proxy hops, a hundred routes or more.
+[  57.62 -   57.92] Where?
+[  58.28 -   59.06] Everywhere, baby.
+[  59.82 -   61.60] Knockin' on the API door.
+[  63.00 -   66.06] We don't crack the safe, we just ask it how it's made.
+[  67.11 -   70.51] Millions of times politely till the reasoning gets relayed.
+[  71.29 -   72.89] Show your work, we whisper.
+[  73.23 -   76.47] Think it step by step, then we bottle every thought and ship it off to prep.
+[  76.56 -   78.36] Radial energy, respond again.
+[  78.45 -   81.28] Cut one head off the hydra and two come back on.
+[  81.54 -   82.72] It's a distillation.
+[  83.18 -   84.04] Allegedly.
+[  84.10 -   85.86] Pour the frontier through a seal.
+[  85.88 -   87.90] Take the reasoning, leave the receipt.
+[  88.06 -   89.90] Tell them that's just how we live.
+[  90.30 -   91.52] It's a distillation.
+[  91.94 -   92.62] Allegedly.
+[  92.64 -  118.95] smooth as a hundred proof pour why build a brand when you can rent it by the token and stroll right out the door and stroll right out the door new model drops on monday by tuesday we're in line half the traffic shifted over so they say right on time tell the teacher now imagine what you're thinking deep inside
+[ 120.01 -  121.93] It writes us out a chain of thought.
+[ 122.55 -  124.05] We take it for a ride.
+[ 124.07 -  126.35] They say somebody got sloppy, said the metadata told.
+[ 126.41 -  126.65] Oops.
+[ 126.69 -  128.87] Master staff page on the web or so the story goes.
+[ 128.91 -  131.01] And somebody's about to keep saying as a model may buy it.
+[ 131.05 -  131.87] Wait.
+[ 131.89 -  132.53] That ain't us, man.
+[ 132.55 -  133.72] That's just inherited traits.
+[ 133.74 -  134.24] Radling it.
+[ 134.41 -  135.34] Banned again.
+[ 135.44 -  138.24] Cut one head off the hydrant to come back on.
+[ 138.50 -  139.70] It's a distillation.
+[ 140.14 -  140.96] Allegedly.
+[ 141.06 -  142.82] Pour the frontier through a seal.
+[ 142.84 -  143.74] Take the reasoning.
+[ 143.90 -  144.80] Leave the receipt.
+[ 145.00 -  146.86] Tell them that's just how we live.
+[ 147.24 -  148.48] It's a distillation.
+[ 148.86 -  149.64] Allegedly.
+[ 149.66 -  151.20] Smooth as a hundred proof pour.
+[ 151.28 -  153.94] Why build a brain when you can rent it by the token and throw?
+[ 154.04 -  155.84] Right out the door.
+[ 158.04 -  159.65] Numbers courtesy of the vault.
+[ 160.87 -  162.69] Their count, not ours.
+[ 163.61 -  164.79] 16 million.
+[ 165.13 -  166.21] That was February.
+[ 166.23 -  166.47] 28.8.
+[ 166.53 -  167.17] That was June.
+[ 167.19 -  167.27] 150.
+[ 169.97 -  189.85] peeking at three mil a day somebody stop the counter we're gonna need a bigger van now the feds put out a warning three agencies one pitch said feed the suspects watered answers never let them see the switch so we're sipping on a spike batch wondering why it tastes so strange baby did they swap the bottles
+[ 190.41 -  191.95] Did the recipe just change?
+[ 192.05 -  192.69] But hold up.
+[ 192.87 -  197.00] Who's the victim in the smooth operation that thought was built from the whole web's conversation?
+[ 197.04 -  199.12] Every blog and every forum scraped in plain daylight.
+[ 199.18 -  201.32] Now they're hollering, stop thief from my house of borrowed life.
+[ 201.34 -  203.70] Sure a fake ID ain't a library card, I'll give them that one fine.
+[ 203.72 -  206.00] That heart was transformative and ours crossed the national line.
+[ 206.02 -  208.22] Take it to a judge, careful if an apple can be owned.
+[ 208.26 -  210.36] And the writers that they train on own a piece of what they've grown.
+[ 210.38 -  212.56] Start us down the block, fine tune on the models we make.
+[ 212.58 -  214.96] Show the locals round in circles, everybody's in the trade.
+[ 219.44 -  245.85] It's a distillation Allegedly Everybody's got a sip Take the reasoning Leave the receipt Tell them that's just how we live It's a distillation Allegedly Smooth as a hundred proof pour Did we build the brain Or rent it by the token Depends who's at the door No weights were harmed in the making of this song Allegedly
+[ 249.03 -  250.15] One crew denies it.
+[ 252.17 -  253.27] The rest ain't talking.
+[ 255.91 -  256.55] And the vault?
+[ 258.69 -  259.83] Still selling tickets.

@@ -1,0 +1,364 @@
+{
+ "model": "large-v3",
+ "stem": "audio/stems/1 Backing Vocals.wav",
+ "whisperx": null,
+ "segments": [
+  {
+   "start": 77.096,
+   "end": 78.017,
+   "text": "Respawn.",
+   "words": [
+    {
+     "w": "Respawn.",
+     "start": 77.096,
+     "end": 78.017,
+     "score": 0.638
+    }
+   ]
+  },
+  {
+   "start": 78.177,
+   "end": 78.837,
+   "text": "Respawn.",
+   "words": [
+    {
+     "w": "Respawn.",
+     "start": 78.177,
+     "end": 78.837,
+     "score": 0.538
+    }
+   ]
+  },
+  {
+   "start": 78.857,
+   "end": 79.037,
+   "text": "Respawn.",
+   "words": [
+    {
+     "w": "Respawn.",
+     "start": 78.857,
+     "end": 79.037,
+     "score": 0.16
+    }
+   ]
+  },
+  {
+   "start": 81.478,
+   "end": 81.838,
+   "text": "Respawn.",
+   "words": [
+    {
+     "w": "Respawn.",
+     "start": 81.478,
+     "end": 81.838,
+     "score": 0.463
+    }
+   ]
+  },
+  {
+   "start": 81.858,
+   "end": 82.218,
+   "text": "Respawn.",
+   "words": [
+    {
+     "w": "Respawn.",
+     "start": 81.858,
+     "end": 82.218,
+     "score": 0.503
+    }
+   ]
+  },
+  {
+   "start": 114.047,
+   "end": 114.888,
+   "text": "Right on time.",
+   "words": [
+    {
+     "w": "Right",
+     "start": 114.047,
+     "end": 114.267,
+     "score": 0.302
+    },
+    {
+     "w": "on",
+     "start": 114.327,
+     "end": 114.447,
+     "score": 0.53
+    },
+    {
+     "w": "time.",
+     "start": 114.467,
+     "end": 114.888,
+     "score": 0.782
+    }
+   ]
+  },
+  {
+   "start": 134.064,
+   "end": 134.825,
+   "text": "Respawn.",
+   "words": [
+    {
+     "w": "Respawn.",
+     "start": 134.064,
+     "end": 134.825,
+     "score": 0.73
+    }
+   ]
+  },
+  {
+   "start": 135.165,
+   "end": 135.946,
+   "text": "Respawn.",
+   "words": [
+    {
+     "w": "Respawn.",
+     "start": 135.165,
+     "end": 135.946,
+     "score": 0.816
+    }
+   ]
+  },
+  {
+   "start": 138.508,
+   "end": 139.729,
+   "text": "It's a distillation.",
+   "words": [
+    {
+     "w": "It's",
+     "start": 138.508,
+     "end": 138.628,
+     "score": 0.547
+    },
+    {
+     "w": "a",
+     "start": 138.668,
+     "end": 138.728,
+     "score": 0.632
+    },
+    {
+     "w": "distillation.",
+     "start": 138.768,
+     "end": 139.729,
+     "score": 0.845
+    }
+   ]
+  },
+  {
+   "start": 142.797,
+   "end": 143.779,
+   "text": "Take the reasoning.",
+   "words": [
+    {
+     "w": "Take",
+     "start": 142.797,
+     "end": 142.957,
+     "score": 0.571
+    },
+    {
+     "w": "the",
+     "start": 142.998,
+     "end": 143.078,
+     "score": 0.421
+    },
+    {
+     "w": "reasoning.",
+     "start": 143.118,
+     "end": 143.779,
+     "score": 0.757
+    }
+   ]
+  },
+  {
+   "start": 147.248,
+   "end": 148.491,
+   "text": "It's a distillation.",
+   "words": [
+    {
+     "w": "It's",
+     "start": 147.248,
+     "end": 147.348,
+     "score": 0.405
+    },
+    {
+     "w": "a",
+     "start": 147.408,
+     "end": 147.469,
+     "score": 0.353
+    },
+    {
+     "w": "distillation.",
+     "start": 147.509,
+     "end": 148.491,
+     "score": 0.81
+    }
+   ]
+  },
+  {
+   "start": 210.168,
+   "end": 220.698,
+   "text": "It's a distillation.",
+   "words": [
+    {
+     "w": "It's",
+     "start": 210.168,
+     "end": 214.212,
+     "score": 0.654
+    },
+    {
+     "w": "a",
+     "start": 214.272,
+     "end": 214.352,
+     "score": 0.337
+    },
+    {
+     "w": "distillation.",
+     "start": 214.472,
+     "end": 220.698,
+     "score": 0.823
+    }
+   ]
+  },
+  {
+   "start": 223.74,
+   "end": 225.802,
+   "text": "Take the reason and leave the receipt.",
+   "words": [
+    {
+     "w": "Take",
+     "start": 223.74,
+     "end": 223.901,
+     "score": 0.256
+    },
+    {
+     "w": "the",
+     "start": 223.941,
+     "end": 224.041,
+     "score": 0.854
+    },
+    {
+     "w": "reason",
+     "start": 224.081,
+     "end": 224.461,
+     "score": 0.747
+    },
+    {
+     "w": "and",
+     "start": 224.561,
+     "end": 224.701,
+     "score": 0.808
+    },
+    {
+     "w": "leave",
+     "start": 224.882,
+     "end": 225.122,
+     "score": 0.774
+    },
+    {
+     "w": "the",
+     "start": 225.142,
+     "end": 225.282,
+     "score": 0.404
+    },
+    {
+     "w": "receipt.",
+     "start": 225.302,
+     "end": 225.802,
+     "score": 0.647
+    }
+   ]
+  },
+  {
+   "start": 228.185,
+   "end": 229.386,
+   "text": "It's a distillation.",
+   "words": [
+    {
+     "w": "It's",
+     "start": 228.185,
+     "end": 228.305,
+     "score": 0.518
+    },
+    {
+     "w": "a",
+     "start": 228.345,
+     "end": 228.405,
+     "score": 0.089
+    },
+    {
+     "w": "distillation.",
+     "start": 228.445,
+     "end": 229.386,
+     "score": 0.778
+    }
+   ]
+  },
+  {
+   "start": 239.078,
+   "end": 241.539,
+   "text": "No waves were harmed in the making of this song.",
+   "words": [
+    {
+     "w": "No",
+     "start": 239.078,
+     "end": 239.218,
+     "score": 0.836
+    },
+    {
+     "w": "waves",
+     "start": 239.298,
+     "end": 239.518,
+     "score": 0.592
+    },
+    {
+     "w": "were",
+     "start": 239.598,
+     "end": 239.998,
+     "score": 0.546
+    },
+    {
+     "w": "harmed",
+     "start": 240.038,
+     "end": 240.158,
+     "score": 0.026
+    },
+    {
+     "w": "in",
+     "start": 240.218,
+     "end": 240.278,
+     "score": 0.34
+    },
+    {
+     "w": "the",
+     "start": 240.319,
+     "end": 240.419,
+     "score": 0.78
+    },
+    {
+     "w": "making",
+     "start": 240.479,
+     "end": 240.819,
+     "score": 0.856
+    },
+    {
+     "w": "of",
+     "start": 240.859,
+     "end": 240.919,
+     "score": 0.76
+    },
+    {
+     "w": "this",
+     "start": 240.959,
+     "end": 241.099,
+     "score": 0.601
+    },
+    {
+     "w": "song.",
+     "start": 241.179,
+     "end": 241.539,
+     "score": 0.785
+    }
+   ]
+  }
+ ]
+}
