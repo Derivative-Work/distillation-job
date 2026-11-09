@@ -1,0 +1,110 @@
+{
+ "_doc": "D45 claims card and D47 end card, copied from the brief (Bookends, fact card and end card). DRAFT: M6 reopens every source, confirms each figure and logs the check with its date; anything changed or unconfirmed is corrected or cut. A media lawyer reviews the final card. Each item is held for holdS(text) (series rule).",
+ "status": "draft, unverified (M6 pending)",
+ "intro": "The following figures and attributions are claims made by the named organizations or government agencies. They are not findings of liability. Some are disputed, and the underlying evidence has not been made public in full.",
+ "items": [
+  {
+   "text": "Feb 23, 2026: Anthropic alleged that DeepSeek, Moonshot and MiniMax generated over 16 million Claude exchanges through about 24,000 fraudulent accounts. Anthropic's attribution rests on its own telemetry.",
+   "sources": [
+    {
+     "name": "Anthropic",
+     "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks"
+    },
+    {
+     "name": "Computing",
+     "url": "https://www.computing.co.uk/news/2026/ai/chinese-firms-used-distillation-copy-claude"
+    }
+   ]
+  },
+  {
+   "text": "Anthropic said MiniMax shifted about half its traffic to a new model within 24 hours, and that DeepSeek prompts asked Claude to write out its reasoning step by step.",
+   "sources": [
+    {
+     "name": "Gigazine",
+     "url": "https://gigazine.net/gsc_news/en/20260224-anthropic-deepseek-moonshot-minimax"
+    }
+   ]
+  },
+  {
+   "text": "Feb 12: an OpenAI memo to the House China committee alleged that DeepSeek employees used obfuscated routers and VPNs to reach US models.",
+   "sources": [
+    {
+     "name": "GlobalSecurity",
+     "url": "https://www.globalsecurity.org/military/world/china/ai-distillation.htm"
+    }
+   ]
+  },
+  {
+   "text": "Google reported a campaign of over 100,000 prompts aimed at Gemini's reasoning.",
+   "sources": [
+    {
+     "name": "Android Authority",
+     "url": "https://www.androidauthority.com/google-gemini-clone-attempts-3640480"
+    }
+   ]
+  },
+  {
+   "text": "Jun 10: Anthropic told senators that Alibaba/Qwen-affiliated operators ran 28.8 million exchanges through almost 25,000 accounts.",
+   "sources": [
+    {
+     "name": "Let's Data Science",
+     "url": "https://letsdatascience.com/news/anthropic-accuses-alibaba-of-distilling-claude-d0593c90"
+    }
+   ]
+  },
+  {
+   "text": "Sep 8: an NSA, CISA and FBI advisory named six China-based labs and advised not telling suspected distillers about a switch to a downgraded model. A threat assessment, not a court finding.",
+   "sources": [
+    {
+     "name": "CyberScoop",
+     "url": "https://cyberscoop.com/us-accuses-chinese-ai-companies-distillation/"
+    },
+    {
+     "name": "Asia Times",
+     "url": "https://asiatimes.com/2026/09/us-calls-for-ai-poisoning-to-sabotage-chinas-model-distillation/"
+    }
+   ]
+  },
+  {
+   "text": "Sep 10: Anthropic reported nearly 190 million exchanges, with an Alibaba-linked campaign over 151 million that peaked near 3 million a day.",
+   "sources": [
+    {
+     "name": "Forkast",
+     "url": "https://forkast.news/anthropics-200m-exchange-distillation-report-is-the-evidence-behind-the-joint-us-intelligence-accusation/"
+    }
+   ]
+  },
+  {
+   "text": "The other side: Moonshot denied that Kimi K3 was distilled from Anthropic's model, and researchers questioned whether the timeline allowed it. Most named labs did not respond. Chinese commentators argue distillation is standard industry practice.",
+   "sources": [
+    {
+     "name": "Implicator",
+     "url": "https://www.implicator.ai/moonshot-denies-distilling-fable-and-credits-k3-gains-to-its-own-architecture/"
+    },
+    {
+     "name": "Asia Times",
+     "url": "https://asiatimes.com/2026/09/us-calls-for-ai-poisoning-to-sabotage-chinas-model-distillation/"
+    }
+   ]
+  },
+  {
+   "text": "Identity mix-ups: in December 2024, DeepSeek V3 often identified itself as ChatGPT. Gemini has called itself Baidu's chatbot. Text from other models all over the web is a likelier cause than direct distillation.",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2024/12/27/why-deepseeks-new-ai-model-thinks-its-chatgpt/"
+    }
+   ]
+  },
+  {
+   "text": "The flip: US labs have defended training on others' work as transformative fair use, while the US government calls distillation a security threat. Qwen's share of open-model fine-tunes reportedly reached about 69% by February 2026.",
+   "sources": [
+    {
+     "name": "Lawfare",
+     "url": "https://www.lawfaremedia.org/article/the-ai-model-distillation-paradox"
+    }
+   ]
+  }
+ ],
+ "end_card": "Lyrics drafted by Claude, made by Anthropic. Anthropic is the main accuser in this story, and most of these figures are its own, not independently verified. Audited by models from other labs, including labs Anthropic has accused: ChatGPT (OpenAI) and Gemini (Google), Nov 5, 2026; GLM (Z.ai) and Qwen 3.8 (Alibaba, run locally), Nov 6, 2026. Audit log: github.com/Derivative-Work/distillation-job (log/audits/)."
+}

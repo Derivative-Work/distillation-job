@@ -119,3 +119,16 @@ Direct edits, not suggestions, with the docs tools:
 - Drift seen and avoided in the picks: D13 s41 (the brass arm turns into a torpedo), D39 s41 (generic human-like figures appear), D42a s42 (a figure appears inside the vault, plus an extra Fed), D35 s41 (bottles melt), D39c s41 (a brass column grows).
 - Provisional picks in `config/clips.json` `kept`, for the human to confirm at M4.
 - Lesson: check every picked keyframe at full size before it becomes a clip, not only the 4-up grids.
+
+## 17. 2026-11-09 — M4 animatic
+
+- Real captures:
+  - D01: new `scripts/capture_chat.mjs` (adapted from Buy It on Margin's: a tall 1280×4800 viewport at 1.5×) → `public/media/real/research_chat.png` (1920×7200) of the public planning/research chat share, with the request and the first numbers ("over 16 million exchanges") located in `config/chat_capture.json`.
+  - D46: new `scripts/render_audit_log.py` renders the brief's audit log (docs/brief.md, "**Audit log**" to the end of the Audit plan; every finding, mistakes and catches) as a plain page; new `scripts/capture_page.mjs` screenshots it → `public/media/real/audit_log.png`.
+  - D25: the two real captures (bare "Who made you?" chat; the audit prompt's reply) must come from the human. New `scripts/placeholder_captures.py` builds stand-ins stamped PLACEHOLDER, with the left answer as the human reported it and the right reply verbatim from `log/audits/round3_qwen3.8_run1.md` line 1 → `public/media/real/d25_{left,right}.png`.
+- `config/claims_card.json`: D45 intro, the ten items and their sources, and D47's text, copied from the brief; marked draft until M6 (on screen too).
+- New `scripts/publish_picks.py` (adapted) → `public/media/picks/` (52 stills, 34 clips) and `config/picks_manifest.json` (with clip frame counts).
+- `src/Main.tsx`: D01 (10 s), the song (every shot at its shot_times.json time), D45 (each item held max(4 s, holdS)), D46 (32 s scroll), D47. Clips slow to fill their shot (not below half speed), else loop with a mirror flip. Chorus 2 (D27) intercuts D27, D16, D17, D15, D18 and the D19 split by line. The exchange counter shrinks to the corner at D31 and stays, ticking at about 3 million a day (35/s), as the brief says ("stays"; "the counter keeps ticking"). The real captures bypass the film layer. `Stamp` gained an `ink` prop (D39b's gold TRANSFORMATIVE).
+- Test frames (`npx remotion still … --scale=0.5`) at 17 points checked; D39b's stamps enlarged.
+- Render: `npx remotion render src/index.ts Main renders/m4/m4_animatic.mp4 --scale=0.5 --concurrency=8`.
+- D43's cut-paper card overflowed the frame at size 96; set to 64 and re-rendered. Review copy: `ffmpeg -i renders/m4/m4_animatic.mp4 -c:v libx264 -crf 30 -preset slow -c:a aac -b:a 96k renders/m4/m4_animatic_review.mp4` (under 30 MB).

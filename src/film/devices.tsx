@@ -154,10 +154,10 @@ export const Shake: React.FC<{at: number; children: React.ReactNode}> = ({at, ch
   return <AbsoluteFill style={{transform: `translate(${dx}px, ${dy}px)`}}>{children}</AbsoluteFill>;
 };
 
-export const Stamp: React.FC<{at: number; text?: string; x?: number; y?: number; size?: number; holdFrames?: number}> =
-  ({at, text = FILM.stamp.text, x = 0.5, y = 0.5, size = 190, holdFrames = Math.round(FILM.stamp.hold_s * FILM.frame.fps)}) => {
+export const Stamp: React.FC<{at: number; text?: string; x?: number; y?: number; size?: number; holdFrames?: number; ink?: string}> =
+  ({at, text = FILM.stamp.text, x = 0.5, y = 0.5, size = 190, holdFrames = Math.round(FILM.stamp.hold_s * FILM.frame.fps), ink}) => {
   const f = useCurrentFrame();
-  const s = FILM.stamp;
+  const s = {...FILM.stamp, ink: ink ?? FILM.stamp.ink};
   if (f < at || f > at + s.slam_frames + holdFrames + 6) return null;
   const k = interpolate(f, [at, at + s.slam_frames], [0, 1], {easing: Easing.in(Easing.quad), ...clamp});
   const scale = 2.6 - 1.6 * k;

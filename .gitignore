@@ -39,3 +39,5 @@ public/media/test/
 public/audio/
 # Batch run logs (the production log and shots/prompts.md hold the record)
 takes_*.log
+public/media/picks/
+public/media/real/

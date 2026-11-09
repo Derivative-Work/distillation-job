@@ -1,0 +1,27 @@
+{
+ "url": "https://claude.ai/share/cd15ffd8-ec3f-43bd-b916-282c92b2e116",
+ "marks": {
+  "request": "summarize the known/alleged instances of model distillation",
+  "numbers": "over 16 million exchanges"
+ },
+ "viewport": [
+  1280,
+  4800
+ ],
+ "scale": 1.5,
+ "boxes": {
+  "request": {
+   "x": 917,
+   "y": 172,
+   "w": 403,
+   "h": 18
+  },
+  "numbers": {
+   "x": 312.5,
+   "y": 972.125,
+   "w": 605,
+   "h": 40
+  }
+ },
+ "captured": "2026-11-09T20:33:35.531Z"
+}
