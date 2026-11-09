@@ -105,3 +105,9 @@ Direct edits, not suggestions, with the docs tools:
 - `config/clips.json`: 34 clips (every shot whose type includes Clip), motion prompts, 1280×720 (LTX outputs 1280×704), 24 fps, seconds = shot length rounded up, 3–6 s, seeds 41 and 42.
 - Test: `.venv/bin/python -I scripts/clips.py D09` → 50 s first take (model load), 14 s second; s41 shows the listen, shrug and walk-off.
 - Full run: `.venv/bin/python -I scripts/clips.py` → `takes/clips/`, log `takes_clips.log`.
+
+## 15. 2026-11-09 — Clip run stopped for low memory; memory strategy
+
+- The full clip run was stopped by Claude Code's memory guard before its first take: ComfyUI still held FLUX.2 in RAM from the still batches (33 of 38 GB used).
+- Method from the sibling projects (`../folks-like-us/style/vram_plan.md`, `../buy-it-on-margin/scripts/batch2b.sh`): one model family at a time, `POST /free` (`comfy_client.free()`) between stages, nothing else on the GPU or in RAM during a batch. Freed: RAM 33 → 3 GB used, VRAM 0.9 GB.
+- New `scripts/run_stage.sh stills|clips [items]` frees before and after each stage. LTX-2.3 alone peaks at about 37 GB RAM plus 5–7 GB swap on this box (Folks Like Us measurement), so the guard can still fire on an idle session; Folks Like Us ran with `CLAUDE_CODE_DISABLE_BG_SHELL_PRESSURE_REAP=1`.
