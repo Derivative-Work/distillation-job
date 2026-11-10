@@ -130,3 +130,7 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "The shorts captions are too low. They will be occluded by the YouTube Shorts and Instagram Reels interfaces." and "For both the shorts and main video captions, I feel like there's something more creative you can do here -- perhaps adopt the ransom-note style lettering on groups of 1-3 words".
 - Then: "close, but this is affecting readability. cut the lyrics into groups of 1, 2, or 3 words each, as if each group came from the same magazine page".
+
+## 24. 2026-11-10 — Lettering pass
+
+- **What:** "Something seems to have been lost in translation: there's lots of blank sheets that have not been filled in, like on the puppets, license plates, the vault, etc. Weren't these in the brief", then "yes go ahead" on the agent's plan (letter them into the takes; fictional numbers; the brief's deliberate blanks stay blank).

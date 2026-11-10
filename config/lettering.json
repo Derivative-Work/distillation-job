@@ -1,0 +1,664 @@
+{
+ "_doc": "scripts/letter.py: on-prop text the brief asks for (human, 2026-11-10). Per shot: kind (badge, plate, sign, card, ticket), type (still or clip; default clip if picked as one), surfaces: a seed point 'at' [x, y] on each surface in the source's px (frame 'frame', default 0), optional 'text', 'tol' (colour distance), 'max_area' (fraction of frame); shot-level font, fill. Each surface's region is grown from its seed by its own colour and tracked; the text is drawn at its angle. Output: <kept>_lettered.{png,mp4}, then kept.",
+ "shots": {
+  "D10": {
+   "kind": "badge",
+   "surfaces": [
+    {
+     "at": [
+      452,
+      397
+     ]
+    },
+    {
+     "at": [
+      679,
+      380
+     ]
+    },
+    {
+     "at": [
+      784,
+      370
+     ]
+    },
+    {
+     "at": [
+      908,
+      357
+     ]
+    },
+    {
+     "at": [
+      980,
+      352
+     ]
+    }
+   ]
+  },
+  "D05_1": {
+   "kind": "plate",
+   "surfaces": [
+    {
+     "seeds": [
+      {
+       "at": [
+        462,
+        490
+       ],
+       "frame": 0
+      },
+      {
+       "at": [
+        728,
+        522
+       ],
+       "frame": 96
+      }
+     ],
+     "max_area": 0.012
+    }
+   ]
+  },
+  "D13": {
+   "kind": "badge",
+   "surfaces": [
+    {
+     "at": [
+      864,
+      365
+     ],
+     "text": "24,017"
+    }
+   ],
+   "min_cover": 0.3
+  },
+  "D44a": {
+   "kind": "badge",
+   "surfaces": [
+    {
+     "seeds": [
+      {
+       "at": [
+        683,
+        455
+       ],
+       "frame": 0
+      },
+      {
+       "at": [
+        662,
+        456
+       ],
+       "frame": -1
+      }
+     ]
+    },
+    {
+     "at": [
+      112,
+      410
+     ]
+    },
+    {
+     "at": [
+      278,
+      428
+     ]
+    },
+    {
+     "at": [
+      490,
+      425
+     ]
+    },
+    {
+     "at": [
+      898,
+      397
+     ]
+    },
+    {
+     "at": [
+      1095,
+      410
+     ]
+    }
+   ]
+  },
+  "D19": {
+   "kind": "badge",
+   "surfaces": [
+    {
+     "at": [
+      658,
+      360
+     ]
+    },
+    {
+     "at": [
+      316,
+      345
+     ]
+    },
+    {
+     "at": [
+      450,
+      345
+     ]
+    },
+    {
+     "at": [
+      840,
+      347
+     ]
+    },
+    {
+     "at": [
+      1084,
+      337
+     ]
+    }
+   ]
+  },
+  "D21": {
+   "kind": "badge",
+   "surfaces": [
+    {
+     "at": [
+      280,
+      478
+     ]
+    },
+    {
+     "at": [
+      542,
+      450
+     ]
+    },
+    {
+     "at": [
+      680,
+      442
+     ]
+    }
+   ],
+   "min_life": 0.15,
+   "min_cover": 0.25
+  },
+  "D02": {
+   "kind": "badge",
+   "min_life": 0.15,
+   "surfaces": [
+    {
+     "at": [
+      268,
+      505
+     ],
+     "tol": 50
+    },
+    {
+     "at": [
+      455,
+      458
+     ]
+    },
+    {
+     "at": [
+      830,
+      448
+     ]
+    },
+    {
+     "at": [
+      1035,
+      500
+     ]
+    }
+   ]
+  },
+  "D19_alt": {
+   "kind": "badge",
+   "source": "D19_alt",
+   "surfaces": [
+    {
+     "at": [
+      658,
+      360
+     ]
+    },
+    {
+     "at": [
+      316,
+      345
+     ]
+    },
+    {
+     "at": [
+      450,
+      345
+     ]
+    },
+    {
+     "at": [
+      840,
+      347
+     ]
+    },
+    {
+     "at": [
+      1084,
+      337
+     ]
+    }
+   ]
+  },
+  "D23": {
+   "kind": "badge",
+   "surfaces": [
+    {
+     "at": [
+      255,
+      480
+     ]
+    },
+    {
+     "at": [
+      975,
+      520
+     ],
+     "max_area": 0.03,
+     "tol": 22,
+     "opening": 5
+    }
+   ],
+   "min_life": 0.2
+  },
+  "D25": {
+   "kind": "badge",
+   "surfaces": [
+    {
+     "at": [
+      250,
+      530
+     ]
+    },
+    {
+     "at": [
+      998,
+      530
+     ]
+    }
+   ],
+   "min_life": 0.2
+  },
+  "D27": {
+   "kind": "badge",
+   "min_life": 0.2,
+   "surfaces": [
+    {
+     "at": [
+      437,
+      535
+     ]
+    },
+    {
+     "at": [
+      940,
+      530
+     ]
+    },
+    {
+     "at": [
+      1145,
+      520
+     ]
+    }
+   ]
+  },
+  "D04e": {
+   "kind": "plate",
+   "surfaces": [
+    {
+     "seeds": [
+      {
+       "at": [
+        660,
+        524
+       ],
+       "frame": 0
+      },
+      {
+       "at": [
+        693,
+        603
+       ],
+       "frame": -1
+      }
+     ],
+     "max_area": 0.012
+    }
+   ],
+   "min_life": 0.2,
+   "min_cover": 0.4
+  },
+  "D05_2": {
+   "kind": "plate",
+   "surfaces": [
+    {
+     "seeds": [
+      {
+       "at": [
+        391,
+        503
+       ],
+       "frame": 0
+      },
+      {
+       "at": [
+        100,
+        519
+       ],
+       "frame": -1
+      }
+     ],
+     "max_area": 0.012
+    }
+   ],
+   "min_life": 0.2
+  },
+  "D05_3": {
+   "kind": "plate",
+   "surfaces": [
+    {
+     "at": [
+      311,
+      487
+     ],
+     "max_area": 0.012
+    }
+   ],
+   "min_life": 0.15,
+   "min_cover": 0.4
+  },
+  "D05_4": {
+   "kind": "plate",
+   "surfaces": [
+    {
+     "at": [
+      335,
+      490
+     ],
+     "frame": -1,
+     "max_area": 0.012
+    }
+   ],
+   "min_life": 0.15,
+   "min_cover": 0.25
+  },
+  "D03": {
+   "kind": "badge",
+   "type": "still",
+   "surfaces": [
+    {
+     "at": [
+      895,
+      880
+     ],
+     "max_area": 0.05
+    }
+   ]
+  },
+  "D04d": {
+   "kind": "sign",
+   "type": "still",
+   "font": "slab",
+   "surfaces": [
+    {
+     "at": [
+      1144,
+      480
+     ],
+     "text": "OPEN",
+     "max_area": 0.03
+    }
+   ]
+  },
+  "D44b": {
+   "kind": "sign",
+   "type": "still",
+   "font": "slab",
+   "surfaces": [
+    {
+     "at": [
+      576,
+      440
+     ],
+     "text": "OPEN",
+     "max_area": 0.08
+    },
+    {
+     "at": [
+      1180,
+      800
+     ],
+     "text": "No.\n24,019",
+     "font": "typed",
+     "max_area": 0.03
+    }
+   ]
+  },
+  "D06": {
+   "kind": "badge",
+   "type": "still",
+   "surfaces": [
+    {
+     "at": [
+      1130,
+      610
+     ],
+     "text": "24,018",
+     "max_area": 0.08,
+     "max_angle": 40
+    },
+    {
+     "at": [
+      600,
+      960
+     ],
+     "text": "24,017",
+     "max_area": 0.05
+    }
+   ]
+  },
+  "D07": {
+   "kind": "badge",
+   "type": "still",
+   "surfaces": [
+    {
+     "at": [
+      588,
+      730
+     ]
+    },
+    {
+     "at": [
+      1100,
+      700
+     ]
+    }
+   ]
+  },
+  "D04c": {
+   "kind": "badge",
+   "type": "still",
+   "surfaces": [
+    {
+     "at": [
+      878,
+      840
+     ],
+     "max_area": 0.05
+    }
+   ]
+  },
+  "D34": {
+   "kind": "badge",
+   "min_life": 0.2,
+   "surfaces": [
+    {
+     "at": [
+      245,
+      490
+     ]
+    },
+    {
+     "at": [
+      512,
+      472
+     ]
+    },
+    {
+     "at": [
+      692,
+      480
+     ]
+    },
+    {
+     "at": [
+      876,
+      465
+     ]
+    },
+    {
+     "at": [
+      1013,
+      450
+     ]
+    },
+    {
+     "at": [
+      1145,
+      440
+     ]
+    }
+   ]
+  },
+  "D38": {
+   "kind": "badge",
+   "min_life": 0.2,
+   "surfaces": [
+    {
+     "at": [
+      862,
+      375
+     ],
+     "search_px": 20,
+     "max_jump": 12,
+     "until": 38
+    },
+    {
+     "at": [
+      1061,
+      401
+     ],
+     "search_px": 20,
+     "max_jump": 12,
+     "until": 38
+    }
+   ],
+   "min_cover": 0.6
+  },
+  "D42": {
+   "kind": "badge",
+   "min_life": 0.15,
+   "surfaces": [
+    {
+     "at": [
+      485,
+      455
+     ]
+    },
+    {
+     "at": [
+      606,
+      436
+     ]
+    },
+    {
+     "at": [
+      731,
+      437
+     ]
+    },
+    {
+     "at": [
+      915,
+      423
+     ]
+    },
+    {
+     "at": [
+      1220,
+      445
+     ]
+    }
+   ]
+  },
+  "D42a": {
+   "kind": "badge",
+   "min_life": 0.2,
+   "surfaces": [
+    {
+     "seeds": [
+      {
+       "at": [
+        647,
+        532
+       ],
+       "frame": 0
+      },
+      {
+       "at": [
+        427,
+        527
+       ],
+       "frame": -1
+      }
+     ]
+    }
+   ],
+   "min_cover": 0.8
+  },
+  "D44c": {
+   "kind": "badge",
+   "min_life": 0.2,
+   "surfaces": [
+    {
+     "at": [
+      426,
+      449
+     ]
+    },
+    {
+     "at": [
+      612,
+      438
+     ]
+    },
+    {
+     "at": [
+      777,
+      423
+     ]
+    },
+    {
+     "at": [
+      905,
+      411
+     ]
+    }
+   ]
+  }
+ }
+}
