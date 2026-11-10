@@ -163,3 +163,10 @@ Direct edits, not suggestions, with the docs tools:
 - New `scripts/d25_captures.py` (replaces `scripts/placeholder_captures.py`): crops the two screenshots to the chat pane (no browser bar, sidebar or input box; the model name stays visible) and marks the key sentence with a multiplied highlighter stroke → `public/media/real/d25_{left,right}.png`.
 - `src/Main.tsx` D25: the captures stacked (one above the other) instead of side by side, at 1400 px wide: the audit reply runs the full window width and was too small at half width. Small labels: "Fresh chat" / "Same model, replying to the lyric-audit prompt". Caption as the brief.
 - `reference/d25_raw/` added to `.gitignore` and to `scripts/manifest.sh`'s directories.
+
+## 22. 2026-11-09 — M4 notes round 4 (in progress)
+
+- D01 merged into D02: no 10 s pre-roll; the music starts at frame 0. `src/Main.tsx`: D02 plays on the right, and D01's real chat scrolls (request → "over 16 million exchanges") in an 800 px left panel drawn outside the film layer. `scripts/capture_chat.mjs` takes width/scale/height; recaptured at a large-phone width: `node scripts/capture_chat.mjs https://claude.ai/share/cd15ffd8-ec3f-43bd-b916-282c92b2e116 540 1.42 6000` (767×8520 px).
+- `Stamp` (devices.tsx): Alfa Slab One letters on a cream paper patch, lighter distressing, `maxWidth` fit. D39b: both stamps 90 px fitted to 820 px, TRANSFORMATIVE in a darker gold (#a8730a) so it reads on the paper.
+- `CalendarPage`: month font sized to fit the page; optional year line. FEB and JUN show 2026.
+- D12 v2 (open bottle under the spout, corked ones beside) seeds 41–44 done; D27a v2 (scorecard slides out under the bars) not generated yet: the stills run was stopped by the low-memory guard. ComfyUI stopped (it kept about 35 GB after the stop).

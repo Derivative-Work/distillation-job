@@ -289,14 +289,15 @@
     1008
    ],
    "style": "scene",
-   "subject": "The copper pot still from the reference: ticker tape feeds into its funnel, glowing amber liquid drips from the condenser into a row of small corked bottles with blank paper labels",
+   "subject": "The copper pot still from the reference: ticker tape feeds into its funnel, and glowing amber liquid drips from the end of the copper condenser coil straight down into the open mouth of one small uncorked glass bottle standing directly under the spout, half full; its cork lies on the table beside it. Next to it, a neat row of small filled bottles already sealed with corks, with blank cream paper labels",
    "refs": [
     "ref_still"
    ],
    "batch": 2,
    "shot": "D12",
    "kind": "keyframe",
-   "note": "REASONING, SMALL BATCH labels: code if they hold still, else left blank"
+   "note": "v1 dripped into bottles that were already corked (human, M4 notes 4): v2 fills an open bottle under the spout. REASONING, SMALL BATCH goes on the filled bottles' labels in code",
+   "v": 2
   },
   "D13": {
    "size": [
@@ -510,7 +511,7 @@
     1008
    ],
    "style": "scene",
-   "subject": "The brass teller window from the reference: a typed paper scorecard slides out under the bars; one of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) holds it up at arm's length",
+   "subject": "The brass teller window from the reference, seen from the customer side: below the vertical brass bars there is a wide flat slot at counter level, and a long typed paper scorecard has slid out through that slot, under the bars, onto the marble counter; one of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) stands in front of the window holding the end of the scorecard up at arm's length to read it. The paper is entirely in front of the bars, nothing passes through the bars",
    "refs": [
     "ref_teller",
     "ref_crew"
@@ -518,7 +519,8 @@
    "batch": 2,
    "shot": "D27a",
    "kind": "still",
-   "note": "THEIR COUNT, NOT OURS in code; the card is blank"
+   "note": "v1 had the scorecard coming through the bars (human, M4 notes 4): v2 slides it out under them. THEIR COUNT, NOT OURS in code; the card is blank",
+   "v": 2
   },
   "D31": {
    "size": [

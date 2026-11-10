@@ -23,15 +23,13 @@ const TE = (id: string) => SHOTS[id].end as number;
 const MUSIC_END = 264.8;
 
 /* ---------- lengths of the parts around the music ---------- */
-export const D01_S = 10;
 const D46_S = 32;
 const factHold = (t: string) => Math.max(4, holdS(t));
 const FACTS = [claims.intro, ...claims.items.map((i) => i.text)];
 const D45_FRAMES = FACTS.reduce((a, t) => a + sec2f(factHold(t)) + 12, 0);
 const D47_FRAMES = sec2f(holdS(claims.end_card));
-const PRE = sec2f(D01_S);
 const MUSIC = sec2f(MUSIC_END);
-export const MAIN_FRAMES = PRE + MUSIC + D45_FRAMES + sec2f(D46_S) + D47_FRAMES;
+export const MAIN_FRAMES = MUSIC + D45_FRAMES + sec2f(D46_S) + D47_FRAMES;
 
 /* ---------- media helpers ---------- */
 const still = (id: string) => `media/picks/${id}.png`;
@@ -164,7 +162,12 @@ const Song: React.FC = () => {
     ['D15', 'clip'], ['D27', 'clip'], ['D18', 'clip'], ['D19', 'split']];
   const pics: React.ReactNode = (
     <>
-      <Sequence {...shot('D02')}><ShotClip id="D02" len={len('D02')} /></Sequence>
+      {/* D02 on the right; D01 (the real chat) covers the left half from outside the film layer (see Main). */}
+      <Sequence {...shot('D02')}>
+        <div style={{position: 'absolute', top: 0, bottom: 0, left: D01_W + 14, width: W - D01_W - 14, overflow: 'hidden'}}>
+          <ShotClip id="D02" len={len('D02')} />
+        </div>
+      </Sequence>
       <Sequence {...shot('D03')}>
         <ShotStill id="D03" from={{scale: 1.6, x: 0.0, y: 0.08}} to={{scale: 1.0, x: 0, y: 0}} />
         <Typed text="24,000" at={at('Intro', 1, 0) - sec2f(T('D03'))} x={0.5} y={0.14} size={84} />
@@ -228,8 +231,8 @@ const Song: React.FC = () => {
         <Typed text="THEIR COUNT, NOT OURS" at={10} x={0.5} y={0.12} size={60} />
       </Sequence>
       <Sequence {...span(T('D28'), T('D31'))}><AbsoluteFill style={{background: '#16343a'}} /></Sequence>
-      <Sequence from={COUNTER_HITS[0]} durationInFrames={COUNTER_HITS[1] - COUNTER_HITS[0]}><CalendarPage month="FEB" /></Sequence>
-      <Sequence from={COUNTER_HITS[1]} durationInFrames={COUNTER_HITS[2] - COUNTER_HITS[1]}><CalendarPage month="JUN" /></Sequence>
+      <Sequence from={COUNTER_HITS[0]} durationInFrames={COUNTER_HITS[1] - COUNTER_HITS[0]}><CalendarPage month="FEB" year="2026" /></Sequence>
+      <Sequence from={COUNTER_HITS[1]} durationInFrames={COUNTER_HITS[2] - COUNTER_HITS[1]}><CalendarPage month="JUN" year="2026" /></Sequence>
       {['D31', 'D32'].map((id) => <Sequence key={id} {...shot(id)}><ShotClip id={id} len={len(id)} /></Sequence>)}
       <Sequence {...shot('D33')}>
         <ShotClip id="D33" len={len('D33')} />
@@ -245,8 +248,8 @@ const Song: React.FC = () => {
       </Sequence>
       <Sequence {...shot('D39b')}>
         <ShotStill id="D39b" from={{scale: 1, x: 0, y: 0}} to={{scale: 1.04, x: 0, y: 0}} />
-        <Stamp at={6} text="TRANSFORMATIVE" x={0.25} y={0.6} size={84} ink="#e0b42a" holdFrames={len('D39b')} />
-        <Stamp at={18} text="NATIONAL SECURITY" x={0.75} y={0.66} size={70} holdFrames={len('D39b')} />
+        <Stamp at={6} text="TRANSFORMATIVE" x={0.25} y={0.62} size={90} maxWidth={820} ink="#a8730a" holdFrames={len('D39b')} />
+        <Stamp at={18} text="NATIONAL SECURITY" x={0.75} y={0.62} size={90} maxWidth={820} holdFrames={len('D39b')} />
       </Sequence>
       <Sequence {...shot('D39c')}><ShotClip id="D39c" len={len('D39c')} /></Sequence>
       <Sequence {...shot('D39d')}><ShotStill id="D39d" /></Sequence>
@@ -331,18 +334,25 @@ const D44c: React.FC = () => {
 
 /* ---------- bookends and cards ---------- */
 
-/** D01: the real research chat, scrolling from the request to the first numbers; labelled with model and date. */
+/** D01 (opening bookend), merged into D02 (human, M4 notes 4: too long before the music): the real research chat
+ * scrolls from the request to the first numbers in a narrow left panel while the crew leans in on the right. Captured
+ * at a large-phone width so the text reflows (scripts/capture_chat.mjs ... 540 1.42 6000). Real capture: drawn
+ * outside the film layer. */
+const D01_W = 800;
 const D01: React.FC = () => {
   const f = useCurrentFrame();
-  const sc = chat.scale, imgW = chat.viewport[0] * sc, k = W / imgW;
-  const y0 = 0, y1 = Math.max(0, (chat.boxes.numbers.y - 260) * sc * k);
-  const y = interpolate(f, [sec2f(1.2), PRE - sec2f(1.5)], [y0, y1], {easing: Easing.inOut(Easing.sin), ...clamp});
+  const L = len('D02'), sc = chat.scale, iw = chat.viewport[0] * sc;
+  const yReq = (chat.boxes.request.y - 40) * sc, yNum = chat.boxes.numbers.y * sc - 760;
+  const y = interpolate(f, [sec2f(0.8), L - sec2f(1.2)], [yReq, yNum], {easing: Easing.inOut(Easing.sin), ...clamp});
   return (
-    <AbsoluteFill style={{background: '#fff', overflow: 'hidden'}}>
-      <Img src={staticFile('media/real/research_chat.png')} style={{position: 'absolute', left: 0, top: -y, width: W}} />
-      <div style={{position: 'absolute', left: 40, bottom: 36, background: 'rgba(20,24,28,0.88)', color: '#f1e9d6', padding: '10px 22px',
-        fontFamily: FILM.card.typed_font, fontSize: 34, borderRadius: 4}}>Research: Claude, Nov 4, 2026</div>
-    </AbsoluteFill>
+    <>
+      <div style={{position: 'absolute', left: 0, top: 0, width: D01_W, height: H, background: '#fff', overflow: 'hidden'}}>
+        <Img src={staticFile('media/real/research_chat.png')} style={{position: 'absolute', left: (D01_W - iw) / 2, top: -y, width: iw}} />
+        <div style={{position: 'absolute', left: 24, bottom: 28, background: 'rgba(20,24,28,0.88)', color: '#f1e9d6', padding: '10px 20px',
+          fontFamily: FILM.card.typed_font, fontSize: 30, borderRadius: 4}}>Research: Claude, Nov 4, 2026</div>
+      </div>
+      <div style={{position: 'absolute', left: D01_W, top: 0, width: 14, height: H, background: '#0d1114'}} />
+    </>
   );
 };
 
@@ -404,15 +414,15 @@ export const Main: React.FC = () => {
   return (
     <AbsoluteFill style={{background: '#000'}}>
       <Fonts />
-      <Sequence durationInFrames={PRE}><FilmLayer bypass><D01 /></FilmLayer></Sequence>
-      <Sequence from={PRE} durationInFrames={MUSIC}>
+      <Sequence from={0} durationInFrames={MUSIC}>
         <Audio src={staticFile('audio/master.wav')} />
         <FilmLayer><Song /></FilmLayer>
+        <Sequence {...shot('D02')}><D01 /></Sequence>
         <Sequence {...d25}><D25 /></Sequence>
       </Sequence>
-      <Sequence from={PRE + MUSIC} durationInFrames={D45_FRAMES}><D45 /></Sequence>
-      <Sequence from={PRE + MUSIC + D45_FRAMES} durationInFrames={sec2f(D46_S)}><D46 /></Sequence>
-      <Sequence from={PRE + MUSIC + D45_FRAMES + sec2f(D46_S)} durationInFrames={D47_FRAMES}><D47 /></Sequence>
+      <Sequence from={MUSIC} durationInFrames={D45_FRAMES}><D45 /></Sequence>
+      <Sequence from={MUSIC + D45_FRAMES} durationInFrames={sec2f(D46_S)}><D46 /></Sequence>
+      <Sequence from={MUSIC + D45_FRAMES + sec2f(D46_S)} durationInFrames={D47_FRAMES}><D47 /></Sequence>
     </AbsoluteFill>
   );
 };

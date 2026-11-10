@@ -87,8 +87,12 @@
   },
   "D12": {
    "keyframe": "D12",
-   "motion": "amber liquid drips steadily from the copper coil into the little bottles, which fill one by one; the paper tape keeps feeding into the pot",
-   "seconds": 3
+   "motion": "amber liquid drips steadily from the end of the copper coil into the open bottle under the spout, which slowly fills; the paper tape keeps feeding into the pot; the corked bottles beside it stay still",
+   "seconds": 3,
+   "seeds": [
+    43,
+    44
+   ]
   },
   "D13": {
    "keyframe": "D13",

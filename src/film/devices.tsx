@@ -154,8 +154,11 @@ export const Shake: React.FC<{at: number; children: React.ReactNode}> = ({at, ch
   return <AbsoluteFill style={{transform: `translate(${dx}px, ${dy}px)`}}>{children}</AbsoluteFill>;
 };
 
-export const Stamp: React.FC<{at: number; text?: string; x?: number; y?: number; size?: number; holdFrames?: number; ink?: string}> =
-  ({at, text = FILM.stamp.text, x = 0.5, y = 0.5, size = 190, holdFrames = Math.round(FILM.stamp.hold_s * FILM.frame.fps), ink}) => {
+/* Readability (human, M4 notes 4): heavy slab letters on a paper patch, light distressing; size shrinks to maxWidth. */
+export const Stamp: React.FC<{at: number; text?: string; x?: number; y?: number; size?: number; holdFrames?: number; ink?: string;
+  maxWidth?: number}> =
+  ({at, text = FILM.stamp.text, x = 0.5, y = 0.5, size: size0 = 190, holdFrames = Math.round(FILM.stamp.hold_s * FILM.frame.fps), ink,
+    maxWidth = W * 0.86}) => {
   const f = useCurrentFrame();
   const s = {...FILM.stamp, ink: ink ?? FILM.stamp.ink};
   if (f < at || f > at + s.slam_frames + holdFrames + 6) return null;
@@ -163,25 +166,27 @@ export const Stamp: React.FC<{at: number; text?: string; x?: number; y?: number;
   const scale = 2.6 - 1.6 * k;
   const opacity = interpolate(f, [at, at + 1, at + s.slam_frames + holdFrames, at + s.slam_frames + holdFrames + 6], [0, 0.95, 0.95, 0], clamp);
   const id = `ink-${at}`;
-  const tw = size * 0.82 * text.length + size * 0.5, th = size * 1.45;
+  const em = 0.74 * text.length + 0.6;                 // Alfa Slab One advance per character, plus the frame's margin
+  const size = Math.min(size0, maxWidth / em);
+  const tw = size * em, th = size * 1.5;
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>
       <svg width={W} height={H} style={{position: 'absolute', inset: 0, opacity}}>
         <defs>
           <filter id={id} x="-10%" y="-20%" width="120%" height="140%">
             <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves={2} seed={SEED + at} result="warp" />
-            <feDisplacementMap in="SourceGraphic" in2="warp" scale={5} result="w" />
+            <feDisplacementMap in="SourceGraphic" in2="warp" scale={3} result="w" />
             <feTurbulence type="fractalNoise" baseFrequency="0.55" numOctaves={2} seed={SEED + at + 1} result="speck" />
-            <feColorMatrix in="speck" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2.2 2.0" result="mask" />
+            <feColorMatrix in="speck" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.1 1.75" result="mask" />
             <feComposite in="w" in2="mask" operator="in" />
           </filter>
         </defs>
         <g transform={`translate(${x * W} ${y * H}) rotate(${s.rotate_deg}) scale(${scale})`} filter={`url(#${id})`}>
-          <rect x={-tw / 2} y={-th / 2} width={tw} height={th} rx={size * 0.08} fill="none" stroke={s.ink} strokeWidth={size * 0.07} />
-          <rect x={-tw / 2 + size * 0.13} y={-th / 2 + size * 0.13} width={tw - size * 0.26} height={th - size * 0.26}
-            fill="none" stroke={s.ink} strokeWidth={size * 0.025} />
-          <text x={0} y={size * 0.34} textAnchor="middle" fill={s.ink} style={{fontFamily: FILM.card.stamp_font, fontWeight: 700,
-            fontSize: size, letterSpacing: size * 0.04}}>{text}</text>
+          <rect x={-tw / 2} y={-th / 2} width={tw} height={th} rx={size * 0.08} fill="#f1e9d6" fillOpacity={0.9} stroke={s.ink} strokeWidth={size * 0.09} />
+          <rect x={-tw / 2 + size * 0.15} y={-th / 2 + size * 0.15} width={tw - size * 0.3} height={th - size * 0.3}
+            fill="none" stroke={s.ink} strokeWidth={size * 0.03} />
+          <text x={0} y={size * 0.36} textAnchor="middle" fill={s.ink} style={{fontFamily: FILM.card.title_font,
+            fontSize: size, letterSpacing: size * 0.02}}>{text}</text>
         </g>
       </svg>
     </AbsoluteFill>
@@ -252,14 +257,18 @@ export const rollValue = (f: number, a: number, b: number, from: number, to: num
 
 /* ---------- Calendar page (breakdown: FEB, JUN) ---------- */
 
-export const CalendarPage: React.FC<{month: string; x?: number; y?: number; at?: number}> = ({month, x = 0.82, y = 0.3, at = 0}) => {
+export const CalendarPage: React.FC<{month: string; year?: string; x?: number; y?: number; at?: number}> =
+  ({month, year, x = 0.82, y = 0.3, at = 0}) => {
   const f = useCurrentFrame();
   const drop = interpolate(f, [at, at + 4], [-0.6, 0], {easing: Easing.out(Easing.back(1.5)), ...clamp});
+  const fs = Math.min(110, 210 / (0.95 * month.length));   // the month always fits the 260 px page (human, M4 notes 4)
   return (
     <div style={{position: 'absolute', left: x * W, top: (y + drop) * H, transform: 'translate(-50%, -50%) rotate(4deg)',
-      width: 260, background: '#f4efe4', boxShadow: '4px 8px 0 rgba(0,0,0,0.5)'}}>
+      width: 260, background: '#f4efe4', boxShadow: '4px 8px 0 rgba(0,0,0,0.5)', overflow: 'hidden'}}>
       <div style={{background: '#c8282c', height: 46}} />
-      <div style={{fontFamily: FILM.card.title_font, fontSize: 110, textAlign: 'center', color: '#1d2b33', padding: '18px 0'}}>{month}</div>
+      <div style={{fontFamily: FILM.card.title_font, fontSize: fs, lineHeight: 1, textAlign: 'center', color: '#1d2b33',
+        padding: year ? '22px 0 4px' : '24px 0'}}>{month}</div>
+      {year ? <div style={{fontFamily: FILM.card.typed_font, fontSize: 40, textAlign: 'center', color: '#1d2b33', paddingBottom: 16}}>{year}</div> : null}
     </div>
   );
 };
