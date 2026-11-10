@@ -99,3 +99,4 @@ Append-only. Every human action: when, what, and why.
 ## 17. 2026-11-09 — Credits
 
 - **What:** "great. this is still missing the credits at the very end"
+- Then: "I disagree with the brief; remove the counter from the end cards" (decision 10).

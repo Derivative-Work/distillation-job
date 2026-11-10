@@ -50,3 +50,7 @@ For the human and the lawyer: the reported articles themselves name the accused 
 ## 9. 2026-11-09 — Claims card restructured into pages
 
 Approved by the human (intervention 16). `config/claims_card.json` gains `pages`; `items` keeps the brief's wording as the record. Order: intro; the other side; two tables (Date, Claimed by, Accused, Claim, Source), February and June–September; Google; identity mix-ups; the flip. The tables add one row not on the brief's card: Anthropic's claim that Moonshot request metadata matched public profiles of senior staff (brief's claims table, source Computing), since the lyrics and a chip already refer to it; it needs the M6 check and the lawyer's review like every row. The accused names are set in regular weight, not bold. Each table carries "These are claims, not findings of liability"; the February one adds "Anthropic's attributions rest on its own telemetry." D45 runs 97 s, down from 122 s. The brief Doc's card section still lists the items; the brief should be updated to match before M6.
+
+## 10. 2026-11-09 — No counter on the end card
+
+The brief says the exchange counter stays "still ticking during the end card". The human disagreed and asked for it removed from the end cards (intervention 17). The counter now ends with the song (it was already absent from D45 and D46); D47 is the disclosure and the credits only. The brief Doc should be updated to match.

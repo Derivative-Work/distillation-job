@@ -455,12 +455,9 @@ const D46: React.FC = () => {
 };
 
 /** D47: the end card. */
-/** D47: the end card, two pages: the disclosure, then the credits. The exchange counter is back in its corner, still
- * ticking (brief, "The exchange counter": "still ticking during the end card"). */
-const D47: React.FC<{songFrames: number}> = ({songFrames}) => {
-  const f = useCurrentFrame();
-  const tick0 = COUNTER_HITS[2] + 14;
-  const v = COUNTER_VALS[2] + Math.floor(((songFrames + f - tick0) / FPS) * 35);
+/** D47: the end card, two pages: the disclosure, then the credits. No counter (human, overriding the brief's "still
+ * ticking during the end card": decision 10). */
+const D47: React.FC = () => {
   let a = 0;
   return (
     <AbsoluteFill style={{background: '#000'}}>
@@ -473,7 +470,6 @@ const D47: React.FC<{songFrames: number}> = ({songFrames}) => {
           </Sequence>
         );
       })}
-      <Counter value={v} x={0.88} y={0.08} scale={0.3} />
     </AbsoluteFill>
   );
 };
@@ -521,7 +517,7 @@ export const Main: React.FC = () => {
       </Sequence>
       <Sequence from={MUSIC} durationInFrames={D45_FRAMES}><D45 /></Sequence>
       <Sequence from={MUSIC + D45_FRAMES} durationInFrames={sec2f(D46_S)}><D46 /></Sequence>
-      <Sequence from={MUSIC + D45_FRAMES + sec2f(D46_S)} durationInFrames={D47_FRAMES}><D47 songFrames={MUSIC + D45_FRAMES + sec2f(D46_S)} /></Sequence>
+      <Sequence from={MUSIC + D45_FRAMES + sec2f(D46_S)} durationInFrames={D47_FRAMES}><D47 /></Sequence>
     </AbsoluteFill>
   );
 };
