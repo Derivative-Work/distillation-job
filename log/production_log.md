@@ -191,3 +191,4 @@ Direct edits, not suggestions, with the docs tools:
 ## 26. 2026-11-09 — D33 Little Switch cameo
 
 - `src/defaultOn/` (rig copied from Default On, decision 11) and `src/defaultOn/SwitchCameo.tsx`; `src/Main.tsx` D33 uses it in place of the typed SWITCH (enter on "see", flip on "switch"). Frames checked at 4380, 4396, 4404. Animatic re-rendered (entry 18's commands).
+- Mouth: X while he peeks, then the round "E" gasp on the flip, as Default On's startled Switch (rig sheet `review/m2/rig_sheet.jpg`; S16 in `shots/Chorus.tsx` and `scenes/KeyFrames.tsx`). Was "D" (wide open), which read as a grin.

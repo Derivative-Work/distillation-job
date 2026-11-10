@@ -105,3 +105,4 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "instead of the literal "SWITCH", use Little Switch from Default On -- you can read (but do not touch) from `kepler:~/Projects/default-on`"
 - **Recorded:** decision 11; rig copied read-only (kepler unchanged).
+- Then: "look deeper in there, there's a startled Switch": the mouth now matches Default On's own startled Switch (production log 26).

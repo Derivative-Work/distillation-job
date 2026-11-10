@@ -1,6 +1,7 @@
 // D33 cameo (human, 2026-11-09: "instead of the literal "SWITCH", use Little Switch from Default On"): Switch slides
 // out from behind the right-hand curtain, startled, and on the word "switch" his paddle rocks from ON to OFF (the
-// advisory's quiet downgrade). The rig is Default On's, unchanged (see README.md).
+// advisory's quiet downgrade). The rig is Default On's, unchanged (see README.md). Mouth as Default On's own startled Switch
+// (rig sheet, review/m2/rig_sheet.jpg: X at rest; shots/Chorus.tsx S16 and scenes/KeyFrames.tsx: the "E" gasp).
 import React from "react";
 import { Easing, interpolate, useCurrentFrame } from "remotion";
 import { Switch } from "./rigs/Switch";
@@ -25,7 +26,7 @@ export const SwitchCameo: React.FC<{ enter: number; flip: number; x?: number; y?
         </pattern>
       </defs>
       <g transform={`translate(${x + slide * 420}, ${y}) scale(${scale}) rotate(${-8 + flinch})`}>
-        <Switch pose="startled" toggle={toggle} look={[-0.8, 0.1]} mouth={f >= flip ? "D" : "X"} />
+        <Switch pose="startled" toggle={toggle} look={[-0.8, 0.1]} mouth={f >= flip ? "E" : "X"} />
       </g>
     </svg>
   );
