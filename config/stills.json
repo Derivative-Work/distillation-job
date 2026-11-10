@@ -917,6 +917,129 @@
    "kind": "keyframe",
    "note": "v1 (ref D14) copied the five-head layout; v2 has no reference. M4 notes 3: the heads all drop (D14 clip s44, first half), then this bigger hydra rises (clip D14_up reversed)",
    "v": 2
+  },
+  "D27b": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "In the dim garage, two of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) tip a big brand-new plain wooden shipping crate, its lid just pried off with fresh straw packing spilling out, so that glowing amber liquid pours from it into the funnel of the copper pot still from the reference; the others crowd round to watch",
+   "refs": [
+    "ref_still",
+    "ref_crew"
+   ],
+   "batch": 3,
+   "shot": "D27",
+   "kind": "keyframe",
+   "note": "Chorus 2 picks up verse 2's story instead of replaying chorus 1 (human, M4 notes 7, option 3). Nods to a Monday model launch with stronger anti-distillation protections, unnamed (decision 12). Line: 'Pour the frontier through a sieve'. NEW \u00b7 MONDAY typed caption."
+  },
+  "D27c": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Close-up on a marble counter: a small corked amber bottle sealed inside a heavy glass bell jar clamped shut with brass clasps and a brass padlock; two of the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) pry at the jar's rim with a crowbar and a spoon, straining, and it does not budge",
+   "refs": [
+    "ref_crew"
+   ],
+   "batch": 3,
+   "shot": "D27",
+   "kind": "keyframe",
+   "note": "Chorus 2 picks up verse 2's story instead of replaying chorus 1 (human, M4 notes 7, option 3). Nods to a Monday model launch with stronger anti-distillation protections, unnamed (decision 12). Line: 'Take the reasoning, leave the receipt'."
+  },
+  "D27d": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Close-up of the coin slot on the brass teller machine from the reference: a knitted mustard-yellow glove holds a brass arcade token at the slot; beside the slot hangs a small blank cream price card on a little brass hinge",
+   "refs": [
+    "ref_teller",
+    "ref_crew"
+   ],
+   "batch": 3,
+   "shot": "D27",
+   "kind": "keyframe",
+   "note": "Chorus 2 picks up verse 2's story instead of replaying chorus 1 (human, M4 notes 7, option 3). Nods to a Monday model launch with stronger anti-distillation protections, unnamed (decision 12). Line: 'Why build the brain when you can rent it by the token'. price card numbers flip lower in code."
+  },
+  "D27e": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) walking out through the open round brass vault door in a line toward the camera, each carrying a wooden crate of small corked bottles on its shoulder; the last puppet's crate has a small blank paper tag tied on with string",
+   "refs": [
+    "ref_crew",
+    "ref_teller"
+   ],
+   "batch": 3,
+   "shot": "D27",
+   "kind": "keyframe",
+   "note": "Chorus 2 picks up verse 2's story instead of replaying chorus 1 (human, M4 notes 7, option 3). Nods to a Monday model launch with stronger anti-distillation protections, unnamed (decision 12). Line: 'And stroll right out the door'. FALLBACK on the last crate's tag in code."
+  },
+  "D05_1": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The panel van from the reference (faded sky-blue, no side windows, chrome bumpers, round headlights, blank white license plate) parked in a narrow rain-slick back alley at night, puddles reflecting a single bare bulb, iron fire escapes, no signs",
+   "refs": [
+    "ref_van"
+   ],
+   "batch": 3,
+   "shot": "D05",
+   "kind": "keyframe",
+   "note": "D05's four-way split as the brief asks: four different streets (human, M4 notes 7, option 4); the earlier four takes were all one brick street"
+  },
+  "D05_2": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The panel van from the reference (faded sky-blue, no side windows, chrome bumpers, round headlights, blank white license plate) parked under a concrete highway overpass at night, orange sodium lamps, bare concrete pillars, no signs and no lettering",
+   "refs": [
+    "ref_van"
+   ],
+   "batch": 3,
+   "shot": "D05",
+   "kind": "keyframe",
+   "note": "D05's four-way split as the brief asks: four different streets (human, M4 notes 7, option 4); the earlier four takes were all one brick street"
+  },
+  "D05_3": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The panel van from the reference (faded sky-blue, no side windows, chrome bumpers, round headlights, blank white license plate) parked at an empty industrial loading dock at dawn, corrugated roll-up doors, stacked pallets, no signs and no lettering",
+   "refs": [
+    "ref_van"
+   ],
+   "batch": 3,
+   "shot": "D05",
+   "kind": "keyframe",
+   "note": "D05's four-way split as the brief asks: four different streets (human, M4 notes 7, option 4); the earlier four takes were all one brick street"
+  },
+  "D05_4": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "The panel van from the reference (faded sky-blue, no side windows, chrome bumpers, round headlights, blank white license plate) parked at the curb of a quiet suburban cul-de-sac at dusk, low ranch houses with lawns and a mailbox, no signs and no lettering",
+   "refs": [
+    "ref_van"
+   ],
+   "batch": 3,
+   "shot": "D05",
+   "kind": "keyframe",
+   "note": "D05's four-way split as the brief asks: four different streets (human, M4 notes 7, option 4); the earlier four takes were all one brick street"
   }
  },
  "kept": {
@@ -981,6 +1104,14 @@
   "D41_1": 43,
   "D41_2": 41,
   "D41_3": 41,
-  "D14_up": "D14_up_v2_s41"
+  "D14_up": "D14_up_v2_s41",
+  "D27b": 44,
+  "D27c": 41,
+  "D27d": 41,
+  "D27e": 41,
+  "D05_1": 41,
+  "D05_2": 42,
+  "D05_3": 41,
+  "D05_4": 41
  }
 }

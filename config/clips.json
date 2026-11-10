@@ -46,7 +46,17 @@
   "D44a": "takes/clips/D44a/D44a_s41.mp4",
   "D44c": "takes/clips/D44c/D44c_s42.mp4",
   "D42": "takes/clips/D42/D42_s45.mp4",
-  "D14": "takes/clips/D14/D14_cut.mp4"
+  "D14": "takes/clips/D14/D14_cut.mp4",
+  "D27_alt": "takes/clips/D27/D27_s41.mp4",
+  "D27b": "takes/clips/D27b/D27b_s41.mp4",
+  "D27c": "takes/clips/D27c/D27c_s42.mp4",
+  "D27d": "takes/clips/D27d/D27d_s41.mp4",
+  "D27e": "takes/clips/D27e/D27e_s41.mp4",
+  "D05_1": "takes/clips/D05_1/D05_1_s41.mp4",
+  "D05_2": "takes/clips/D05_2/D05_2_s41.mp4",
+  "D05_3": "takes/clips/D05_3/D05_3_s41.mp4",
+  "D05_4": "takes/clips/D05_4/D05_4_cut.mp4",
+  "D19_alt": "takes/clips/D19/D19_s42.mp4"
  },
  "style_sets": {},
  "clips": {
@@ -302,6 +312,74 @@
     44
    ],
    "note": "D41 rebuilt (human, M4 notes 2): three close-ups match-cut on the bottle"
+  },
+  "D27b": {
+   "keyframe": "D27b",
+   "motion": "the two puppets tip the crate further and the glowing amber liquid glugs out into the still's funnel; the watching puppets lean in and bounce to the beat",
+   "seconds": 3,
+   "seeds": [
+    41,
+    42
+   ]
+  },
+  "D27c": {
+   "keyframe": "D27c",
+   "motion": "the two puppets heave on the crowbar and the spoon, wobbling and straining; the glass jar and its clasps stay shut and do not move",
+   "seconds": 3,
+   "seeds": [
+    41,
+    42
+   ]
+  },
+  "D27d": {
+   "keyframe": "D27d",
+   "motion": "the knitted glove pushes the token into the slot, it drops in, and the glove reaches for another; the little price card swings on its hinge",
+   "seconds": 3,
+   "seeds": [
+    41,
+    42
+   ]
+  },
+  "D27e": {
+   "keyframe": "D27e",
+   "motion": "slow motion: the puppets stride out of the vault toward the camera with crates on their shoulders, swaggering; the camera holds",
+   "seconds": 5,
+   "seeds": [
+    41,
+    42
+   ]
+  },
+  "D05_1": {
+   "keyframe": "D05_1",
+   "motion": "the van rolls in from the left and pulls up, then stops; the street stays still",
+   "seconds": 4,
+   "seeds": [
+    41
+   ]
+  },
+  "D05_2": {
+   "keyframe": "D05_2",
+   "motion": "the van rolls in from the left and pulls up, then stops; the street stays still",
+   "seconds": 4,
+   "seeds": [
+    41
+   ]
+  },
+  "D05_3": {
+   "keyframe": "D05_3",
+   "motion": "the van rolls in from the left and pulls up, then stops; the street stays still",
+   "seconds": 4,
+   "seeds": [
+    41
+   ]
+  },
+  "D05_4": {
+   "keyframe": "D05_4",
+   "motion": "the van rolls in from the left and pulls up, then stops; the street stays still",
+   "seconds": 4,
+   "seeds": [
+    41
+   ]
   }
  },
  "_kept_status": "provisional (agent's picks, 2026-11-09), for the human to confirm in the M4 animatic",
@@ -336,7 +414,16 @@
     "from": 20,
     "to": 72
    }
+  ],
+  "D05_4": [
+   {
+    "src": "takes/clips/D05_4/D05_4_s41.mp4",
+    "from": 0,
+    "to": 97,
+    "reverse": true
+   }
   ]
  },
- "_composites_doc": "scripts/conform.py joins these segments into takes/clips/<shot>/<shot>_cut.mp4 (kept). D14 (M4 notes 3): s44's heads drop, then D14_up s41 reversed so nine heads grow from the body. D41 (M4 notes 2): three close-ups match-cut on the bottle: teller -> crew -> startup -> teller."
+ "_composites_doc": "scripts/conform.py joins these segments into takes/clips/<shot>/<shot>_cut.mp4 (kept). D14 (M4 notes 3): s44's heads drop, then D14_up s41 reversed so nine heads grow from the body. D41 (M4 notes 2): three close-ups match-cut on the bottle: teller -> crew -> startup -> teller.",
+ "_kept_D27_alt": "D27's second take, used in chorus 2 for the 'distillation' lines next to the kept take, at different offsets (decision 12)"
 }

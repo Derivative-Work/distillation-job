@@ -423,3 +423,39 @@ ComfyUI template `video_ltx2_3_i2v` (`ltx-2.3-22b-dev-fp8` + distilled LoRA 0.5,
 | D27a_v2 (refs: ref_teller, ref_crew) | 44 | 1792×1008 | `takes/stills/D27a/D27a_v2_s44.png` | 104.2 | 2026-11-09T20:49:19-05:00 | pending pick |
 | D12 | `takes/stills/D12/D12_v2_s44.png` | 43 | `takes/clips/D12/D12_s43.mp4` | 29.2 | 2026-11-09T20:49:59-05:00 | pending pick |
 | D12 | `takes/stills/D12/D12_v2_s44.png` | 44 | `takes/clips/D12/D12_s44.mp4` | 10.3 | 2026-11-09T20:50:09-05:00 | pending pick |
+| D27b (refs: ref_still, ref_crew) | 41 | 1792×1008 | `takes/stills/D27b/D27b_s41.png` | 129.8 | 2026-11-09T23:09:08-05:00 | pending pick |
+| D27b (refs: ref_still, ref_crew) | 42 | 1792×1008 | `takes/stills/D27b/D27b_s42.png` | 105.2 | 2026-11-09T23:10:53-05:00 | pending pick |
+| D27b (refs: ref_still, ref_crew) | 43 | 1792×1008 | `takes/stills/D27b/D27b_s43.png` | 105.2 | 2026-11-09T23:12:39-05:00 | pending pick |
+| D27b (refs: ref_still, ref_crew) | 44 | 1792×1008 | `takes/stills/D27b/D27b_s44.png` | 105.3 | 2026-11-09T23:14:24-05:00 | pending pick |
+| D27c (refs: ref_crew) | 41 | 1792×1008 | `takes/stills/D27c/D27c_s41.png` | 77.1 | 2026-11-09T23:15:42-05:00 | pending pick |
+| D27c (refs: ref_crew) | 42 | 1792×1008 | `takes/stills/D27c/D27c_s42.png` | 76.6 | 2026-11-09T23:16:58-05:00 | pending pick |
+| D27c (refs: ref_crew) | 43 | 1792×1008 | `takes/stills/D27c/D27c_s43.png` | 75.3 | 2026-11-09T23:18:14-05:00 | pending pick |
+| D27c (refs: ref_crew) | 44 | 1792×1008 | `takes/stills/D27c/D27c_s44.png` | 75.3 | 2026-11-09T23:19:29-05:00 | pending pick |
+| D27d (refs: ref_teller, ref_crew) | 41 | 1792×1008 | `takes/stills/D27d/D27d_s41.png` | 107.2 | 2026-11-09T23:21:17-05:00 | pending pick |
+| D27d (refs: ref_teller, ref_crew) | 42 | 1792×1008 | `takes/stills/D27d/D27d_s42.png` | 105.1 | 2026-11-09T23:23:02-05:00 | pending pick |
+| D27d (refs: ref_teller, ref_crew) | 43 | 1792×1008 | `takes/stills/D27d/D27d_s43.png` | 105.2 | 2026-11-09T23:24:47-05:00 | pending pick |
+| D27d (refs: ref_teller, ref_crew) | 44 | 1792×1008 | `takes/stills/D27d/D27d_s44.png` | 105.3 | 2026-11-09T23:26:32-05:00 | pending pick |
+| D27e (refs: ref_crew, ref_teller) | 41 | 1792×1008 | `takes/stills/D27e/D27e_s41.png` | 106.2 | 2026-11-09T23:28:19-05:00 | pending pick |
+| D27e (refs: ref_crew, ref_teller) | 42 | 1792×1008 | `takes/stills/D27e/D27e_s42.png` | 106.1 | 2026-11-09T23:30:05-05:00 | pending pick |
+| D27e (refs: ref_crew, ref_teller) | 43 | 1792×1008 | `takes/stills/D27e/D27e_s43.png` | 106.1 | 2026-11-09T23:31:52-05:00 | pending pick |
+| D27e (refs: ref_crew, ref_teller) | 44 | 1792×1008 | `takes/stills/D27e/D27e_s44.png` | 105.1 | 2026-11-09T23:33:37-05:00 | pending pick |
+| D05_1 (refs: ref_van) | 41 | 1792×1008 | `takes/stills/D05_1/D05_1_s41.png` | 88.3 | 2026-11-09T23:35:16-05:00 | pending pick |
+| D05_1 (refs: ref_van) | 42 | 1792×1008 | `takes/stills/D05_1/D05_1_s42.png` | 75.1 | 2026-11-09T23:36:31-05:00 | pending pick |
+| D05_2 (refs: ref_van) | 41 | 1792×1008 | `takes/stills/D05_2/D05_2_s41.png` | 76.1 | 2026-11-09T23:37:47-05:00 | pending pick |
+| D05_2 (refs: ref_van) | 42 | 1792×1008 | `takes/stills/D05_2/D05_2_s42.png` | 75.1 | 2026-11-09T23:39:02-05:00 | pending pick |
+| D05_3 (refs: ref_van) | 41 | 1792×1008 | `takes/stills/D05_3/D05_3_s41.png` | 76.1 | 2026-11-09T23:40:19-05:00 | pending pick |
+| D05_3 (refs: ref_van) | 42 | 1792×1008 | `takes/stills/D05_3/D05_3_s42.png` | 75.1 | 2026-11-09T23:41:34-05:00 | pending pick |
+| D05_4 (refs: ref_van) | 41 | 1792×1008 | `takes/stills/D05_4/D05_4_s41.png` | 76.1 | 2026-11-09T23:42:50-05:00 | pending pick |
+| D05_4 (refs: ref_van) | 42 | 1792×1008 | `takes/stills/D05_4/D05_4_s42.png` | 75.1 | 2026-11-09T23:44:06-05:00 | pending pick |
+| D27b | `takes/stills/D27b/D27b_s44.png` | 41 | `takes/clips/D27b/D27b_s41.mp4` | 31.3 | 2026-11-09T23:45:23-05:00 | pending pick |
+| D27b | `takes/stills/D27b/D27b_s44.png` | 42 | `takes/clips/D27b/D27b_s42.mp4` | 11.4 | 2026-11-09T23:45:34-05:00 | pending pick |
+| D27c | `takes/stills/D27c/D27c_s41.png` | 41 | `takes/clips/D27c/D27c_s41.mp4` | 13.3 | 2026-11-09T23:45:48-05:00 | pending pick |
+| D27c | `takes/stills/D27c/D27c_s41.png` | 42 | `takes/clips/D27c/D27c_s42.mp4` | 11.0 | 2026-11-09T23:45:59-05:00 | pending pick |
+| D27d | `takes/stills/D27d/D27d_s41.png` | 41 | `takes/clips/D27d/D27d_s41.mp4` | 14.0 | 2026-11-09T23:46:13-05:00 | pending pick |
+| D27d | `takes/stills/D27d/D27d_s41.png` | 42 | `takes/clips/D27d/D27d_s42.mp4` | 11.0 | 2026-11-09T23:46:24-05:00 | pending pick |
+| D27e | `takes/stills/D27e/D27e_s41.png` | 41 | `takes/clips/D27e/D27e_s41.mp4` | 23.8 | 2026-11-09T23:46:47-05:00 | pending pick |
+| D27e | `takes/stills/D27e/D27e_s41.png` | 42 | `takes/clips/D27e/D27e_s42.mp4` | 19.4 | 2026-11-09T23:47:07-05:00 | pending pick |
+| D05_1 | `takes/stills/D05_1/D05_1_s41.png` | 41 | `takes/clips/D05_1/D05_1_s41.mp4` | 16.5 | 2026-11-09T23:47:23-05:00 | pending pick |
+| D05_2 | `takes/stills/D05_2/D05_2_s42.png` | 41 | `takes/clips/D05_2/D05_2_s41.mp4` | 17.0 | 2026-11-09T23:47:41-05:00 | pending pick |
+| D05_3 | `takes/stills/D05_3/D05_3_s41.png` | 41 | `takes/clips/D05_3/D05_3_s41.mp4` | 16.0 | 2026-11-09T23:47:57-05:00 | pending pick |
+| D05_4 | `takes/stills/D05_4/D05_4_s41.png` | 41 | `takes/clips/D05_4/D05_4_s41.mp4` | 16.1 | 2026-11-09T23:48:13-05:00 | pending pick |

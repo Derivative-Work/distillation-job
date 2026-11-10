@@ -208,3 +208,12 @@ Direct edits, not suggestions, with the docs tools:
 ## 28. 2026-11-09 — Stamp text fitted to its frame
 
 - `Stamp` (devices.tsx): the frame is still sized from a per-character estimate (now 0.8 em, generous), and the word is set with SVG `textLength` (`spacingAndGlyphs`) to the inner frame's width, so wide letters can't cross the border. Checked: TRANSFORMATIVE, NATIONAL SECURITY, ALLEGEDLY!, ALLEGEDLY. Animatic re-rendered (entry 18's commands).
+
+## 29. 2026-11-09 — Chorus 2 rebuilt; four streets; D19 two takes
+
+- Stills (`scripts/run_stage.sh stills …`): D27b, D27c, D27d, D27e seeds 41–44; D05_1–D05_4 seeds 41–42. Kept D27b s44 (the crate tipped into the still's funnel), D27c s41 (the bell jar, clasps and padlocks), D27d s41 (a token at the slot, a blank card), D27e s41 (the crew out of the vault, the front crate tagged); streets: alley s41, overpass s42, loading dock s41, cul-de-sac s41 (no lettering in any).
+- Clips: D27b–e seeds 41–42, D05_1–4 seed 41. Kept D27b s41 (it pours through the line), D27c s42 (they strain; the jar stays shut), D27d s41 (first 2 s only: from about 2.5 s the model writes garbled numbers on the card, and the glove covers it, so the planned price-card flip is dropped), D27e s41. D05_4 drove away, so it plays reversed (`config/clips.json` `composites`, `scripts/conform.py D05_4`): it rolls in and stops.
+- `src/Main.tsx`:
+  - Chorus 2: D27 (line 0), D27b with NEW · MONDAY typed (1), D27c (2), D27's second take continuous through lines 3–5, D27d (6), D27e (7). D27e opens on a one-second freeze-frame with FALLBACK on the crate's tag (tracked on the clip's first frame; the tag leaves the frame within half a second), then the walk.
+  - D05: four panels, four streets. D19: both takes, the second mirrored (`ClipSplit` removed).
+- Chorus 1's clips no longer appear in chorus 2. ComfyUI stopped. Animatic re-rendered (entry 18's commands).

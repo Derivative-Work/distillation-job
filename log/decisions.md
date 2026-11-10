@@ -58,3 +58,13 @@ The brief says the exchange counter stays "still ticking during the end card". T
 ## 11. 2026-11-09 — D33: Little Switch instead of the typed SWITCH
 
 The brief's on-screen text for D33 is SWITCH. At the human's request it is replaced by a cameo of Little Switch, the wall-switch character from Default On: on "see" he slides out from behind the curtain the Feds have just closed, startled, and on "switch" his paddle rocks from ON to OFF (the advisory's quiet downgrade). The rig (Switch, Hand4, Mouth, palette) is copied unchanged from `kepler:~/Projects/default-on/remotion/src` at 7fc03b7 into `src/defaultOn/` (provenance in its README); Default On was read, not modified. The cameo is drawn inside the film layer, so it takes the grain like the rest of the picture.
+
+## 12. 2026-11-09 — Chorus 2 rebuilt from verse 2; Fable 5.2 as unnamed texture only
+
+The brief's D27 is a reprise of D15–D19 with twice the puppets. The human found the repeats tiresome, so chorus 2 now gets new shots that follow verse 2 ("New model drops on Monday…"), with D27's crowd dance (both takes, at different offsets) on the "distillation" lines.
+- "Pour the frontier through a sieve" (D27b): a fresh crate, captioned NEW · MONDAY, poured into the still.
+- "Take the reasoning, leave the receipt" (D27c): the bottle sealed in a clamped, padlocked bell jar; the crew can't pry it open.
+- "Rent it by the token" (D27d): tokens into the teller's slot; the price card flips to a lower number.
+- "Stroll right out the door" (D27e): the crew walks out of the vault with crates; the last crate's tag reads FALLBACK (setting up the bridge's spiked batch).
+
+These nod to Anthropic's November 9, 2026 launch of Claude Fable 5.2 (released on a Monday; "strongest-ever protections against distillation attacks"; reasoning-extraction requests "blocked outright"; prices cut from $10/$50 to $8/$40 per million tokens; sources: anthropic.com/claude-fable-and-mythos-5-2 and the Claude support article on model switching). Following the guardrails and the conflict of interest (Anthropic is the main accuser, and Claude made this video), nothing is named, no figure from the launch appears, and no chip or claims-card row is added: Anthropic's own launch claims are unverified, and the closed audits never saw them. The human was told this (the agent's caution, accepted with "as discussed").

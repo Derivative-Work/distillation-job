@@ -116,3 +116,8 @@ Append-only. Every human action: when, what, and why.
 ## 20. 2026-11-09 — Stamp border
 
 - **What:** ""TRANSFORMATIVE" is overlapping its border"
+
+## 21. 2026-11-09 — Repetition: chorus 2 rebuilt, four streets
+
+- **What:** "after a few watches, the repeated clips are starting to bother me -- suggest some options for reducing repetitiveness that incorporate what the lyrics and scenes are referencing"; then "I'm leaning 3 and 4 -- is there anything from today's (Monday) drop (Fable 5.2) that could be useful here"; then "yes go ahead with option 3 as discussed and option 4".
+- Option 3: chorus 2 picks up verse 2's story (new shots for its lines) instead of replaying chorus 1's clips. Option 4: D05's four-way split shows four different streets.

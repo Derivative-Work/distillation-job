@@ -161,21 +161,38 @@ const D25: React.FC = () => {
   );
 };
 
-/** Four (or two) copies of one clip as a split screen, each framed differently. */
-const ClipSplit: React.FC<{id: string; n: 2 | 4; len: number}> = ({id, n, len: l}) => (
-  <Split stagger={n === 4 ? 4 : 6} panels={Array.from({length: n}, (_, i) => (
-    <AbsoluteFill key={i} style={{transform: `scale(${1 + 0.08 * i}) translateX(${(i % 2 ? 1 : -1) * 40 * i}px) ${i % 2 ? 'scaleX(-1)' : ''}`}}>
-      <ShotClip id={id} len={l} />
+/** D27e: "And stroll right out the door": a one-second freeze-frame (as D04c's roll call) with FALLBACK on the last
+ * crate's tag, then the crew walks out (decision 12; the tag leaves the frame within half a second, so it's read on the
+ * freeze). Tag box measured on the clip's first frame: 1118-1232 x 326-445 (clip px, 1280x704). */
+const D27e: React.FC<{len: number}> = ({len: l}) => {
+  const f = useCurrentFrame();
+  const hold = 24, k = H / 704, ox = (W - 1280 * k) / 2;
+  if (f >= hold) return <Sequence from={hold}><ShotClip id="D27e" len={l - hold} /></Sequence>;
+  return (
+    <AbsoluteFill>
+      <Freeze frame={0}><ShotClip id="D27e" len={l} /></Freeze>
+      <div style={{position: 'absolute', left: 1118 * k + ox, top: 326 * k, width: 114 * k, height: 119 * k, display: 'flex',
+        alignItems: 'center', justifyContent: 'center', transform: 'rotate(-7deg)', fontFamily: FILM.card.typed_font, fontWeight: 700,
+        fontSize: 31, color: '#2a1d14', mixBlendMode: 'multiply', opacity: interpolate(f, [2, 5], [0, 0.95], clamp)}}>FALLBACK</div>
     </AbsoluteFill>
-  ))} />
-);
+  );
+};
+
+/** Chorus 2's code text on the new shots (decision 12). */
+const C2Overlay: React.FC<{id: string}> = ({id}) => {
+  if (id === 'D27b') return <Typed text="NEW · MONDAY" at={4} x={0.5} y={0.12} size={60} />;
+  return null;
+};
 
 /** The music section: every shot, then the overlays that run across shots (stamps, the counter). */
 const Song: React.FC = () => {
   const chorus2 = (l: number) => sec2f(TM.sections.find((s) => s.name === 'Chorus 2')!.lines[l].words[0].start);
   const c2 = [sec2f(T('D27')), chorus2(1), chorus2(2), chorus2(3), chorus2(4), chorus2(5), chorus2(6), chorus2(7), sec2f(TE('D27'))];
-  const C2_SHOTS: [string, 'clip' | 'still' | 'split'][] = [['D27', 'clip'], ['D16', 'clip'], ['D17', 'still'], ['D27', 'clip'],
-    ['D15', 'clip'], ['D27', 'clip'], ['D18', 'clip'], ['D19', 'split']];
+  // Chorus 2 follows verse 2 instead of replaying chorus 1 (human, M4 notes 7; decision 12): the crowd dance (both takes of
+  // D27) on the "distillation" lines, new shots on the others. [shot, first line, line after the last]
+  // Lines 3-5 ("Tell 'em…", the second "distillation", "Smooth as…") are one continuous take, not three restarts.
+  const C2_SHOTS: [string, number, number][] = [['D27', 0, 1], ['D27b', 1, 2], ['D27c', 2, 3], ['D27_alt', 3, 6],
+    ['D27d', 6, 7], ['D27e', 7, 8]];
   const pics: React.ReactNode = (
     <>
       {/* D02 on the right; D01 (the real chat) covers the left half from outside the film layer (see Main). */}
@@ -209,7 +226,10 @@ const Song: React.FC = () => {
         <CrashZoom at={Math.round(len('D04d') / 2)} x={0.62} y={0.45}><ShotStill id="D04d" from={{scale: 1, x: 0, y: 0}} to={{scale: 1.06, x: 0, y: 0}} /></CrashZoom>
       </Sequence>
       <Sequence {...shot('D04e')}><ShotClip id="D04e" len={len('D04e')} /></Sequence>
-      <Sequence {...shot('D05')}><ClipSplit id="D05" n={4} len={len('D05')} /></Sequence>
+      {/* D05: four different streets, one per panel (human, M4 notes 7, option 4) */}
+      <Sequence {...shot('D05')}>
+        <Split stagger={4} panels={['D05_1', 'D05_2', 'D05_3', 'D05_4'].map((id) => <ShotClip key={id} id={id} len={len('D05')} />)} />
+      </Sequence>
       <Sequence {...shot('D06')}><ShotStill id="D06" /></Sequence>
       <Sequence {...shot('D07')}><ShotStill id="D07" /></Sequence>
       <Sequence {...shot('D08')}><CrashZoom at={4} x={0.5} y={0.55} scale={1.35}><ShotClip id="D08" len={len('D08')} /></CrashZoom></Sequence>
@@ -220,7 +240,11 @@ const Song: React.FC = () => {
       {['D15', 'D16'].map((id) => <Sequence key={id} {...shot(id)}><ShotClip id={id} len={len(id)} /></Sequence>)}
       <Sequence {...shot('D17')}><ShotStill id="D17" /></Sequence>
       <Sequence {...shot('D18')}><ShotClip id="D18" len={len('D18')} /></Sequence>
-      <Sequence {...shot('D19')}><ClipSplit id="D19" n={2} len={len('D19')} /></Sequence>
+      {/* D19: both takes side by side, the second mirrored (no clip twice in one frame; decision 12) */}
+      <Sequence {...shot('D19')}>
+        <Split stagger={6} panels={[<ShotClip key="a" id="D19" len={len('D19')} />,
+          <AbsoluteFill key="b" style={{transform: 'scaleX(-1)'}}><ShotClip id="D19_alt" len={len('D19')} /></AbsoluteFill>]} />
+      </Sequence>
       <Sequence {...shot('D20')}><ShotStill id="D20" /><CalendarPage month="MON" x={0.84} y={0.26} at={4} /></Sequence>
       <Sequence {...shot('D21')}>
         <ShotClip id="D21" len={len('D21')} />
@@ -233,10 +257,10 @@ const Song: React.FC = () => {
       </Sequence>
       <Sequence {...shot('D24')}><ShotStill id="D24" /></Sequence>
       {/* D25 is drawn outside the film layer (its captures are real); see Main. */}
-      {C2_SHOTS.map(([id, kind], i) => (
-        <Sequence key={`c2-${i}`} from={c2[i]} durationInFrames={c2[i + 1] - c2[i]}>
-          {kind === 'clip' ? <ShotClip id={id} len={c2[i + 1] - c2[i]} /> : kind === 'still' ? <ShotStill id={id} />
-            : <ClipSplit id={id} n={2} len={c2[i + 1] - c2[i]} />}
+      {C2_SHOTS.map(([id, a, b]) => (
+        <Sequence key={`c2-${id}`} from={c2[a]} durationInFrames={c2[b] - c2[a]}>
+          {id === 'D27e' ? <D27e len={c2[b] - c2[a]} /> : <ShotClip id={id} len={c2[b] - c2[a]} />}
+          <C2Overlay id={id} />
         </Sequence>
       ))}
       <Sequence {...shot('D27a')}>
