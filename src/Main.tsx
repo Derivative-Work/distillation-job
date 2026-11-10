@@ -197,7 +197,7 @@ const Song: React.FC = () => {
         <Typed text="REASONING · SMALL BATCH" at={4} x={0.68} y={0.9} size={34} rotate={-1} />
       </Sequence>
       <Sequence {...shot('D13')}><D13 /></Sequence>
-      <Sequence {...shot('D14')}><ShotClip id="D14" len={len('D14')} rate={CLIP_FRAMES[clipSrc('D14')] / len('D14')} /></Sequence>
+      <Sequence {...shot('D14')}><ShotClip id="D14" len={len('D14')} /></Sequence>
       {['D15', 'D16'].map((id) => <Sequence key={id} {...shot(id)}><ShotClip id={id} len={len(id)} /></Sequence>)}
       <Sequence {...shot('D17')}><ShotStill id="D17" /></Sequence>
       <Sequence {...shot('D18')}><ShotClip id="D18" len={len('D18')} /></Sequence>
@@ -247,7 +247,11 @@ const Song: React.FC = () => {
       </Sequence>
       <Sequence {...shot('D39c')}><ShotClip id="D39c" len={len('D39c')} /></Sequence>
       <Sequence {...shot('D39d')}><ShotStill id="D39d" /></Sequence>
-      {['D40', 'D41', 'D42', 'D42b', 'D42a'].map((id) => <Sequence key={id} {...shot(id)}><ShotClip id={id} len={len(id)} /></Sequence>)}
+      {['D40', 'D41', 'D42', 'D42b'].map((id) => <Sequence key={id} {...shot(id)}><ShotClip id={id} len={len(id)} /></Sequence>)}
+      {/* D42a: crop out the left frame bar, which reads as a hinge missing its door once the door swings right (human, M4 notes 2). */}
+      <Sequence {...shot('D42a')}>
+        <AbsoluteFill style={{transform: 'scale(1.31)', transformOrigin: '100% 75%'}}><ShotClip id="D42a" len={len('D42a')} /></AbsoluteFill>
+      </Sequence>
       <Sequence {...shot('D43')}><CutPaperTitle lines={['NO WEIGHTS WERE HARMED', 'IN THE MAKING', 'OF THIS SONG']} size={64} /></Sequence>
       <Sequence {...shot('D44')}><D44 /></Sequence>
       <Sequence {...shot('D44a')}><ShotClip id="D44a" len={len('D44a')} /></Sequence>

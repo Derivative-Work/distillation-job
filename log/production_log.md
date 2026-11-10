@@ -141,3 +141,19 @@ Direct edits, not suggestions, with the docs tools:
 - D42a: keyframe v2 asks for one door on one hinge. Kept **v2 s42**, the only take with a single door; it has no teller and two Feds instead of three. Clips s43–s46 rejected: a human figure walked out of the vault in every take, a realistic man in a suit in s43 (guardrail). Rerun s47–s50 with an empty vault and three puppets only. s48 duplicated the crew puppet; s49 produced a creature with a human-like face. Kept **s50**: the door swings fully open on an empty vault, the crew puppet points at the Feds and they point back.
 - ComfyUI stopped afterwards (`kill`), so the human can boot the Open WebUI VM on the 5090 for the D25 captures. Restart: `cd ~/ComfyUI && nohup .venv/bin/python main.py --listen 127.0.0.1 --port 8188 &`.
 - `scripts/publish_picks.py`; `src/Main.tsx` D14 now a ShotClip; animatic re-rendered (same command as entry 17, `--gl=swiftshader` to keep off the GPU). D14 plays at n/len (≈1.23×) so the regrowth lands inside the 3.3 s shot. Excerpt of the three shots: `renders/m4/m4_fixes_excerpt.mp4` (ffmpeg trim+concat of the animatic at 87.5–92.8, 221.6–230.2, 241.3–249.8 s).
+
+## 19. 2026-11-09 — M4 notes round 2: D14 in code, D42a crop, D41 rebuilt
+
+- D14: LTX can't count heads. New `scripts/hydra_sprites.py` cuts the centre shadow head out of the picked still (a matte from a fit to the smooth wall, kept to the head's own connected piece) and builds a plate with the head removed (linear interpolation from clean wall pixels, with grain from a wall patch added back) → `public/media/picks/D14_{plate,head}.png`. `src/Main.tsx` `D14`: the head tips away and fades, then two copies sprout from the stump: 5 heads → 6. The LTX clips are no longer used.
+- D42a: the clip's door is hinged on the left, then swings round to the right, which leaves the empty hinge bracket on the left. `src/Main.tsx` crops it out (scale 1.31, origin right, 75% down); the door then reads as hinged on the right.
+- D41: no LTX take shows a handoff in the wide shot. Rebuilt as three close-ups match-cut on the bottle at frame centre: teller slot → mustard glove; mustard glove → teal glove; teal glove → back into the teller slot (the brief's "vault, crew, startup, vault"). Stills `D41_1`–`D41_3` (`scripts/run_stage.sh stills D41_1 D41_2 D41_3`, seeds 41–44).
+- ComfyUI restarted at the human's word ("just use the GPU").
+
+## 20. 2026-11-09 — D14 and D41 as composites
+
+- D14 (human, M4 notes 3): the code-built hydra from entry 19 is dropped (`scripts/hydra_sprites.py` deleted). New still `D14_up`: v1 (conditioned on D14) copied the five-head layout, so v2 has no reference and spells out nine heads. Kept **v2 s41** (nine heads). Clip `D14_up` (heads sink into the body), seeds 41–44. Kept **s41**, played reversed so the nine heads grow out of the body that D14 s44 ends on.
+- D41 close-ups: stills `D41_1` s43, `D41_2` s41 and `D41_3` s41 (all four seeds of each had knitted gloves only). Clips seeds 41–44. Kept `D41_1` **s41** (mustard glove lifts the bottle from the teller's slot), `D41_2` **s43** (mustard hands it to teal), `D41_3` **s41** (teal pushes it into the slot until it's gone).
+- New `scripts/conform.py` joins segments from `config/clips.json` `composites` → `takes/clips/<shot>/<shot>_cut.mp4` (kept):
+  - D14 = s44 frames 14–44 (the drop), then D14_up s41 reversed at 1.49×; 79 frames.
+  - D41 = the three close-ups, about 53 frames each; 158 frames.
+- ComfyUI stopped (`kill` on its python PID, not the nohup wrapper's). Animatic, review copy and three-shot excerpt re-rendered (entry 18's commands).

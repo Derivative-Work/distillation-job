@@ -40,13 +40,13 @@
   "D39": "takes/clips/D39/D39_s42.mp4",
   "D39c": "takes/clips/D39c/D39c_s42.mp4",
   "D40": "takes/clips/D40/D40_s41.mp4",
-  "D41": "takes/clips/D41/D41_s46.mp4",
+  "D41": "takes/clips/D41/D41_cut.mp4",
   "D42a": "takes/clips/D42a/D42a_s50.mp4",
   "D42b": "takes/clips/D42b/D42b_s41.mp4",
   "D44a": "takes/clips/D44a/D44a_s41.mp4",
   "D44c": "takes/clips/D44c/D44c_s42.mp4",
   "D42": "takes/clips/D42/D42_s45.mp4",
-  "D14": "takes/clips/D14/D14_s44.mp4"
+  "D14": "takes/clips/D14/D14_cut.mp4"
  },
  "style_sets": {},
  "clips": {
@@ -250,7 +250,89 @@
     44
    ],
    "note": "new at M4: the still did not read as multiplication (human, M4 notes); D14 becomes a Clip"
+  },
+  "D14_up": {
+   "keyframe": "D14_up",
+   "motion": "shadow puppetry on the wall: all nine shadow heads droop and sink down into the round shadow body together, necks shrinking, until only the round headless shadow body remains at the bottom of the frame; the camera holds still",
+   "seconds": 3,
+   "seeds": [
+    41,
+    42,
+    43,
+    44
+   ],
+   "note": "played in reverse in the edit, so nine heads grow out of the body that D14 s44 (frames 0-44) ends on (human, M4 notes 3)"
+  },
+  "D41_1": {
+   "keyframe": "D41_1",
+   "motion": "the mustard knitted glove closes around the bottle and lifts it up off the marble counter, carrying it away to the right; the brass machine stays still",
+   "seconds": 3,
+   "seeds": [
+    41,
+    42,
+    43,
+    44
+   ],
+   "note": "D41 rebuilt (human, M4 notes 2): three close-ups match-cut on the bottle"
+  },
+  "D41_2": {
+   "keyframe": "D41_2",
+   "motion": "the mustard knitted glove lets go of the bottle and pulls back out of frame to the left, while the teal knitted glove takes the bottle and carries it away to the right",
+   "seconds": 3,
+   "seeds": [
+    41,
+    42,
+    43,
+    44
+   ],
+   "note": "D41 rebuilt (human, M4 notes 2): three close-ups match-cut on the bottle"
+  },
+  "D41_3": {
+   "keyframe": "D41_3",
+   "motion": "the teal knitted glove pushes the bottle into the slot of the brass machine until the bottle disappears inside, then the empty glove pulls back out to the left",
+   "seconds": 3,
+   "seeds": [
+    41,
+    42,
+    43,
+    44
+   ],
+   "note": "D41 rebuilt (human, M4 notes 2): three close-ups match-cut on the bottle"
   }
  },
- "_kept_status": "provisional (agent's picks, 2026-11-09), for the human to confirm in the M4 animatic"
+ "_kept_status": "provisional (agent's picks, 2026-11-09), for the human to confirm in the M4 animatic",
+ "composites": {
+  "D14": [
+   {
+    "src": "takes/clips/D14/D14_s44.mp4",
+    "from": 14,
+    "to": 44
+   },
+   {
+    "src": "takes/clips/D14_up/D14_up_s41.mp4",
+    "from": 0,
+    "to": 73,
+    "reverse": true,
+    "speed": 1.49
+   }
+  ],
+  "D41": [
+   {
+    "src": "takes/clips/D41_1/D41_1_s41.mp4",
+    "from": 12,
+    "to": 65
+   },
+   {
+    "src": "takes/clips/D41_2/D41_2_s43.mp4",
+    "from": 20,
+    "to": 73
+   },
+   {
+    "src": "takes/clips/D41_3/D41_3_s41.mp4",
+    "from": 20,
+    "to": 72
+   }
+  ]
+ },
+ "_composites_doc": "scripts/conform.py joins these segments into takes/clips/<shot>/<shot>_cut.mp4 (kept). D14 (M4 notes 3): s44's heads drop, then D14_up s41 reversed so nine heads grow from the body. D41 (M4 notes 2): three close-ups match-cut on the bottle: teller -> crew -> startup -> teller."
 }

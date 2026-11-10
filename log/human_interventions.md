@@ -65,3 +65,13 @@ Append-only. Every human action: when, what, and why.
 - **What:** "timing and scene concepts as a whole seem good". Notes: "the hydra scene is not reading as multiplication since it's just a static image"; "the puppets are not passing the bottles to each other at the end like they're supposed to"; "'depends who's at the door': the vault door doesn't look right at all -- if you're going for the halved concept, it doesn't look split at all (but for a vault it should probably just be one door)".
 - **D25:** the real Open WebUI captures come later (the VM needs the 5090, which ComfyUI holds until this batch finishes).
 - **Recorded:** D14 becomes a Clip; D41 and D42a get v2 keyframes (one vault door) and new clips. The provisional clip picks and the corner counter stand as rendered.
+
+## 11. 2026-11-09 — M4 notes, round 2
+
+- **What:** "the hydra has the same number of heads before and after"; "the puppets are still not passing the bottles to each other"; "one vault door: better; but its latch (is it a latch?) is reading like a hinge missing the door". Then: "just use the GPU; I have to completely shut down this VM to boot the dedicated Open WebUI anyway".
+- **Recorded:** D14 rebuilt in code; D41 rebuilt as three match-cut close-ups; D42a cropped. ComfyUI restarted.
+
+## 12. 2026-11-09 — M4 notes, round 3 (hydra)
+
+- **What:** "that hydra still doesn't look quite right -- it's okay if they all go down together (as in the previous shot you gave me), then make a new hydra with more heads come up. if it doesn't generate right as one prompt, this makes it possible to use two"
+- **Recorded:** the code-built hydra (entry 19) is dropped; D14 is now two generations joined (production log entry 20).

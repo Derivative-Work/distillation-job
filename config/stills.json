@@ -856,6 +856,65 @@
    "shot": "D44c",
    "kind": "keyframe",
    "note": "pull back; the exchange counter is code"
+  },
+  "D41_1": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "batch": 2,
+   "shot": "D41",
+   "kind": "keyframe",
+   "note": "D41 rebuilt at M4 (notes 2: the wide shot never showed a handoff): three close-ups match-cut on the bottle, which stays at frame centre; vault, crew, startup, vault (brief)",
+   "subject": "Extreme close-up on a marble counter: the brass teller machine from the reference pushes a small round corked amber glass bottle with a blank cream paper label out of its front slot, the bottle at the exact centre of the frame; from the right a mustard-yellow knitted glove on a charcoal-gray knit sleeve reaches in to take it. No faces in frame",
+   "refs": [
+    "ref_teller"
+   ]
+  },
+  "D41_2": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "batch": 2,
+   "shot": "D41",
+   "kind": "keyframe",
+   "note": "D41 rebuilt at M4 (notes 2: the wide shot never showed a handoff): three close-ups match-cut on the bottle, which stays at frame centre; vault, crew, startup, vault (brief)",
+   "subject": "Extreme close-up, plain dark marble hall background out of focus: a mustard-yellow knitted glove on a charcoal-gray knit sleeve from the left hands a small round corked amber glass bottle with a blank cream paper label to a teal knitted glove on a charcoal-gray knit sleeve from the right; both gloves hold the bottle at the exact centre of the frame. Knitted gloves only, no human hands, no faces in frame",
+   "refs": [
+    "ref_crew"
+   ]
+  },
+  "D41_3": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "batch": 2,
+   "shot": "D41",
+   "kind": "keyframe",
+   "note": "D41 rebuilt at M4 (notes 2: the wide shot never showed a handoff): three close-ups match-cut on the bottle, which stays at frame centre; vault, crew, startup, vault (brief)",
+   "subject": "Extreme close-up on a marble counter: a teal knitted glove on a charcoal-gray knit sleeve from the left slides a small round corked amber glass bottle with a blank cream paper label back into the front slot of the brass teller machine from the reference, the bottle at the exact centre of the frame. Knitted glove only, no human hands, no faces in frame",
+   "refs": [
+    "ref_teller"
+   ]
+  },
+  "D14_up": {
+   "size": [
+    1792,
+    1008
+   ],
+   "style": "scene",
+   "subject": "Shadow puppetry on a plain warm-lit wall, burnt orange on the left fading to teal on the right: the dark shadow silhouette of a monstrous hydra with NINE heads. A round shadow body at the bottom centre, and nine long thin snake-like necks fanning out from it like a spread hand of cards, a crowded bouquet of nine dragon heads in profile, each with a round eye hole and an open mouth, heads at many different heights and angles filling the upper half of the frame. Count: nine heads. Shadows only, no puppets, no objects in frame",
+   "refs": [],
+   "batch": 2,
+   "shot": "D14",
+   "kind": "keyframe",
+   "note": "v1 (ref D14) copied the five-head layout; v2 has no reference. M4 notes 3: the heads all drop (D14 clip s44, first half), then this bigger hydra rises (clip D14_up reversed)",
+   "v": 2
   }
  },
  "kept": {
@@ -916,6 +975,10 @@
   "D33": 42,
   "D42a": "D42a_v2_s42",
   "D42b": 42,
-  "D42": "D42_v2_s43"
+  "D42": "D42_v2_s43",
+  "D41_1": 43,
+  "D41_2": 41,
+  "D41_3": 41,
+  "D14_up": "D14_up_v2_s41"
  }
 }
