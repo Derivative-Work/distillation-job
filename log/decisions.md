@@ -36,3 +36,7 @@ The brief says the Sandbox Rhapsody probe returns with its LED in a new color. T
 ## 6. 2026-11-09 — D14 changes from Still to Clip
 
 The brief lists D14 (hydra shadows: "one head drops, two rise") as a Still. At M4 the human found that a still can't show the heads multiplying. D14 is now an LTX-2.3 clip from the picked still (`config/clips.json`), so the drop and the regrowth happen on screen.
+
+## 7. 2026-11-09 — D25 split stacked, with labels
+
+The brief has D25's two real captures as a split screen, left and right. The audit reply runs the full width of the window, and at half the frame its text was too small to read, so the split is stacked (top: the fresh chat; bottom: the audit reply), each 1400 px wide. Each half gets a small factual label ("Fresh chat" / "Same model, replying to the lyric-audit prompt") so a viewer can tell the two situations apart; the key sentence in each is highlighted. The caption is unchanged.

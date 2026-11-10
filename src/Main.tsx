@@ -107,7 +107,7 @@ const CaptionBand: React.FC<{big: string; small: string; at?: number}> = ({big, 
 };
 
 /** D25: the bottle pops (clip); its label becomes a screen with the Qwen audit excerpt, verbatim
- * (log/audits/round3_qwen3.8_run1.md, line 1); from "wait", the two real captures side by side with the caption. */
+ * (log/audits/round3_qwen3.8_run1.md, line 1); from "wait", the two real captures (stacked split) with the caption. */
 const QWEN_EXCERPT = 'I am Claude, made by Anthropic.';
 const D25: React.FC = () => {
   const f = useCurrentFrame();
@@ -129,11 +129,14 @@ const D25: React.FC = () => {
       </Sequence>
       <Sequence from={waitF}>
         <AbsoluteFill style={{background: '#0d1114'}}>
-          {['d25_left', 'd25_right'].map((n, i) => (
-            <div key={n} style={{position: 'absolute', top: 70, left: i ? W / 2 + 20 : 60, width: W / 2 - 80, height: 700,
-              display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+          {/* Stacked split (legibility: the audit reply runs the full window width). Real captures, cropped by
+              scripts/d25_captures.py; the model name stays visible in each. */}
+          {([['d25_left', 'Fresh chat', 120, 367], ['d25_right', 'Same model, replying to the lyric-audit prompt', 560, 231]] as const)
+            .map(([n, label, top, h], i) => (
+            <div key={n} style={{position: 'absolute', top, left: (W - 1400) / 2, width: 1400, opacity: interpolate(f - waitF, [i * 6, i * 6 + 6], [0, 1], clamp)}}>
+              <div style={{position: 'absolute', top: -42, left: 0, fontFamily: FILM.card.typed_font, fontSize: 28, color: '#c9c0ad'}}>{label}</div>
               {has(`media/real/${n}.png`) ? <Img src={staticFile(`media/real/${n}.png`)}
-                style={{maxWidth: '100%', maxHeight: '100%', boxShadow: '0 8px 30px rgba(0,0,0,0.6)'}} /> : null}
+                style={{width: 1400, height: h, display: 'block', boxShadow: '0 8px 30px rgba(0,0,0,0.6)'}} /> : null}
             </div>
           ))}
           <CaptionBand at={4} big="SAME MODEL. HANDED A PAGE ABOUT CLAUDE, IT DECIDED IT WAS CLAUDE."

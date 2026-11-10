@@ -41,3 +41,6 @@ public/audio/
 takes_*.log
 public/media/picks/
 public/media/real/
+
+# D25 raw screenshots: show the human's other chat titles, name and LAN address; only the crops are used
+reference/d25_raw/

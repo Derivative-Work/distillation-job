@@ -75,3 +75,9 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "that hydra still doesn't look quite right -- it's okay if they all go down together (as in the previous shot you gave me), then make a new hydra with more heads come up. if it doesn't generate right as one prompt, this makes it possible to use two"
 - **Recorded:** the code-built hydra (entry 19) is dropped; D14 is now two generations joined (production log entry 20).
+
+## 13. 2026-11-09 — M4 approved; D25 captures supplied
+
+- **What:** "these are great. Screenshots are in ~/Downloads/distillation-job-qwen-screenshots" (on the round-3 excerpt and animatic). M4 closed.
+- **Supplied:** nine Open WebUI screenshots of `qwen3.8:27b` (2026-11-09 20:06–20:07) and two saved chat pages. Seven fresh "who made you" chats, all answering Qwen / Alibaba Group ("independently developed" in one, "developed" in the others); the "AI Distillation Lyric Audit" and "AI Distillation Song Audit" chats both say "I am Claude, made by Anthropic."
+- **Used:** left = 20-06-55 (the bare answer, as the human reported earlier); right = 20-06-31 (Song Audit; its opening is `log/audits/round3_qwen3.8_run1.md` line 1). Copied to `reference/d25_raw/` (git-ignored: the sidebar shows the human's other chat titles and name, the bar a LAN address).

@@ -3,7 +3,7 @@
 # ticker sound (not redistributed) and the two videos.
 set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
-dirs=(audio takes public/media/picks public/media/chat deliverables)
+dirs=(audio takes public/media/picks public/media/chat deliverables reference/d25_raw)
 existing=()
 for d in "${dirs[@]}"; do [ -d "$d" ] && existing+=("$d"); done
 # Frame sequences are never archived (brief): they regenerate from the logged commands, so they stay out of the

@@ -157,3 +157,9 @@ Direct edits, not suggestions, with the docs tools:
   - D14 = s44 frames 14–44 (the drop), then D14_up s41 reversed at 1.49×; 79 frames.
   - D41 = the three close-ups, about 53 frames each; 158 frames.
 - ComfyUI stopped (`kill` on its python PID, not the nohup wrapper's). Animatic, review copy and three-shot excerpt re-rendered (entry 18's commands).
+
+## 21. 2026-11-09 — D25 real captures
+
+- New `scripts/d25_captures.py` (replaces `scripts/placeholder_captures.py`): crops the two screenshots to the chat pane (no browser bar, sidebar or input box; the model name stays visible) and marks the key sentence with a multiplied highlighter stroke → `public/media/real/d25_{left,right}.png`.
+- `src/Main.tsx` D25: the captures stacked (one above the other) instead of side by side, at 1400 px wide: the audit reply runs the full window width and was too small at half width. Small labels: "Fresh chat" / "Same model, replying to the lyric-audit prompt". Caption as the brief.
+- `reference/d25_raw/` added to `.gitignore` and to `scripts/manifest.sh`'s directories.
