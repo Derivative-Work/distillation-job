@@ -68,3 +68,7 @@ The brief's D27 is a reprise of D15–D19 with twice the puppets. The human foun
 - "Stroll right out the door" (D27e): the crew walks out of the vault with crates; the last crate's tag reads FALLBACK (setting up the bridge's spiked batch).
 
 These nod to Anthropic's November 9, 2026 launch of Claude Fable 5.2 (released on a Monday; "strongest-ever protections against distillation attacks"; reasoning-extraction requests "blocked outright"; prices cut from $10/$50 to $8/$40 per million tokens; sources: anthropic.com/claude-fable-and-mythos-5-2 and the Claude support article on model switching). Following the guardrails and the conflict of interest (Anthropic is the main accuser, and Claude made this video), nothing is named, no figure from the launch appears, and no chip or claims-card row is added: Anthropic's own launch claims are unverified, and the closed audits never saw them. The human was told this (the agent's caution, accepted with "as discussed").
+
+## 13. 2026-11-10 — The counter freezes at 151,000,000 (M6)
+
+The brief has the exchange counter keep ticking after the breakdown, "the counter keeps ticking" through D44. The M6 source check found that the 3-million-a-day rate it ticked at was the May–July peak of one campaign, and Anthropic says (Oct 12) its defenses have since cut harvested data by 90–99%, so the tick presented a past peak as an ongoing rate, in the accuser's favour. The human chose to freeze it at 151,000,000 in the corner and on D44.

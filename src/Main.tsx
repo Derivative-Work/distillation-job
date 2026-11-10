@@ -94,7 +94,7 @@ const STAMPS = [['Chorus 1', 0], ['Chorus 1', 4], ['Chorus 2', 0], ['Chorus 2', 
 const OUTRO_STAMP = at('Outro', 1, 0);
 
 /** D28–D44c exchange counter: slams in at "Sixteen million!", rolls through the three figures, shrinks to a corner at
- * D31 and stays, ticking at about 3 million a day (35 a second) to the end of the song. */
+ * D31 and stays, at 151,000,000 (frozen: decision 13). */
 const COUNTER_HITS = [1, 2, 3].map((l) => at('Breakdown', l, 0));
 const COUNTER_VALS = [16_000_000, 28_800_000, 151_000_000];
 const ExchangeCounter: React.FC = () => {
@@ -102,8 +102,9 @@ const ExchangeCounter: React.FC = () => {
   if (f < COUNTER_HITS[0]) return null;
   let v = 0;
   COUNTER_HITS.forEach((h, i) => { if (f >= h) v = rollValue(f, h, h + 14, i ? COUNTER_VALS[i - 1] : 0, COUNTER_VALS[i]); });
-  const tick0 = COUNTER_HITS[2] + 14;
-  if (f > tick0) v = COUNTER_VALS[2] + Math.floor(((f - tick0) / FPS) * 35);
+  const tick0 = COUNTER_HITS[2] + 14;   // the roll to 151M ends here
+  // no tick after 151M (human, M6, decision 13: 3 million a day was a May-July peak, not an ongoing rate)
+  if (f > tick0) v = COUNTER_VALS[2];
   const slam = interpolate(f, [COUNTER_HITS[0], COUNTER_HITS[0] + 3], [2.2, 1], {easing: Easing.in(Easing.quad), ...clamp});
   const shrinkAt = sec2f(T('D31'));
   const k = interpolate(f, [shrinkAt, shrinkAt + 10], [0, 1], {easing: Easing.inOut(Easing.cubic), ...clamp});
@@ -377,12 +378,10 @@ const D36: React.FC = () => {
   );
 };
 
-/** D44: "(Allegedly.)": one last stamp over the ticking counter, full size. */
+/** D44: "(Allegedly.)": one last stamp over the counter, full size, frozen at 151,000,000 (decision 13). */
 const D44: React.FC = () => {
-  const f = useCurrentFrame();
   const t0 = sec2f(T('D44'));
-  const tick0 = COUNTER_HITS[2] + 14;
-  const v = COUNTER_VALS[2] + Math.floor(((f + t0 - tick0) / FPS) * 35);
+  const v = COUNTER_VALS[2];
   return (
     <AbsoluteFill style={{background: '#16343a'}}>
       <Counter value={v} x={0.5} y={0.5} scale={1.4} />
@@ -469,7 +468,7 @@ const D45: React.FC = () => {
         );
       })}
       <div style={{position: 'absolute', right: 30, top: 24, fontFamily: 'monospace', fontSize: 20, color: '#c8282c'}}>
-        DRAFT · sources to be reopened and checked at M6
+        Sources checked Nov 10, 2026 · legal review pending
       </div>
     </AbsoluteFill>
   );

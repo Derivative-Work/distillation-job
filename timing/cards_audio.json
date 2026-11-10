@@ -24,9 +24,9 @@
   "max_reduction_db": 6.95,
   "time_reducing_s": 20.75
  },
- "start_song_s": 92.206,
+ "start_song_s": 85.635,
  "preroll_s": 4.0,
- "duration_s": 172.594,
+ "duration_s": 179.165,
  "peak_dbfs": -0.1,
  "postfilter": "python -m postfilter.infer --in /home/antiai-aiclub/Projects/distillation-allegedly/audio/cards/cards_bounce_raw.wav --out /home/antiai-aiclub/Projects/distillation-allegedly/audio/cards/cards_bounce_deslop.wav --ckpt /home/antiai-aiclub/Code/music-deslop-data/release/m6f_10k.safetensors --source suno",
  "postfilter_repo": "/home/antiai-aiclub/Code/music-deslop",

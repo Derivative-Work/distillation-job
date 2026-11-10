@@ -253,3 +253,10 @@ Direct edits, not suggestions, with the docs tools:
 
 - `config/shorts.json` `monday`: 105.349–157.919 s (the bar before "New model drops on Monday" through chorus 2, out on D27's last frame), 52.6 s. Includes D25; at Short size its caption and disclaimer were unreadable, so `src/Shorts.tsx` repeats them at full size over the picture's band while they're up (`D25_BAND`, `D25_CAPTION` exported from Main). Nothing names a lab or the launch (decision 12).
 - `npx remotion render src/index.ts Short-monday deliverables/distillation_job_short_monday.mp4 --concurrency=8 --gl=swiftshader --crf=17`; SRT `python3 -I scripts/export_srt.py short monday` (19 cues).
+
+## 35. 2026-11-10 — M6: sources reopened, corrections applied
+
+- `log/m6/checklist.md` (every claim on the card, every chip, every on-screen figure, with its sources); `log/m6/source_check_2026-11-10.md` (a subagent reopened every source and quoted each; the agent re-verified the three most consequential findings itself); `log/m6/corrections_2026-11-10.md` (what changed and why). 20 confirmed as worded, 13 reworded, 0 cut; the counter's tick removed (decision 13).
+- Card and chips now cite the CISA advisory page and Reuters (the OpenAI memo) in place of GlobalSecurity and Forkast.
+- The M6 wording lengthened D45, so the end-section bounce starts two downbeats earlier (`scripts/cards_audio.py` START_S 85.635; 179.2 s; post-filter fallback over the outro at 2:25–2:29 (56%) and 2:36–2:47 (34%)). The claims card's tag now reads "Sources checked Nov 10, 2026 · legal review pending". Finals and all four Shorts re-rendered (entry 30's commands; `Short-monday` too).
+- Lawyer review packet (Claude Doc): https://claude.ai/artifact/7RgwQTXumNy6ZnTdQ6LPm7

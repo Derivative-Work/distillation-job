@@ -142,3 +142,8 @@ Append-only. Every human action: when, what, and why.
 ## 26. 2026-11-10 — Finals approved so far; a news-timed Short
 
 - **What:** "this is great. also make me a short from "new model Monday" through the end of the following chorus (timed for the news)".
+
+## 27. 2026-11-10 — M5 approved; M6 counter decision
+
+- **What:** "okay M5 is good, keep going". M5 closed.
+- **M6:** asked whether the counter should keep ticking at the peak rate (log/m6/corrections_2026-11-10.md, S1): "Freeze at 151M". Decision 13.
