@@ -166,7 +166,7 @@ export const Stamp: React.FC<{at: number; text?: string; x?: number; y?: number;
   const scale = 2.6 - 1.6 * k;
   const opacity = interpolate(f, [at, at + 1, at + s.slam_frames + holdFrames, at + s.slam_frames + holdFrames + 6], [0, 0.95, 0.95, 0], clamp);
   const id = `ink-${at}`;
-  const em = 0.74 * text.length + 0.6;                 // Alfa Slab One advance per character, plus the frame's margin
+  const em = 0.8 * text.length + 0.6;                  // Alfa Slab One's advance per character (generous), plus the frame's margin
   const size = Math.min(size0, maxWidth / em);
   const tw = size * em, th = size * 1.5;
   return (
@@ -185,8 +185,10 @@ export const Stamp: React.FC<{at: number; text?: string; x?: number; y?: number;
           <rect x={-tw / 2} y={-th / 2} width={tw} height={th} rx={size * 0.08} fill="#f1e9d6" fillOpacity={0.9} stroke={s.ink} strokeWidth={size * 0.09} />
           <rect x={-tw / 2 + size * 0.15} y={-th / 2 + size * 0.15} width={tw - size * 0.3} height={th - size * 0.3}
             fill="none" stroke={s.ink} strokeWidth={size * 0.03} />
-          <text x={0} y={size * 0.36} textAnchor="middle" fill={s.ink} style={{fontFamily: FILM.card.title_font,
-            fontSize: size, letterSpacing: size * 0.02}}>{text}</text>
+          {/* textLength fits the word to the inner frame exactly, whatever its letters' widths (human, 2026-11-09:
+              TRANSFORMATIVE ran over its border with the per-character estimate alone) */}
+          <text x={0} y={size * 0.36} textAnchor="middle" fill={s.ink} textLength={tw - size * 0.62} lengthAdjust="spacingAndGlyphs"
+            style={{fontFamily: FILM.card.title_font, fontSize: size}}>{text}</text>
         </g>
       </svg>
     </AbsoluteFill>

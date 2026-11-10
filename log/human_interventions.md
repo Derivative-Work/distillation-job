@@ -112,3 +112,7 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "works for me. let's also add credits music: much like how Sandbox Rhapsody did it, make a new bounce that mutes the vocals and run the postfilter atop that. show a darkened version of the relevant shots from the main video behind the text for each card"
 - The agent ran the post-filter on the bounce at the human's direction (the master's run was the agent's too, on the human's instruction: production log 5).
+
+## 20. 2026-11-09 — Stamp border
+
+- **What:** ""TRANSFORMATIVE" is overlapping its border"

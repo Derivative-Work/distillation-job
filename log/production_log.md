@@ -204,3 +204,7 @@ Direct edits, not suggestions, with the docs tools:
   - Level against the master over the same song spans (RMS): verse 2 and chorus 2 -21.2 dB (master -18.4), breakdown -22.5 (-19.6), final chorus -18.4 (-15.6), ending -16.1 (-14.6). About 3 dB under: no vocals, plus the post-filter's scaling. Kept, as in Sandbox Rhapsody: a quieter bed under reading.
 - **Backdrops** (`config/claims_card.json` `backdrop` per page and `end_backdrop`; `src/Main.tsx` `Backdrop`): each card's shots played in turn through the film layer at 30% brightness, with a feathered dark pool behind the text (a wider one under the tables) and a soft text shadow. Shots: intro D27a; the other side D44a; February D03, D07, D11, D21, D23; June-September D31-D34; Google D10; identity mix-ups D25; the flip D39b, D40; disclosure D44b; credits D44c. D46 (the real audit log) has none.
 - Main: 10,287 frames (428.6 s). Checked: 9 card frames for legibility; the audio seam (the song decays to silence at 263.5 s, the bed enters on its downbeat at 264.8 s) and the end (the song's last hit decays out by 428.6 s). Animatic re-rendered (entry 18's commands).
+
+## 28. 2026-11-09 — Stamp text fitted to its frame
+
+- `Stamp` (devices.tsx): the frame is still sized from a per-character estimate (now 0.8 em, generous), and the word is set with SVG `textLength` (`spacingAndGlyphs`) to the inner frame's width, so wide letters can't cross the border. Checked: TRANSFORMATIVE, NATIONAL SECURITY, ALLEGEDLY!, ALLEGEDLY. Animatic re-rendered (entry 18's commands).
