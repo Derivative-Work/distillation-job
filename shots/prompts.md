@@ -417,3 +417,9 @@ ComfyUI template `video_ltx2_3_i2v` (`ltx-2.3-22b-dev-fp8` + distilled LoRA 0.5,
 | D12_v2 (refs: ref_still) | 42 | 1792×1008 | `takes/stills/D12/D12_v2_s42.png` | 74.1 | 2026-11-09T20:37:39-05:00 | pending pick |
 | D12_v2 (refs: ref_still) | 43 | 1792×1008 | `takes/stills/D12/D12_v2_s43.png` | 74.3 | 2026-11-09T20:38:54-05:00 | pending pick |
 | D12_v2 (refs: ref_still) | 44 | 1792×1008 | `takes/stills/D12/D12_v2_s44.png` | 74.3 | 2026-11-09T20:40:08-05:00 | pending pick |
+| D27a_v2 (refs: ref_teller, ref_crew) | 41 | 1792×1008 | `takes/stills/D27a/D27a_v2_s41.png` | 121.4 | 2026-11-09T20:44:06-05:00 | pending pick |
+| D27a_v2 (refs: ref_teller, ref_crew) | 42 | 1792×1008 | `takes/stills/D27a/D27a_v2_s42.png` | 104.2 | 2026-11-09T20:45:51-05:00 | pending pick |
+| D27a_v2 (refs: ref_teller, ref_crew) | 43 | 1792×1008 | `takes/stills/D27a/D27a_v2_s43.png` | 104.3 | 2026-11-09T20:47:35-05:00 | pending pick |
+| D27a_v2 (refs: ref_teller, ref_crew) | 44 | 1792×1008 | `takes/stills/D27a/D27a_v2_s44.png` | 104.2 | 2026-11-09T20:49:19-05:00 | pending pick |
+| D12 | `takes/stills/D12/D12_v2_s44.png` | 43 | `takes/clips/D12/D12_s43.mp4` | 29.2 | 2026-11-09T20:49:59-05:00 | pending pick |
+| D12 | `takes/stills/D12/D12_v2_s44.png` | 44 | `takes/clips/D12/D12_s44.mp4` | 10.3 | 2026-11-09T20:50:09-05:00 | pending pick |

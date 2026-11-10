@@ -170,3 +170,6 @@ Direct edits, not suggestions, with the docs tools:
 - `Stamp` (devices.tsx): Alfa Slab One letters on a cream paper patch, lighter distressing, `maxWidth` fit. D39b: both stamps 90 px fitted to 820 px, TRANSFORMATIVE in a darker gold (#a8730a) so it reads on the paper.
 - `CalendarPage`: month font sized to fit the page; optional year line. FEB and JUN show 2026.
 - D12 v2 (open bottle under the spout, corked ones beside) seeds 41–44 done; D27a v2 (scorecard slides out under the bars) not generated yet: the stills run was stopped by the low-memory guard. ComfyUI stopped (it kept about 35 GB after the stop).
+- (cont., after the session restart with the memory env var) D12: kept v2 **s44** (an open bottle under the spout, corked ones beside it); clip seeds 43–44, kept **s44** (the stream pours into the open bottle). `src/Main.tsx` `D12`: REASONING and SMALL BATCH written onto two corked bottles' labels, positions measured on the clip's first and last frames and interpolated (the camera drifts), with a slow 1.25× push-in; replaces the floating caption.
+- D27a: v2 seeds 41–44; kept **s42** (the scorecard slides out of a slot under the bars).
+- ComfyUI stopped. Animatic re-rendered: 440.3 s, as the music now starts at frame 0 (was 450.3 s). Review copy as before.

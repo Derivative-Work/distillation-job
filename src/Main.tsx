@@ -198,10 +198,7 @@ const Song: React.FC = () => {
       <Sequence {...shot('D07')}><ShotStill id="D07" /></Sequence>
       <Sequence {...shot('D08')}><CrashZoom at={4} x={0.5} y={0.55} scale={1.35}><ShotClip id="D08" len={len('D08')} /></CrashZoom></Sequence>
       {['D09', 'D10', 'D11'].map((id) => <Sequence key={id} {...shot(id)}><ShotClip id={id} len={len(id)} /></Sequence>)}
-      <Sequence {...shot('D12')}>
-        <ShotClip id="D12" len={len('D12')} />
-        <Typed text="REASONING · SMALL BATCH" at={4} x={0.68} y={0.9} size={34} rotate={-1} />
-      </Sequence>
+      <Sequence {...shot('D12')}><D12 /></Sequence>
       <Sequence {...shot('D13')}><D13 /></Sequence>
       <Sequence {...shot('D14')}><ShotClip id="D14" len={len('D14')} /></Sequence>
       {['D15', 'D16'].map((id) => <Sequence key={id} {...shot(id)}><ShotClip id={id} len={len(id)} /></Sequence>)}
@@ -273,6 +270,37 @@ const Song: React.FC = () => {
       <ExchangeCounter />
       {STAMPS.map((h) => <Stamp key={h} at={h} />)}
     </>
+  );
+};
+
+/** D12: the labels are written onto two of the corked bottles (human, M4 notes 4: the bottle being filled is open; the
+ * label goes on the ones already sealed). Label boxes measured on the clip's first and last frames (clip px, 1280x704)
+ * and interpolated, since the camera drifts; a slow push-in keeps the words readable. */
+const D12_LABELS: [string, [number, number], [number, number]][] = [
+  ['REASONING', [796, 581], [808, 597]],
+  ['SMALL BATCH', [886, 573], [903, 589]],
+];
+const D12: React.FC = () => {
+  const f = useCurrentFrame();
+  const n = CLIP_FRAMES[clipSrc('D12')] ?? 73, p = Math.min(1, f / (n - 1));
+  const k = H / 704, ox = (W - 1280 * k) / 2;                 // the clip is cover-fit: 1280x704 -> frame px
+  const zoom = interpolate(f, [0, len('D12')], [1, 1.25], {easing: Easing.inOut(Easing.sin), ...clamp});
+  return (
+    <AbsoluteFill style={{transform: `scale(${zoom})`, transformOrigin: `${(860 * k + ox) / W * 100}% ${(610 * k) / H * 100}%`}}>
+      <ShotClip id="D12" len={len('D12')} />
+      {D12_LABELS.map(([t, a, b]) => {
+        const x = a[0] + (b[0] - a[0]) * p, y = a[1] + (b[1] - a[1]) * p;
+        const words = t.split(' ');
+        return (
+          <div key={t} style={{position: 'absolute', left: x * k + ox, top: y * k, width: 68 * k, height: 58 * k, display: 'flex',
+            flexDirection: 'column', alignItems: 'center', justifyContent: 'center', fontFamily: FILM.card.typed_font,
+            fontSize: words.length > 1 ? 30 : 22, lineHeight: 1.0, fontWeight: 700, color: '#21160e', letterSpacing: -1, textAlign: 'center',
+            mixBlendMode: 'multiply', opacity: interpolate(f, [2, 6], [0, 0.95], clamp)}}>
+            {words.map((w) => <span key={w}>{w}</span>)}
+          </div>
+        );
+      })}
+    </AbsoluteFill>
   );
 };
 
