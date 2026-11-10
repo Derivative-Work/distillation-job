@@ -659,6 +659,33 @@
      ]
     }
    ]
+  },
+  "D04": {
+   "kind": "sign",
+   "type": "still",
+   "font": "slab",
+   "surfaces": [
+    {
+     "box": [
+      927,
+      580,
+      330,
+      296,
+      0.4
+     ],
+     "text": "PLEASE",
+     "fill": 0.9
+    },
+    {
+     "at": [
+      945,
+      850
+     ],
+     "kind": "badge",
+     "font": "typed",
+     "max_area": 0.05
+    }
+   ]
   }
  }
 }

@@ -134,3 +134,7 @@ Append-only. Every human action: when, what, and why.
 ## 24. 2026-11-10 — Lettering pass
 
 - **What:** "Something seems to have been lost in translation: there's lots of blank sheets that have not been filled in, like on the puppets, license plates, the vault, etc. Weren't these in the brief", then "yes go ahead" on the agent's plan (letter them into the takes; fictional numbers; the brief's deliberate blanks stay blank).
+
+## 25. 2026-11-10 — PLEASE card; no doubled captions
+
+- **What:** "The "PLEASE" from before isn't aligned right either; I figured it would have been handled in this pass instead" and "Remove lyrics from the ransom-note captions where they are already on-screen for other reasons (i.e. "ALLEGEDLY" and "NO WEIGHTS WERE HARMED...")".

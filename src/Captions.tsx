@@ -21,7 +21,12 @@ type Line = {a: number; b: number; clips: Clip[]};
 const G = (rule as any).groups as {max_words: number; gap_s: number};
 
 export const LINES: Line[] = (() => {
-  const lines = (tmap as any).sections.flatMap((s: any) => s.lines) as {start: number; end: number; words: Word[]}[];
+  // words already on screen (a stamp, a card) are left out (config/captions.json "omit")
+  const omit = ((rule as any).omit ?? []) as {section: string; line: number; from?: number}[];
+  const lines = (tmap as any).sections.flatMap((s: any) => s.lines.map((l: any, i: number) => {
+    const o = omit.find((q) => q.section === s.name && q.line === i);
+    return o ? {...l, words: o.from === undefined ? [] : l.words.slice(0, o.from)} : l;
+  })).filter((l: any) => l.words.length) as {start: number; end: number; words: Word[]}[];
   let k = 0;
   return lines.map((l, li) => {
     const groups: Word[][] = [];
@@ -34,7 +39,7 @@ export const LINES: Line[] = (() => {
     });
     if (cur.length) groups.push(cur);
     const nxt = li + 1 < lines.length ? lines[li + 1].start : 1e9;
-    return {a: l.start, b: Math.max(l.start + (rule as any).min_s, Math.min(nxt, l.end + (rule as any).tail_s)),
+    return {a: l.start, b: Math.max(l.start + (rule as any).min_s, Math.min(nxt, l.words[l.words.length - 1].end + (rule as any).tail_s)),
       clips: groups.map((g) => ({a: g[0].start, text: g.map((w) => w.w).join(' '), key: k++}))};
   });
 })();

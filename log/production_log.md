@@ -242,3 +242,9 @@ Direct edits, not suggestions, with the docs tools:
 - Lettered (kept → `*_lettered`): clips D02, D04e, D05_1–4, D10, D13, D19 and its second take, D21, D23, D25, D27, D34, D38, D42a, D44a, D44c; stills D03, D04c, D04d (OPEN), D06, D07, D44b (OPEN, ticket).
 - Left blank: D42's dancers (no badge tracked long enough through the dance), one badge each in D02, D23, D25, D34 and D44c (hidden or turned too often), the D39b/D40/D41 close-ups' cards, the corkboard's thousands of cards (D03, D04a), and on purpose the Feds' memo (no seal), D23's name tag (blurred) and D24's blank org chart (brief). D27a's scorecard keeps its generated tally grid.
 - Finals re-rendered (entry 30's commands).
+
+## 33. 2026-11-10 — PLEASE on the card; captions skip on-screen words
+
+- D04: PLEASE is now lettered onto the leader's card (`config/lettering.json`: a hand-given box, as the gloves hide the card's sides; Alfa Slab One), and the lanyard gets a number; the floating typed PLEASE is removed from `src/Main.tsx`. `scripts/letter.py` now always reads the plain take (a rerun had lettered over a lettered still) and takes a per-surface `kind` and `box`.
+- Captions (`config/captions.json` `omit`): the clippings leave out each chorus "(allegedly!)" (the stamp), "Their count, not ours." (D27a's typed strip), "No weights were harmed…" (D43's card) and "(Allegedly.)" (D44's stamp). The SRT keeps every word.
+- Finals re-rendered (entry 30's commands).

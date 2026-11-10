@@ -212,7 +212,6 @@ const Song: React.FC = () => {
       </Sequence>
       <Sequence {...shot('D04')}>
         <ShotStill id="D04" />
-        <Typed text="PLEASE" at={6} x={0.5} y={0.5} size={96} rotate={0} perChar={2} />
       </Sequence>
       <Sequence {...shot('D04a')}>
         <ShotStill id="D04a" />

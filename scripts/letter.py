@@ -180,10 +180,12 @@ def letter_frames(frames, spec, rnd, n_total):
     out = [fr.copy() for fr in frames]
     texts = []
     for i, srf in enumerate(spec["surfaces"]):
-        text = srf.get("text") or card_text(spec["kind"], rnd, spec, i)
+        text = srf.get("text") or card_text(srf.get("kind", spec["kind"]), rnd, {k: v for k, v in spec.items() if k != "text"}, i)
         texts.append(text)
         tr = {}
-        for seed in srf.get("seeds", [srf]):           # several seeds (e.g. both ends of a clip) merge into one track
+        if "box" in srf:                                 # a card whose edges are hidden (held in gloves): given by hand
+            tr = {f: tuple(srf["box"]) + (1.0,) for f in range(n_total)}
+        for seed in ([] if "box" in srf else srf.get("seeds", [srf])):           # several seeds (e.g. both ends of a clip) merge into one track
             for f, b in track_surface(frames, {**srf, **seed}).items():
                 tr.setdefault(f, b)
         fs = sorted(tr)                                  # bridge short gaps (motion blur) by interpolating
@@ -209,7 +211,7 @@ def run(shot, preview=False):
     rnd = random.Random(f"{SEEDS['main']}-{shot}")
     src_id = spec.get("source", shot)
     if src_id in CLIPS and spec.get("type", "clip") == "clip":
-        src = Path(CLIPS[src_id])
+        src = Path(CLIPS[src_id].replace("_lettered", ""))   # always from the plain take
         w, h = 1280, 704
         raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(src), "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
                              capture_output=True, check=True).stdout
@@ -227,7 +229,7 @@ def run(shot, preview=False):
         p.stdin.close(); p.wait()
         return dst, len(keep), texts
     k = STILLS[src_id]
-    src = Path(f"takes/stills/{src_id}/{k if isinstance(k, str) else f'{src_id}_s{k}'}.png")
+    src = Path(f"takes/stills/{src_id}/{k if isinstance(k, str) else f'{src_id}_s{k}'}.png".replace("_lettered", ""))
     fr = np.asarray(Image.open(src).convert("RGB"))
     out, keep, texts = letter_frames([fr], spec, rnd, 1)
     dst = src.with_name(src.stem.replace("_lettered", "") + "_lettered.png")
