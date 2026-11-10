@@ -110,7 +110,10 @@
  "pages": [
   {
    "kind": "text",
-   "text": "The following figures and attributions are claims made by the named organizations or government agencies. They are not findings of liability. Some are disputed, and the underlying evidence has not been made public in full."
+   "text": "The following figures and attributions are claims made by the named organizations or government agencies. They are not findings of liability. Some are disputed, and the underlying evidence has not been made public in full.",
+   "backdrop": [
+    "D27a"
+   ]
   },
   {
    "kind": "text",
@@ -124,6 +127,9 @@
      "name": "Asia Times",
      "url": "https://asiatimes.com/2026/09/us-calls-for-ai-poisoning-to-sabotage-chinas-model-distillation/"
     }
+   ],
+   "backdrop": [
+    "D44a"
    ]
   },
   {
@@ -174,7 +180,14 @@
     ]
    ],
    "note": "Anthropic's attributions rest on its own telemetry.",
-   "hold_s": 20
+   "hold_s": 20,
+   "backdrop": [
+    "D03",
+    "D07",
+    "D11",
+    "D21",
+    "D23"
+   ]
   },
   {
    "kind": "table",
@@ -209,7 +222,13 @@
      "Forkast"
     ]
    ],
-   "hold_s": 16
+   "hold_s": 16,
+   "backdrop": [
+    "D31",
+    "D32",
+    "D33",
+    "D34"
+   ]
   },
   {
    "kind": "text",
@@ -219,6 +238,9 @@
      "name": "Android Authority",
      "url": "https://www.androidauthority.com/google-gemini-clone-attempts-3640480"
     }
+   ],
+   "backdrop": [
+    "D10"
    ]
   },
   {
@@ -229,6 +251,9 @@
      "name": "TechCrunch",
      "url": "https://techcrunch.com/2024/12/27/why-deepseeks-new-ai-model-thinks-its-chatgpt/"
     }
+   ],
+   "backdrop": [
+    "D25"
    ]
   },
   {
@@ -239,10 +264,23 @@
      "name": "Lawfare",
      "url": "https://www.lawfaremedia.org/article/the-ai-model-distillation-paradox"
     }
+   ],
+   "backdrop": [
+    "D39b",
+    "D40"
    ]
   }
  ],
  "_doc_pages": "M4 notes 6 (human, 2026-11-09): with the in-video citation chips (config/citations.json) carrying the figures, dates and sources, the card is reordered and condensed into 'pages': intro; the other side (so a denial sits next to the names early); two tables (date, who claimed it, who was accused, the claim, the source) replacing items 1-3 and 5-7; then Google, identity mix-ups and the flip, unchanged. 'items' keeps the brief's wording as the source of record. New on the card: the Moonshot metadata row (from the brief's claims table, source Computing; it was in the lyrics and now has a chip). Table pages hold for hold_s (they are scanned, not read word by word).",
  "credits": "Lyrics by Claude. Music by Suno. Video by Claude Code, with stills from FLUX.2 [dev] (Black Forest Labs) and motion from LTX-2.3 (Lightricks). Sources, audits and production log: github.com/Derivative-Work/distillation-job",
- "_doc_credits": "D47 is two cards (brief: 'Credits and disclosures'): end_card (the brief's disclosure), then credits: the series credit line (Folks Like Us, Buy It on Margin: 'Lyrics by Claude. Music by Suno. Video by Claude Code.') plus the generators used for the pictures, named in a video about models built from other models' work. Added 2026-11-09 (human: 'still missing the credits')."
+ "_doc_credits": "D47 is two cards (brief: 'Credits and disclosures'): end_card (the brief's disclosure), then credits: the series credit line (Folks Like Us, Buy It on Margin: 'Lyrics by Claude. Music by Suno. Video by Claude Code.') plus the generators used for the pictures, named in a video about models built from other models' work. Added 2026-11-09 (human: 'still missing the credits').",
+ "end_backdrop": {
+  "disclosure": [
+   "D44b"
+  ],
+  "credits": [
+   "D44c"
+  ]
+ },
+ "_doc_backdrop": "Backdrops (human, 2026-11-09, after Sandbox Rhapsody: 'show a darkened version of the relevant shots from the main video behind the text for each card'): each page's 'backdrop' lists the shots it refers to, played in turn, darkened, with a feathered dark pool behind the text. Intro: D27a (their count, not ours); the other side: D44a (one crew denies it); February: D03, D07, D11, D21, D23 (accounts, shared cards, step-by-step, half the traffic, metadata); June-September: D31-D34 (the bigger van, the Feds' warning, the switch, the spiked batch); Google: D10 (millions of polite requests); identity mix-ups: D25 (the bottle that says it's someone else); the flip: D39b, D40. End card: D44b (still selling tickets), D44c (the pull back). D46 (the real audit log) has none."
 }

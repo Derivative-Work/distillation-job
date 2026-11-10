@@ -107,3 +107,8 @@ Append-only. Every human action: when, what, and why.
 - **Recorded:** decision 11; rig copied read-only (kepler unchanged).
 - Then: "look deeper in there, there's a startled Switch": the mouth now matches Default On's own startled Switch (production log 26).
 - Then: "the gasp is rendered as a hole, causing the curtain to peek through -- the "E" mouth has a background color; use that"
+
+## 19. 2026-11-09 — Credits music and card backdrops
+
+- **What:** "works for me. let's also add credits music: much like how Sandbox Rhapsody did it, make a new bounce that mutes the vocals and run the postfilter atop that. show a darkened version of the relevant shots from the main video behind the text for each card"
+- The agent ran the post-filter on the bounce at the human's direction (the master's run was the agent's too, on the human's instruction: production log 5).

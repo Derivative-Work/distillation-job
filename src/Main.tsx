@@ -3,6 +3,7 @@ import {AbsoluteFill, Audio, Easing, Freeze, Img, interpolate, Sequence, staticF
 import claims from '../config/claims_card.json';
 import chat from '../config/chat_capture.json';
 import citations from '../config/citations.json';
+import cardsAudio from '../timing/cards_audio.json';
 import manifest from '../config/picks_manifest.json';
 import descriptions from '../config/shot_descriptions.json';
 import {FILM, FPS, H, holdS, sec2f, SHOTS, TM, W, word} from './config';
@@ -27,13 +28,22 @@ const MUSIC_END = 264.8;
 /* ---------- lengths of the parts around the music ---------- */
 const D46_S = 32;
 const factHold = (t: string) => Math.max(4, holdS(t));
-type Page = {kind: 'text'; text: string; sources?: {name: string}[]} |
-  {kind: 'table'; title: string; cols: string[]; rows: string[][]; note?: string; hold_s: number};
+type Page = ({kind: 'text'; text: string; sources?: {name: string}[]} |
+  {kind: 'table'; title: string; cols: string[]; rows: string[][]; note?: string; hold_s: number}) & {backdrop?: string[]};
 const PAGES = claims.pages as unknown as Page[];
 const pageFrames = (pg: Page) => (pg.kind === 'table' ? sec2f(pg.hold_s) : sec2f(factHold(pg.text))) + 12;
 const D45_FRAMES = PAGES.reduce((a, pg) => a + pageFrames(pg), 0);
 const D47_PAGES = [claims.end_card, claims.credits];
-const D47_FRAMES = D47_PAGES.reduce((a, t) => a + sec2f(Math.max(4, holdS(t))) + 12, 0);
+const D47_BACKDROPS = [claims.end_backdrop.disclosure, claims.end_backdrop.credits];
+/* The end section's music (scripts/cards_audio.py: the stems without vocals from a downbeat at 100.97 s, post-filtered)
+ * ends with the song's own ending; the last credit holds until it does. */
+const CARDS_AUDIO_F = sec2f(cardsAudio.duration_s);
+const D47_HOLDS = (() => {
+  const h = D47_PAGES.map((t) => sec2f(Math.max(4, holdS(t))) + 12);
+  h[h.length - 1] = Math.max(h[h.length - 1], CARDS_AUDIO_F - D45_FRAMES - sec2f(D46_S) - h.slice(0, -1).reduce((a, b) => a + b, 0));
+  return h;
+})();
+const D47_FRAMES = D47_HOLDS.reduce((a, b) => a + b, 0);
 const MUSIC = sec2f(MUSIC_END);
 export const MAIN_FRAMES = MUSIC + D45_FRAMES + sec2f(D46_S) + D47_FRAMES;
 
@@ -391,6 +401,28 @@ const D01: React.FC = () => {
   );
 };
 
+/** Behind each end-section card, the shots it refers to, in turn, darkened, with a feathered dark pool where the text
+ * sits (after Sandbox Rhapsody's card backdrops: 30% picture, a 60%-black pool). */
+const Backdrop: React.FC<{ids: string[]; dur: number; pool?: 'centre' | 'full'}> = ({ids, dur, pool = 'centre'}) => {
+  const seg = Math.ceil(dur / ids.length);
+  return (
+    <AbsoluteFill>
+      <AbsoluteFill style={{filter: 'brightness(0.3) saturate(0.85)'}}>
+        <FilmLayer>
+          {ids.map((id, i) => (
+            <Sequence key={id + i} from={i * seg} durationInFrames={seg}>
+              {has(clipSrc(id)) ? <ShotClip id={id} len={seg} /> : <ShotStill id={id} />}
+            </Sequence>
+          ))}
+        </FilmLayer>
+      </AbsoluteFill>
+      <AbsoluteFill style={{background: pool === 'full'
+        ? 'radial-gradient(ellipse 70% 62% at 50% 48%, rgba(0,0,0,0.62), rgba(0,0,0,0.25) 100%)'
+        : 'radial-gradient(ellipse 46% 40% at 50% 50%, rgba(0,0,0,0.6), rgba(0,0,0,0) 100%)'}} />
+    </AbsoluteFill>
+  );
+};
+
 /** D45: the claims card, white on black (config/claims_card.json "pages"; condensed at M4 notes 6 now that the
  * in-video chips carry the figures): text pages one at a time, and two tables of who claimed what about whom. */
 const D45: React.FC = () => {
@@ -402,6 +434,7 @@ const D45: React.FC = () => {
         const from = a; a += d;
         return (
           <Sequence key={i} from={from} durationInFrames={d}>
+            {pg.backdrop ? <Backdrop ids={pg.backdrop} dur={d} pool={pg.kind === 'table' ? 'full' : 'centre'} /> : null}
             {pg.kind === 'table' ? <ClaimsTable page={pg} />
               : <FactPage text={pg.text} sources={(pg.sources ?? []).map((s) => s.name).join(' · ')} />}
           </Sequence>
@@ -417,7 +450,7 @@ const FactPage: React.FC<{text: string; sources: string}> = ({text, sources}) =>
   const f = useCurrentFrame();
   const o = interpolate(f, [0, 8], [0, 1], clamp);
   return (
-    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', padding: '0 220px', opacity: o}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', padding: '0 220px', opacity: o, textShadow: '0 2px 10px rgba(0,0,0,0.9)'}}>
       <div style={{fontFamily: 'Old Standard TT', fontSize: text.length > 260 ? 44 : 52, lineHeight: 1.4, color: '#fff', textAlign: 'left'}}>{text}</div>
       {sources ? <div style={{fontFamily: 'Old Standard TT', fontSize: 30, color: '#9a9a9a', marginTop: 36, alignSelf: 'flex-start'}}>
         Source: {sources}</div> : null}
@@ -430,7 +463,7 @@ const ClaimsTable: React.FC<{page: Extract<Page, {kind: 'table'}>}> = ({page}) =
   const widths = ['14%', '17%', '17%', '36%', '16%'];
   const cell: React.CSSProperties = {padding: '14px 16px', verticalAlign: 'top', borderTop: '1px solid #3a3a3a'};
   return (
-    <AbsoluteFill style={{padding: '70px 110px', opacity: o, fontFamily: 'Old Standard TT', color: '#fff'}}>
+    <AbsoluteFill style={{padding: '70px 110px', opacity: o, fontFamily: 'Old Standard TT', color: '#fff', textShadow: '0 2px 8px rgba(0,0,0,0.95)'}}>
       <div style={{fontSize: 46, marginBottom: 22}}>{page.title}</div>
       <table style={{borderCollapse: 'collapse', width: '100%', fontSize: 27, lineHeight: 1.3}}>
         <thead><tr>{page.cols.map((c, i) => <th key={c} style={{...cell, borderTop: 'none', width: widths[i], textAlign: 'left',
@@ -464,10 +497,11 @@ const D47: React.FC = () => {
   return (
     <AbsoluteFill style={{background: '#000'}}>
       {D47_PAGES.map((t, i) => {
-        const d = sec2f(Math.max(4, holdS(t))) + 12;
+        const d = D47_HOLDS[i];
         const from = a; a += d;
         return (
           <Sequence key={i} from={from} durationInFrames={d}>
+            <Backdrop ids={D47_BACKDROPS[i]} dur={d} />
             <EndPage text={t} />
           </Sequence>
         );
@@ -478,7 +512,7 @@ const D47: React.FC = () => {
 const EndPage: React.FC<{text: string}> = ({text}) => {
   const f = useCurrentFrame();
   return (
-    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', padding: '0 200px', opacity: interpolate(f, [0, 8], [0, 1], clamp)}}>
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', padding: '0 200px', opacity: interpolate(f, [0, 8], [0, 1], clamp), textShadow: '0 2px 10px rgba(0,0,0,0.9)'}}>
       <div style={{fontFamily: 'Old Standard TT', fontSize: 40, lineHeight: 1.5, color: '#fff'}}>{text}</div>
     </AbsoluteFill>
   );
@@ -517,6 +551,8 @@ export const Main: React.FC = () => {
         <Sequence {...d25}><D25 /></Sequence>
         <Citations />
       </Sequence>
+      {/* the end section's own music: the song again without its vocals, post-filtered (scripts/cards_audio.py) */}
+      <Sequence from={MUSIC} durationInFrames={CARDS_AUDIO_F}><Audio src={staticFile('audio/cards.wav')} /></Sequence>
       <Sequence from={MUSIC} durationInFrames={D45_FRAMES}><D45 /></Sequence>
       <Sequence from={MUSIC + D45_FRAMES} durationInFrames={sec2f(D46_S)}><D46 /></Sequence>
       <Sequence from={MUSIC + D45_FRAMES + sec2f(D46_S)} durationInFrames={D47_FRAMES}><D47 /></Sequence>
