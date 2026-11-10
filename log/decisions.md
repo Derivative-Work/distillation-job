@@ -32,3 +32,7 @@ Questions:
 ## 5. 2026-11-09 — Probe reference frame replaced
 
 The brief says the Sandbox Rhapsody probe returns with its LED in a new color. The saved reference (`reference/sandbox_rhapsody_probe_274s.png`) turned out to show no probe, so v1 and v2 were invented designs. v3 is conditioned on a close-up at 80 s of the Sandbox Rhapsody release video. Every amber glow (lens ring, lens face, dome lamp) is green. The old crop stays in the repo as a record but is no longer referenced.
+
+## 6. 2026-11-09 — D14 changes from Still to Clip
+
+The brief lists D14 (hydra shadows: "one head drops, two rise") as a Still. At M4 the human found that a still can't show the heads multiplying. D14 is now an LTX-2.3 clip from the picked still (`config/clips.json`), so the drop and the regrowth happen on screen.

@@ -132,3 +132,12 @@ Direct edits, not suggestions, with the docs tools:
 - Test frames (`npx remotion still … --scale=0.5`) at 17 points checked; D39b's stamps enlarged.
 - Render: `npx remotion render src/index.ts Main renders/m4/m4_animatic.mp4 --scale=0.5 --concurrency=8`.
 - D43's cut-paper card overflowed the frame at size 96; set to 64 and re-rendered. Review copy: `ffmpeg -i renders/m4/m4_animatic.mp4 -c:v libx264 -crf 30 -preset slow -c:a aac -b:a 96k renders/m4/m4_animatic_review.mp4` (under 30 MB).
+
+## 18. 2026-11-09 — M4 notes: D14, D41, D42a
+
+- Human notes (intervention 10): hydra reads static; bottles not passed; vault door wrong (two doors).
+- D14 → Clip (decision 6): `scripts/run_stage.sh clips D14`, seeds 41–44 from the picked still. Kept **s44**: every head drops, then six grow back where there were five. s43 regrew only four; s42 turned the heads into fingers.
+- D41: keyframe v2 (closer, caught mid-handoff), `scripts/run_stage.sh stills D41 D42a`, seeds 41–44. Kept **v2 s41**; s42 and s43 drew human hands. Clips s43–s46: s43 and s45 end with the puppets turning away. Kept **s46**: bottles go hand to hand the whole take while the camera circles.
+- D42a: keyframe v2 asks for one door on one hinge. Kept **v2 s42**, the only take with a single door; it has no teller and two Feds instead of three. Clips s43–s46 rejected: a human figure walked out of the vault in every take, a realistic man in a suit in s43 (guardrail). Rerun s47–s50 with an empty vault and three puppets only. s48 duplicated the crew puppet; s49 produced a creature with a human-like face. Kept **s50**: the door swings fully open on an empty vault, the crew puppet points at the Feds and they point back.
+- ComfyUI stopped afterwards (`kill`), so the human can boot the Open WebUI VM on the 5090 for the D25 captures. Restart: `cd ~/ComfyUI && nohup .venv/bin/python main.py --listen 127.0.0.1 --port 8188 &`.
+- `scripts/publish_picks.py`; `src/Main.tsx` D14 now a ShotClip; animatic re-rendered (same command as entry 17, `--gl=swiftshader` to keep off the GPU). D14 plays at n/len (≈1.23×) so the regrowth lands inside the 3.3 s shot. Excerpt of the three shots: `renders/m4/m4_fixes_excerpt.mp4` (ffmpeg trim+concat of the animatic at 87.5–92.8, 221.6–230.2, 241.3–249.8 s).

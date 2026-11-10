@@ -40,12 +40,13 @@
   "D39": "takes/clips/D39/D39_s42.mp4",
   "D39c": "takes/clips/D39c/D39c_s42.mp4",
   "D40": "takes/clips/D40/D40_s41.mp4",
-  "D41": "takes/clips/D41/D41_s42.mp4",
-  "D42a": "takes/clips/D42a/D42a_s41.mp4",
+  "D41": "takes/clips/D41/D41_s46.mp4",
+  "D42a": "takes/clips/D42a/D42a_s50.mp4",
   "D42b": "takes/clips/D42b/D42b_s41.mp4",
   "D44a": "takes/clips/D44a/D44a_s41.mp4",
   "D44c": "takes/clips/D44c/D44c_s42.mp4",
-  "D42": "takes/clips/D42/D42_s45.mp4"
+  "D42": "takes/clips/D42/D42_s45.mp4",
+  "D14": "takes/clips/D14/D14_s44.mp4"
  },
  "style_sets": {},
  "clips": {
@@ -191,8 +192,15 @@
   },
   "D41": {
    "keyframe": "D41",
-   "motion": "the camera circles slowly around the room as the puppets pass bottles from hand to hand around the circle",
-   "seconds": 6
+   "motion": "each figure hands its bottle to the figure on its right, who takes it and passes it on; the bottles travel hand to hand around the ring, again and again, while the camera circles slowly around them",
+   "seconds": 6,
+   "seeds": [
+    43,
+    44,
+    45,
+    46
+   ],
+   "note": "s41/s42 (v1 keyframe) read as holding, not passing (human, M4 notes); s43-s46 from the v2 keyframe"
   },
   "D42": {
    "keyframe": "D42",
@@ -206,8 +214,15 @@
   },
   "D42a": {
    "keyframe": "D42a",
-   "motion": "the vault door swings slowly open; the puppets and the figures in coats each point at someone else",
-   "seconds": 6
+   "motion": "the single round vault door swings slowly open on its one hinge, showing an empty glowing orange vault; nobody is inside and nobody comes out. The masked sock puppet turns and points at the coated felt figures, who keep pointing back at it. Only these three puppets in the scene, no people, no human faces",
+   "seconds": 6,
+   "seeds": [
+    47,
+    48,
+    49,
+    50
+   ],
+   "note": "s41/s42 (v1 keyframe) showed two doors (human, M4 notes); s43-s46 (v2 keyframe) rejected: a human figure walked out of the vault in every take, a realistic man in a suit in s43 (guardrail); s47-s50 keep the vault empty"
   },
   "D42b": {
    "keyframe": "D42b",
@@ -223,6 +238,18 @@
    "keyframe": "D44c",
    "motion": "the camera slowly pulls back along the long line of puppets on the night street; the teller window glows",
    "seconds": 5
+  },
+  "D14": {
+   "keyframe": "D14",
+   "motion": "shadow puppetry on the wall: the leftmost shadow head droops, goes limp and drops out of sight; then two new shadow heads sprout from the same stump and rise up tall side by side, mouths snapping; the other shadow heads sway; the camera holds still",
+   "seconds": 4,
+   "seeds": [
+    41,
+    42,
+    43,
+    44
+   ],
+   "note": "new at M4: the still did not read as multiplication (human, M4 notes); D14 becomes a Clip"
   }
  },
  "_kept_status": "provisional (agent's picks, 2026-11-09), for the human to confirm in the M4 animatic"

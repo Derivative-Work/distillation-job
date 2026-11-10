@@ -59,3 +59,9 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "Look test is good, go with your call" — on `renders/m2/m2_look_test_review.mp4` and the agent's recommended picks for all 52 batch-2 items (including the reruns D23 v2, D38 v2, D39a_l v2 seed 43, D39a_r v2).
 - **Recorded:** `config/stills.json` `kept`. M2 closed.
+
+## 10. 2026-11-09 — M4 animatic review
+
+- **What:** "timing and scene concepts as a whole seem good". Notes: "the hydra scene is not reading as multiplication since it's just a static image"; "the puppets are not passing the bottles to each other at the end like they're supposed to"; "'depends who's at the door': the vault door doesn't look right at all -- if you're going for the halved concept, it doesn't look split at all (but for a vault it should probably just be one door)".
+- **D25:** the real Open WebUI captures come later (the VM needs the 5090, which ComfyUI holds until this batch finishes).
+- **Recorded:** D14 becomes a Clip; D41 and D42a get v2 keyframes (one vault door) and new clips. The provisional clip picks and the corner counter stand as rendered.

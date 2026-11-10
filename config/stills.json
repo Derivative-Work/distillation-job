@@ -749,7 +749,7 @@
     1008
    ],
    "style": "scene",
-   "subject": "A ring of figures passing small corked bottles hand to hand in a circle: the brass teller machine from the reference, the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards), and teal-masked puppets, in a marble hall",
+   "subject": "Medium shot at puppet height of a tight ring of figures in a marble hall, caught mid-handoff: each one is handing a small corked amber bottle to the figure beside it, knitted hands meeting around the bottles, one bottle clearly held between two hands as it changes hands. In the ring: the brass teller machine from the reference, the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards), and the same puppets in teal knit ski masks",
    "refs": [
     "ref_teller",
     "ref_crew"
@@ -757,7 +757,8 @@
    "batch": 2,
    "shot": "D41",
    "kind": "keyframe",
-   "note": "circular dolly"
+   "note": "v1 (s41) read as puppets holding bottles, not passing them (human, M4 notes): v2 is closer and catches a handoff",
+   "v": 2
   },
   "D42": {
    "size": [
@@ -799,7 +800,7 @@
     1008
    ],
    "style": "scene",
-   "subject": "The huge round brass vault door from the reference swinging open on the teller machine, the masked sock puppets from the reference (mustard-yellow knit ski masks with an eye slot, charcoal-gray sock bodies, blank white badges on black lanyards) and the three gray-coated felt puppets, each pointing at someone else",
+   "subject": "Inside a marble bank vault: one single huge round brass vault door, a single solid round door hung on one massive hinge at its left edge, standing half open, warm light spilling through the doorway. In front of it stand, in a loose triangle, the brass teller machine from the reference, one masked sock puppet from the reference (mustard-yellow knit ski mask with an eye slot, charcoal-gray sock body, blank white badge on a black lanyard) and the three gray-coated felt puppets in hats; each one points an arm at a different one of the others. Only one door, not two",
    "refs": [
     "ref_teller",
     "ref_crew",
@@ -807,7 +808,9 @@
    ],
    "batch": 2,
    "shot": "D42a",
-   "kind": "keyframe"
+   "kind": "keyframe",
+   "v": 2,
+   "note": "v1 (s41) showed two round doors, one behind the other, which read as neither a split door nor one door (human, M4 notes): v2 asks for one door on one hinge"
   },
   "D44a": {
    "size": [
@@ -905,13 +908,13 @@
   "D39c": 43,
   "D39d": 41,
   "D40": 41,
-  "D41": 43,
+  "D41": "D41_v2_s41",
   "D44a": 41,
   "D44b": 43,
   "D44c": 41,
   "D32": 41,
   "D33": 42,
-  "D42a": 42,
+  "D42a": "D42a_v2_s42",
   "D42b": 42,
   "D42": "D42_v2_s43"
  }

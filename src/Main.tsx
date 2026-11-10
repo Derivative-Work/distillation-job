@@ -197,7 +197,7 @@ const Song: React.FC = () => {
         <Typed text="REASONING · SMALL BATCH" at={4} x={0.68} y={0.9} size={34} rotate={-1} />
       </Sequence>
       <Sequence {...shot('D13')}><D13 /></Sequence>
-      <Sequence {...shot('D14')}><ShotStill id="D14" /></Sequence>
+      <Sequence {...shot('D14')}><ShotClip id="D14" len={len('D14')} rate={CLIP_FRAMES[clipSrc('D14')] / len('D14')} /></Sequence>
       {['D15', 'D16'].map((id) => <Sequence key={id} {...shot(id)}><ShotClip id={id} len={len(id)} /></Sequence>)}
       <Sequence {...shot('D17')}><ShotStill id="D17" /></Sequence>
       <Sequence {...shot('D18')}><ShotClip id="D18" len={len('D18')} /></Sequence>
