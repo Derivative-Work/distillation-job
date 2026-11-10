@@ -54,3 +54,7 @@ Approved by the human (intervention 16). `config/claims_card.json` gains `pages`
 ## 10. 2026-11-09 — No counter on the end card
 
 The brief says the exchange counter stays "still ticking during the end card". The human disagreed and asked for it removed from the end cards (intervention 17). The counter now ends with the song (it was already absent from D45 and D46); D47 is the disclosure and the credits only. The brief Doc should be updated to match.
+
+## 11. 2026-11-09 — D33: Little Switch instead of the typed SWITCH
+
+The brief's on-screen text for D33 is SWITCH. At the human's request it is replaced by a cameo of Little Switch, the wall-switch character from Default On: on "see" he slides out from behind the curtain the Feds have just closed, startled, and on "switch" his paddle rocks from ON to OFF (the advisory's quiet downgrade). The rig (Switch, Hand4, Mouth, palette) is copied unchanged from `kepler:~/Projects/default-on/remotion/src` at 7fc03b7 into `src/defaultOn/` (provenance in its README); Default On was read, not modified. The cameo is drawn inside the film layer, so it takes the grain like the rest of the picture.

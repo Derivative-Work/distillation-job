@@ -187,3 +187,7 @@ Direct edits, not suggestions, with the docs tools:
 
 - `config/claims_card.json` `credits`: the series credit line (Folks Like Us `config/o.json`, Buy It on Margin `config/cards.json` N34d) plus the picture generators: "Lyrics by Claude. Music by Suno. Video by Claude Code, with stills from FLUX.2 [dev] (Black Forest Labs) and motion from LTX-2.3 (Lightricks). Sources, audits and production log: github.com/Derivative-Work/distillation-job".
 - `src/Main.tsx` D47: two pages (disclosure, then credits), each held for holdS; no counter (the human overrode the brief: decision 10). Main: 10,259 frames (427.5 s). Animatic re-rendered (entry 18's commands).
+
+## 26. 2026-11-09 — D33 Little Switch cameo
+
+- `src/defaultOn/` (rig copied from Default On, decision 11) and `src/defaultOn/SwitchCameo.tsx`; `src/Main.tsx` D33 uses it in place of the typed SWITCH (enter on "see", flip on "switch"). Frames checked at 4380, 4396, 4404. Animatic re-rendered (entry 18's commands).

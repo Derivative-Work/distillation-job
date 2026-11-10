@@ -100,3 +100,8 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "great. this is still missing the credits at the very end"
 - Then: "I disagree with the brief; remove the counter from the end cards" (decision 10).
+
+## 18. 2026-11-09 — Little Switch cameo
+
+- **What:** "instead of the literal "SWITCH", use Little Switch from Default On -- you can read (but do not touch) from `kepler:~/Projects/default-on`"
+- **Recorded:** decision 11; rig copied read-only (kepler unchanged).

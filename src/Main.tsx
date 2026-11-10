@@ -9,6 +9,7 @@ import {FILM, FPS, H, holdS, sec2f, SHOTS, TM, W, word} from './config';
 import {FilmLayer} from './film/FilmLayer';
 import {CalendarPage, Clip, Counter, CrashZoom, CutPaperTitle, rollValue, Shake, Split, Stamp, Still, Typed} from './film/devices';
 import {Fonts} from './Fonts';
+import {SwitchCameo} from './defaultOn/SwitchCameo';
 
 /* The whole video: D01 (opening bookend, before the music), every shot D02–D44c cut to the locked master at its
  * timing/shot_times.json times, then D45 (claims card), D46 (closing bookend) and D47 (end card). Media are the picks in
@@ -238,7 +239,8 @@ const Song: React.FC = () => {
       {['D31', 'D32'].map((id) => <Sequence key={id} {...shot(id)}><ShotClip id={id} len={len(id)} /></Sequence>)}
       <Sequence {...shot('D33')}>
         <ShotClip id="D33" len={len('D33')} />
-        <Typed text="SWITCH" at={at('Bridge', 1, 11) - sec2f(T('D33'))} x={0.5} y={0.14} size={72} />
+        {/* Little Switch from Default On instead of the typed SWITCH (human, 2026-11-09; decision 11) */}
+        <SwitchCameo enter={at('Bridge', 1, 9) - sec2f(T('D33'))} flip={at('Bridge', 1, 11) - sec2f(T('D33'))} />
       </Sequence>
       {['D34', 'D35'].map((id) => <Sequence key={id} {...shot(id)}><ShotClip id={id} len={len(id)} /></Sequence>)}
       <Sequence {...shot('D36')}><D36 /></Sequence>
