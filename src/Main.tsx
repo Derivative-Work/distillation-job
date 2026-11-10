@@ -2,6 +2,7 @@ import React from 'react';
 import {AbsoluteFill, Audio, Easing, Freeze, Img, interpolate, Sequence, staticFile, useCurrentFrame} from 'remotion';
 import claims from '../config/claims_card.json';
 import chat from '../config/chat_capture.json';
+import citations from '../config/citations.json';
 import manifest from '../config/picks_manifest.json';
 import descriptions from '../config/shot_descriptions.json';
 import {FILM, FPS, H, holdS, sec2f, SHOTS, TM, W, word} from './config';
@@ -437,6 +438,27 @@ const D47: React.FC = () => (
   </AbsoluteFill>
 );
 
+/** In-video citations (config/citations.json; human, M4 notes 5): a chip bottom-left naming who made the claim and
+ * where it was reported, never an accused lab. Drawn outside the film layer so it reads cleanly. */
+type Chip = {cue: [string, number, number]; hold: number; who: string; via: string};
+const CHIPS = (citations.chips as unknown as Chip[]).map((c) => ({...c, from: sec2f(word(c.cue[0], c.cue[1], c.cue[2]).start)}))
+  .map((c, i, a) => ({...c, dur: Math.min(sec2f(c.hold), (a[i + 1]?.from ?? Infinity) - c.from - 6)}));
+const CitationChip: React.FC<{who: string; via: string; dur: number}> = ({who, via, dur}) => {
+  const f = useCurrentFrame();
+  const o = interpolate(f, [0, 5, dur - 5, dur], [0, 1, 1, 0], clamp);
+  const x = interpolate(f, [0, 6], [-24, 0], {easing: Easing.out(Easing.cubic), ...clamp});
+  return (
+    <div style={{position: 'absolute', left: 44 + x, bottom: 48, maxWidth: 900, opacity: o, background: 'rgba(12,16,18,0.86)',
+      borderLeft: '6px solid #d9692a', padding: '12px 22px 12px 18px', boxShadow: '0 6px 20px rgba(0,0,0,0.45)'}}>
+      <div style={{fontFamily: FILM.card.typed_font, fontSize: 30, lineHeight: 1.2, color: '#f1e9d6'}}>{who}</div>
+      <div style={{fontFamily: FILM.card.typed_font, fontSize: 23, color: '#c9c0ad', marginTop: 4}}>Source: {via}</div>
+    </div>
+  );
+};
+const Citations: React.FC = () => (
+  <>{CHIPS.map((c) => <Sequence key={c.from} from={c.from} durationInFrames={c.dur}><CitationChip who={c.who} via={c.via} dur={c.dur} /></Sequence>)}</>
+);
+
 export const Main: React.FC = () => {
   const d25 = shot('D25');
   return (
@@ -447,6 +469,7 @@ export const Main: React.FC = () => {
         <FilmLayer><Song /></FilmLayer>
         <Sequence {...shot('D02')}><D01 /></Sequence>
         <Sequence {...d25}><D25 /></Sequence>
+        <Citations />
       </Sequence>
       <Sequence from={MUSIC} durationInFrames={D45_FRAMES}><D45 /></Sequence>
       <Sequence from={MUSIC + D45_FRAMES} durationInFrames={sec2f(D46_S)}><D46 /></Sequence>

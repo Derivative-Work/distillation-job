@@ -86,3 +86,8 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "it is taking too long between the start of the video and for the music to start. let's see about combining that leaning in shot with the log somehow"; "'reasoning - small batch': it is distilling into a corked bottle..."; "the 'allegedly' stamps are very hard to read"; "make sure that the calendar text does not exceed the calendar underneath it"; "'numbers courtesy of the vault': the receipt is punched through by the vault bars, not sure if this is intentional"; "'16 million' - add the year to the calendars showing the months"; "'transformative' and 'national security': both very hard to read". Then: "make the chat a little narrower (you might need to re-render the page in a narrower view, maybe portrait tablet or a large phone to get it to be readable still)".
 - The D12/D27a stills run was stopped by Claude Code's low-memory guard (ComfyUI held FLUX in RAM, about 35 GB); the human is restarting the session with the memory env var.
+
+## 15. 2026-11-09 — Round 4 approved; in-video citations
+
+- **What:** "this is great. that said, I'm noticing that folks are not sticking around for the facts cards -- let's see about adding citations in-video"
+- **Recorded:** 15 citation chips (`config/citations.json`), decision 8.

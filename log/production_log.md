@@ -173,3 +173,8 @@ Direct edits, not suggestions, with the docs tools:
 - (cont., after the session restart with the memory env var) D12: kept v2 **s44** (an open bottle under the spout, corked ones beside it); clip seeds 43–44, kept **s44** (the stream pours into the open bottle). `src/Main.tsx` `D12`: REASONING and SMALL BATCH written onto two corked bottles' labels, positions measured on the clip's first and last frames and interpolated (the camera drifts), with a slow 1.25× push-in; replaces the floating caption.
 - D27a: v2 seeds 41–44; kept **s42** (the scorecard slides out of a slot under the bars).
 - ComfyUI stopped. Animatic re-rendered: 440.3 s, as the music now starts at frame 0 (was 450.3 s). Review copy as before.
+
+## 23. 2026-11-09 — In-video citations
+
+- New `config/citations.json`: 15 chips (cue word, hold, who, outlet, the claims-table row each comes from). `src/Main.tsx` `Citations`: chip bottom-left, Special Elite on a dark band with an orange edge, outside the film layer; each held for its `hold` and cut 6 frames before the next. None in D25 (its own caption) or over the intro's D01 panel.
+- Frames checked at 10 chip times (collisions with the counter, calendars, stamps and typed captions: none). Animatic re-rendered (entry 18's commands).
