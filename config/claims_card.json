@@ -106,5 +106,141 @@
    ]
   }
  ],
- "end_card": "Lyrics drafted by Claude, made by Anthropic. Anthropic is the main accuser in this story, and most of these figures are its own, not independently verified. Audited by models from other labs, including labs Anthropic has accused: ChatGPT (OpenAI) and Gemini (Google), Nov 5, 2026; GLM (Z.ai) and Qwen 3.8 (Alibaba, run locally), Nov 6, 2026. Audit log: github.com/Derivative-Work/distillation-job (log/audits/)."
+ "end_card": "Lyrics drafted by Claude, made by Anthropic. Anthropic is the main accuser in this story, and most of these figures are its own, not independently verified. Audited by models from other labs, including labs Anthropic has accused: ChatGPT (OpenAI) and Gemini (Google), Nov 5, 2026; GLM (Z.ai) and Qwen 3.8 (Alibaba, run locally), Nov 6, 2026. Audit log: github.com/Derivative-Work/distillation-job (log/audits/).",
+ "pages": [
+  {
+   "kind": "text",
+   "text": "The following figures and attributions are claims made by the named organizations or government agencies. They are not findings of liability. Some are disputed, and the underlying evidence has not been made public in full."
+  },
+  {
+   "kind": "text",
+   "text": "The other side: Moonshot denied that Kimi K3 was distilled from Anthropic's model, and researchers questioned whether the timeline allowed it. Most named labs did not respond. Chinese commentators argue distillation is standard industry practice.",
+   "sources": [
+    {
+     "name": "Implicator",
+     "url": "https://www.implicator.ai/moonshot-denies-distilling-fable-and-credits-k3-gains-to-its-own-architecture/"
+    },
+    {
+     "name": "Asia Times",
+     "url": "https://asiatimes.com/2026/09/us-calls-for-ai-poisoning-to-sabotage-chinas-model-distillation/"
+    }
+   ]
+  },
+  {
+   "kind": "table",
+   "title": "The claims, February",
+   "cols": [
+    "Date",
+    "Claimed by",
+    "Accused",
+    "Claim",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Feb 12, 2026",
+     "OpenAI memo to the House China committee",
+     "DeepSeek employees",
+     "used obfuscated routers and VPNs to reach US models",
+     "GlobalSecurity"
+    ],
+    [
+     "Feb 23, 2026",
+     "Anthropic",
+     "DeepSeek, Moonshot, MiniMax",
+     "over 16 million Claude exchanges through about 24,000 fraudulent accounts",
+     "Anthropic, Computing"
+    ],
+    [
+     "Feb 23, 2026",
+     "Anthropic",
+     "MiniMax",
+     "shifted about half its traffic to a new model within 24 hours",
+     "Gigazine"
+    ],
+    [
+     "Feb 23, 2026",
+     "Anthropic",
+     "DeepSeek",
+     "prompts asked Claude to write out its reasoning step by step",
+     "Gigazine"
+    ],
+    [
+     "Feb 23, 2026",
+     "Anthropic",
+     "Moonshot",
+     "request metadata matched public profiles of senior staff",
+     "Computing"
+    ]
+   ],
+   "note": "Anthropic's attributions rest on its own telemetry.",
+   "hold_s": 20
+  },
+  {
+   "kind": "table",
+   "title": "The claims, June to September",
+   "cols": [
+    "Date",
+    "Claimed by",
+    "Accused",
+    "Claim",
+    "Source"
+   ],
+   "rows": [
+    [
+     "Jun 10, 2026",
+     "Anthropic, letter to senators",
+     "Alibaba/Qwen-affiliated operators",
+     "28.8 million exchanges through almost 25,000 accounts",
+     "Let's Data Science"
+    ],
+    [
+     "Sep 8, 2026",
+     "NSA, CISA and FBI advisory",
+     "six China-based labs (named)",
+     "advised not telling suspected distillers about a switch to a downgraded model; a threat assessment, not a court finding",
+     "CyberScoop, Asia Times"
+    ],
+    [
+     "Sep 10, 2026",
+     "Anthropic",
+     "an Alibaba-linked campaign",
+     "over 151 million of nearly 190 million exchanges, peaking near 3 million a day",
+     "Forkast"
+    ]
+   ],
+   "hold_s": 16
+  },
+  {
+   "kind": "text",
+   "text": "Google reported a campaign of over 100,000 prompts aimed at Gemini's reasoning.",
+   "sources": [
+    {
+     "name": "Android Authority",
+     "url": "https://www.androidauthority.com/google-gemini-clone-attempts-3640480"
+    }
+   ]
+  },
+  {
+   "kind": "text",
+   "text": "Identity mix-ups: in December 2024, DeepSeek V3 often identified itself as ChatGPT. Gemini has called itself Baidu's chatbot. Text from other models all over the web is a likelier cause than direct distillation.",
+   "sources": [
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2024/12/27/why-deepseeks-new-ai-model-thinks-its-chatgpt/"
+    }
+   ]
+  },
+  {
+   "kind": "text",
+   "text": "The flip: US labs have defended training on others' work as transformative fair use, while the US government calls distillation a security threat. Qwen's share of open-model fine-tunes reportedly reached about 69% by February 2026.",
+   "sources": [
+    {
+     "name": "Lawfare",
+     "url": "https://www.lawfaremedia.org/article/the-ai-model-distillation-paradox"
+    }
+   ]
+  }
+ ],
+ "_doc_pages": "M4 notes 6 (human, 2026-11-09): with the in-video citation chips (config/citations.json) carrying the figures, dates and sources, the card is reordered and condensed into 'pages': intro; the other side (so a denial sits next to the names early); two tables (date, who claimed it, who was accused, the claim, the source) replacing items 1-3 and 5-7; then Google, identity mix-ups and the flip, unchanged. 'items' keeps the brief's wording as the source of record. New on the card: the Moonshot metadata row (from the brief's claims table, source Computing; it was in the lyrics and now has a chip). Table pages hold for hold_s (they are scanned, not read word by word)."
 }

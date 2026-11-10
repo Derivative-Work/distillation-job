@@ -26,8 +26,11 @@ const MUSIC_END = 264.8;
 /* ---------- lengths of the parts around the music ---------- */
 const D46_S = 32;
 const factHold = (t: string) => Math.max(4, holdS(t));
-const FACTS = [claims.intro, ...claims.items.map((i) => i.text)];
-const D45_FRAMES = FACTS.reduce((a, t) => a + sec2f(factHold(t)) + 12, 0);
+type Page = {kind: 'text'; text: string; sources?: {name: string}[]} |
+  {kind: 'table'; title: string; cols: string[]; rows: string[][]; note?: string; hold_s: number};
+const PAGES = claims.pages as unknown as Page[];
+const pageFrames = (pg: Page) => (pg.kind === 'table' ? sec2f(pg.hold_s) : sec2f(factHold(pg.text))) + 12;
+const D45_FRAMES = PAGES.reduce((a, pg) => a + pageFrames(pg), 0);
 const D47_FRAMES = sec2f(holdS(claims.end_card));
 const MUSIC = sec2f(MUSIC_END);
 export const MAIN_FRAMES = MUSIC + D45_FRAMES + sec2f(D46_S) + D47_FRAMES;
@@ -385,18 +388,19 @@ const D01: React.FC = () => {
   );
 };
 
-/** D45: the claims card, white on black, one item at a time; marked as a draft until M6. */
+/** D45: the claims card, white on black (config/claims_card.json "pages"; condensed at M4 notes 6 now that the
+ * in-video chips carry the figures): text pages one at a time, and two tables of who claimed what about whom. */
 const D45: React.FC = () => {
   let a = 0;
   return (
     <AbsoluteFill style={{background: '#000'}}>
-      {FACTS.map((t, i) => {
-        const d = sec2f(factHold(t)) + 12;
+      {PAGES.map((pg, i) => {
+        const d = pageFrames(pg);
         const from = a; a += d;
-        const srcs = i ? claims.items[i - 1].sources.map((s) => s.name).join(' · ') : '';
         return (
           <Sequence key={i} from={from} durationInFrames={d}>
-            <FactPage text={t} sources={srcs} />
+            {pg.kind === 'table' ? <ClaimsTable page={pg} />
+              : <FactPage text={pg.text} sources={(pg.sources ?? []).map((s) => s.name).join(' · ')} />}
           </Sequence>
         );
       })}
@@ -414,6 +418,24 @@ const FactPage: React.FC<{text: string; sources: string}> = ({text, sources}) =>
       <div style={{fontFamily: 'Old Standard TT', fontSize: text.length > 260 ? 44 : 52, lineHeight: 1.4, color: '#fff', textAlign: 'left'}}>{text}</div>
       {sources ? <div style={{fontFamily: 'Old Standard TT', fontSize: 30, color: '#9a9a9a', marginTop: 36, alignSelf: 'flex-start'}}>
         Source: {sources}</div> : null}
+    </AbsoluteFill>
+  );
+};
+const ClaimsTable: React.FC<{page: Extract<Page, {kind: 'table'}>}> = ({page}) => {
+  const f = useCurrentFrame();
+  const o = interpolate(f, [0, 8], [0, 1], clamp);
+  const widths = ['14%', '17%', '17%', '36%', '16%'];
+  const cell: React.CSSProperties = {padding: '14px 16px', verticalAlign: 'top', borderTop: '1px solid #3a3a3a'};
+  return (
+    <AbsoluteFill style={{padding: '70px 110px', opacity: o, fontFamily: 'Old Standard TT', color: '#fff'}}>
+      <div style={{fontSize: 46, marginBottom: 22}}>{page.title}</div>
+      <table style={{borderCollapse: 'collapse', width: '100%', fontSize: 27, lineHeight: 1.3}}>
+        <thead><tr>{page.cols.map((c, i) => <th key={c} style={{...cell, borderTop: 'none', width: widths[i], textAlign: 'left',
+          color: '#9a9a9a', fontWeight: 400, fontSize: 24}}>{c}</th>)}</tr></thead>
+        <tbody>{page.rows.map((r, j) => <tr key={j}>{r.map((c, i) => <td key={i} style={{...cell,
+          color: i === 4 ? '#9a9a9a' : '#fff', whiteSpace: i === 0 ? 'nowrap' : undefined}}>{c}</td>)}</tr>)}</tbody>
+      </table>
+      <div style={{fontSize: 27, color: '#c9c0ad', marginTop: 26}}>{page.note ? `${page.note} ` : ''}These are claims, not findings of liability.</div>
     </AbsoluteFill>
   );
 };

@@ -178,3 +178,7 @@ Direct edits, not suggestions, with the docs tools:
 
 - New `config/citations.json`: 15 chips (cue word, hold, who, outlet, the claims-table row each comes from). `src/Main.tsx` `Citations`: chip bottom-left, Special Elite on a dark band with an orange edge, outside the film layer; each held for its `hold` and cut 6 frames before the next. None in D25 (its own caption) or over the intro's D01 panel.
 - Frames checked at 10 chip times (collisions with the counter, calendars, stamps and typed captions: none). Animatic re-rendered (entry 18's commands).
+
+## 24. 2026-11-09 — Claims card condensed
+
+- `config/claims_card.json` `pages` (decision 9); `src/Main.tsx` D45 renders text pages (as before) and `ClaimsTable` pages (hold_s 20 and 16). D45: 97 s (was 122 s). Animatic re-rendered (entry 18's commands).

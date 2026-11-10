@@ -91,3 +91,7 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "this is great. that said, I'm noticing that folks are not sticking around for the facts cards -- let's see about adding citations in-video"
 - **Recorded:** 15 citation chips (`config/citations.json`), decision 8.
+
+## 16. 2026-11-09 — Claims card condensed
+
+- **What:** "much better. how much of the facts cards at the end does this make redundant now", then "yes that works" on the agent's proposal: fold items 1–3 and 5–7 into tables of who claimed what about whom, move the other side up to follow the intro, keep Google, identity mix-ups and the flip.
