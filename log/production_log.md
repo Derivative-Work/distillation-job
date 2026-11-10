@@ -248,3 +248,8 @@ Direct edits, not suggestions, with the docs tools:
 - D04: PLEASE is now lettered onto the leader's card (`config/lettering.json`: a hand-given box, as the gloves hide the card's sides; Alfa Slab One), and the lanyard gets a number; the floating typed PLEASE is removed from `src/Main.tsx`. `scripts/letter.py` now always reads the plain take (a rerun had lettered over a lettered still) and takes a per-surface `kind` and `box`.
 - Captions (`config/captions.json` `omit`): the clippings leave out each chorus "(allegedly!)" (the stamp), "Their count, not ours." (D27a's typed strip), "No weights were harmed…" (D43's card) and "(Allegedly.)" (D44's stamp). The SRT keeps every word.
 - Finals re-rendered (entry 30's commands).
+
+## 34. 2026-11-10 — Short "monday"
+
+- `config/shorts.json` `monday`: 105.349–157.919 s (the bar before "New model drops on Monday" through chorus 2, out on D27's last frame), 52.6 s. Includes D25; at Short size its caption and disclaimer were unreadable, so `src/Shorts.tsx` repeats them at full size over the picture's band while they're up (`D25_BAND`, `D25_CAPTION` exported from Main). Nothing names a lab or the launch (decision 12).
+- `npx remotion render src/index.ts Short-monday deliverables/distillation_job_short_monday.mp4 --concurrency=8 --gl=swiftshader --crf=17`; SRT `python3 -I scripts/export_srt.py short monday` (19 cues).

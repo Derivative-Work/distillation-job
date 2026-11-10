@@ -138,3 +138,7 @@ Append-only. Every human action: when, what, and why.
 ## 25. 2026-11-10 — PLEASE card; no doubled captions
 
 - **What:** "The "PLEASE" from before isn't aligned right either; I figured it would have been handled in this pass instead" and "Remove lyrics from the ransom-note captions where they are already on-screen for other reasons (i.e. "ALLEGEDLY" and "NO WEIGHTS WERE HARMED...")".
+
+## 26. 2026-11-10 — Finals approved so far; a news-timed Short
+
+- **What:** "this is great. also make me a short from "new model Monday" through the end of the following chorus (timed for the news)".

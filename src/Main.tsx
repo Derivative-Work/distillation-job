@@ -158,8 +158,8 @@ const D25: React.FC = () => {
                 style={{width: 1400, height: h, display: 'block', boxShadow: '0 8px 30px rgba(0,0,0,0.6)'}} /> : null}
             </div>
           ))}
-          <CaptionBand at={4} big="SAME MODEL. HANDED A PAGE ABOUT CLAUDE, IT DECIDED IT WAS CLAUDE."
-            small="Models often misidentify themselves. This is not evidence of distillation." />
+          <CaptionBand at={4} big={D25_CAPTION.big}
+            small={D25_CAPTION.small} />
         </AbsoluteFill>
       </Sequence>
     </>
@@ -590,6 +590,11 @@ const CitationChip: React.FC<{who: string; via: string; dur: number}> = ({who, v
 export const Citations: React.FC = () => (
   <>{CHIPS.map((c) => <Sequence key={c.from} from={c.from} durationInFrames={c.dur}><CitationChip who={c.who} via={c.via} dur={c.dur} /></Sequence>)}</>
 );
+
+/** D25's caption span on the song timeline (frames): from "wait" to the shot's end. */
+export const D25_BAND = (): [number, number] => [at('Verse 2', 6, 10), sec2f(TE('D25'))];
+export const D25_CAPTION = {big: 'SAME MODEL. HANDED A PAGE ABOUT CLAUDE, IT DECIDED IT WAS CLAUDE.',
+  small: 'Models often misidentify themselves. This is not evidence of distillation.'};
 
 export const Main: React.FC<{captions?: boolean; chips?: boolean}> = ({captions = true, chips = true}) => {
   const d25 = shot('D25');

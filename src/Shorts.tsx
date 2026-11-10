@@ -1,11 +1,11 @@
 import React from 'react';
-import {AbsoluteFill, Freeze, Sequence} from 'remotion';
+import {AbsoluteFill, Freeze, Sequence, useCurrentFrame} from 'remotion';
 import shorts from '../config/shorts.json';
 import {Captions} from './Captions';
 import {FPS} from './config';
 import {CutPaperTitle, Typed} from './film/devices';
 import {Fonts} from './Fonts';
-import {Citations, Main} from './Main';
+import {Citations, D25_BAND, D25_CAPTION, Main} from './Main';
 
 /**
  * The vertical Shorts, 1080x1920 (adapted from ../buy-it-on-margin/src/Shorts.tsx), one per entry in config/shorts.json:
@@ -48,9 +48,25 @@ export const Short: React.FC<{id: string}> = ({id}) => {
       <div style={{position: 'absolute', left: 0, top: PIC_TOP + PIC_H - 40, width: SAFE_W, height: 330}}>
         <Sequence from={-from}><Citations /></Sequence>
       </div>
+      <D25Caption from={from} />
       <div style={{position: 'absolute', left: 0, top: PIC_TOP + PIC_H + 175, width: SAFE_W, height: 250}}>
         <Captions offsetS={from / FPS} size={54} width={SAFE_W - 70} top={10} />
       </div>
     </AbsoluteFill>
+  );
+};
+
+/** D25's caption and disclaimer are unreadable at the Short's picture size; while they're up, they're repeated at
+ * full size over the picture's own (tiny) band, above the lyric captions. */
+const D25Caption: React.FC<{from: number}> = ({from}) => {
+  const f = useCurrentFrame() + from;
+  const [a, b] = D25_BAND();
+  if (f < a + 4 || f >= b) return null;
+  return (
+    <div style={{position: 'absolute', left: 0, width: SAFE_W, top: PIC_TOP + PIC_H - 96, background: 'rgb(10,14,16)',
+      padding: '14px 26px', textAlign: 'center', fontFamily: 'Special Elite'}}>
+      <div style={{fontSize: 32, color: '#f1e9d6', lineHeight: 1.2}}>{D25_CAPTION.big}</div>
+      <div style={{fontSize: 25, color: '#c9c0ad', marginTop: 8}}>{D25_CAPTION.small}</div>
+    </div>
   );
 };
