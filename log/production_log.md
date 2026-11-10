@@ -182,3 +182,8 @@ Direct edits, not suggestions, with the docs tools:
 ## 24. 2026-11-09 — Claims card condensed
 
 - `config/claims_card.json` `pages` (decision 9); `src/Main.tsx` D45 renders text pages (as before) and `ClaimsTable` pages (hold_s 20 and 16). D45: 97 s (was 122 s). Animatic re-rendered (entry 18's commands).
+
+## 25. 2026-11-09 — End card: credits
+
+- `config/claims_card.json` `credits`: the series credit line (Folks Like Us `config/o.json`, Buy It on Margin `config/cards.json` N34d) plus the picture generators: "Lyrics by Claude. Music by Suno. Video by Claude Code, with stills from FLUX.2 [dev] (Black Forest Labs) and motion from LTX-2.3 (Lightricks). Sources, audits and production log: github.com/Derivative-Work/distillation-job".
+- `src/Main.tsx` D47: two pages (disclosure, then credits), each held for holdS; the exchange counter back in its corner, still ticking (brief: "still ticking during the end card"), its value continuing at 35 a second through D45–D46. Main: 10,259 frames (427.5 s). Animatic re-rendered (entry 18's commands).

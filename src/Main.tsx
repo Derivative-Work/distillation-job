@@ -31,7 +31,8 @@ type Page = {kind: 'text'; text: string; sources?: {name: string}[]} |
 const PAGES = claims.pages as unknown as Page[];
 const pageFrames = (pg: Page) => (pg.kind === 'table' ? sec2f(pg.hold_s) : sec2f(factHold(pg.text))) + 12;
 const D45_FRAMES = PAGES.reduce((a, pg) => a + pageFrames(pg), 0);
-const D47_FRAMES = sec2f(holdS(claims.end_card));
+const D47_PAGES = [claims.end_card, claims.credits];
+const D47_FRAMES = D47_PAGES.reduce((a, t) => a + sec2f(Math.max(4, holdS(t))) + 12, 0);
 const MUSIC = sec2f(MUSIC_END);
 export const MAIN_FRAMES = MUSIC + D45_FRAMES + sec2f(D46_S) + D47_FRAMES;
 
@@ -454,11 +455,36 @@ const D46: React.FC = () => {
 };
 
 /** D47: the end card. */
-const D47: React.FC = () => (
-  <AbsoluteFill style={{background: '#000', alignItems: 'center', justifyContent: 'center', padding: '0 200px'}}>
-    <div style={{fontFamily: 'Old Standard TT', fontSize: 40, lineHeight: 1.5, color: '#fff'}}>{claims.end_card}</div>
-  </AbsoluteFill>
-);
+/** D47: the end card, two pages: the disclosure, then the credits. The exchange counter is back in its corner, still
+ * ticking (brief, "The exchange counter": "still ticking during the end card"). */
+const D47: React.FC<{songFrames: number}> = ({songFrames}) => {
+  const f = useCurrentFrame();
+  const tick0 = COUNTER_HITS[2] + 14;
+  const v = COUNTER_VALS[2] + Math.floor(((songFrames + f - tick0) / FPS) * 35);
+  let a = 0;
+  return (
+    <AbsoluteFill style={{background: '#000'}}>
+      {D47_PAGES.map((t, i) => {
+        const d = sec2f(Math.max(4, holdS(t))) + 12;
+        const from = a; a += d;
+        return (
+          <Sequence key={i} from={from} durationInFrames={d}>
+            <EndPage text={t} />
+          </Sequence>
+        );
+      })}
+      <Counter value={v} x={0.88} y={0.08} scale={0.3} />
+    </AbsoluteFill>
+  );
+};
+const EndPage: React.FC<{text: string}> = ({text}) => {
+  const f = useCurrentFrame();
+  return (
+    <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', padding: '0 200px', opacity: interpolate(f, [0, 8], [0, 1], clamp)}}>
+      <div style={{fontFamily: 'Old Standard TT', fontSize: 40, lineHeight: 1.5, color: '#fff'}}>{text}</div>
+    </AbsoluteFill>
+  );
+};
 
 /** In-video citations (config/citations.json; human, M4 notes 5): a chip bottom-left naming who made the claim and
  * where it was reported, never an accused lab. Drawn outside the film layer so it reads cleanly. */
@@ -495,7 +521,7 @@ export const Main: React.FC = () => {
       </Sequence>
       <Sequence from={MUSIC} durationInFrames={D45_FRAMES}><D45 /></Sequence>
       <Sequence from={MUSIC + D45_FRAMES} durationInFrames={sec2f(D46_S)}><D46 /></Sequence>
-      <Sequence from={MUSIC + D45_FRAMES + sec2f(D46_S)} durationInFrames={D47_FRAMES}><D47 /></Sequence>
+      <Sequence from={MUSIC + D45_FRAMES + sec2f(D46_S)} durationInFrames={D47_FRAMES}><D47 songFrames={MUSIC + D45_FRAMES + sec2f(D46_S)} /></Sequence>
     </AbsoluteFill>
   );
 };
