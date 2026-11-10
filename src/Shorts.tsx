@@ -9,11 +9,15 @@ import {Citations, Main} from './Main';
 
 /**
  * The vertical Shorts, 1080x1920 (adapted from ../buy-it-on-margin/src/Shorts.tsx), one per entry in config/shorts.json:
- * the cut-paper title above (settled); the whole 16:9 main edit at 1080 wide (nothing cropped: D39b's split stamps and
- * the corner counter stay whole), with its own audio; the citation chip at full size under the picture; captions below. D04a's disclaimer opens each one.
+ * everything inside the platforms' safe zone (see SAFE_W): the cut-paper title above (settled); the whole 16:9 main
+ * edit at 950 wide (nothing cropped: D39b's split stamps and the corner counter stay whole), with its own audio; the citation chip at full size under the picture; ransom-note captions below. D04a's
+ * disclaimer opens each one.
  */
 const CFG = shorts as {disclaimer_s: number; shorts: Record<string, {from: number; to: number}>};
-const PIC_TOP = 560, PIC_H = 608;
+// Safe zone (human, 2026-11-10: captions were under the Shorts/Reels UI): the platforms overlay the bottom ~500 px
+// (title, caption, audio, buttons) and a ~130 px button rail on the right, and the top ~140 px. Everything sits in
+// y 140-1400; the chip and captions are centred on x 475, clear of the right rail.
+const SAFE_W = 950, PIC_TOP = 440, PIC_H = Math.round(SAFE_W * 9 / 16);   // the picture also keeps clear of the rail
 export const SHORT_IDS = Object.keys(CFG.shorts);
 export const shortSpec = (id: string) => {
   const c = CFG.shorts[id];
@@ -26,13 +30,13 @@ export const Short: React.FC<{id: string}> = ({id}) => {
   return (
     <AbsoluteFill style={{background: '#0d1114'}}>
       <Fonts />
-      <div style={{position: 'absolute', left: 0, top: 60, width: 1080, height: 440, overflow: 'hidden'}}>
-        <div style={{position: 'absolute', left: -420, top: -320, width: 1920, height: 1080, transform: 'scale(0.62)', transformOrigin: '50% 50%'}}>
+      <div style={{position: 'absolute', left: 0, top: 130, width: SAFE_W, height: 300, overflow: 'hidden'}}>
+        <div style={{position: 'absolute', left: -485, top: -390, width: 1920, height: 1080, transform: 'scale(0.47)', transformOrigin: '50% 50%'}}>
           <Freeze frame={90}><CutPaperTitle lines={['THE', 'DISTILLATION', 'JOB']} size={150} board="#0d1114" /></Freeze>
         </div>
       </div>
-      <div style={{position: 'absolute', left: 0, top: PIC_TOP, width: 1080, height: PIC_H, overflow: 'hidden'}}>
-        <div style={{position: 'absolute', left: 0, top: 0, width: 1920, height: 1080, transform: 'scale(0.5625)', transformOrigin: '0 0'}}>
+      <div style={{position: 'absolute', left: 0, top: PIC_TOP, width: SAFE_W, height: PIC_H, overflow: 'hidden'}}>
+        <div style={{position: 'absolute', left: 0, top: 0, width: 1920, height: 1080, transform: `scale(${SAFE_W / 1920})`, transformOrigin: '0 0'}}>
           <Sequence from={-from}><Main captions={false} chips={false} /></Sequence>
           <Sequence durationInFrames={disclaimer}>
             <AbsoluteFill style={{background: 'rgba(0,0,0,0.55)'}} />
@@ -41,11 +45,11 @@ export const Short: React.FC<{id: string}> = ({id}) => {
         </div>
       </div>
       {/* the chip, full size, between the picture and the captions (its own bottom: 140 inside this box) */}
-      <div style={{position: 'absolute', left: 0, top: PIC_TOP + PIC_H + 20, width: 1080, height: 330}}>
+      <div style={{position: 'absolute', left: 0, top: PIC_TOP + PIC_H - 40, width: SAFE_W, height: 330}}>
         <Sequence from={-from}><Citations /></Sequence>
       </div>
-      <div style={{position: 'absolute', left: 0, top: PIC_TOP + PIC_H + 360, width: 1080, height: 300}}>
-        <Captions offsetS={from / FPS} size={54} width={960} bottom={undefined} />
+      <div style={{position: 'absolute', left: 0, top: PIC_TOP + PIC_H + 175, width: SAFE_W, height: 250}}>
+        <Captions offsetS={from / FPS} size={54} width={SAFE_W - 70} top={10} />
       </div>
     </AbsoluteFill>
   );

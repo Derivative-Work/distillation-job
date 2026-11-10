@@ -1,5 +1,10 @@
 {
  "_doc": "Caption timing rule, shared by the burned-in captions (src/Captions.tsx) and the SRT (scripts/export_srt.py). Lines are the lyrics as sung (timing/timing_map.json). A line shows from its first word to the next line's start, capped at tail_s after its last word, at least min_s.",
  "tail_s": 1.0,
- "min_s": 1.0
+ "min_s": 1.0,
+ "groups": {
+  "max_words": 3,
+  "gap_s": 0.45
+ },
+ "_doc_groups": "Burned-in captions only (src/Captions.tsx): each line cut into clippings of 1-3 words, one magazine page each (human, 2026-11-10); the line itself follows the rule above. The SRT is line by line."
 }

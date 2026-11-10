@@ -125,3 +125,8 @@ Append-only. Every human action: when, what, and why.
 ## 22. 2026-11-10 — M4 closed; go on to M5
 
 - **What:** "this is great" (on the rebuilt chorus 2 and the four streets), then "keep going". M4 closed.
+
+## 23. 2026-11-10 — M5 notes: Shorts safe zone, ransom-note captions
+
+- **What:** "The shorts captions are too low. They will be occluded by the YouTube Shorts and Instagram Reels interfaces." and "For both the shorts and main video captions, I feel like there's something more creative you can do here -- perhaps adopt the ransom-note style lettering on groups of 1-3 words".
+- Then: "close, but this is affecting readability. cut the lyrics into groups of 1, 2, or 3 words each, as if each group came from the same magazine page".
