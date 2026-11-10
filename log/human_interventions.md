@@ -121,3 +121,7 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "after a few watches, the repeated clips are starting to bother me -- suggest some options for reducing repetitiveness that incorporate what the lyrics and scenes are referencing"; then "I'm leaning 3 and 4 -- is there anything from today's (Monday) drop (Fable 5.2) that could be useful here"; then "yes go ahead with option 3 as discussed and option 4".
 - Option 3: chorus 2 picks up verse 2's story (new shots for its lines) instead of replaying chorus 1's clips. Option 4: D05's four-way split shows four different streets.
+
+## 22. 2026-11-10 — M4 closed; go on to M5
+
+- **What:** "this is great" (on the rebuilt chorus 2 and the four streets), then "keep going". M4 closed.

@@ -10,6 +10,8 @@ import re
 from pathlib import Path
 
 src = Path("docs/brief.md").read_text().splitlines()
+import json
+HOLDS = [h["match"] for h in json.load(open("config/audit_holds.json"))["holds"]]   # rows D46 stops on (data-hold=index)
 a = next(i for i, l in enumerate(src) if l.strip() == "**Audit log**")
 b = next(i for i in range(a, len(src)) if src[i].startswith("## "))
 lines = src[a:b]
@@ -21,6 +23,12 @@ def inline(t):
     t = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", t)
     t = re.sub(r"`([^`]+)`", r"<code>\1</code>", t)
     return t
+
+
+def row(r):
+    k = next((j for j, m in enumerate(HOLDS) if m in r[0]), None)
+    attr = f' data-hold="{k}"' if k is not None else ""
+    return f"<tr{attr}>" + "".join(f"<td>{inline(c)}</td>" for c in r) + "</tr>"
 
 
 out, i = [], 0
@@ -35,7 +43,7 @@ while i < len(lines):
             i += 1
         head, body = rows[0], rows[1:]
         out.append("<table><tr>" + "".join(f"<th>{inline(c)}</th>" for c in head) + "</tr>"
-                   + "".join("<tr>" + "".join(f"<td>{inline(c)}</td>" for c in r) + "</tr>" for r in body) + "</table>")
+                   + "".join(row(r) for r in body) + "</table>")
         continue
     if l.startswith("- "):
         items = []
@@ -63,4 +71,4 @@ code {{ background: #eff1f3; padding: 1px 5px; border-radius: 4px; font-size: 13
 """
 Path("public/media/real").mkdir(parents=True, exist_ok=True)
 Path("public/media/real/audit_log.html").write_text(page)
-print(f"{len(lines)} lines from docs/brief.md:{a + 1}-{b} -> public/media/real/audit_log.html")
+print(f"holds marked: {page.count('data-hold')} of {len(HOLDS)}"); print(f"{len(lines)} lines from docs/brief.md:{a + 1}-{b} -> public/media/real/audit_log.html")

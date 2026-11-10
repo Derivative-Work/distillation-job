@@ -105,8 +105,8 @@ const PaperGrain: React.FC<{id: string; opacity?: number}> = ({id, opacity = 0.2
 
 /* ---------- Cut-paper title: each letter on its own paper chip, animated on twos (12 fps) like stop motion ---------- */
 
-export const CutPaperTitle: React.FC<{lines: string[]; at?: number; size?: number; board?: string}> =
-  ({lines, at = 0, size = 150, board = '#173438'}) => {
+export const CutPaperTitle: React.FC<{lines: string[]; at?: number; size?: number; board?: string; grain?: boolean}> =
+  ({lines, at = 0, size = 150, board = '#173438', grain = true}) => {
   const f = useCurrentFrame();
   const step = Math.round(FILM.frame.fps / FILM.cutpaper.fps_on);
   const t = Math.floor(f / step) * step; // stop-motion: the paper moves only on twos
@@ -114,7 +114,7 @@ export const CutPaperTitle: React.FC<{lines: string[]; at?: number; size?: numbe
   let idx = 0;
   return (
     <AbsoluteFill style={{background: board, alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: size * 0.12}}>
-      <PaperGrain id="board-grain" opacity={0.35} />
+      {grain ? <PaperGrain id="board-grain" opacity={0.35} /> : null}
       {lines.map((line, li) => (
         <div key={li} style={{display: 'flex', gap: size * 0.06}}>
           {[...line].map((ch, ci) => {

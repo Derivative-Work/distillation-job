@@ -1,0 +1,10 @@
+{
+ "_doc": "D46 holds (brief, Bookends: 'Hold on any finding where an auditor defends its own maker, or where it doesn't'). Each 'match' is text from the row's first cell in docs/brief.md's audit log; scripts/render_audit_log.py marks that row, scripts/capture_page.mjs measures it, src/Main.tsx D46 stops on it with a highlight and the label. Labels state only what the log records.",
+ "hold_s": 3.0,
+ "holds": [
+  {"match": "Gemini's claims: advisory says DeepSeek distilled two Gemini versions", "label": "Gemini (Google), adding claims that cast its maker as a victim"},
+  {"match": "ChatGPT's claim: OpenAI accused of using resellers", "label": "ChatGPT (OpenAI), raising a claim against its own maker"},
+  {"match": "Says Z.ai isn't named in any source", "label": "GLM (Z.ai), missing its own maker in the evidence"},
+  {"match": "Self-identified as Claude", "label": "Qwen (Alibaba), auditing as Claude: its stake disclosure is void"}
+ ]
+}

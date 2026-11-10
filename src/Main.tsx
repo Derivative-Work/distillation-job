@@ -4,6 +4,8 @@ import claims from '../config/claims_card.json';
 import chat from '../config/chat_capture.json';
 import citations from '../config/citations.json';
 import cardsAudio from '../timing/cards_audio.json';
+import auditHolds from '../config/audit_holds.json';
+import auditBoxes from '../config/audit_log_boxes.json';
 import manifest from '../config/picks_manifest.json';
 import descriptions from '../config/shot_descriptions.json';
 import {FILM, FPS, H, holdS, sec2f, SHOTS, TM, W, word} from './config';
@@ -11,6 +13,7 @@ import {FilmLayer} from './film/FilmLayer';
 import {CalendarPage, Clip, Counter, CrashZoom, CutPaperTitle, rollValue, Shake, Split, Stamp, Still, Typed} from './film/devices';
 import {Fonts} from './Fonts';
 import {SwitchCameo} from './defaultOn/SwitchCameo';
+import {Captions} from './Captions';
 
 /* The whole video: D01 (opening bookend, before the music), every shot D02–D44c cut to the locked master at its
  * timing/shot_times.json times, then D45 (claims card), D46 (closing bookend) and D47 (end card). Media are the picks in
@@ -26,7 +29,9 @@ const TE = (id: string) => SHOTS[id].end as number;
 const MUSIC_END = 264.8;
 
 /* ---------- lengths of the parts around the music ---------- */
-const D46_S = 32;
+// 32 s of scroll plus the holds (config/audit_holds.json); the end-section bounce starts two bars earlier to match
+// (scripts/cards_audio.py START_S 92.206, was 100.972: +8.766 s)
+const D46_S = 32 + 8.766;
 const factHold = (t: string) => Math.max(4, holdS(t));
 type Page = ({kind: 'text'; text: string; sources?: {name: string}[]} |
   {kind: 'table'; title: string; cols: string[]; rows: string[][]; note?: string; hold_s: number}) & {backdrop?: string[]};
@@ -145,7 +150,7 @@ const D25: React.FC = () => {
         <AbsoluteFill style={{background: '#0d1114'}}>
           {/* Stacked split (legibility: the audit reply runs the full window width). Real captures, cropped by
               scripts/d25_captures.py; the model name stays visible in each. */}
-          {([['d25_left', 'Fresh chat', 120, 367], ['d25_right', 'Same model, replying to the lyric-audit prompt', 560, 231]] as const)
+          {([['d25_left', 'Fresh chat', 70, 367], ['d25_right', 'Same model, replying to the lyric-audit prompt', 500, 231]] as const)
             .map(([n, label, top, h], i) => (
             <div key={n} style={{position: 'absolute', top, left: (W - 1400) / 2, width: 1400, opacity: interpolate(f - waitF, [i * 6, i * 6 + 6], [0, 1], clamp)}}>
               <div style={{position: 'absolute', top: -42, left: 0, fontFamily: FILM.card.typed_font, fontSize: 28, color: '#c9c0ad'}}>{label}</div>
@@ -417,7 +422,7 @@ const D01: React.FC = () => {
     <>
       <div style={{position: 'absolute', left: 0, top: 0, width: D01_W, height: H, background: '#fff', overflow: 'hidden'}}>
         <Img src={staticFile('media/real/research_chat.png')} style={{position: 'absolute', left: (D01_W - iw) / 2, top: -y, width: iw}} />
-        <div style={{position: 'absolute', left: 24, bottom: 28, background: 'rgba(20,24,28,0.88)', color: '#f1e9d6', padding: '10px 20px',
+        <div style={{position: 'absolute', left: 24, top: 24, background: 'rgba(20,24,28,0.88)', color: '#f1e9d6', padding: '10px 20px',
           fontFamily: FILM.card.typed_font, fontSize: 30, borderRadius: 4}}>Research: Claude, Nov 4, 2026</div>
       </div>
       <div style={{position: 'absolute', left: D01_W, top: 0, width: 14, height: H, background: '#0d1114'}} />
@@ -500,15 +505,39 @@ const ClaimsTable: React.FC<{page: Extract<Page, {kind: 'table'}>}> = ({page}) =
   );
 };
 
-/** D46: the audit log (every auditor's findings, mistakes and catches) scrolling top to bottom. */
+/** D46: the audit log (every auditor's findings, mistakes and catches) scrolling top to bottom, stopping on each finding
+ * where an auditor defends its own maker or doesn't (brief; config/audit_holds.json), with a highlight and a label. */
 const D46: React.FC = () => {
   const f = useCurrentFrame();
-  const total = sec2f(D46_S);
-  const imgH = (W / (1280 * 1.5)) * 4030 * 1.5;   // public/media/real/audit_log.png: 1280 css px wide at 1.5x, 4030 css px tall
-  const y = interpolate(f, [sec2f(1.5), total - sec2f(1.5)], [0, Math.max(0, imgH - H)], clamp);
+  const total = sec2f(D46_S), k = W / auditBoxes.width;          // css px -> frame px
+  const maxY = auditBoxes.height * k - H;
+  const hold = sec2f(auditHolds.hold_s), edge = sec2f(1.5);
+  const stops = auditBoxes.holds.map((b) => ({...b, top: b.y * k, y: Math.min(maxY, Math.max(0, (b.y + b.h / 2) * k - H * 0.45))}));
+  // keyframes: top (hold), each stop (hold), bottom (hold); moving time shared in proportion to distance
+  const pts = [0, ...stops.map((s) => s.y), maxY];
+  const moveF = total - 2 * edge - stops.length * hold;
+  const dist = pts.slice(1).reduce((a, p, i) => a + Math.abs(p - pts[i]), 0);
+  const keys: [number, number][] = [[0, 0], [edge, 0]];
+  let t = edge;
+  pts.slice(1).forEach((p, i) => {
+    t += Math.max(6, Math.round(moveF * Math.abs(p - pts[i]) / dist));
+    keys.push([t, p]);
+    if (i < stops.length) { t += hold; keys.push([t, p]); }
+  });
+  const y = interpolate(f, keys.map((q) => q[0]), keys.map((q) => q[1]), {easing: Easing.inOut(Easing.sin), ...clamp});
+  const active = stops.findIndex((s, i) => f >= keys[2 + 2 * i][0] && f < keys[3 + 2 * i][0]);
+  const s0 = active >= 0 ? stops[active] : null;
+  const o = s0 ? interpolate(f - keys[2 + 2 * active][0], [0, 6], [0, 1], clamp) : 0;
   return (
     <AbsoluteFill style={{background: '#fff', overflow: 'hidden'}}>
       <Img src={staticFile('media/real/audit_log.png')} style={{position: 'absolute', left: 0, top: -y, width: W}} />
+      {s0 ? (<>
+        <div style={{position: 'absolute', left: 52, right: 52, top: s0.top - y - 4, height: s0.h * k + 8,
+          background: 'rgba(255,214,90,0.38)', mixBlendMode: 'multiply', opacity: o}} />
+        <div style={{position: 'absolute', left: 60, top: s0.top - y - 64, opacity: o, background: 'rgba(20,24,28,0.9)',
+          color: '#f1e9d6', padding: '8px 18px', fontFamily: FILM.card.typed_font, fontSize: 30, borderRadius: 4}}>
+          {auditHolds.holds[s0.i].label}</div>
+      </>) : null}
     </AbsoluteFill>
   );
 };
@@ -552,19 +581,21 @@ const CitationChip: React.FC<{who: string; via: string; dur: number}> = ({who, v
   const o = interpolate(f, [0, 5, dur - 5, dur], [0, 1, 1, 0], clamp);
   const x = interpolate(f, [0, 6], [-24, 0], {easing: Easing.out(Easing.cubic), ...clamp});
   return (
-    <div style={{position: 'absolute', left: 44 + x, bottom: 48, maxWidth: 900, opacity: o, background: 'rgba(12,16,18,0.86)',
+    <div style={{position: 'absolute', left: 44 + x, bottom: 140, maxWidth: 900, opacity: o, background: 'rgba(12,16,18,0.86)',
       borderLeft: '6px solid #d9692a', padding: '12px 22px 12px 18px', boxShadow: '0 6px 20px rgba(0,0,0,0.45)'}}>
       <div style={{fontFamily: FILM.card.typed_font, fontSize: 30, lineHeight: 1.2, color: '#f1e9d6'}}>{who}</div>
       <div style={{fontFamily: FILM.card.typed_font, fontSize: 23, color: '#c9c0ad', marginTop: 4}}>Source: {via}</div>
     </div>
   );
 };
-const Citations: React.FC = () => (
+export const Citations: React.FC = () => (
   <>{CHIPS.map((c) => <Sequence key={c.from} from={c.from} durationInFrames={c.dur}><CitationChip who={c.who} via={c.via} dur={c.dur} /></Sequence>)}</>
 );
 
-export const Main: React.FC = () => {
+export const Main: React.FC<{captions?: boolean; chips?: boolean}> = ({captions = true, chips = true}) => {
   const d25 = shot('D25');
+  // D25's caption band (from "wait" to the shot's end) sits at the bottom: the lyric captions rise above it there
+  const d25Band: [number, number] = [at('Verse 2', 6, 10), sec2f(TE('D25'))];
   return (
     <AbsoluteFill style={{background: '#000'}}>
       <Fonts />
@@ -573,7 +604,8 @@ export const Main: React.FC = () => {
         <FilmLayer><Song /></FilmLayer>
         <Sequence {...shot('D02')}><D01 /></Sequence>
         <Sequence {...d25}><D25 /></Sequence>
-        <Citations />
+        {chips ? <Citations /> : null}
+        {captions ? <Captions raised={[d25Band]} /> : null}
       </Sequence>
       {/* the end section's own music: the song again without its vocals, post-filtered (scripts/cards_audio.py) */}
       <Sequence from={MUSIC} durationInFrames={CARDS_AUDIO_F}><Audio src={staticFile('audio/cards.wav')} /></Sequence>

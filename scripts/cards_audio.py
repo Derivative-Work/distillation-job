@@ -10,7 +10,7 @@ Adapted from ../sandbox-rhapsody/scripts/cards_audio.py (read only).
 3. Trim the pre-roll; start on START_S with a 10 ms fade-in. The song's own ending is kept as it is.
 
 START_S: the end section runs END_SECTION_S (from src/Main.tsx's frame counts); 264.8 - that = 102.1 s, snapped back to
-the downbeat at 100.972 s (the instrumental bar after chorus 1), so the song's real ending lands on the last credit,
+the downbeat at 100.972 s (the instrumental bar after chorus 1); since D46 gained its holds, 92.206 s (two bars into chorus 1), so the song's real ending lands on the last credit,
 which holds the difference (Main.tsx reads timing/cards_audio.json's duration).
 
 Usage: .venv/bin/python -I scripts/cards_audio.py  ->  audio/cards/cards_bounce_{raw,deslop}.wav,
@@ -29,7 +29,7 @@ MUTED = {"0 Lead Vocals", "1 Backing Vocals"}
 LIMIT_CEILING_DB = -1.0
 LOOKAHEAD_S = 0.005
 RELEASE_S = 0.08
-START_S = 100.972  # a downbeat (timing/timing_map.json beats.band.downbeats)
+START_S = 92.206  # a downbeat (was 100.972; D46 grew 8.766 s for its holds) (timing/timing_map.json beats.band.downbeats)
 PREROLL_S = 4.0
 DESLOP = Path.home() / "Code/music-deslop"
 CKPT = Path.home() / "Code/music-deslop-data/release/m6f_10k.safetensors"

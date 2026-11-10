@@ -3,6 +3,8 @@ import {Composition} from 'remotion';
 import {FILM} from './config';
 import {M2_FRAMES, M2Test} from './M2Test';
 import {Main, MAIN_FRAMES} from './Main';
+import {Short, SHORT_IDS, shortSpec} from './Shorts';
+import {Thumbnail} from './Thumbnail';
 
 export const Root: React.FC = () => (
   <>
@@ -10,5 +12,10 @@ export const Root: React.FC = () => (
       width={FILM.frame.width} height={FILM.frame.height} />
     <Composition id="Main" component={Main} durationInFrames={MAIN_FRAMES} fps={FILM.frame.fps}
       width={FILM.frame.width} height={FILM.frame.height} />
+    <Composition id="Thumbnail" component={Thumbnail} durationInFrames={120} fps={FILM.frame.fps} width={1920} height={1080} />
+    {SHORT_IDS.map((id) => (
+      <Composition key={id} id={`Short-${id}`} component={Short} defaultProps={{id}} durationInFrames={shortSpec(id).frames}
+        fps={FILM.frame.fps} width={1080} height={1920} />
+    ))}
   </>
 );
