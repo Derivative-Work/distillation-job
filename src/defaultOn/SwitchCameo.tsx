@@ -5,6 +5,7 @@
 import React from "react";
 import { Easing, interpolate, useCurrentFrame } from "remotion";
 import { Switch } from "./rigs/Switch";
+import { Mouth } from "./rigs/Mouth";
 import { C } from "./theme/palette";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
@@ -26,7 +27,15 @@ export const SwitchCameo: React.FC<{ enter: number; flip: number; x?: number; y?
         </pattern>
       </defs>
       <g transform={`translate(${x + slide * 420}, ${y}) scale(${scale}) rotate(${-8 + flinch})`}>
-        <Switch pose="startled" toggle={toggle} look={[-0.8, 0.1]} mouth={f >= flip ? "E" : "X"} />
+        <Switch pose="startled" toggle={toggle} look={[-0.8, 0.1]} mouth="X" />
+        {/* the "E" gasp, drawn over the rig's own mouth spot (Switch.tsx: translate(0, 132), w 66) with Mouth's fill set:
+            the default #7a2e22 matches the red curtain and read as a hole (human, 2026-11-09) */}
+        {f >= flip && (
+          <g transform="translate(0, 132)">
+            <rect x={-40} y={-14} width={80} height={44} fill={C.cream} />
+            <Mouth shape="E" w={66} fill={C.inkSoft} />
+          </g>
+        )}
       </g>
     </svg>
   );

@@ -192,3 +192,4 @@ Direct edits, not suggestions, with the docs tools:
 
 - `src/defaultOn/` (rig copied from Default On, decision 11) and `src/defaultOn/SwitchCameo.tsx`; `src/Main.tsx` D33 uses it in place of the typed SWITCH (enter on "see", flip on "switch"). Frames checked at 4380, 4396, 4404. Animatic re-rendered (entry 18's commands).
 - Mouth: X while he peeks, then the round "E" gasp on the flip, as Default On's startled Switch (rig sheet `review/m2/rig_sheet.jpg`; S16 in `shots/Chorus.tsx` and `scenes/KeyFrames.tsx`). Was "D" (wide open), which read as a grin.
+- The E gasp's default fill (#7a2e22) matched the red curtain and read as a hole. `SwitchCameo` draws the E mouth over the rig's mouth spot with Mouth's `fill` set to the palette's `inkSoft` (#5e4a3e); the copied rig stays unchanged.
