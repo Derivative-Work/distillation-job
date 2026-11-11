@@ -4,7 +4,7 @@ YouTube metadata for the main video and the four vertical Shorts, ready to paste
 
 **Before uploading:**
 - **Re-check the news** the day before. The card and the descriptions are as of November 10, 2026. If a named lab has responded since, "Other named labs did not immediately respond to reporters" (card page 2) and the description's matching line must change; likewise for any new filing, report or ruling.
-- **Make the repository public.** The end credits and every description link to https://github.com/Derivative-Work/distillation-job, which is private until then. Before that, decide whether to keep `docs/suno/resp_*.json`: they are raw responses captured from Suno's page and include the account's plan and US state.
+- **Make the repository public.** The end credits and every description link to https://github.com/Derivative-Work/distillation-job, which is private until then.
 - **Intervention count.** Update the number in the main description (`grep -c '^## ' log/human_interventions.md`; 32 on 2026-11-10).
 - **The main video's link** goes in the Shorts' footer once it is uploaded (replace `<MAIN VIDEO URL>`). In YouTube Studio, also set each Short's **Related video** to the main video.
 - **The "monday" Short** is timed to the news (a model launch on Monday, November 9, 2026), so upload it first. Neither it nor its description names the launch or the lab (decision 12).

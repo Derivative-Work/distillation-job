@@ -275,7 +275,7 @@ Direct edits, not suggestions, with the docs tools:
 
 ## 38. 2026-11-10 — Repository docs for review
 
-- `README.md` (for reviewers: where to start, the timeline, real captures, the claims card and chips verbatim with sources, where things are, reproducing, licences, credits), `METADATA.md` (YouTube titles, descriptions, tags and settings for the main video and four Shorts, and the checklist before upload: legal sign-off, news re-check, making the repo public, the `docs/suno/resp_*.json` account details), `LICENSE-media.md` and `LICENSES/CC-BY-NC-SA-4.0.txt` (copied from Buy It on Margin, the standard text). Modelled on Buy It on Margin's.
+- `README.md` (for reviewers: where to start, the timeline, real captures, the claims card and chips verbatim with sources, where things are, reproducing, licences, credits), `METADATA.md` (YouTube titles, descriptions, tags and settings for the main video and four Shorts, and the checklist before upload: legal sign-off, news re-check, making the repo public), `LICENSE-media.md` and `LICENSES/CC-BY-NC-SA-4.0.txt` (copied from Buy It on Margin, the standard text). Modelled on Buy It on Margin's.
 - Every description's claim was checked against `log/m6/source_check_2026-11-10.md`; the chorus Short's "hydra clusters" line was corrected to what The Register reports, with its skepticism.
 
 ## 39. 2026-11-10 — The 151 million row (decision 16)
@@ -286,3 +286,4 @@ Direct edits, not suggestions, with the docs tools:
 ## 40. 2026-11-10 — Lawyer review removed (decision 17)
 
 - Brief (Claude Doc) rev 54 → 57: three deletions (Fact card, risk table, M6); `docs/brief.md` edited to match. `src/Main.tsx` D45 tag: "Sources checked Nov 10, 2026" (was "· legal review pending", red). Main video re-rendered (entry 30's command); review copy `renders/m6/distillation_job_signoff_review.mp4`.
+- Correction (2026-11-10): the METADATA.md note about `docs/suno/resp_*.json` was wrong and is removed. Those raw captures (and `page.html`) are git-ignored and were never committed; they come from a logged-out visit to the share link, so the "free" plan in them is Suno's default for visitors, not the account's. The only location hint (`us_state`, from the capturing machine's IP) stays local.
