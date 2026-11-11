@@ -108,12 +108,22 @@ Every link was reopened and checked on November 10, 2026 ([`log/m6/source_check_
 
 ## Reproducing it
 
-Large files (audio, takes, the videos) are not in git; [`MANIFEST.sha256`](MANIFEST.sha256) lists them with checksums. There is no archive release yet.
+Large files (audio, takes, the videos) are not in git; [`MANIFEST.sha256`](MANIFEST.sha256) lists them with checksums. The release [`archive-2026-11-10`](https://github.com/Derivative-Work/distillation-job/releases/tag/archive-2026-11-10) has:
+- the main video and the four Shorts, with English captions and the thumbnail, all also in [`deliverables/`](deliverables/);
+- the audio that can't be regenerated: the Suno take and its stems, the post-filtered take and the end-section music;
+- every still and clip the production made, the picks as the edit uses them, and the real captures.
 
-- With the media in place, `npx remotion render src/index.ts Main deliverables/distillation_job_1080p.mp4 --concurrency=8 --gl=swiftshader --crf=16` renders the main video; the Shorts are `Short-<id>` (chorus, breakdown, verse3, monday). Captions: `python3 -I scripts/export_srt.py` (and `… short <id>`).
-- The edited master and its timing come from the locked post-filtered take: `.venv/bin/python -I scripts/cut_master.py && .venv/bin/python -I scripts/shot_times.py`.
-- Regenerating the takes is a per-stage job; the commands are in the production log, and the picks in `config/` make the same choices again. Every random process reads its seed from [`config/seeds.json`](config/seeds.json). Stills and clips with the same seed, weights and ComfyUI version should match on the same GPU (an NVIDIA GeForce RTX 5090, 32 GB); expect small differences elsewhere.
-- The song can't be regenerated: Suno doesn't give the same song twice. The post-filter model is private for now.
+```sh
+scripts/setup_env.sh --no-comfy   # Node, Remotion, the Python venv (idempotent; drop --no-comfy for ComfyUI and the weights)
+scripts/rebuild.sh --fetch        # download the archive, rebuild the edited master, videos, captions and thumbnail, check against the release
+```
+
+On the production machine, the rebuild gives a byte-identical main video, edited master, captions and thumbnail. The Shorts have bit-identical audio; their pictures can differ in the last bit (Chrome's compositing; worst frame 48.8 dB PSNR), so `rebuild.sh` checks each video to 40 dB.
+
+Regenerating the takes themselves from the models is a per-stage job. The commands are in the production log, and the picks in `config/` make the same choices again.
+- Every random process reads its seed from [`config/seeds.json`](config/seeds.json). Stills and clips with the same seed, weights ([`config/models.tsv`](config/models.tsv)) and ComfyUI version should match on the same GPU (production used an NVIDIA GeForce RTX 5090, 32 GB); expect small differences elsewhere.
+- The song can't be regenerated: Suno doesn't give the same song twice. The post-filter model is private for now, so the archive keeps the post-filtered take and the end-section music.
+- The uncropped D25 screenshots aren't in the archive (they show the human's other chats); the crops the video uses are.
 
 ## Licences
 

@@ -171,3 +171,7 @@ Append-only. Every human action: when, what, and why.
 ## 33. 2026-11-10 — Main video uploaded
 
 - **What:** uploaded the main video to YouTube: https://www.youtube.com/watch?v=3HDy22gg26c ("YouTube link for the main video is …"). The link is now in the README and in the Shorts' footer (METADATA.md).
+
+## 34. 2026-11-10 — Release
+
+- **What:** "prepare the release too".

@@ -287,3 +287,9 @@ Direct edits, not suggestions, with the docs tools:
 
 - Brief (Claude Doc) rev 54 → 57: three deletions (Fact card, risk table, M6); `docs/brief.md` edited to match. `src/Main.tsx` D45 tag: "Sources checked Nov 10, 2026" (was "· legal review pending", red). Main video re-rendered (entry 30's command); review copy `renders/m6/distillation_job_signoff_review.mp4`.
 - Correction (2026-11-10): the METADATA.md note about `docs/suno/resp_*.json` was wrong and is removed. Those raw captures (and `page.html`) are git-ignored and were never committed; they come from a logged-out visit to the share link, so the "free" plan in them is Suno's default for visitors, not the account's. The only location hint (`us_state`, from the capturing machine's IP) stays local.
+
+## 41. 2026-11-10 — The production archive (release archive-2026-11-10)
+
+- New, adapted from Buy It on Margin: `scripts/archive.sh` (inputs.tar 918 MB: the Suno take, stems, post-filtered take, end-section bounce and `public/audio/cards.wav`; takes.tar 1.61 GB: `takes/`, `public/media/picks`, `public/media/real`; the upload files; SHA256SUMS; `--upload` creates the release as a draft), `scripts/rebuild.sh`, `scripts/setup_env.sh` (copied; its Remotion version check fixed: `grep -q` closing the pipe failed it under pipefail), `scripts/hooks/pre-commit` (rejects staged files over 50 MiB), `config/models.tsv` (same weights and revisions as Buy It on Margin, checked against `config/stills.json` and `comfy/api/`), `scripts/thumbnail.py` (the thumbnail's Pillow step, as run at M5; byte-identical on re-run). `out/` git-ignored.
+- `scripts/rebuild.sh` run against the local archive: edited master and timing identical (no change under `timing/`); main video, thumbnail and all five SRTs byte-identical; Shorts audio bit-identical, worst frames 50.2 (chorus), 63.2 (breakdown), 56.5 (verse3), 48.8 dB (monday) PSNR. Log `out/rebuild.log`.
+- README "Reproducing it" rewritten for the release.

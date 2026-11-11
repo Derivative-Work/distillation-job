@@ -44,3 +44,6 @@ public/media/real/
 
 # D25 raw screenshots: show the human's other chat titles, name and LAN address; only the crops are used
 reference/d25_raw/
+
+# Rebuild output (scripts/rebuild.sh) and scratch renders
+out/
