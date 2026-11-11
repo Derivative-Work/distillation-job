@@ -155,3 +155,7 @@ Append-only. Every human action: when, what, and why.
 ## 29. 2026-11-10 — Satire label, counter, D25 highlight, sieve caption
 
 - **What:** "Add "AI-generated satire" at the beginning, then put the "a dramatization of allegations" shortly afterwards so that it clearly handles the first on-screen citation. Much like Folks, keep "AI-generated satire" in the top right afterwards, persistently except at the Qwen and credits/end cards). Delete the persistent "151,000,000" to make space. Animate highlighting "This is not evidence of distillation." The "sieve" caption seems to be covered by the following one in many instances." Decision 15.
+
+## 30. 2026-11-10 — Repository created; review docs
+
+- **What:** "note that I created the GitHub repository and gave you write access. Push up what you have" (pushed to github.com/Derivative-Work/distillation-job, private), then "Set up the README, METADATA, etc. for ease of review".
