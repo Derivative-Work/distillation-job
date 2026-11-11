@@ -5,13 +5,14 @@ import {Captions} from './Captions';
 import {FPS} from './config';
 import {CutPaperTitle, Typed} from './film/devices';
 import {Fonts} from './Fonts';
-import {Citations, D25_BAND, D25_CAPTION, Main} from './Main';
+import {Citations, D25_BAND, D25_CAPTION, Highlighted, Main, SatireTag, satireShown} from './Main';
 
 /**
  * The vertical Shorts, 1080x1920 (adapted from ../buy-it-on-margin/src/Shorts.tsx), one per entry in config/shorts.json:
  * everything inside the platforms' safe zone (see SAFE_W): the cut-paper title above (settled); the whole 16:9 main
- * edit at 950 wide (nothing cropped: D39b's split stamps and the corner counter stay whole), with its own audio; the citation chip at full size under the picture; ransom-note captions below. D04a's
- * disclaimer opens each one.
+ * edit at 950 wide (nothing cropped: D39b's split stamps stay whole), with its own audio; the citation chip at full size under the picture; ransom-note captions below. AI-GENERATED SATIRE and
+ * A DRAMATIZATION OF ALLEGATIONS open each one; the satire tag then sits at the picture's top right, full size, except
+ * over D25 (as in the main edit).
  */
 const CFG = shorts as {disclaimer_s: number; shorts: Record<string, {from: number; to: number}>};
 // Safe zone (human, 2026-11-10: captions were under the Shorts/Reels UI): the platforms overlay the bottom ~500 px
@@ -37,10 +38,11 @@ export const Short: React.FC<{id: string}> = ({id}) => {
       </div>
       <div style={{position: 'absolute', left: 0, top: PIC_TOP, width: SAFE_W, height: PIC_H, overflow: 'hidden'}}>
         <div style={{position: 'absolute', left: 0, top: 0, width: 1920, height: 1080, transform: `scale(${SAFE_W / 1920})`, transformOrigin: '0 0'}}>
-          <Sequence from={-from}><Main captions={false} chips={false} /></Sequence>
+          <Sequence from={-from}><Main captions={false} chips={false} satire={false} /></Sequence>
           <Sequence durationInFrames={disclaimer}>
             <AbsoluteFill style={{background: 'rgba(0,0,0,0.55)'}} />
-            <Typed text="A DRAMATIZATION OF ALLEGATIONS" at={0} y={0.5} size={72} perChar={0.5} />
+            <div style={{position: 'absolute', left: '50%', top: '33%', transform: 'translate(-50%, -50%)'}}><SatireTag size={84} /></div>
+            <Typed text="A DRAMATIZATION OF ALLEGATIONS" at={6} y={0.6} size={72} perChar={0.5} />
           </Sequence>
         </div>
       </div>
@@ -48,11 +50,21 @@ export const Short: React.FC<{id: string}> = ({id}) => {
       <div style={{position: 'absolute', left: 0, top: PIC_TOP + PIC_H - 40, width: SAFE_W, height: 330}}>
         <Sequence from={-from}><Citations /></Sequence>
       </div>
+      <ShortSatire from={from} disclaimer={disclaimer} />
       <D25Caption from={from} />
       <div style={{position: 'absolute', left: 0, top: PIC_TOP + PIC_H + 175, width: SAFE_W, height: 250}}>
         <Captions offsetS={from / FPS} size={54} width={SAFE_W - 70} top={10} />
       </div>
     </AbsoluteFill>
+  );
+};
+
+/** The satire tag at the picture's top right, full size, after the opening disclaimer; off over D25. */
+const ShortSatire: React.FC<{from: number; disclaimer: number}> = ({from, disclaimer}) => {
+  const f = useCurrentFrame();
+  if (f < disclaimer) return null;
+  return (
+    <div style={{position: 'absolute', right: 1080 - SAFE_W + 14, top: PIC_TOP + 14, opacity: satireShown(f + from)}}><SatireTag size={26} /></div>
   );
 };
 
@@ -66,7 +78,7 @@ const D25Caption: React.FC<{from: number}> = ({from}) => {
     <div style={{position: 'absolute', left: 0, width: SAFE_W, top: PIC_TOP + PIC_H - 96, background: 'rgb(10,14,16)',
       padding: '14px 26px', textAlign: 'center', fontFamily: 'Special Elite'}}>
       <div style={{fontSize: 32, color: '#f1e9d6', lineHeight: 1.2}}>{D25_CAPTION.big}</div>
-      <div style={{fontSize: 25, color: '#c9c0ad', marginTop: 8}}>{D25_CAPTION.small}</div>
+      <div style={{fontSize: 25, color: '#c9c0ad', marginTop: 8}}><Highlighted text={D25_CAPTION.small} t={f - a - 24} /></div>
     </div>
   );
 };

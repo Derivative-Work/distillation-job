@@ -29,7 +29,10 @@ else:
 
 
 def cues():
-    lines = [l for s in tm["sections"] for l in s["lines"]]
+    lines = [dict(l) for s in tm["sections"] for l in s["lines"]]
+    # a line starts no earlier than the last word of the line before it ends (src/Captions.tsx, the same rule)
+    for i in range(1, len(lines)):
+        lines[i]["start"] = max(lines[i]["start"], lines[i - 1]["words"][-1]["end"] + 0.02)
     for i, l in enumerate(lines):
         nxt = lines[i + 1]["start"] if i + 1 < len(lines) else 1e9
         end = max(l["start"] + rule["min_s"], min(nxt, l["end"] + rule["tail_s"]))

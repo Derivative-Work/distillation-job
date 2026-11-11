@@ -93,8 +93,9 @@ const STAMPS = [['Chorus 1', 0], ['Chorus 1', 4], ['Chorus 2', 0], ['Chorus 2', 
   .map(([s, l]) => at(s as string, l as number, 3));
 const OUTRO_STAMP = at('Outro', 1, 0);
 
-/** D28–D44c exchange counter: slams in at "Sixteen million!", rolls through the three figures, shrinks to a corner at
- * D31 and stays, at 151,000,000 (frozen: decision 13). */
+/** D28–D30 exchange counter: slams in at "Sixteen million!", rolls through the three figures to 151,000,000 (frozen:
+ * decision 13) and leaves at the cut to D31. It used to shrink to the top-right corner and stay; that corner is now
+ * the AI-GENERATED SATIRE tag's (human, 2026-11-10). D44 shows it once more, full size. */
 const COUNTER_HITS = [1, 2, 3].map((l) => at('Breakdown', l, 0));
 const COUNTER_VALS = [16_000_000, 28_800_000, 151_000_000];
 const ExchangeCounter: React.FC = () => {
@@ -106,11 +107,22 @@ const ExchangeCounter: React.FC = () => {
   // no tick after 151M (human, M6, decision 13: 3 million a day was a May-July peak, not an ongoing rate)
   if (f > tick0) v = COUNTER_VALS[2];
   const slam = interpolate(f, [COUNTER_HITS[0], COUNTER_HITS[0] + 3], [2.2, 1], {easing: Easing.in(Easing.quad), ...clamp});
-  const shrinkAt = sec2f(T('D31'));
-  const k = interpolate(f, [shrinkAt, shrinkAt + 10], [0, 1], {easing: Easing.inOut(Easing.cubic), ...clamp});
-  // Off for the cards and shots that fill the frame with their own text: D43 (disclaimer) and D44 (its own big counter).
-  if (f >= sec2f(T('D43')) && f < sec2f(T('D44a'))) return null;
-  return <Counter value={v} x={0.5 + 0.38 * k} y={0.55 - 0.47 * k} scale={1.5 * slam * (1 - 0.8 * k)} />;
+  if (f >= sec2f(T('D31'))) return null;
+  return <Counter value={v} x={0.5} y={0.55} scale={1.5 * slam} />;
+};
+
+/** D25's disclaimer: its last sentence ("This is not evidence of distillation.") gets a highlighter stroke, swept left to
+ * right on twos from t = 0 over 14 frames (human, 2026-11-10). t: frames since the sweep's start. */
+export const Highlighted: React.FC<{text: string; t: number}> = ({text, t}) => {
+  const i = text.indexOf(D25_HIGHLIGHT);
+  if (i < 0) return <>{text}</>;
+  const p = interpolate(Math.floor(t / 2) * 2, [0, 14], [0, 100], {easing: Easing.inOut(Easing.quad), ...clamp});
+  return (
+    <>{text.slice(0, i)}<span style={{position: 'relative', whiteSpace: 'nowrap'}}>{D25_HIGHLIGHT}
+      <span style={{position: 'absolute', left: '-0.1em', right: '-0.15em', top: '-0.08em', bottom: '-0.12em', padding: '0.08em 0.15em 0.12em 0.1em',
+        background: '#f2c14e', color: '#1b1b1b', clipPath: `inset(0 ${100 - p}% 0 0)`, transform: 'rotate(-0.6deg)'}}>{D25_HIGHLIGHT}</span>
+    </span>{text.slice(i + D25_HIGHLIGHT.length)}</>
+  );
 };
 
 /** A caption band for D25 (two lines: the claim and the disclaimer). */
@@ -121,7 +133,8 @@ const CaptionBand: React.FC<{big: string; small: string; at?: number}> = ({big, 
     <div style={{position: 'absolute', left: 0, right: 0, bottom: 0, padding: '28px 80px 34px', background: 'rgba(10,14,16,0.92)',
       opacity: o, textAlign: 'center'}}>
       <div style={{fontFamily: FILM.card.typed_font, fontSize: 46, color: '#f1e9d6', lineHeight: 1.25}}>{big}</div>
-      <div style={{fontFamily: FILM.card.typed_font, fontSize: 30, color: '#c9c0ad', marginTop: 12}}>{small}</div>
+      <div style={{fontFamily: FILM.card.typed_font, fontSize: 30, color: '#c9c0ad', marginTop: 12}}>
+        <Highlighted text={small} t={f - a - 20} /></div>
     </div>
   );
 };
@@ -216,7 +229,7 @@ const Song: React.FC = () => {
       </Sequence>
       <Sequence {...shot('D04a')}>
         <ShotStill id="D04a" />
-        <Typed text="A DRAMATIZATION OF ALLEGATIONS" at={6} y={0.86} />
+        {/* its A DRAMATIZATION OF ALLEGATIONS moved to the opening, before the first chip (SatireTag) */}
       </Sequence>
       <Sequence {...shot('D04b')}><CutPaperTitle lines={['THE', 'DISTILLATION', 'JOB']} /></Sequence>
       <Sequence {...shot('D04c')}>
@@ -593,8 +606,56 @@ export const Citations: React.FC = () => (
 export const D25_BAND = (): [number, number] => [at('Verse 2', 6, 10), sec2f(TE('D25'))];
 export const D25_CAPTION = {big: 'SAME MODEL. HANDED A PAGE ABOUT CLAUDE, IT DECIDED IT WAS CLAUDE.',
   small: 'Models often misidentify themselves. This is not evidence of distillation.'};
+const D25_HIGHLIGHT = 'This is not evidence of distillation.';
 
-export const Main: React.FC<{captions?: boolean; chips?: boolean}> = ({captions = true, chips = true}) => {
+/* ---------- AI-GENERATED SATIRE ----------
+ * Human, 2026-11-10 ("much like Folks"): the video opens on AI-GENERATED SATIRE, large, on the right panel; A
+ * DRAMATIZATION OF ALLEGATIONS is typed under it shortly after (moved from D04a), so both frame the first chip (0:08,
+ * Anthropic's claim). Just before that chip, both shrink into the top-right corner; the dramatization line leaves when
+ * the chip does, and the tag stays for the whole song except D25 (the real Qwen captures, which carry their own
+ * caption). The end section (claims card, audit log, end cards) has none. Drawn outside the film layer, crisp, in the
+ * typed face of D01's "Research" tag. */
+export const SATIRE = 'AI-GENERATED SATIRE';
+export const DRAMATIZATION = 'A DRAMATIZATION OF ALLEGATIONS';
+/** 0 while D25 is up (song frames), with 4-frame fades. */
+export const satireShown = (f: number) => {
+  const [a, b] = [sec2f(T('D25')), sec2f(TE('D25'))];
+  const end = interpolate(f, [MUSIC - 36, MUSIC], [1, 0], clamp);   // out with D44c's fade to black
+  return Math.min(interpolate(f, [a - 4, a], [1, 0], clamp) + interpolate(f, [b, b + 4], [0, 1], clamp), 1) * end;
+};
+export const SatireTag: React.FC<{size?: number}> = ({size = 30}) => (
+  <div style={{background: 'rgba(20,24,28,0.82)', color: '#f1e9d6', fontFamily: FILM.card.typed_font, fontSize: size, letterSpacing: '0.06em',
+    padding: `${size * 0.22}px ${size * 0.5}px ${size * 0.28}px`, borderRadius: 4, whiteSpace: 'nowrap', lineHeight: 1.1}}>{SATIRE}</div>
+);
+const SAT_IN = 8, DRAM_IN = 60;
+const Satire: React.FC = () => {
+  const f = useCurrentFrame();
+  const chip0 = CHIPS[0].from, chipEnd = CHIPS[0].from + CHIPS[0].dur;
+  const q = Math.floor(f / 2) * 2;    // stop motion: on twos
+  if (f < SAT_IN) return null;
+  // the move to the corner: right/top of the group's top-right anchor, and its scale
+  const k = interpolate(q, [chip0 - 16, chip0 - 2], [0, 1], {easing: Easing.inOut(Easing.cubic), ...clamp});
+  const S = 2.1, gw = 420, gh = 100, cx = (D01_W + 14 + W) / 2, cy = H * 0.44;
+  const right = interpolate(k, [0, 1], [W - cx - (S * gw) / 2, 40]);
+  const top = interpolate(k, [0, 1], [cy - (S * gh) / 2, 30]);
+  const sc = interpolate(k, [0, 1], [S, 1]) * interpolate(q, [SAT_IN, SAT_IN + 4], [1.25, 1], clamp);
+  const typed = DRAMATIZATION.slice(0, Math.max(0, Math.floor((f - DRAM_IN) / 1) + 1));
+  const dramO = interpolate(f, [chipEnd - 6, chipEnd], [1, 0], clamp);
+  return (
+    <div style={{position: 'absolute', right, top, transform: `scale(${sc})`, transformOrigin: '100% 0', opacity: satireShown(f),
+      display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 8}}>
+      <SatireTag />
+      {f >= DRAM_IN && dramO > 0 ? (
+        <div style={{position: 'relative', background: '#efe6d2', padding: '5px 11px 6px', boxShadow: '2px 3px 0 rgba(0,0,0,0.5)',
+          opacity: dramO, transform: 'rotate(-1deg)'}}>
+          <span style={{fontFamily: FILM.card.typed_font, fontSize: 22, color: '#1b1b1b', whiteSpace: 'pre', visibility: 'hidden'}}>{DRAMATIZATION}</span>
+          <span style={{position: 'absolute', left: 11, top: 5, fontFamily: FILM.card.typed_font, fontSize: 22, color: '#1b1b1b', whiteSpace: 'pre'}}>{typed}</span>
+        </div>) : null}
+    </div>
+  );
+};
+
+export const Main: React.FC<{captions?: boolean; chips?: boolean; satire?: boolean}> = ({captions = true, chips = true, satire = true}) => {
   const d25 = shot('D25');
   // D25's caption band (from "wait" to the shot's end) sits at the bottom: the lyric captions rise above it there
   const d25Band: [number, number] = [at('Verse 2', 6, 10), sec2f(TE('D25'))];
@@ -608,6 +669,7 @@ export const Main: React.FC<{captions?: boolean; chips?: boolean}> = ({captions 
         <Sequence {...d25}><D25 /></Sequence>
         {chips ? <Citations /> : null}
         {captions ? <Captions raised={[d25Band]} /> : null}
+        {satire ? <Satire /> : null}
       </Sequence>
       {/* the end section's own music: the song again without its vocals, post-filtered (scripts/cards_audio.py) */}
       <Sequence from={MUSIC} durationInFrames={CARDS_AUDIO_F}><Audio src={staticFile('audio/cards.wav')} /></Sequence>

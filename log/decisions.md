@@ -79,3 +79,12 @@ After human review the main note was that the intro runs too long. The human ask
 - Audio: the locked master is not touched; `config/edit.json` cuts 33.042–41.803 s of the take (downbeat to downbeat inside a one-chord vamp, every bar pair chroma-similar at 0.99 or more; end point matched within 10 ms, 30 ms equal-power crossfade), giving `audio/edit/distillation_job_edit.wav` (256.039 s, was 264.8). Everything after the cut is 8.761 s earlier.
 - Picture: D04b 1 bar (the cut-paper title still lands in full), D04c 2 bars, D04d retired (the vault is first seen at D09), D04e 1 bar (the back half of its clip at 1.5x, so the van still rolls out).
 - The lawyer packet's chip timestamps move with it.
+
+## 15. 2026-11-10 — AI-GENERATED SATIRE label; the corner counter goes
+
+After human review: "Add 'AI-generated satire' at the beginning, then put the 'a dramatization of allegations' shortly afterwards so that it clearly handles the first on-screen citation. Much like Folks, keep 'AI-generated satire' in the top right afterwards, persistently except at the Qwen and credits/end cards. Delete the persistent '151,000,000' to make space."
+- The video opens (0:00.3) on AI-GENERATED SATIRE, large, on the right panel beside the real research chat; A DRAMATIZATION OF ALLEGATIONS is typed under it from 0:02.5 (moved from D04a, where it first appeared at 0:20). Just before the first chip (0:08, Anthropic's claim) both shrink into the top-right corner; the dramatization line leaves with that chip, and the tag stays (Folks Like Us decision: "on screen for the whole film, top right").
+- The tag is off during D25 (the real Qwen captures, with their own caption), fades with D44c's fade to black, and is absent from the end section (claims card, audit log, end cards). It is drawn outside the film layer in the typed face of D01's Research tag (this film has no sans face).
+- The exchange counter no longer shrinks to the corner after the breakdown: it leaves at the cut to D31. D44 still shows it, full size, at 151,000,000.
+- Shorts: the opening card reads AI-GENERATED SATIRE over A DRAMATIZATION OF ALLEGATIONS; the tag then sits at the picture's top right, full size, off over D25.
+- D25: "This is not evidence of distillation." gets a highlighter stroke, swept in 1 s after the caption band appears (main and Shorts).

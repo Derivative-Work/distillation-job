@@ -151,3 +151,7 @@ Append-only. Every human action: when, what, and why.
 ## 28. 2026-11-10 — Intro too long (after human review)
 
 - **What:** "After human review, the main feedback I'm getting is that the intro is too long. Let's see about removing 4 bars (roughly 0:33 to 0:42) -- suggest which scenes can be shortened or removed". Then, of the agent's three options: "let's go with option 2, but only do title for 1 bar so there's more time for everything else". Decision 14.
+
+## 29. 2026-11-10 — Satire label, counter, D25 highlight, sieve caption
+
+- **What:** "Add "AI-generated satire" at the beginning, then put the "a dramatization of allegations" shortly afterwards so that it clearly handles the first on-screen citation. Much like Folks, keep "AI-generated satire" in the top right afterwards, persistently except at the Qwen and credits/end cards). Delete the persistent "151,000,000" to make space. Animate highlighting "This is not evidence of distillation." The "sieve" caption seems to be covered by the following one in many instances." Decision 15.

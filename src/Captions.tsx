@@ -23,7 +23,16 @@ const G = (rule as any).groups as {max_words: number; gap_s: number};
 export const LINES: Line[] = (() => {
   // words already on screen (a stamp, a card) are left out (config/captions.json "omit")
   const omit = ((rule as any).omit ?? []) as {section: string; line: number; from?: number}[];
-  const lines = (tmap as any).sections.flatMap((s: any) => s.lines.map((l: any, i: number) => {
+  // a line starts no earlier than the last word of the line before it ends (the aligner put chorus 1's and the final
+  // chorus's "Take" on top of "sieve", so "sieve" was replaced as it landed: human, 2026-11-10); same rule in the SRT
+  const raw = (tmap as any).sections.flatMap((s: any) => s.lines) as {start: number; end: number; words: Word[]}[];
+  const startOf = new Map(raw.map((l, i) => {
+    const prevEnd = i ? raw[i - 1].words[raw[i - 1].words.length - 1].end : -1;
+    return [l, Math.max(l.start, prevEnd + 0.02)] as const;
+  }));
+  const lines = (tmap as any).sections.flatMap((s: any) => s.lines.map((l0: any, i: number) => {
+    const a = startOf.get(l0)!;
+    const l = a === l0.start ? l0 : {...l0, start: a, words: l0.words.map((w: Word) => (w.start < a ? {...w, start: a} : w))};
     const o = omit.find((q) => q.section === s.name && q.line === i);
     return o ? {...l, words: o.from === undefined ? [] : l.words.slice(0, o.from)} : l;
   })).filter((l: any) => l.words.length) as {start: number; end: number; words: Word[]}[];
