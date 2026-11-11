@@ -282,3 +282,7 @@ Direct edits, not suggestions, with the docs tools:
 
 - `config/claims_card.json` page 4, Sep 10 row: the total removed. `src/Main.tsx` `ExchangeCounter`: each figure rolls from 0. README, METADATA.md and the lawyer packet: the row's links corrected, the counter described.
 - Re-rendered the main video and `Short-breakdown` (the only Short with the counter); the other Shorts are unchanged. Review copy `renders/m6/distillation_job_sources_fix_review.mp4`.
+
+## 40. 2026-11-10 — Lawyer review removed (decision 17)
+
+- Brief (Claude Doc) rev 54 → 57: three deletions (Fact card, risk table, M6); `docs/brief.md` edited to match. `src/Main.tsx` D45 tag: "Sources checked Nov 10, 2026" (was "· legal review pending", red). Main video re-rendered (entry 30's command); review copy `renders/m6/distillation_job_signoff_review.mp4`.

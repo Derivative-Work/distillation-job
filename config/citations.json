@@ -1,6 +1,6 @@
 {
  "_doc": "In-video citation chips (human, M4 notes 5: viewers leave before the claims card). Each chip sits bottom-left from its cue word for 'hold' seconds (cut short before the next chip) and names only who made the claim and where it was reported, never an accused lab: the brief's guardrail is that nothing maps a lyric line to a company (brief, Fact card; audit round 1). The accused, the denials and the full framing stay on the claims card (D45). Same status as the claims card: draft, every row rechecked against its source at M6 and reviewed by the media lawyer with the card. Rows follow the brief's claims table and config/claims_card.json.",
- "status": "M6 checked 2026-11-10; awaiting the media lawyer",
+ "status": "M6 checked 2026-11-10; signed off by the human and their reviewers 2026-11-10, no lawyer review (decision 17)",
  "chips": [
   {
    "cue": [

@@ -96,3 +96,11 @@ The human asked where the 151 million came from. Tracing it found three problems
 - **The links.** The README, METADATA.md and the lawyer packet linked the row to Anthropic's February post and Let's Data Science's June article. They now cite Anthropic's September report (https://www.anthropic.com/threat-intelligence-report-september-2026) and Let's Data Science's September 11 article (https://letsdatascience.com/news/anthropic-reports-large-scale-claude-distillation-attempts-a23fb82f), both quoted in the source check (C11).
 - **The counter.** It rolled 16M → 28.8M → 151M as one rising total, but these are separate claims (three other labs in February; Alibaba-linked April 22–June 5; Alibaba-linked May–July, so the June figure very likely falls inside the 151 million), as the source check (S1) had flagged. Each figure now counts up from zero.
 The human chose all three fixes ("yes do the three fixes. that was the only issue I found with the sources in my review").
+
+## 17. 2026-11-10 — No lawyer review; the human's sign-off instead
+
+The brief asked for a media-lawyer review of the final card (Fact card; M6). The human: "I've reviewed the sources and am satisfied with the legal footing of the video and the repository, as are my other human reviewers. I think we're good without the full legal review -- remove it from the README and brief."
+- The brief (Claude Doc, rev 57) no longer asks for it: removed from the Fact card section, the risk table and the M6 milestone; `docs/brief.md` mirrors that.
+- README, METADATA.md (the upload checklist) and CLAUDE.md no longer mention it. `config/claims_card.json` and `config/citations.json` record the sign-off.
+- The claims card's tag on screen read "Sources checked Nov 10, 2026 · legal review pending" in red; it now reads "Sources checked Nov 10, 2026", in a muted grey. The main video was re-rendered (the Shorts don't show the card).
+- The lawyer packet (Claude Doc) stays as it is, as a record of what was prepared.

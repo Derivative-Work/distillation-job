@@ -163,3 +163,7 @@ Append-only. Every human action: when, what, and why.
 ## 31. 2026-11-10 — Source review: the 151 million
 
 - **What:** "where is the "151 million" claim coming from". After the agent's answer (the source, and three problems with how it was presented): "yes do the three fixes. that was the only issue I found with the sources in my review". Decision 16. The human's own review of the sources found no other issue.
+
+## 32. 2026-11-10 — Sign-off without the lawyer review
+
+- **What:** "I've reviewed the sources and am satisfied with the legal footing of the video and the repository, as are my other human reviewers. I think we're good without the full legal review -- remove it from the README and brief." Decision 17.

@@ -1,4 +1,4 @@
-<!-- Plain-text mirror of the Claude Doc https://claude.ai/artifact/4GsgfcSeDVLnMqr6Ko1zPZ (rev 54), read with the docs tools. The doc is the source of truth. Regenerate: scripts/mirror_brief.py. -->
+<!-- Plain-text mirror of the Claude Doc https://claude.ai/artifact/4GsgfcSeDVLnMqr6Ko1zPZ (rev 57; the rev 55–57 deletions applied by hand), read with the docs tools. The doc is the source of truth. Regenerate: scripts/mirror_brief.py. -->
 
 # The Distillation Job: Shot List and Production Brief
 
@@ -200,7 +200,7 @@ The central image is a literal copper still: the crew pours the teller's ticker 
 
 **Opening bookend (D01).** The real research chat, scrolling from the request to the first numbers. Label it with the model and date, so viewers know who gathered the facts.
 
-**Fact card (D45),** white text on black, one fact at a time. Before rendering, reopen every source, confirm each figure, and log the check with its date. Anything changed or unconfirmed is corrected or cut, never kept from this brief. Each item is framed as what a named organization reported or alleged, never as what a company did. The card never maps a lyric line to a company. It opens with this card, held for a full read: "The following figures and attributions are claims made by the named organizations or government agencies. They are not findings of liability. Some are disputed, and the underlying evidence has not been made public in full." Have a media lawyer review the final card.
+**Fact card (D45),** white text on black, one fact at a time. Before rendering, reopen every source, confirm each figure, and log the check with its date. Anything changed or unconfirmed is corrected or cut, never kept from this brief. Each item is framed as what a named organization reported or alleged, never as what a company did. The card never maps a lyric line to a company. It opens with this card, held for a full read: "The following figures and attributions are claims made by the named organizations or government agencies. They are not findings of liability. Some are disputed, and the underlying evidence has not been made public in full."
 - Feb 23, 2026: Anthropic alleged that DeepSeek, Moonshot and MiniMax generated over 16 million Claude exchanges through about 24,000 fraudulent accounts. Anthropic's attribution rests on its own telemetry. ([Anthropic](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks), [Computing](https://www.computing.co.uk/news/2026/ai/chinese-firms-used-distillation-copy-claude))
 - Anthropic said MiniMax shifted about half its traffic to a new model within 24 hours, and that DeepSeek prompts asked Claude to write out its reasoning step by step. ([Gigazine](https://gigazine.net/gsc_news/en/20260224-anthropic-deepseek-moonshot-minimax))
 - Feb 12: an OpenAI memo to the House China committee alleged that DeepSeek employees used obfuscated routers and VPNs to reach US models. ([GlobalSecurity](https://www.globalsecurity.org/military/world/china/ai-distillation.htm))
@@ -400,7 +400,7 @@ Round 1, November 5, 2026: ChatGPT and Gemini, prompt verbatim, both with web ac
 | Verse 3 implies scraping and fraudulent access are equivalent | ChatGPT | Fair | Proposed: a line conceding the difference |
 | "Fine-tune on what we made" overstates the Qwen statistic | ChatGPT | Misread: "we" is the crew, whose models startups do build on. Wording is ambiguous | Proposed: "on the models we made" |
 | "As a model made by—" unsourced | ChatGPT can't verify; Gemini confirms from memory | Confirmed: [TechCrunch, Dec 27, 2024](https://techcrunch.com/2024/12/27/why-deepseeks-new-ai-model-thinks-its-chatgpt/). Same piece: Gemini once called itself Baidu's chatbot, and contaminated web data is the likelier cause | Kept. Fact card gets both explanations and the Gemini example |
-| First-person crew plus a fact card naming companies reads as their confession | Both | The biggest structural risk | Proposed: spoken intro framing the song as a dramatization of allegations; fact card frames each item as a report, never maps lines to companies; ChatGPT's disclaimer text on the card; lawyer review |
+| First-person crew plus a fact card naming companies reads as their confession | Both | The biggest structural risk | Proposed: spoken intro framing the song as a dramatization of allegations; fact card frames each item as a report, never maps lines to companies; ChatGPT's disclaimer text on the card |
 | Gemini's claims: advisory says DeepSeek distilled two Gemini versions; Forkast calls the report a "legal positioning document"; named researchers doubted the K3 claim; China denied | Gemini | Unverified | Verify before any reaches the fact card |
 | ChatGPT's claim: OpenAI accused of using resellers and disguised routers itself | ChatGPT | Unverified | Verify before use |
 | No title supplied | ChatGPT | Correct | Add the title to the prompt |
@@ -476,7 +476,7 @@ Claude Code stops at each gate until the human approves; the gates follow Buy It
 | M3 | Generate all stills and clips, every prompt and seed logged; contact sheets of every take | Pick takes; flag any shot to swap asset type |
 | M4 | Animatic of every shot at 540p with the film layer, cut to the track, with the real captures (D01, D25, D46) | Approve timing |
 | M5 | Final render at 1080p, burned-in captions plus an SRT, the vertical Shorts and a thumbnail | Approve the finals |
-| M6 | Claims card: reopen every source, confirm each figure and log the check with its date; media-lawyer review | Resolve every flag before release |
+| M6 | Claims card: reopen every source, confirm each figure and log the check with its date | Resolve every flag before release |
 
 **Done when:** every shot ID from D01 to D47 is in the edit in order, or its omission is logged and approved; captions sit within two frames of the timing map; every figure on screen matches a reopened source; every human action is in `log/human_interventions.md`.
 

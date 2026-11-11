@@ -6,39 +6,9 @@ The song is sung by the crew, in the first person, so the video never ties a lyr
 
 **Conflict of interest:** the lyrics were drafted by Claude, made by Anthropic, which is the main accuser in this story and the source of most of the figures. The end card says so. To offset it, the lyrics were audited by models from other labs, including labs Anthropic has accused, and every audit finding Claude rejected went to the human for the final call.
 
-This repository is the production record the video's credits point to. Claude Code produced the video. A human approved each milestone, picked the takes, made the Suno generation, ran the audits in the other labs' apps and made the screen captures. Each of those 29 interventions is logged.
+This repository is the production record the video's credits point to. Claude Code produced the video. A human approved each milestone, picked the takes, made the Suno generation, ran the audits in the other labs' apps and made the screen captures. Each of those 32 interventions is logged.
 
 **The production log and decisions are written by the agent and are a record, not a statement of fact about any company:** where they discuss a claim, the claims card and its sources are the reference.
-
-## For reviewers
-
-Start with the video, then the claims, then the record of how they were checked.
-
-1. **The video:** `deliverables/distillation_job_1080p.mp4` (7:15, captions burned in; `.en.srt` beside it). Large files are not in git: ask the channel owner, or see [Reproducing it](#reproducing-it).
-2. **What it claims about real companies:** the claims card and the citation chips, verbatim, under [Sources](#sources). The one place a real model name appears during the song is the D25 identity segment (2:00 to 2:10), explained under [Real captures](#real-captures).
-3. **How the claims were checked:** [`log/m6/checklist.md`](log/m6/checklist.md) (every on-screen claim and figure, with its sources), [`log/m6/source_check_2026-11-10.md`](log/m6/source_check_2026-11-10.md) (every source reopened on 2026-11-10, with a verbatim quote for each) and [`log/m6/corrections_2026-11-10.md`](log/m6/corrections_2026-11-10.md) (20 statements held as worded, 13 reworded, none cut).
-4. **What other labs' models said about the lyrics:** [`log/audits/`](log/audits/), verbatim, with an index.
-5. **Every choice made along the way:** [`log/decisions.md`](log/decisions.md) (deviations from the brief, and why) and [`log/human_interventions.md`](log/human_interventions.md) (every human action, in the human's words).
-
-**Status (2026-11-10):** milestones M1 to M6 are done. The media-lawyer review is pending; until it signs off, the claims card's tag reads "Sources checked Nov 10, 2026 · legal review pending". Nothing is published.
-
-## Timeline
-
-| Time | Section | On screen |
-| --- | --- | --- |
-| 0:00 | Intro (spoken) | AI-GENERATED SATIRE, then A DRAMATIZATION OF ALLEGATIONS, beside the real research chat; the satire tag then stays top right for the whole song, except during D25 |
-| 0:36 | Verse 1 | the crew, the proxy van, the switchboard |
-| 1:07 | Pre-chorus 1, Chorus 1 | the hydra; ALLEGEDLY! stamps on every "(allegedly!)" |
-| 1:37 | Verse 2 | the traffic shift; D25, the identity segment (2:00 to 2:10) |
-| 2:04 | Pre-chorus 2, Chorus 2 | |
-| 2:29 | Breakdown | the counter rolls through the claimant's three figures, each with its claimant and date |
-| 2:46 | Bridge | the federal advisory; the Feds swap the teller for a plywood twin |
-| 3:03 | Verse 3 | the vault built from everyone else's stuff |
-| 3:30 | Final chorus | |
-| 3:50 | Outro | "One crew denies it. The rest ain't talkin'." |
-| 4:16 | Claims card | seven pages over darkened shots from the video |
-| 6:00 | Audit log | the real audit log scrolls, stopping on four findings |
-| 6:40 | End cards | the disclosure, then the credits |
 
 ## How it was made
 
@@ -52,7 +22,7 @@ Start with the video, then the claims, then the record of how they were checked.
 | Clips | Moving shots from picked stills; on-prop text (badges, plates, signs) lettered onto the takes afterwards | LTX-2.3 image-to-video in ComfyUI; `scripts/letter.py` |
 | Film layer | 1970s film look, split screens, crash zooms, stamps, cut-paper titles, ransom-note captions; every random choice seeded (41) | Remotion 4 |
 | Real captures | The research chat, the Qwen screenshots, the audit log | Puppeteer; the human's screenshots |
-| Checks | Four lyric audits by other labs' models; every source reopened at M6; a media-lawyer review (pending) | ChatGPT, Gemini, GLM, Qwen 3.8; a lawyer |
+| Checks | Four lyric audits by other labs' models; every source reopened at M6; the human's and their reviewers' review of the sources | ChatGPT, Gemini, GLM, Qwen 3.8; humans |
 | Human | Milestone approvals, takes, the Suno generation, the audits, the screenshots, every edit note | a human |
 
 ## Real captures

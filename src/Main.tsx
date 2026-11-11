@@ -481,8 +481,9 @@ const D45: React.FC = () => {
           </Sequence>
         );
       })}
-      <div style={{position: 'absolute', right: 30, top: 24, fontFamily: 'monospace', fontSize: 20, color: '#c8282c'}}>
-        Sources checked Nov 10, 2026 · legal review pending
+      {/* the source-check date (the "legal review pending" flag went with the lawyer review: human, 2026-11-10, decision 17) */}
+      <div style={{position: 'absolute', right: 30, top: 24, fontFamily: 'monospace', fontSize: 20, color: '#9a968c'}}>
+        Sources checked Nov 10, 2026
       </div>
     </AbsoluteFill>
   );

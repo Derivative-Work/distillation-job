@@ -3,10 +3,9 @@
 YouTube metadata for the main video and the four vertical Shorts, ready to paste at upload. Written by the agent; the human uploads.
 
 **Before uploading:**
-- **Legal review.** Apply the media lawyer's changes, then remove "legal review pending" from the claims card's tag (`config/claims_card.json`) and re-render (the commands in `log/production_log.md`, entry 30). Ask counsel to read the WHAT'S CLAIMED section of the main description and the four Shorts descriptions too: they repeat the card's claims in other words.
 - **Re-check the news** the day before. The card and the descriptions are as of November 10, 2026. If a named lab has responded since, "Other named labs did not immediately respond to reporters" (card page 2) and the description's matching line must change; likewise for any new filing, report or ruling.
 - **Make the repository public.** The end credits and every description link to https://github.com/Derivative-Work/distillation-job, which is private until then. Before that, decide whether to keep `docs/suno/resp_*.json`: they are raw responses captured from Suno's page and include the account's plan and US state.
-- **Intervention count.** Update the number in the main description (`grep -c '^## ' log/human_interventions.md`; 29 on 2026-11-10).
+- **Intervention count.** Update the number in the main description (`grep -c '^## ' log/human_interventions.md`; 32 on 2026-11-10).
 - **The main video's link** goes in the Shorts' footer once it is uploaded (replace `<MAIN VIDEO URL>`). In YouTube Studio, also set each Short's **Related video** to the main video.
 - **The "monday" Short** is timed to the news (a model launch on Monday, November 9, 2026), so upload it first. Neither it nor its description names the launch or the lab (decision 12).
 
@@ -37,7 +36,7 @@ A crew of sock puppets never breaks into the vault: they line up at its teller w
 
 A disclosure: the lyrics were drafted by Claude, made by Anthropic, which is the main accuser in this story, and most of the figures are its own, not independently verified. Models from other labs audited the lyrics, including labs Anthropic has accused (ChatGPT, Gemini, GLM and Qwen 3.8); their findings are shown at the end and published in full.
 
-Every frame, note and word was made by AI: the song by Suno, the words by Claude, the pictures by FLUX.2 and LTX-2.3, the edit by Claude Code. A human approved each stage, picked the takes and ran the audits. Each of those 29 interventions is logged, along with every prompt and production step:
+Every frame, note and word was made by AI: the song by Suno, the words by Claude, the pictures by FLUX.2 and LTX-2.3, the edit by Claude Code. A human approved each stage, picked the takes and ran the audits. Each of those 32 interventions is logged, along with every prompt and production step:
 https://github.com/Derivative-Work/distillation-job
 
 CHAPTERS

@@ -1,6 +1,6 @@
 # The Distillation Job
 
-A 1970s heist-funk music video about model distillation: a crew of sock puppets never breaks in, they line up at the vault's teller window and ask it, millions of times, how it was built; in verse 3 the vault turns out to be built from everyone else's stuff. The agent does the production; the human approves at each milestone gate, picks takes, and supplies what the agent can't reach (Suno, the audits run in other labs' chat apps, screen captures, the media-lawyer review).
+A 1970s heist-funk music video about model distillation: a crew of sock puppets never breaks in, they line up at the vault's teller window and ask it, millions of times, how it was built; in verse 3 the vault turns out to be built from everyone else's stuff. The agent does the production; the human approves at each milestone gate, picks takes, and supplies what the agent can't reach (Suno, the audits run in other labs' chat apps, screen captures, the review of the sources).
 
 **Start here:** the brief is the Claude Doc https://claude.ai/artifact/4GsgfcSeDVLnMqr6Ko1zPZ (shot list, look, lyrics v1.2, audit plan, claims card, guardrails). Read it with the docs tools, not a web fetch; `docs/brief.md` is a plain-text mirror. The planning chat is captured in `docs/planning_chat/`. Then read the latest entries of `log/production_log.md` and `log/human_interventions.md`.
 
