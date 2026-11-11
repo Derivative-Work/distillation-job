@@ -102,7 +102,9 @@ const ExchangeCounter: React.FC = () => {
   const f = useCurrentFrame();
   if (f < COUNTER_HITS[0]) return null;
   let v = 0;
-  COUNTER_HITS.forEach((h, i) => { if (f >= h) v = rollValue(f, h, h + 14, i ? COUNTER_VALS[i - 1] : 0, COUNTER_VALS[i]); });
+  // each figure counts up from zero (human, 2026-11-10; decision 16): they are three separate claims, and the June
+  // figure very likely falls inside the 151 million, so rolling on from the last one would read as one growing total
+  COUNTER_HITS.forEach((h, i) => { if (f >= h) v = rollValue(f, h, h + 14, 0, COUNTER_VALS[i]); });
   const tick0 = COUNTER_HITS[2] + 14;   // the roll to 151M ends here
   // no tick after 151M (human, M6, decision 13: 3 million a day was a May-July peak, not an ongoing rate)
   if (f > tick0) v = COUNTER_VALS[2];

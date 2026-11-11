@@ -88,3 +88,11 @@ After human review: "Add 'AI-generated satire' at the beginning, then put the 'a
 - The exchange counter no longer shrinks to the corner after the breakdown: it leaves at the cut to D31. D44 still shows it, full size, at 151,000,000.
 - Shorts: the opening card reads AI-GENERATED SATIRE over A DRAMATIZATION OF ALLEGATIONS; the tag then sits at the picture's top right, full size, off over D25.
 - D25: "This is not evidence of distillation." gets a highlighter stroke, swept in 1 s after the caption band appears (main and Shorts).
+
+## 16. 2026-11-10 — The 151 million row: total dropped, sources fixed, counter resets
+
+The human asked where the 151 million came from. Tracing it found three problems, all the agent's:
+- **The total.** At M6 the Sep 10 row became "…of roughly 200 million across the labs it named", attributed to Anthropic and Let's Data Science. Neither says so: Anthropic's report gives no grand total (its per-lab "over" figures sum to about 190 million), and "approximately 200 million" appears only in Forkast, which the source check had dropped as probably machine-written and self-contradictory. The agent took Forkast's number while applying the correction. The total is dropped; the row reads "over 151 million exchanges, peaking near 3 million a day (May to July)".
+- **The links.** The README, METADATA.md and the lawyer packet linked the row to Anthropic's February post and Let's Data Science's June article. They now cite Anthropic's September report (https://www.anthropic.com/threat-intelligence-report-september-2026) and Let's Data Science's September 11 article (https://letsdatascience.com/news/anthropic-reports-large-scale-claude-distillation-attempts-a23fb82f), both quoted in the source check (C11).
+- **The counter.** It rolled 16M → 28.8M → 151M as one rising total, but these are separate claims (three other labs in February; Alibaba-linked April 22–June 5; Alibaba-linked May–July, so the June figure very likely falls inside the 151 million), as the source check (S1) had flagged. Each figure now counts up from zero.
+The human chose all three fixes ("yes do the three fixes. that was the only issue I found with the sources in my review").

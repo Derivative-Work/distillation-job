@@ -159,3 +159,7 @@ Append-only. Every human action: when, what, and why.
 ## 30. 2026-11-10 — Repository created; review docs
 
 - **What:** "note that I created the GitHub repository and gave you write access. Push up what you have" (pushed to github.com/Derivative-Work/distillation-job, private), then "Set up the README, METADATA, etc. for ease of review".
+
+## 31. 2026-11-10 — Source review: the 151 million
+
+- **What:** "where is the "151 million" claim coming from". After the agent's answer (the source, and three problems with how it was presented): "yes do the three fixes. that was the only issue I found with the sources in my review". Decision 16. The human's own review of the sources found no other issue.

@@ -25,3 +25,7 @@ Open, for the human (not changed):
 - **S1, the counter.** The three figures are supported, but after 151,000,000 the counter keeps ticking at 3 million a day to the end of the song and on D44 (brief: "the counter keeps ticking"). That rate was a May–July peak, and Anthropic says (Oct 12) its defenses cut harvested data by 90–99%. The ticking presents a past peak as an ongoing rate. Options: freeze at 151,000,000; or keep the tick with a label "PEAK RATE, MAY–JUL (ALLEGED)".
 - **The 69% figure (C14)** is "reportedly" in Lawfare and traces to a paper the agent couldn't confirm; it stays "reportedly".
 - **Let's Data Science** (C9, V9) is dated a day before the Reuters report it describes; kept, flagged for the lawyer.
+
+## Addendum, 2026-11-10 (decision 16)
+
+C11 as applied above was wrong: "roughly 200 million" is Forkast's figure, which the source check had rejected, and neither Anthropic nor Let's Data Science states it. The total is dropped. The row cites Anthropic's September report and Let's Data Science's September 11 article. S1 is now handled in full: the counter shows each figure counting up from zero, not as one rising total.

@@ -277,3 +277,8 @@ Direct edits, not suggestions, with the docs tools:
 
 - `README.md` (for reviewers: where to start, the timeline, real captures, the claims card and chips verbatim with sources, where things are, reproducing, licences, credits), `METADATA.md` (YouTube titles, descriptions, tags and settings for the main video and four Shorts, and the checklist before upload: legal sign-off, news re-check, making the repo public, the `docs/suno/resp_*.json` account details), `LICENSE-media.md` and `LICENSES/CC-BY-NC-SA-4.0.txt` (copied from Buy It on Margin, the standard text). Modelled on Buy It on Margin's.
 - Every description's claim was checked against `log/m6/source_check_2026-11-10.md`; the chorus Short's "hydra clusters" line was corrected to what The Register reports, with its skepticism.
+
+## 39. 2026-11-10 — The 151 million row (decision 16)
+
+- `config/claims_card.json` page 4, Sep 10 row: the total removed. `src/Main.tsx` `ExchangeCounter`: each figure rolls from 0. README, METADATA.md and the lawyer packet: the row's links corrected, the counter described.
+- Re-rendered the main video and `Short-breakdown` (the only Short with the counter); the other Shorts are unchanged. Review copy `renders/m6/distillation_job_sources_fix_review.mp4`.

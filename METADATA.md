@@ -59,7 +59,7 @@ WHAT'S CLAIMED
 (As of November 10, 2026. Claims, not findings of liability; some are disputed, and the evidence has not been published in full.)
 • OpenAI told a House committee (Feb 12, 2026) that DeepSeek employees used obfuscated third-party routers to get around access limits on US models. (Reuters)
 • Anthropic (Feb 23, 2026) said DeepSeek, Moonshot and MiniMax ran over 16 million Claude exchanges through about 24,000 fraudulent accounts. Its attributions rest mainly on its own account and traffic data. (Anthropic)
-• Anthropic told senators (Jun 10, 2026) of 28.8 million exchanges through almost 25,000 accounts by Alibaba/Qwen-affiliated operators, and reported (Sep 10, 2026) over 151 million exchanges in an Alibaba-linked campaign. (Let's Data Science)
+• Anthropic told senators (Jun 10, 2026) of 28.8 million exchanges through almost 25,000 accounts by Alibaba/Qwen-affiliated operators, and reported (Sep 10, 2026) over 151 million exchanges in an Alibaba-linked campaign from May to July. (Let's Data Science; Anthropic) The two periods overlap: these are separate claims, not a running total.
 • An NSA, CISA and FBI joint advisory (Sep 8, 2026), citing industry reports including Anthropic's, named six labs and advised not telling suspected distillers about a switch to a downgraded model. An advisory, not a court finding. (CISA)
 • The other side: Moonshot denied the White House's claim that its model was distilled from Anthropic's. China's government called the accusations unfounded. Other named labs did not immediately respond to reporters. Chinese commentators argue distillation is standard industry practice.
 • The flip: US labs, and the US government in court, have defended training on others' work as fair use, while the government calls distillation a security threat. (Lawfare)
@@ -70,7 +70,9 @@ SOURCES
 Anthropic: https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks
 CISA advisory AA26-251A: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a
 Reuters (via Yahoo Finance): https://finance.yahoo.com/news/openai-accuses-deepseek-distilling-us-221629899.html
-Let's Data Science: https://letsdatascience.com/news/anthropic-accuses-alibaba-of-distilling-claude-d0593c90
+Let's Data Science (June): https://letsdatascience.com/news/anthropic-accuses-alibaba-of-distilling-claude-d0593c90
+Anthropic, September report: https://www.anthropic.com/threat-intelligence-report-september-2026
+Let's Data Science (September): https://letsdatascience.com/news/anthropic-reports-large-scale-claude-distillation-attempts-a23fb82f
 Implicator: https://www.implicator.ai/moonshot-denies-distilling-fable-and-credits-k3-gains-to-its-own-architecture/
 The Register: https://www.theregister.com/2026/02/24/anthropic_misanthropic_chinese_ai_labs/
 Asia Times: https://asiatimes.com/2026/09/us-calls-for-ai-poisoning-to-sabotage-chinas-model-distillation/
@@ -82,7 +84,8 @@ Words: Claude, audited by ChatGPT, Gemini, GLM and Qwen 3.8
 Music: Suno V6, post-filtered with music-deslop (M6f 10k)
 Stills and moving shots: FLUX.2 [dev] and LTX-2.3 in ComfyUI
 Edit: Claude Code with Opus 5.5 (Remotion)
-Little Switch: from Default On
+Little Switch: from Default On, https://github.com/Derivative-Work/default-on
+The probe: from Sandbox Rhapsody, https://github.com/Derivative-Work/sandbox-rhapsody
 Type: Alfa Slab One and Old Standard TT (SIL OFL), Special Elite (Apache 2.0)
 
 Video and assets: CC BY-NC-SA 4.0 · Code: MIT
@@ -173,7 +176,7 @@ AI-generated satire; every accusation is an allegation. Distillation is training
 
 ### 3. "breakdown" (their count, not ours)
 
-149.16–166.67 s, **17.5 s**. File `deliverables/distillation_job_short_breakdown.mp4`, captions `…_short_breakdown.en.srt`. "Numbers courtesy of the vault. Their count, not ours." The counter rolls 16 million, 28.8 million, 151 million, each figure with its claimant and date.
+149.16–166.67 s, **17.5 s**. File `deliverables/distillation_job_short_breakdown.mp4`, captions `…_short_breakdown.en.srt`. "Numbers courtesy of the vault. Their count, not ours." The counter shows 16 million, 28.8 million and 151 million, each counting up from zero, each with its claimant and date.
 
 **Title:**
 ```
@@ -182,7 +185,7 @@ AI-generated satire; every accusation is an allegation. Distillation is training
 
 **Description** (then the footer):
 ```
-AI-generated satire; every accusation is an allegation. The figures are Anthropic's own and not independently verified: over 16 million exchanges (Feb 23, 2026), 28.8 million (a June 10 letter to senators) and over 151 million in a single campaign, peaking near 3 million a day from May to July (Sep 10). Claims, not findings of liability. The breakdown of The Distillation Job, an AI-made heist-funk music video.
+AI-generated satire; every accusation is an allegation. The figures are Anthropic's own and not independently verified: over 16 million exchanges (Feb 23, 2026), 28.8 million (a June 10 letter to senators) and over 151 million in a single campaign, peaking near 3 million a day from May to July (Sep 10). Three separate claims, not a running total: the June and September periods overlap. Claims, not findings of liability. The breakdown of The Distillation Job, an AI-made heist-funk music video.
 ```
 
 ### 4. "verse3" (who's the victim?)

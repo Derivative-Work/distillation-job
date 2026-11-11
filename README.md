@@ -86,9 +86,11 @@ Three things in the video are real records, not generated. They are drawn outsid
    | --- | --- | --- | --- | --- |
    | Jun 10, 2026 | Anthropic, letter to senators | Alibaba/Qwen-affiliated operators | 28.8 million exchanges through almost 25,000 accounts | [Let's Data Science](https://letsdatascience.com/news/anthropic-accuses-alibaba-of-distilling-claude-d0593c90) |
    | Sep 8, 2026 | NSA, CISA and FBI joint cybersecurity advisory (it cites industry reports, including Anthropic's) | DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun and Z.AI | advised not telling suspected distillers about a switch to a downgraded model; an advisory, not a court finding | [CISA](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a), [CyberScoop](https://cyberscoop.com/us-accuses-chinese-ai-companies-distillation/) |
-   | Sep 10, 2026 | Anthropic | an Alibaba-linked campaign | over 151 million exchanges, peaking near 3 million a day (May to July), of roughly 200 million across the labs it named | Anthropic, Let's Data Science |
+   | Sep 10, 2026 | Anthropic | an Alibaba-linked campaign | over 151 million exchanges, peaking near 3 million a day (May to July) | [Anthropic](https://www.anthropic.com/threat-intelligence-report-september-2026), [Let's Data Science](https://letsdatascience.com/news/anthropic-reports-large-scale-claude-distillation-attempts-a23fb82f) |
 
    "These are claims, not findings of liability."
+
+   The breakdown's counter shows Anthropic's three figures (16 million, 28.8 million, 151 million) one at a time, each counting up from zero: they are separate claims about different periods and labs, and the June figure very likely falls inside the 151 million.
 5. Google reported a campaign of over 100,000 prompts aimed at Gemini's reasoning. *([Android Authority](https://www.androidauthority.com/google-gemini-clone-attempts-3640480))*
 6. Identity mix-ups: in December 2024, DeepSeek V3 often identified itself as ChatGPT. Prompted in Mandarin, Gemini once called itself Baidu's chatbot. TechCrunch judged text from other models all over the web a likelier cause than direct distillation. *([TechCrunch](https://techcrunch.com/2024/12/27/why-deepseeks-new-ai-model-thinks-its-chatgpt/))*
 7. The flip: US labs, and the US government in court, have defended training on others' work as fair use, while the government calls distillation a security threat. Qwen's share of open-model fine-tunes reportedly reached about 69% by February 2026. *([Lawfare](https://www.lawfaremedia.org/article/the-ai-model-distillation-paradox))*
@@ -128,7 +130,7 @@ Every link was reopened and checked on November 10, 2026 ([`log/m6/source_check_
 - [`lyrics/`](lyrics/): the lyrics as pasted into Suno and as sung.
 - [`shots/`](shots/): every still and clip prompt with its seed, and each shot's pipeline.
 - [`config/`](config/): the master edit, shot cues, claims card, chips, captions, lettering, Shorts and every edit setting. [`timing/`](timing/): the timing maps (the take's and the edit's) and shot times.
-- [`src/`](src/): the Remotion project (the film layer, the devices, the edit, the Shorts, the thumbnail). [`src/defaultOn/`](src/defaultOn/): the Little Switch cameo, copied unchanged from Default On.
+- [`src/`](src/): the Remotion project (the film layer, the devices, the edit, the Shorts, the thumbnail). [`src/defaultOn/`](src/defaultOn/): the Little Switch cameo, copied unchanged from [Default On](https://github.com/Derivative-Work/default-on).
 - [`scripts/`](scripts/): one script per step, each documented at the top.
 - [`METADATA.md`](METADATA.md): the YouTube titles, descriptions, tags and settings for the main video and the four Shorts, and the checklist before upload.
 
@@ -152,5 +154,6 @@ Large files (audio, takes, the videos) are not in git; [`MANIFEST.sha256`](MANIF
 - **Music:** Suno v6, one take ("Distillation (Allegedly)", 173da502). The end-section music is the same take's stems without vocals.
 - **Post-filter:** music-deslop (M6f, 10k steps), a cleanup model for AI-generated music that Claude Code built and trained from a human-written spec, on Creative Commons audio only (training data listed in the [Folks Like Us README](https://github.com/Derivative-Work/folks-like-us#mastering-model-training-data)). The model is private for now.
 - **Video:** Claude Code with Claude Opus 5.5, with stills from FLUX.2 [dev] (Black Forest Labs) and motion from LTX-2.3 (Lightricks), each used under its own licence.
-- **Little Switch:** from Default On, Albert Armea's earlier project; the rig is used unchanged.
+- **Little Switch** (the bridge, 2:50): from [Default On](https://github.com/Derivative-Work/default-on); the rig is used unchanged ([`src/defaultOn/`](src/defaultOn/)).
+- **The probe** (verse 3 at 3:08, and the final chorus): from [Sandbox Rhapsody](https://github.com/Derivative-Work/sandbox-rhapsody), regenerated with FLUX.2 from a frame of its release video, its amber glow turned green so it reads as some lab's worker rather than any one lab's ([decision 5](log/decisions.md)).
 - **Fonts:** [Alfa Slab One](https://fonts.google.com/specimen/Alfa+Slab+One) and [Old Standard TT](https://fonts.google.com/specimen/Old+Standard+TT) (SIL Open Font License 1.1), [Special Elite](https://fonts.google.com/specimen/Special+Elite) (Apache License 2.0), in `public/fonts/`.
