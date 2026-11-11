@@ -6,6 +6,8 @@ The song is sung by the crew, in the first person, so the video never ties a lyr
 
 **Conflict of interest:** the lyrics were drafted by Claude, made by Anthropic, which is the main accuser in this story and the source of most of the figures. The end card says so. To offset it, the lyrics were audited by models from other labs, including labs Anthropic has accused, and every audit finding Claude rejected went to the human for the final call.
 
+**Watch it on YouTube:** https://www.youtube.com/watch?v=3HDy22gg26c
+
 This repository is the production record the video's credits point to. Claude Code produced the video. A human approved each milestone, picked the takes, made the Suno generation, ran the audits in the other labs' apps and made the screen captures. Each of those 32 interventions is logged.
 
 **The production log and decisions are written by the agent and are a record, not a statement of fact about any company:** where they discuss a claim, the claims card and its sources are the reference.

@@ -167,3 +167,7 @@ Append-only. Every human action: when, what, and why.
 ## 32. 2026-11-10 — Sign-off without the lawyer review
 
 - **What:** "I've reviewed the sources and am satisfied with the legal footing of the video and the repository, as are my other human reviewers. I think we're good without the full legal review -- remove it from the README and brief." Decision 17.
+
+## 33. 2026-11-10 — Main video uploaded
+
+- **What:** uploaded the main video to YouTube: https://www.youtube.com/watch?v=3HDy22gg26c ("YouTube link for the main video is …"). The link is now in the README and in the Shorts' footer (METADATA.md).

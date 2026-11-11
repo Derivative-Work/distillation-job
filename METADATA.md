@@ -6,7 +6,7 @@ YouTube metadata for the main video and the four vertical Shorts, ready to paste
 - **Re-check the news** the day before. The card and the descriptions are as of November 10, 2026. If a named lab has responded since, "Other named labs did not immediately respond to reporters" (card page 2) and the description's matching line must change; likewise for any new filing, report or ruling.
 - **Make the repository public.** The end credits and every description link to https://github.com/Derivative-Work/distillation-job, which is private until then.
 - **Intervention count.** Update the number in the main description (`grep -c '^## ' log/human_interventions.md`; 32 on 2026-11-10).
-- **The main video's link** goes in the Shorts' footer once it is uploaded (replace `<MAIN VIDEO URL>`). In YouTube Studio, also set each Short's **Related video** to the main video.
+- **The main video's link** (https://www.youtube.com/watch?v=3HDy22gg26c, uploaded by the human, 2026-11-10) is in the Shorts' footer. In YouTube Studio, also set each Short's **Related video** to the main video.
 - **The "monday" Short** is timed to the news (a model launch on Monday, November 9, 2026), so upload it first. Neither it nor its description names the launch or the lab (decision 12).
 
 ---
@@ -137,7 +137,7 @@ The Distillation Job, AI music video, AI generated, AI satire, model distillatio
 **Shared footer** (end of every description):
 
 ```
-Full video, with the claims, the other side and every source: <MAIN VIDEO URL>
+Full video, with the claims, the other side and every source: https://www.youtube.com/watch?v=3HDy22gg26c
 Production log, with every prompt and every human intervention: https://github.com/Derivative-Work/distillation-job
 Music: Suno · Words: Claude (made by Anthropic, the main accuser in this story) · Video: Claude Code
 Video and assets CC BY-NC-SA 4.0. Satire; not affiliated with any company or agency named.
