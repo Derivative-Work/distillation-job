@@ -147,3 +147,7 @@ Append-only. Every human action: when, what, and why.
 
 - **What:** "okay M5 is good, keep going". M5 closed.
 - **M6:** asked whether the counter should keep ticking at the peak rate (log/m6/corrections_2026-11-10.md, S1): "Freeze at 151M". Decision 13.
+
+## 28. 2026-11-10 — Intro too long (after human review)
+
+- **What:** "After human review, the main feedback I'm getting is that the intro is too long. Let's see about removing 4 bars (roughly 0:33 to 0:42) -- suggest which scenes can be shortened or removed". Then, of the agent's three options: "let's go with option 2, but only do title for 1 bar so there's more time for everything else". Decision 14.

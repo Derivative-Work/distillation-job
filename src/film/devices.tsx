@@ -34,16 +34,17 @@ export const Still: React.FC<{src: string; from?: Move; to?: Move; aspect?: numb
 
 /* ---------- Clip: generated video, looped (mirrored on alternate passes) when the shot is longer ---------- */
 
-export const Clip: React.FC<{src: string; frames: number; rate?: number; mirror?: boolean}> =
-  ({src, frames, rate = 1, mirror = true}) => {
+/** skip: source frames left out at the start. */
+export const Clip: React.FC<{src: string; frames: number; rate?: number; mirror?: boolean; skip?: number}> =
+  ({src, frames, rate = 1, mirror = true, skip = 0}) => {
   const frame = useCurrentFrame();
-  const pass = Math.max(1, Math.floor(frames / rate));
+  const pass = Math.max(1, Math.floor((frames - skip) / rate));
   const k = Math.floor(frame / pass);
   return (
     <AbsoluteFill style={{background: '#000'}}>
       <Loop durationInFrames={pass}>
         <AbsoluteFill style={{transform: mirror && k % 2 ? 'scaleX(-1)' : undefined}}>
-          <OffthreadVideo src={staticFile(src)} playbackRate={rate} muted style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+          <OffthreadVideo src={staticFile(src)} trimBefore={skip || undefined} playbackRate={rate} muted style={{width: '100%', height: '100%', objectFit: 'cover'}} />
         </AbsoluteFill>
       </Loop>
     </AbsoluteFill>

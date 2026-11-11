@@ -29,7 +29,7 @@ MASTER = Path(MASTER_CFG["timing_reference"])
 GUIDE = Path("timing/guide")
 LYRICS = Path("lyrics/as_sung.txt")
 TRANSCRIPT = Path("timing/whisper_lead.json")
-OUT = Path("timing/timing_map.json")
+OUT = Path("timing/timing_map_take.json")  # the take's timeline; scripts/cut_master.py derives timing/timing_map.json (the edit)
 SR_BEAT, HOP = 22050, 256
 
 

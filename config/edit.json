@@ -1,0 +1,11 @@
+{
+ "_doc": "Cuts made to the locked master (config/master.json 'locked'), applied by scripts/cut_master.py, which writes the edited master (audio/edit/, copied to public/audio/master.wav) and timing/timing_map.json (the take's map, timing/timing_map_take.json, with every time after a cut moved earlier). Times are on the take, on band downbeats. Everything downstream (shot times, captions, chips, SRTs) reads the edited map. scripts/cards_audio.py works on the take's stems and keeps take times.",
+ "cuts": [
+  {
+   "from": 33.042,
+   "to": 41.808,
+   "xfade_ms": 30,
+   "why": "Human, 2026-11-10, after review: the intro is too long; remove 4 bars (0:33-0:42) of the 8-bar instrumental after the title. Title 1 bar, roll call 2, van 1 (decision 14)."
+  }
+ ]
+}

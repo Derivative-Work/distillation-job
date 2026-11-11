@@ -72,3 +72,10 @@ These nod to Anthropic's November 9, 2026 launch of Claude Fable 5.2 (released o
 ## 13. 2026-11-10 — The counter freezes at 151,000,000 (M6)
 
 The brief has the exchange counter keep ticking after the breakdown, "the counter keeps ticking" through D44. The M6 source check found that the 3-million-a-day rate it ticked at was the May–July peak of one campaign, and Anthropic says (Oct 12) its defenses have since cut harvested data by 90–99%, so the tick presented a past peak as an ongoing rate, in the accuser's favour. The human chose to freeze it at 151,000,000 in the corner and on D44.
+
+## 14. 2026-11-10 — Intro cut by 4 bars; D04d retired
+
+After human review the main note was that the intro runs too long. The human asked to remove 4 bars around 0:33–0:42 and chose, from the agent's options: drop D04d (the vault at night), title for 1 bar, roll call 2 bars, van 1 bar. The 8-bar instrumental after "All of this... is alleged." is now 4 bars.
+- Audio: the locked master is not touched; `config/edit.json` cuts 33.042–41.803 s of the take (downbeat to downbeat inside a one-chord vamp, every bar pair chroma-similar at 0.99 or more; end point matched within 10 ms, 30 ms equal-power crossfade), giving `audio/edit/distillation_job_edit.wav` (256.039 s, was 264.8). Everything after the cut is 8.761 s earlier.
+- Picture: D04b 1 bar (the cut-paper title still lands in full), D04c 2 bars, D04d retired (the vault is first seen at D09), D04e 1 bar (the back half of its clip at 1.5x, so the van still rolls out).
+- The lawyer packet's chip timestamps move with it.

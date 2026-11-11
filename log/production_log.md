@@ -260,3 +260,9 @@ Direct edits, not suggestions, with the docs tools:
 - Card and chips now cite the CISA advisory page and Reuters (the OpenAI memo) in place of GlobalSecurity and Forkast.
 - The M6 wording lengthened D45, so the end-section bounce starts two downbeats earlier (`scripts/cards_audio.py` START_S 85.635; 179.2 s; post-filter fallback over the outro at 2:25–2:29 (56%) and 2:36–2:47 (34%)). The claims card's tag now reads "Sources checked Nov 10, 2026 · legal review pending". Finals and all four Shorts re-rendered (entry 30's commands; `Short-monday` too).
 - Lawyer review packet (Claude Doc): https://claude.ai/artifact/7RgwQTXumNy6ZnTdQ6LPm7
+
+## 36. 2026-11-10 — Intro cut by 4 bars (decision 14)
+
+- `timing/timing_map.json` moved to `timing/timing_map_take.json` (`scripts/timing_map.py` now writes there). New `scripts/cut_master.py` + `config/edit.json`: cuts the locked master (33.042 → 41.803 s, match 0.905, 30 ms crossfade) to `audio/edit/distillation_job_edit.wav` (sha256 a915f890…, 256.039 s), copies it to `public/audio/master.wav`, and writes `timing/timing_map.json` with every later time 8.761 s earlier (the duplicated downbeat at the join dropped). Regenerate: `.venv/bin/python -I scripts/cut_master.py && .venv/bin/python -I scripts/shot_times.py`.
+- `config/shot_cues.json`: D04c `bars_after:D04b:1`, D04d retired, D04e `bars_after:D04c:2`. `src/Main.tsx`: song length from the map; D04e plays source frames 40–121 at 1.5x (`Clip` `skip`). `config/shorts.json` from/to moved 8.761 s earlier. `scripts/cards_audio.py` unchanged (it reads the take's stems after the cut; START_S stays 85.635 on the take).
+- Preview `renders/m6/intro_cut_preview.mp4` (frames 600–1010). SRTs re-exported (main, 74 cues; Shorts). Finals and all four Shorts re-rendered (entry 30's commands); review copy `renders/m6/distillation_job_intro_cut_review.mp4`.

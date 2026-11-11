@@ -29,24 +29,25 @@
   {
    "id": "D04b",
    "cue": "downbeat_after:end:Intro|3|9",
-   "note": "opening titles over the 8-bar instrumental"
+   "note": "opening titles over the instrumental, cut from 8 bars to 4 (decision 14): title 1 bar, roll call 2, van 1"
   },
   {
    "id": "D04c",
-   "cue": "bars_after:D04b:2"
+   "cue": "bars_after:D04b:1"
   },
   {
    "id": "D04d",
-   "cue": "bars_after:D04c:2"
+   "cue": "retired",
+   "note": "retired 2026-11-10 (decision 14): its 2 bars cut from the intro"
   },
   {
    "id": "D04e",
-   "cue": "bars_after:D04d:2"
+   "cue": "bars_after:D04c:2"
   },
   {
    "id": "D05",
    "cue": "downbeat_after:Verse 1|0|0",
-   "note": "\"Got a crew\" is a pickup; cut on the downbeat that ends the 8-bar instrumental, so D04b-e get 2 bars each"
+   "note": "\"Got a crew\" is a pickup; cut on the downbeat that ends the (now 4-bar) instrumental"
   },
   {
    "id": "D06",

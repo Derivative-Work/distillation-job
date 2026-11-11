@@ -26,7 +26,7 @@ const CLIP_FRAMES = (manifest as {frames: Record<string, number>}).frames;
 const DESC = descriptions as unknown as Record<string, {picture: string; text: string; type: string}>;
 const T = (id: string) => SHOTS[id].start as number;
 const TE = (id: string) => SHOTS[id].end as number;
-const MUSIC_END = 264.8;
+const MUSIC_END = (TM as unknown as {audio: {duration_s: number}}).audio.duration_s; // the edited master (config/edit.json, scripts/cut_master.py)
 
 /* ---------- lengths of the parts around the music ---------- */
 // 32 s of scroll plus the holds (config/audit_holds.json); the end-section bounce starts two bars earlier to match
@@ -65,11 +65,11 @@ const Placeholder: React.FC<{id: string}> = ({id}) => (
 );
 
 /** A clip stretched to its shot: slowed down to fill (not below half speed), else looped with a mirror flip. */
-const ShotClip: React.FC<{id: string; len: number; rate?: number}> = ({id, len, rate}) => {
+const ShotClip: React.FC<{id: string; len: number; rate?: number; skip?: number}> = ({id, len, rate, skip = 0}) => {
   if (!has(clipSrc(id))) return <Placeholder id={id} />;
   const n = CLIP_FRAMES[clipSrc(id)];
-  const r = rate ?? Math.min(1, Math.max(0.5, n / len));
-  return <Clip src={clipSrc(id)} frames={n} rate={r} />;
+  const r = rate ?? Math.min(1, Math.max(0.5, (n - skip) / len));
+  return <Clip src={clipSrc(id)} frames={n} rate={r} skip={skip} />;
 };
 
 /** A still with a slow eased push; the direction is picked from the shot ID, so neighbours differ. */
@@ -227,10 +227,9 @@ const Song: React.FC = () => {
           </AbsoluteFill>
         ))} />
       </Sequence>
-      <Sequence {...shot('D04d')}>
-        <CrashZoom at={Math.round(len('D04d') / 2)} x={0.62} y={0.45}><ShotStill id="D04d" from={{scale: 1, x: 0, y: 0}} to={{scale: 1.06, x: 0, y: 0}} /></CrashZoom>
-      </Sequence>
-      <Sequence {...shot('D04e')}><ShotClip id="D04e" len={len('D04e')} /></Sequence>
+      {/* D04d (the vault at night) retired and the title cut to 1 bar: the intro's instrumental went from 8 bars to 4
+          (human, 2026-11-10; decision 14). D04e gets 1 bar: the van's back half at 1.5x, so it still rolls out. */}
+      <Sequence {...shot('D04e')}><ShotClip id="D04e" len={len('D04e')} skip={40} rate={1.5} /></Sequence>
       {/* D05: four different streets, one per panel (human, M4 notes 7, option 4) */}
       <Sequence {...shot('D05')}>
         <Split stagger={4} panels={['D05_1', 'D05_2', 'D05_3', 'D05_4'].map((id) => <ShotClip key={id} id={id} len={len('D05')} />)} />

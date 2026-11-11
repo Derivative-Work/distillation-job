@@ -1,26 +1,26 @@
 {
- "_doc": "The vertical Shorts (src/Shorts.tsx, one composition per entry: Short-<id>), 1080x1920: title above, the main edit (film layer, stamps, counter) cropped to the middle 1080 px of a 1440-wide scaling, the citation chip at full size under the picture, captions below. Each opens with the D04a disclaimer (A DRAMATIZATION OF ALLEGATIONS) over the picture for disclaimer_s, music from the first frame. from/to: seconds on the song, on downbeats. Picked by the agent at M5, for the human to approve: none uses D25 (its caveat needs the claims card's context).",
+ "_doc": "The vertical Shorts (src/Shorts.tsx, one composition per entry: Short-<id>), 1080x1920: title above, the main edit (film layer, stamps, counter) cropped to the middle 1080 px of a 1440-wide scaling, the citation chip at full size under the picture, captions below. Each opens with the D04a disclaimer (A DRAMATIZATION OF ALLEGATIONS) over the picture for disclaimer_s, music from the first frame. from/to: seconds on the edited master (config/edit.json; moved 8.761 s earlier on 2026-11-10), on downbeats. Picked by the agent at M5, for the human to approve: none uses D25 (its caveat needs the claims card's context).",
  "disclaimer_s": 2.5,
  "shorts": {
   "chorus": {
-   "from": 76.312,
-   "to": 105.349,
+   "from": 67.551,
+   "to": 96.588,
    "note": "Pre-chorus 1 (respawn, the hydra) into chorus 1: the hook, the stamps, the crew walking out"
   },
   "breakdown": {
-   "from": 157.919,
-   "to": 175.427,
+   "from": 149.158,
+   "to": 166.666,
    "note": "Their count, not ours; the counter rolling 16M, 28.8M, 151M, with each figure's claimant and date"
   },
   "verse3": {
-   "from": 192.9,
-   "to": 219.162,
+   "from": 184.139,
+   "to": 210.401,
    "note": "Verse 3: who's the victim, the house of borrowed light, transformative vs national security, the loot going round"
   },
   "monday": {
-   "from": 105.349,
-   "to": 157.919,
-   "note": "Human request 2026-11-10, timed to the Nov 9 model launch: from the bar before 'New model drops on Monday' (verse 2) through chorus 2 (the rebuilt one: NEW \u00b7 MONDAY, the sealed jar, FALLBACK), out on D27's last frame. 52.6 s. Includes D25 with its own caption and disclaimer. Nothing on screen names a lab or the launch (decision 12)."
+   "from": 96.588,
+   "to": 149.158,
+   "note": "Human request 2026-11-10, timed to the Nov 9 model launch: from the bar before 'New model drops on Monday' (verse 2) through chorus 2 (the rebuilt one: NEW · MONDAY, the sealed jar, FALLBACK), out on D27's last frame. 52.6 s. Includes D25 with its own caption and disclaimer. Nothing on screen names a lab or the launch (decision 12)."
   }
  }
 }
